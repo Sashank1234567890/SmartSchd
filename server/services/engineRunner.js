@@ -2,6 +2,7 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
+const { runJsScheduler, runJsValidator } = require('./jsEngine');
 
 const isWindows = os.platform() === 'win32';
 const exeExt = isWindows ? '.exe' : '';
@@ -17,14 +18,17 @@ function getBinaryPath(binaryName) {
 
 function verifyBinaryExists(binaryName) {
   const binaryPath = getBinaryPath(binaryName);
-  return fs.existsSync(binaryPath);
+  if (fs.existsSync(binaryPath)) return true;
+  // High-performance JavaScript engine fallback is always available for Vercel / serverless
+  return true;
 }
 
 /**
  * Spawns an engine binary without a shell, passes inputJson via stdin,
  * captures stdout and stderr, enforces timeout, and returns parsed JSON.
+ * Falls back to serverless JS engine if native binary is not present (e.g. Vercel).
  *
- * @param {'scheduler' | 'validator'} binaryName
+ * @param {'scheduler' | 'validator' | 'combined' | 'backtracking' | 'graph-coloring'} binaryName
  * @param {object} inputJson
  * @param {object} [options]
  * @param {number} [options.timeoutMs]
@@ -34,12 +38,24 @@ function runEngine(binaryName, inputJson, options = {}) {
   return new Promise((resolve, reject) => {
     const binaryPath = getBinaryPath(binaryName);
 
+    // If native binary is missing (e.g. on Vercel Serverless Functions), seamlessly execute JS engine
     if (!fs.existsSync(binaryPath)) {
-      return reject({
-        code: 'E_BINARY_MISSING',
-        message: `Engine binary '${binaryName}' not found at ${binaryPath}. Please run: npm run build:engine`,
-        details: { binaryName, binaryPath }
-      });
+      try {
+        const parsedInput = typeof inputJson === 'string' ? JSON.parse(inputJson) : inputJson;
+        if (binaryName === 'validator' || parsedInput.mode === 'validate') {
+          const valRes = runJsValidator(parsedInput);
+          return resolve(valRes);
+        } else {
+          const schedRes = runJsScheduler(parsedInput, binaryName);
+          return resolve(schedRes);
+        }
+      } catch (err) {
+        return reject({
+          code: 'E_SERVERLESS_ENGINE_FAILED',
+          message: `Serverless engine execution failed: ${err.message}`,
+          details: err
+        });
+      }
     }
 
     const effectiveTimeout = options.timeoutMs
