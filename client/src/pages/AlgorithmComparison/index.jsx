@@ -21,8 +21,7 @@ import {
   FileCheck2,
   Calendar
 } from 'lucide-react';
-
-const API = 'http://localhost:3001';
+import { API } from '../../config/api';
 
 const ALGO_COLORS = {
   combined: '#8b5cf6',       // Purple 500

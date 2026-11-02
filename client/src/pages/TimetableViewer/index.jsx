@@ -6,8 +6,7 @@ import {
   Table2, Download, FileText, Loader2, RefreshCw, Eye, Building, User, DoorOpen, 
   ArrowLeftRight, CheckCircle2, AlertTriangle, Undo2, History, Clock, Files, Printer
 } from 'lucide-react';
-
-const API = 'http://localhost:3001';
+import { API } from '../../config/api';
 const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const ALGS = [
   { value: 'combined', label: 'Combined (Graph + Backtracking)' },

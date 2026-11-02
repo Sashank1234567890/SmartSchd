@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { 
   LayoutDashboard, 
@@ -7,8 +7,14 @@ import {
   Cpu, 
   Table, 
   BarChart3, 
-  ShieldCheck 
+  ShieldCheck,
+  Globe,
+  Settings2,
+  Check,
+  X,
+  ExternalLink
 } from 'lucide-react';
+import { getApiBaseUrl, setApiBaseUrl } from '../../config/api';
 
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: LayoutDashboard, exact: true },
@@ -20,6 +26,45 @@ const NAV_ITEMS = [
 ];
 
 export default function AppLayout() {
+  const [currentApi, setCurrentApi] = useState(getApiBaseUrl());
+  const [showModal, setShowModal] = useState(false);
+  const [inputUrl, setInputUrl] = useState(getApiBaseUrl());
+  const [saveSuccess, setSaveSuccess] = useState(false);
+
+  useEffect(() => {
+    const handleUrlChange = (e) => {
+      setCurrentApi(e.detail || getApiBaseUrl());
+    };
+    window.addEventListener('smartsched:api_url_changed', handleUrlChange);
+    return () => window.removeEventListener('smartsched:api_url_changed', handleUrlChange);
+  }, []);
+
+  const handleSave = (e) => {
+    e.preventDefault();
+    setApiBaseUrl(inputUrl);
+    setCurrentApi(getApiBaseUrl());
+    setSaveSuccess(true);
+    setTimeout(() => {
+      setSaveSuccess(false);
+      setShowModal(false);
+      window.location.reload();
+    }, 600);
+  };
+
+  const handleReset = () => {
+    setApiBaseUrl('');
+    setInputUrl(getApiBaseUrl());
+    setCurrentApi(getApiBaseUrl());
+    setSaveSuccess(true);
+    setTimeout(() => {
+      setSaveSuccess(false);
+      setShowModal(false);
+      window.location.reload();
+    }, 600);
+  };
+
+  const displayUrl = currentApi || (typeof window !== 'undefined' ? window.location.origin : 'Same-Origin / Local');
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col md:flex-row">
       {/* Sidebar Navigation */}
@@ -66,13 +111,123 @@ export default function AppLayout() {
           })}
         </nav>
 
-        <div className="p-4 border-t border-slate-200 bg-slate-50/50">
-          <div className="flex items-center space-x-2 text-[11px] text-slate-500">
-            <ShieldCheck className="w-4 h-4 text-emerald-600" />
-            <span>Database: Connected</span>
+        {/* Footer info: DB status & Backend Link control for Vercel */}
+        <div className="p-3 border-t border-slate-200 bg-slate-50/50 space-y-2">
+          <div className="flex items-center justify-between text-[11px] text-slate-600">
+            <div className="flex items-center space-x-1.5">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+              <span className="font-medium">Database: Connected</span>
+            </div>
+          </div>
+
+          <div className="pt-1.5 border-t border-slate-200/80">
+            <button
+              onClick={() => {
+                setInputUrl(currentApi);
+                setShowModal(true);
+              }}
+              className="w-full flex items-center justify-between px-2 py-1.5 rounded-md text-[11px] bg-white border border-slate-200 hover:border-sky-300 hover:bg-sky-50/50 text-slate-600 transition group"
+              title="Configure Backend API URL for Vercel / Cloud Deployment"
+            >
+              <div className="flex items-center space-x-1.5 min-w-0 pr-1">
+                <Globe className="w-3.5 h-3.5 text-sky-600 shrink-0" />
+                <span className="truncate text-left font-mono text-[10px] text-slate-700">
+                  {displayUrl.replace(/^https?:\/\//, '')}
+                </span>
+              </div>
+              <Settings2 className="w-3 h-3 text-slate-400 group-hover:text-sky-600 shrink-0" />
+            </button>
           </div>
         </div>
       </aside>
+
+      {/* Backend API Link Modal for Vercel & Cloud Hosting */}
+      {showModal && (
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl shadow-xl max-w-md w-full border border-slate-200 overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+            <div className="px-5 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+              <div className="flex items-center space-x-2">
+                <Globe className="w-4 h-4 text-sky-600" />
+                <h3 className="text-sm font-bold text-slate-900">Backend API Configuration</h3>
+              </div>
+              <button
+                onClick={() => setShowModal(false)}
+                className="text-slate-400 hover:text-slate-600 p-1 rounded-lg"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <form onSubmit={handleSave} className="p-5 space-y-4">
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                  Backend Server URL
+                </label>
+                <input
+                  type="text"
+                  value={inputUrl}
+                  onChange={(e) => setInputUrl(e.target.value)}
+                  placeholder="https://your-backend.railway.app or http://localhost:3001"
+                  className="w-full px-3 py-2 text-xs font-mono border border-slate-300 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white"
+                />
+                <p className="text-[11px] text-slate-500 mt-1.5 leading-relaxed">
+                  Enter your deployed backend address (e.g. on Render, Railway, Fly.io, or VPS).
+                </p>
+              </div>
+
+              <div className="bg-sky-50/80 border border-sky-100 rounded-lg p-3 text-[11px] text-sky-900 space-y-1.5">
+                <div className="font-bold text-sky-950 flex items-center space-x-1.5">
+                  <span>Vercel Environment Variables:</span>
+                </div>
+                <p className="text-slate-600">
+                  When deploying to Vercel, you can set either:
+                </p>
+                <div className="space-y-1 font-mono text-[10.5px]">
+                  <div className="bg-white/80 px-2 py-1 rounded border border-sky-200 text-sky-800">
+                    VITE_API_URL = https://your-backend-domain
+                  </div>
+                  <div className="bg-white/80 px-2 py-1 rounded border border-sky-200 text-sky-800">
+                    VITEAPIURL = https://your-backend-domain
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-between pt-2">
+                <button
+                  type="button"
+                  onClick={handleReset}
+                  className="text-xs text-slate-500 hover:text-slate-800 underline font-medium"
+                >
+                  Reset to Default
+                </button>
+
+                <div className="flex items-center space-x-2">
+                  <button
+                    type="button"
+                    onClick={() => setShowModal(false)}
+                    className="px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-100 rounded-lg transition"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="submit"
+                    className="px-4 py-1.5 text-xs font-bold text-white bg-sky-600 hover:bg-sky-700 rounded-lg shadow-xs flex items-center space-x-1.5 transition"
+                  >
+                    {saveSuccess ? (
+                      <>
+                        <Check className="w-3.5 h-3.5" />
+                        <span>Saved! Reloading...</span>
+                      </>
+                    ) : (
+                      <span>Save & Apply</span>
+                    )}
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-w-0">

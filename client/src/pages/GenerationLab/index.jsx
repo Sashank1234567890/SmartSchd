@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Cpu, Play, CheckCircle, XCircle, Loader2, RefreshCw, Building } from 'lucide-react';
-
-const API = 'http://localhost:3001';
+import { API } from '../../config/api';
 const ALGORITHMS = [
   { value: 'combined', label: 'Combined / Hybrid (Graph + Backtracking)', desc: 'DSATUR graph conflict coloring + symmetry-breaking backtracking allotment (Recommended)' },
   { value: 'greedy', label: 'Greedy Heuristic', desc: 'Fast heuristic, distributes classes evenly across days' },
