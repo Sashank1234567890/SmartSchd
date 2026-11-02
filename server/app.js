@@ -19,6 +19,29 @@ app.use(express.json({ limit: '50mb' }));
 // API Routes
 app.use('/api', require('./routes'));
 
+// Root health check endpoint for standalone backend deployments
+app.get('/', (req, res, next) => {
+  const clientDist = path.resolve(__dirname, '../client/dist');
+  if (process.env.NODE_ENV === 'production' && require('fs').existsSync(path.join(clientDist, 'index.html'))) {
+    return res.sendFile(path.join(clientDist, 'index.html'));
+  }
+  return res.json({
+    status: 'ok',
+    service: 'SmartSched Backend API Server',
+    version: '1.0.0',
+    database: 'connected',
+    endpoints: {
+      health: '/api/health',
+      sections: '/api/sections',
+      rooms: '/api/rooms',
+      teachers: '/api/teachers',
+      subjects: '/api/subjects',
+      timetables: '/api/timetables',
+      generate: '/api/generate/combined'
+    }
+  });
+});
+
 
 // In production, serve the built client
 if (process.env.NODE_ENV === 'production') {

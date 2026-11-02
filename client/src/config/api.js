@@ -28,7 +28,7 @@ export function getApiBaseUrl() {
   }
 
   if (import.meta.env.PROD) {
-    return '';
+    return 'https://smartschd-server.vercel.app';
   }
 
   return 'http://localhost:3001';

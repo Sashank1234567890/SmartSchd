@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 let isConnected = false;
 
 async function connectDB() {
-  const uri = process.env.MONGODB_URI;
+  const uri = process.env.MONGODB_URI || 'mongodb+srv://Sashank:Sashank@cluster0.gd1peuk.mongodb.net/smartsched';
   if (!uri) {
     const errorMsg = 'FATAL: MONGODB_URI environment variable is missing in .env. Cannot start SmartSched.';
     console.error(errorMsg);
@@ -13,6 +13,7 @@ async function connectDB() {
   try {
     const conn = await mongoose.connect(uri, {
       serverSelectionTimeoutMS: 5000,
+      dbName: 'smartsched'
     });
     isConnected = true;
     console.log(`MongoDB Connected: ${conn.connection.host} | Database: ${conn.connection.name}`);
