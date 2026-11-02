@@ -8,10 +8,29 @@ const app = require('./app');
 
 const PORT = parseInt(process.env.PORT, 10) || 3001;
 
+let isDbConnected = false;
+async function ensureDb() {
+  if (!isDbConnected) {
+    try {
+      await connectDB();
+      isDbConnected = true;
+    } catch (err) {
+      console.error('MongoDB serverless connection error:', err.message);
+    }
+  }
+}
+
+// Universal Serverless Request Handler for Vercel / Cloud Functions
+const handler = async (req, res) => {
+  await ensureDb();
+  return app(req, res);
+};
+
 async function startServer() {
   try {
     console.log('Connecting to MongoDB...');
     await connectDB();
+    isDbConnected = true;
     console.log('MongoDB connected successfully.');
 
     const server = app.listen(PORT, () => {
@@ -49,4 +68,6 @@ if (require.main === module) {
   startServer();
 }
 
-module.exports = { startServer };
+module.exports = handler;
+module.exports.app = app;
+module.exports.startServer = startServer;
