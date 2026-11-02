@@ -16,6 +16,19 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
+// Ensure database connection is established for serverless invocations
+const { getDatabaseStatus, connectDB } = require('./config/db');
+app.use(async (req, res, next) => {
+  if (!getDatabaseStatus()) {
+    try {
+      await connectDB();
+    } catch (err) {
+      console.error('Auto-connect DB failed in middleware:', err.message);
+    }
+  }
+  next();
+});
+
 // API Routes
 app.use('/api', require('./routes'));
 

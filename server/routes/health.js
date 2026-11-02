@@ -1,10 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const { getDatabaseStatus } = require('../config/db');
+const { getDatabaseStatus, connectDB } = require('../config/db');
 const { verifyBinaryExists } = require('../services/engineRunner');
 
-router.get('/', (req, res) => {
-  const mongodbConnected = getDatabaseStatus();
+router.get('/', async (req, res) => {
+  let mongodbConnected = getDatabaseStatus();
+  if (!mongodbConnected) {
+    try {
+      await connectDB();
+      mongodbConnected = getDatabaseStatus();
+    } catch (e) {
+      mongodbConnected = false;
+    }
+  }
   const schedulerBinaryFound = verifyBinaryExists('scheduler');
   const validatorBinaryFound = verifyBinaryExists('validator');
 
