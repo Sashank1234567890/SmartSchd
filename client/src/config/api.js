@@ -6,9 +6,10 @@ import axios from 'axios';
  * 2. import.meta.env.VITE_API_URL
  * 3. import.meta.env.VITEAPIURL (support for Vercel env variable without underscore)
  * 4. import.meta.env.VITE_BACKEND_URL
- * 5. In production: '' (relative root if hosted together or proxied)
- * 6. In development: 'http://localhost:3001'
+ * 5. Default Vercel production server: 'https://smartschd-server.vercel.app'
  */
+export const DEFAULT_API_URL = 'https://smartschd-server.vercel.app';
+
 export function getApiBaseUrl() {
   if (typeof window !== 'undefined') {
     const local = localStorage.getItem('VITE_API_URL') || 
@@ -27,11 +28,7 @@ export function getApiBaseUrl() {
     return envUrl.trim().replace(/\/+$/, '');
   }
 
-  if (import.meta.env.PROD) {
-    return 'https://smartschd-server.vercel.app';
-  }
-
-  return 'http://localhost:3001';
+  return DEFAULT_API_URL;
 }
 
 export function setApiBaseUrl(url) {
