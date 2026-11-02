@@ -1,0 +1,63 @@
+{
+  "name": "shared_section_conflicts",
+  "description": "Single section with multiple subjects; sessions must never clash in the same slot",
+  "sections": [
+    {
+      "name": "SEC-SSC",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Room 1",
+      "roomNumber": "R-SSC-1",
+      "type": "Classroom",
+      "capacity": 60
+    },
+    {
+      "name": "Room 2",
+      "roomNumber": "R-SSC-2",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. A",
+      "teacherCode": "T_A",
+      "teachableSubjectCodes": [
+        "SUB_A"
+      ],
+      "maxWeeklyPeriods": 10
+    },
+    {
+      "name": "Dr. B",
+      "teacherCode": "T_B",
+      "teachableSubjectCodes": [
+        "SUB_B"
+      ],
+      "maxWeeklyPeriods": 10
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Course A",
+      "code": "SUB_A",
+      "type": "Theory",
+      "sectionName": "SEC-SSC",
+      "teacherCode": "T_A",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Course B",
+      "code": "SUB_B",
+      "type": "Theory",
+      "sectionName": "SEC-SSC",
+      "teacherCode": "T_B",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

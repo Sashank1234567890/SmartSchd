@@ -1,0 +1,339 @@
+{
+  "name": "large",
+  "description": "Large multi-department benchmark instance (4 sections: CSE-3A, CSE-3B, IT-3A, ECE-3A)",
+  "sections": [
+    {
+      "name": "CSE-3A",
+      "department": "CSE",
+      "studentCount": 60
+    },
+    {
+      "name": "CSE-3B",
+      "department": "CSE",
+      "studentCount": 60
+    },
+    {
+      "name": "IT-3A",
+      "department": "IT",
+      "studentCount": 55
+    },
+    {
+      "name": "ECE-3A",
+      "department": "ECE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "LH-101",
+      "roomNumber": "LH-101",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "LH-102",
+      "roomNumber": "LH-102",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "LH-103",
+      "roomNumber": "LH-103",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "LH-104",
+      "roomNumber": "LH-104",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "LH-201",
+      "roomNumber": "LH-201",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "LH-202",
+      "roomNumber": "LH-202",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "CS-LAB-1",
+      "roomNumber": "CS-LAB-1",
+      "type": "Laboratory",
+      "capacity": 65
+    },
+    {
+      "name": "CS-LAB-2",
+      "roomNumber": "CS-LAB-2",
+      "type": "Laboratory",
+      "capacity": 65
+    },
+    {
+      "name": "IT-LAB-1",
+      "roomNumber": "IT-LAB-1",
+      "type": "Laboratory",
+      "capacity": 60
+    },
+    {
+      "name": "ECE-LAB-1",
+      "roomNumber": "ECE-LAB-1",
+      "type": "Laboratory",
+      "capacity": 55
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. T01",
+      "teacherCode": "T01",
+      "teachableSubjectCodes": [
+        "CS201",
+        "CS201L"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T02",
+      "teacherCode": "T02",
+      "teachableSubjectCodes": [
+        "CS202",
+        "CS202L"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T03",
+      "teacherCode": "T03",
+      "teachableSubjectCodes": [
+        "CS203"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T04",
+      "teacherCode": "T04",
+      "teachableSubjectCodes": [
+        "CS204"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T05",
+      "teacherCode": "T05",
+      "teachableSubjectCodes": [
+        "CS205",
+        "CS205L"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T06",
+      "teacherCode": "T06",
+      "teachableSubjectCodes": [
+        "IT201",
+        "IT201L"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T07",
+      "teacherCode": "T07",
+      "teachableSubjectCodes": [
+        "IT202"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T08",
+      "teacherCode": "T08",
+      "teachableSubjectCodes": [
+        "EC201",
+        "EC201L"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T09",
+      "teacherCode": "T09",
+      "teachableSubjectCodes": [
+        "EC202"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T10",
+      "teacherCode": "T10",
+      "teachableSubjectCodes": [
+        "MA201"
+      ],
+      "maxWeeklyPeriods": 20
+    }
+  ],
+  "subjects": [
+    {
+      "name": "DS",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DS Lab",
+      "code": "CS201L",
+      "type": "Lab",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "DAA",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DAA Lab",
+      "code": "CS202L",
+      "type": "Lab",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Math",
+      "code": "MA201",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DS",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DS Lab",
+      "code": "CS201L",
+      "type": "Lab",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "DAA",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DAA Lab",
+      "code": "CS202L",
+      "type": "Lab",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Math",
+      "code": "MA201",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Web Tech",
+      "code": "IT201",
+      "type": "Theory",
+      "sectionName": "IT-3A",
+      "teacherCode": "T06",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Web Lab",
+      "code": "IT201L",
+      "type": "Lab",
+      "sectionName": "IT-3A",
+      "teacherCode": "T06",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "DB Systems",
+      "code": "IT202",
+      "type": "Theory",
+      "sectionName": "IT-3A",
+      "teacherCode": "T07",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Math",
+      "code": "MA201",
+      "type": "Theory",
+      "sectionName": "IT-3A",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Signals",
+      "code": "EC201",
+      "type": "Theory",
+      "sectionName": "ECE-3A",
+      "teacherCode": "T08",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Signals Lab",
+      "code": "EC201L",
+      "type": "Lab",
+      "sectionName": "ECE-3A",
+      "teacherCode": "T08",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Analog Circuits",
+      "code": "EC202",
+      "type": "Theory",
+      "sectionName": "ECE-3A",
+      "teacherCode": "T09",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Math",
+      "code": "MA201",
+      "type": "Theory",
+      "sectionName": "ECE-3A",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

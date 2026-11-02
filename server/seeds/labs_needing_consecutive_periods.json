@@ -1,0 +1,40 @@
+{
+  "name": "labs_needing_consecutive_periods",
+  "description": "Multi-period laboratory sessions that must occupy consecutive periods without break straddling",
+  "sections": [
+    {
+      "name": "SEC-LAB-CONSEC",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Lab Hall",
+      "roomNumber": "LAB-CONSEC",
+      "type": "Laboratory",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Lab",
+      "teacherCode": "T_LAB",
+      "teachableSubjectCodes": [
+        "LAB201"
+      ],
+      "maxWeeklyPeriods": 10
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Advanced Lab",
+      "code": "LAB201",
+      "type": "Lab",
+      "sectionName": "SEC-LAB-CONSEC",
+      "teacherCode": "T_LAB",
+      "weeklySessions": 2,
+      "durationPeriods": 2
+    }
+  ]
+}

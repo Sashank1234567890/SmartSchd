@@ -1,0 +1,60 @@
+{
+  "name": "shared_teacher_conflicts",
+  "description": "Two sections taught by the same teacher; must never be assigned in the same slot",
+  "sections": [
+    {
+      "name": "SEC-ST-1",
+      "department": "CSE",
+      "studentCount": 50
+    },
+    {
+      "name": "SEC-ST-2",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Hall 1",
+      "roomNumber": "H-ST-1",
+      "type": "Classroom",
+      "capacity": 60
+    },
+    {
+      "name": "Hall 2",
+      "roomNumber": "H-ST-2",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Shared",
+      "teacherCode": "T_SHARED",
+      "teachableSubjectCodes": [
+        "ST101"
+      ],
+      "maxWeeklyPeriods": 14
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Shared Subject A",
+      "code": "ST101",
+      "type": "Theory",
+      "sectionName": "SEC-ST-1",
+      "teacherCode": "T_SHARED",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Shared Subject B",
+      "code": "ST101",
+      "type": "Theory",
+      "sectionName": "SEC-ST-2",
+      "teacherCode": "T_SHARED",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

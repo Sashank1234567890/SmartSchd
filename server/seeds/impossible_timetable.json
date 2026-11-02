@@ -1,0 +1,97 @@
+{
+  "name": "impossible_timetable",
+  "description": "Strictly impossible schedule: teacher has only 1 available slot in the entire week but needs 3 sessions",
+  "sections": [
+    {
+      "name": "SEC-IMPOSSIBLE",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Hall",
+      "roomNumber": "H-IMP",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Impossible",
+      "teacherCode": "T_IMPOSSIBLE",
+      "teachableSubjectCodes": [
+        "IMP101"
+      ],
+      "maxWeeklyPeriods": 10,
+      "availability": [
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Impossible Course",
+      "code": "IMP101",
+      "type": "Theory",
+      "sectionName": "SEC-IMPOSSIBLE",
+      "teacherCode": "T_IMPOSSIBLE",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

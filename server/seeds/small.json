@@ -1,0 +1,114 @@
+{
+  "name": "small",
+  "description": "Small single-section instance for quick sanity checks and unit tests",
+  "sections": [
+    {
+      "name": "CS-A",
+      "department": "Computer Science",
+      "studentCount": 60
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Lecture Hall 101",
+      "roomNumber": "LH-101",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "Lecture Hall 102",
+      "roomNumber": "LH-102",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Software Lab 1",
+      "roomNumber": "LAB-1",
+      "type": "Laboratory",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Anurag Singh",
+      "teacherCode": "T01",
+      "teachableSubjectCodes": [
+        "CS201",
+        "CS201L"
+      ],
+      "maxWeeklyPeriods": 16
+    },
+    {
+      "name": "Dr. Shelly Sachdeva",
+      "teacherCode": "T02",
+      "teachableSubjectCodes": [
+        "CS202",
+        "CS202L"
+      ],
+      "maxWeeklyPeriods": 16
+    },
+    {
+      "name": "Dr. Chandra Prakash",
+      "teacherCode": "T03",
+      "teachableSubjectCodes": [
+        "CS203"
+      ],
+      "maxWeeklyPeriods": 14
+    },
+    {
+      "name": "Dr. Gautam Kumar",
+      "teacherCode": "T04",
+      "teachableSubjectCodes": [
+        "CS204"
+      ],
+      "maxWeeklyPeriods": 14
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Data Structures",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CS-A",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Data Structures Lab",
+      "code": "CS201L",
+      "type": "Lab",
+      "sectionName": "CS-A",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Algorithms (CSBB 202)",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CS-A",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Computer Architecture",
+      "code": "CS203",
+      "type": "Theory",
+      "sectionName": "CS-A",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "CS204",
+      "type": "Theory",
+      "sectionName": "CS-A",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

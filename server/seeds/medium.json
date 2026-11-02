@@ -1,0 +1,295 @@
+{
+  "name": "medium",
+  "description": "Realistic NIT Delhi DAA semester instance with 2 sections sharing teachers and labs",
+  "sections": [
+    {
+      "name": "CSE-3A",
+      "department": "Computer Science & Engineering",
+      "studentCount": 60
+    },
+    {
+      "name": "CSE-3B",
+      "department": "Computer Science & Engineering",
+      "studentCount": 58
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Lecture Hall 101",
+      "roomNumber": "LH-101",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "Lecture Hall 102",
+      "roomNumber": "LH-102",
+      "type": "Classroom",
+      "capacity": 70
+    },
+    {
+      "name": "Lecture Hall 201",
+      "roomNumber": "LH-201",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Computing Lab 1",
+      "roomNumber": "COMP-LAB-1",
+      "type": "Laboratory",
+      "capacity": 65
+    },
+    {
+      "name": "Computing Lab 2",
+      "roomNumber": "COMP-LAB-2",
+      "type": "Laboratory",
+      "capacity": 60
+    },
+    {
+      "name": "Hardware & IoT Lab",
+      "roomNumber": "IOT-LAB",
+      "type": "Laboratory",
+      "capacity": 65
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Anurag Singh",
+      "teacherCode": "T01",
+      "teachableSubjectCodes": [
+        "CS201",
+        "CS201L"
+      ],
+      "maxWeeklyPeriods": 16,
+      "preferredSlots": [
+        {
+          "day": 0,
+          "period": 0
+        },
+        {
+          "day": 1,
+          "period": 1
+        }
+      ]
+    },
+    {
+      "name": "Dr. Shelly Sachdeva",
+      "teacherCode": "T02",
+      "teachableSubjectCodes": [
+        "CS202",
+        "CS202L"
+      ],
+      "maxWeeklyPeriods": 18,
+      "preferredSlots": [
+        {
+          "day": 2,
+          "period": 3
+        },
+        {
+          "day": 3,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "name": "Dr. Chandra Prakash",
+      "teacherCode": "T03",
+      "teachableSubjectCodes": [
+        "CS203"
+      ],
+      "maxWeeklyPeriods": 14,
+      "preferredSlots": []
+    },
+    {
+      "name": "Dr. Gautam Kumar",
+      "teacherCode": "T04",
+      "teachableSubjectCodes": [
+        "CS204"
+      ],
+      "maxWeeklyPeriods": 16,
+      "preferredSlots": []
+    },
+    {
+      "name": "Dr. Karan Verma",
+      "teacherCode": "T05",
+      "teachableSubjectCodes": [
+        "CS205",
+        "CS205L"
+      ],
+      "maxWeeklyPeriods": 18,
+      "preferredSlots": []
+    },
+    {
+      "name": "Dr. Rishav Singh",
+      "teacherCode": "T06",
+      "teachableSubjectCodes": [
+        "CS206"
+      ],
+      "maxWeeklyPeriods": 14,
+      "preferredSlots": []
+    },
+    {
+      "name": "Dr. Divya Punia",
+      "teacherCode": "T07",
+      "teachableSubjectCodes": [
+        "CS207"
+      ],
+      "maxWeeklyPeriods": 12,
+      "preferredSlots": []
+    },
+    {
+      "name": "Dr. Pradeep Kumar",
+      "teacherCode": "T08",
+      "teachableSubjectCodes": [
+        "CS208"
+      ],
+      "maxWeeklyPeriods": 12,
+      "preferredSlots": []
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Data Structures",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Data Structures Lab",
+      "code": "CS201L",
+      "type": "Lab",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "DAA (CSBB 202)",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DAA Lab",
+      "code": "CS202L",
+      "type": "Lab",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Computer Architecture",
+      "code": "CS203",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "CS204",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Object Oriented Programming",
+      "code": "CS205",
+      "type": "Theory",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T05",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "OOP Lab",
+      "code": "CS205L",
+      "type": "Lab",
+      "sectionName": "CSE-3A",
+      "teacherCode": "T05",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Data Structures",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Data Structures Lab",
+      "code": "CS201L",
+      "type": "Lab",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "DAA (CSBB 202)",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "DAA Lab",
+      "code": "CS202L",
+      "type": "Lab",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    },
+    {
+      "name": "Computer Architecture",
+      "code": "CS203",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "CS204",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Object Oriented Programming",
+      "code": "CS205",
+      "type": "Theory",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T05",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    },
+    {
+      "name": "OOP Lab",
+      "code": "CS205L",
+      "type": "Lab",
+      "sectionName": "CSE-3B",
+      "teacherCode": "T05",
+      "weeklySessions": 1,
+      "durationPeriods": 2
+    }
+  ]
+}

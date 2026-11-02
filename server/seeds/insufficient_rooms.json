@@ -1,0 +1,84 @@
+{
+  "name": "insufficient_rooms",
+  "description": "More simultaneous sessions than available rooms, forcing spread across days",
+  "sections": [
+    {
+      "name": "SEC-IR-1",
+      "department": "CSE",
+      "studentCount": 50
+    },
+    {
+      "name": "SEC-IR-2",
+      "department": "CSE",
+      "studentCount": 50
+    },
+    {
+      "name": "SEC-IR-3",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Only Classroom",
+      "roomNumber": "ONLY-CR",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. T1",
+      "teacherCode": "T_IR1",
+      "teachableSubjectCodes": [
+        "IR101"
+      ],
+      "maxWeeklyPeriods": 10
+    },
+    {
+      "name": "Dr. T2",
+      "teacherCode": "T_IR2",
+      "teachableSubjectCodes": [
+        "IR102"
+      ],
+      "maxWeeklyPeriods": 10
+    },
+    {
+      "name": "Dr. T3",
+      "teacherCode": "T_IR3",
+      "teachableSubjectCodes": [
+        "IR103"
+      ],
+      "maxWeeklyPeriods": 10
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Subject 1",
+      "code": "IR101",
+      "type": "Theory",
+      "sectionName": "SEC-IR-1",
+      "teacherCode": "T_IR1",
+      "weeklySessions": 4,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Subject 2",
+      "code": "IR102",
+      "type": "Theory",
+      "sectionName": "SEC-IR-2",
+      "teacherCode": "T_IR2",
+      "weeklySessions": 4,
+      "durationPeriods": 1
+    },
+    {
+      "name": "Subject 3",
+      "code": "IR103",
+      "type": "Theory",
+      "sectionName": "SEC-IR-3",
+      "teacherCode": "T_IR3",
+      "weeklySessions": 4,
+      "durationPeriods": 1
+    }
+  ]
+}

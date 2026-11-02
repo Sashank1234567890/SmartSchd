@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "source": "MongoDB Atlas cluster0.gd1peuk.mongodb.net",
+    "database": "smartsched",
+    "exportedAt": "2026-11-01T15:45:59.037Z"
+  },
+  "settings": {
+    "_id": "6ae7582e1f909901a1c3d8c8",
+    "key": "singleton",
+    "__v": 0,
+    "constraintConfig": {
+      "maxConsecutivePeriods": 3,
+      "weights": {
+        "consecutiveTeaching": 1,
+        "distribution": 1,
+        "earlyLate": 1,
+        "gaps": 1,
+        "preferredSlots": 1,
+        "workloadBalance": 1
+      }
+    },
+    "createdAt": "2026-11-01T15:18:05.157Z",
+    "engineDefaults": {
+      "backtrackingNodeLimit": 5000000,
+      "backtrackingTimeLimitMs": 10000
+    },
+    "periods": [
+      {
+        "label": "P1",
+        "start": "09:00",
+        "end": "09:55",
+        "isBreak": false,
+        "breakType": null
+      },
+      {
+        "label": "P2",
+        "start": "09:55",
+        "end": "10:50",
+        "isBreak": false,
+        "breakType": null
+      },
+      {
+        "label": "Short break",
+        "start": "10:50",
+        "end": "11:05",
+        "isBreak": true,
+        "breakType": "short"
+      },
+      {
+        "label": "P3",
+        "start": "11:05",
+        "end": "12:00",
+        "isBreak": false,
+        "breakType": null
+      },
+      {
+        "label": "P4",
+        "start": "12:00",
+        "end": "12:55",
+        "isBreak": false,
+        "breakType": null
+      },
+      {
+        "label": "Lunch",
+        "start": "12:55",
+        "end": "13:35",
+        "isBreak": true,
+        "breakType": "lunch"
+      },
+      {
+        "label": "P5",
+        "start": "13:35",
+        "end": "14:30",
+        "isBreak": false,
+        "breakType": null
+      },
+      {
+        "label": "P6",
+        "start": "14:30",
+        "end": "15:25",
+        "isBreak": false,
+        "breakType": null
+      }
+    ],
+    "updatedAt": "2026-11-01T15:18:05.157Z",
+    "workingDays": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ]
+  },
+  "sections": [
+    {
+      "_id": "6ae7561bce6837d2137fdfd0",
+      "name": "Year 1 - Section A1",
+      "department": "Computer Science",
+      "studentCount": 45,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:15.919Z",
+      "updatedAt": "2026-11-01T15:09:15.919Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd1",
+      "name": "Year 1 - Section B2",
+      "department": "Computer Science",
+      "studentCount": 49,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:15.919Z",
+      "updatedAt": "2026-11-01T15:09:15.919Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd2",
+      "name": "Year 2 - Section A3",
+      "department": "Computer Science",
+      "studentCount": 60,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:15.920Z",
+      "updatedAt": "2026-11-01T15:09:15.920Z"
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "6ae7561bce6837d2137fdfd9",
+      "name": "Classroom 1",
+      "roomNumber": "C-101",
+      "type": "Classroom",
+      "capacity": 60,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.265Z",
+      "updatedAt": "2026-11-01T15:09:18.265Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfda",
+      "name": "Classroom 2",
+      "roomNumber": "C-102",
+      "type": "Classroom",
+      "capacity": 80,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.265Z",
+      "updatedAt": "2026-11-01T15:09:18.265Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfdb",
+      "name": "Classroom 3",
+      "roomNumber": "C-103",
+      "type": "Classroom",
+      "capacity": 60,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.266Z",
+      "updatedAt": "2026-11-01T15:09:18.266Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfdc",
+      "name": "Classroom 4",
+      "roomNumber": "C-104",
+      "type": "Classroom",
+      "capacity": 80,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.266Z",
+      "updatedAt": "2026-11-01T15:09:18.266Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfdd",
+      "name": "Lab 1",
+      "roomNumber": "L-201",
+      "type": "Laboratory",
+      "capacity": 40,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.266Z",
+      "updatedAt": "2026-11-01T15:09:18.266Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfde",
+      "name": "Lab 2",
+      "roomNumber": "L-202",
+      "type": "Laboratory",
+      "capacity": 40,
+      "availability": null,
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.266Z",
+      "updatedAt": "2026-11-01T15:09:18.266Z"
+    }
+  ],
+  "teachers": [
+    {
+      "_id": "6ae7561bce6837d2137fdfd3",
+      "name": "Asha Khan",
+      "teacherCode": "T001",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.009Z",
+      "updatedAt": "2026-11-01T15:09:18.009Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd4",
+      "name": "Ravi Verma",
+      "teacherCode": "T002",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.010Z",
+      "updatedAt": "2026-11-01T15:09:18.010Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd5",
+      "name": "Meera Iyer",
+      "teacherCode": "T003",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.010Z",
+      "updatedAt": "2026-11-01T15:09:18.010Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd6",
+      "name": "Imran Pillai",
+      "teacherCode": "T004",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.010Z",
+      "updatedAt": "2026-11-01T15:09:18.010Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd7",
+      "name": "Nisha Iyer",
+      "teacherCode": "T005",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.010Z",
+      "updatedAt": "2026-11-01T15:09:18.010Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfd8",
+      "name": "Vikram Pillai",
+      "teacherCode": "T006",
+      "teachableSubjectCodes": [],
+      "availability": null,
+      "maxWeeklyPeriods": 40,
+      "preferredSlots": [],
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.010Z",
+      "updatedAt": "2026-11-01T15:09:18.010Z"
+    }
+  ],
+  "subjects": [
+    {
+      "_id": "6ae7561bce6837d2137fdfdf",
+      "name": "Data Structures",
+      "code": "CS11",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd3",
+      "sectionId": "6ae7561bce6837d2137fdfd0",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe0",
+      "name": "Operating Systems",
+      "code": "CS12",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd4",
+      "sectionId": "6ae7561bce6837d2137fdfd0",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe1",
+      "name": "Database Systems",
+      "code": "CS13",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd5",
+      "sectionId": "6ae7561bce6837d2137fdfd0",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe2",
+      "name": "Networks Lab",
+      "code": "LAB14",
+      "type": "Lab",
+      "teacherId": "6ae7561bce6837d2137fdfd6",
+      "sectionId": "6ae7561bce6837d2137fdfd0",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe3",
+      "name": "Operating Systems",
+      "code": "CS21",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd7",
+      "sectionId": "6ae7561bce6837d2137fdfd1",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe4",
+      "name": "Database Systems",
+      "code": "CS22",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd8",
+      "sectionId": "6ae7561bce6837d2137fdfd1",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe5",
+      "name": "Computer Networks",
+      "code": "CS23",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd3",
+      "sectionId": "6ae7561bce6837d2137fdfd1",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe6",
+      "name": "Programming Lab",
+      "code": "LAB24",
+      "type": "Lab",
+      "teacherId": "6ae7561bce6837d2137fdfd4",
+      "sectionId": "6ae7561bce6837d2137fdfd1",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe7",
+      "name": "Database Systems",
+      "code": "CS31",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd5",
+      "sectionId": "6ae7561bce6837d2137fdfd2",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe8",
+      "name": "Computer Networks",
+      "code": "CS32",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd6",
+      "sectionId": "6ae7561bce6837d2137fdfd2",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfe9",
+      "name": "Software Engineering",
+      "code": "CS33",
+      "type": "Theory",
+      "teacherId": "6ae7561bce6837d2137fdfd7",
+      "sectionId": "6ae7561bce6837d2137fdfd2",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    },
+    {
+      "_id": "6ae7561bce6837d2137fdfea",
+      "name": "Systems Lab",
+      "code": "LAB34",
+      "type": "Lab",
+      "teacherId": "6ae7561bce6837d2137fdfd8",
+      "sectionId": "6ae7561bce6837d2137fdfd2",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "",
+      "notes": "",
+      "__v": 0,
+      "createdAt": "2026-11-01T15:09:18.523Z",
+      "updatedAt": "2026-11-01T15:09:18.523Z"
+    }
+  ]
+}

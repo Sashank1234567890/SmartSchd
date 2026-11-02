@@ -1,0 +1,40 @@
+{
+  "name": "full_room_capacity",
+  "description": "Room capacity exactly matches section size (60 seats for 60 students)",
+  "sections": [
+    {
+      "name": "SEC-FULL-CAP",
+      "department": "CSE",
+      "studentCount": 60
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Exact Hall",
+      "roomNumber": "EXACT-60",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Cap",
+      "teacherCode": "T_CAP",
+      "teachableSubjectCodes": [
+        "CAP101"
+      ],
+      "maxWeeklyPeriods": 10
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Capacity Test",
+      "code": "CAP101",
+      "type": "Theory",
+      "sectionName": "SEC-FULL-CAP",
+      "teacherCode": "T_CAP",
+      "weeklySessions": 3,
+      "durationPeriods": 1
+    }
+  ]
+}

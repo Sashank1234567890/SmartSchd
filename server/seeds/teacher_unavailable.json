@@ -1,0 +1,97 @@
+{
+  "name": "teacher_unavailable",
+  "description": "Teacher has tight availability matrix (available only 2 days)",
+  "sections": [
+    {
+      "name": "SEC-T-UNAVAIL",
+      "department": "CSE",
+      "studentCount": 50
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Hall 1",
+      "roomNumber": "H-1",
+      "type": "Classroom",
+      "capacity": 60
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Busy",
+      "teacherCode": "T_BUSY",
+      "teachableSubjectCodes": [
+        "BUSY101"
+      ],
+      "maxWeeklyPeriods": 10,
+      "availability": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Subject Busy",
+      "code": "BUSY101",
+      "type": "Theory",
+      "sectionName": "SEC-T-UNAVAIL",
+      "teacherCode": "T_BUSY",
+      "weeklySessions": 2,
+      "durationPeriods": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.env
+node_modules/
+dist/
+engine/bin/
+benchmarks/results/
+data/
+*.log
