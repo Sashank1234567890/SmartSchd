@@ -7,6 +7,7 @@ const Room = require('../models/Room');
 const Teacher = require('../models/Teacher');
 const Subject = require('../models/Subject');
 const Settings = require('../models/Settings');
+const AlgorithmRun = require('../models/AlgorithmRun');
 
 // Helper to load seed object into MongoDB
 async function loadSeedObject(rawData) {
@@ -184,6 +185,176 @@ router.post('/import-json', async (req, res, next) => {
     }
     const summary = await loadSeedObject(rawData);
     res.json({ success: true, data: summary, error: null });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// GET /api/dev/presets — list 7 rich dummy datasets
+router.get('/presets', (req, res) => {
+  const presetFiles = [
+    {
+      id: 'preset_1_nit_delhi',
+      title: 'NIT Comprehensive (Engineering & Tech)',
+      category: 'Engineering & Technology',
+      badge: '60 Sections • 61 Rooms • 328 Subjects',
+      desc: 'Full university dataset: 7 branches (CSE, IT, AIDS, ECE, EE, ME, CE) with 4-year B.Tech, 2-year M.Tech, and 2-year Ph.D. Minimum 5 subjects per section.'
+    },
+    {
+      id: 'preset_2_iit_tech',
+      title: 'IIT Advanced Tech & Research',
+      category: 'Deep Tech & Science',
+      badge: '54 Sections • 54 Rooms • 270 Subjects',
+      desc: 'High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials.'
+    },
+    {
+      id: 'preset_3_delhi_university',
+      title: 'Central Multidisciplinary University',
+      category: 'Sciences & Humanities',
+      badge: '49 Sections • 53 Rooms • 245 Subjects',
+      desc: 'Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities.'
+    },
+    {
+      id: 'preset_4_aiims_medical',
+      title: 'AIIMS Medical & Healthcare Sciences',
+      category: 'Medicine & Healthcare',
+      badge: '40 Sections • 49 Rooms • 200 Subjects',
+      desc: 'Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, and Community Health.'
+    },
+    {
+      id: 'preset_5_nlu_law',
+      title: 'National Law University (Legal Studies)',
+      category: 'Law & Public Policy',
+      badge: '32 Sections • 45 Rooms • 160 Subjects',
+      desc: 'B.A. LL.B (5-year integrated), B.B.A. LL.B, Constitutional, Corporate, Criminal, Cyber & International Law with Moot Courts.'
+    },
+    {
+      id: 'preset_6_nid_architecture',
+      title: 'Institute of Design & Architecture',
+      category: 'Architecture & Design',
+      badge: '35 Sections • 46 Rooms • 175 Subjects',
+      desc: 'B.Arch (5-yr studio), Industrial Design, Visual Comm, UI/UX, and Textile Innovation with drafting halls & 3D fab labs.'
+    },
+    {
+      id: 'preset_7_iim_management',
+      title: 'Indian Institute of Management (Business & Analytics)',
+      category: 'Management & Business',
+      badge: '33 Sections • 44 Rooms • 165 Subjects',
+      desc: 'MBA/PGP Core, Quantitative Finance, Marketing Analytics, Global Logistics, and FinTech with Bloomberg trading labs.'
+    }
+  ];
+
+  return res.json({
+    success: true,
+    data: presetFiles,
+    error: null
+  });
+});
+
+// POST /api/dev/preset/:presetId — load a preset
+router.post('/preset/:presetId', async (req, res, next) => {
+  try {
+    const { presetId } = req.params;
+    const cleanId = presetId.replace(/[^a-zA-Z0-9_-]/g, '');
+    const presetPath = path.resolve(__dirname, `../seeds/${cleanId}.json`);
+
+    if (!fs.existsSync(presetPath)) {
+      return res.status(404).json({
+        success: false,
+        data: null,
+        error: { code: 'E_PRESET_NOT_FOUND', message: `Preset '${presetId}' not found.` }
+      });
+    }
+
+    const fileContent = fs.readFileSync(presetPath, 'utf8');
+    const rawData = JSON.parse(fileContent);
+
+    // Default clean previous college data so datasets don't cross-contaminate
+    if (req.query.clean !== 'false') {
+      await Subject.deleteMany({});
+      await Teacher.deleteMany({});
+      await Room.deleteMany({});
+      await Section.deleteMany({});
+    }
+
+    const summary = await loadSeedObject(rawData);
+    summary.presetLoaded = cleanId;
+    summary.title = rawData.title || cleanId;
+
+    res.json({ success: true, data: summary, error: null });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// DELETE /api/dev/timetables — clear all generated algorithm runs & timetables
+router.delete('/timetables', async (req, res, next) => {
+  try {
+    const result = await AlgorithmRun.deleteMany({});
+    res.json({
+      success: true,
+      data: {
+        message: `Successfully cleared ${result.deletedCount} generated timetables/runs.`,
+        deletedCount: result.deletedCount
+      },
+      error: null
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// DELETE /api/dev/college-data — clear all sections, rooms, teachers, subjects
+router.delete('/college-data', async (req, res, next) => {
+  try {
+    const [sec, rm, tea, sub] = await Promise.all([
+      Section.deleteMany({}),
+      Room.deleteMany({}),
+      Teacher.deleteMany({}),
+      Subject.deleteMany({})
+    ]);
+    res.json({
+      success: true,
+      data: {
+        message: 'All academic data (sections, rooms, teachers, subjects) cleared successfully.',
+        deleted: {
+          sections: sec.deletedCount,
+          rooms: rm.deletedCount,
+          teachers: tea.deletedCount,
+          subjects: sub.deletedCount
+        }
+      },
+      error: null
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// DELETE /api/dev/all — clear EVERYTHING (timetables + college data)
+router.delete('/all', async (req, res, next) => {
+  try {
+    const [runs, sec, rm, tea, sub] = await Promise.all([
+      AlgorithmRun.deleteMany({}),
+      Section.deleteMany({}),
+      Room.deleteMany({}),
+      Teacher.deleteMany({}),
+      Subject.deleteMany({})
+    ]);
+    res.json({
+      success: true,
+      data: {
+        message: 'Database completely cleared: all academic data and all generated timetables were removed.',
+        deleted: {
+          timetables: runs.deletedCount,
+          sections: sec.deletedCount,
+          rooms: rm.deletedCount,
+          teachers: tea.deletedCount,
+          subjects: sub.deletedCount
+        }
+      },
+      error: null
+    });
   } catch (err) {
     next(err);
   }

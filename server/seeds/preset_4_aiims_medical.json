@@ -1,0 +1,3220 @@
+{
+  "id": "preset_4_aiims_medical",
+  "title": "AIIMS Medical & Healthcare Sciences",
+  "category": "Medicine & Healthcare",
+  "description": "National Institute of Medical Sciences dataset: Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, and Community Health with 41 sections and 50 hospital theatres/simulation labs.",
+  "badge": "41 Sections \u2022 50 Rooms \u2022 205 Subjects",
+  "sections": [
+    {
+      "name": "MED-PRE-MBBS-Phase1",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 75
+    },
+    {
+      "name": "MED-PRE-MBBS-Phase2",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 75
+    },
+    {
+      "name": "MED-PRE-MD-Physio-1st",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 25
+    },
+    {
+      "name": "MED-PRE-MD-Physio-2nd",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 25
+    },
+    {
+      "name": "MED-PRE-PhD-1st",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-PRE-PhD-2nd",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-PARA-MBBS-Phase3A",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 75
+    },
+    {
+      "name": "MED-PARA-MBBS-Phase3B",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 75
+    },
+    {
+      "name": "MED-PARA-MD-Patho-1st",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 25
+    },
+    {
+      "name": "MED-PARA-MD-Patho-2nd",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 25
+    },
+    {
+      "name": "MED-PARA-PhD-1st",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-PARA-PhD-2nd",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-CLIN-MD-Med-1st",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-CLIN-MD-Med-2nd",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-CLIN-MD-Med-3rd",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-CLIN-DM-Cardio-1st",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-CLIN-DM-Cardio-2nd",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-CLIN-PhD-1st",
+      "department": "Clinical Medicine & Therapeutics",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-SURG-MS-Surg-1st",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-SURG-MS-Surg-2nd",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-SURG-MS-Surg-3rd",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 35
+    },
+    {
+      "name": "MED-SURG-MCh-Neuro-1st",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-SURG-MCh-Neuro-2nd",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 15
+    },
+    {
+      "name": "MED-SURG-PhD-1st",
+      "department": "Surgical Disciplines & Ortho",
+      "studentCount": 15
+    },
+    {
+      "name": "NURS-BSc-Nurs-1st",
+      "department": "Nursing & Critical Care",
+      "studentCount": 60
+    },
+    {
+      "name": "NURS-BSc-Nurs-2nd",
+      "department": "Nursing & Critical Care",
+      "studentCount": 60
+    },
+    {
+      "name": "NURS-BSc-Nurs-3rd",
+      "department": "Nursing & Critical Care",
+      "studentCount": 60
+    },
+    {
+      "name": "NURS-BSc-Nurs-4th",
+      "department": "Nursing & Critical Care",
+      "studentCount": 60
+    },
+    {
+      "name": "NURS-MSc-Nurs-1st",
+      "department": "Nursing & Critical Care",
+      "studentCount": 25
+    },
+    {
+      "name": "NURS-MSc-Nurs-2nd",
+      "department": "Nursing & Critical Care",
+      "studentCount": 25
+    },
+    {
+      "name": "BIOTECH-MSc-Biotech-1st",
+      "department": "Medical Biotech & Genomics",
+      "studentCount": 35
+    },
+    {
+      "name": "BIOTECH-MSc-Biotech-2nd",
+      "department": "Medical Biotech & Genomics",
+      "studentCount": 35
+    },
+    {
+      "name": "BIOTECH-PhD-1st",
+      "department": "Medical Biotech & Genomics",
+      "studentCount": 15
+    },
+    {
+      "name": "BIOTECH-PhD-2nd",
+      "department": "Medical Biotech & Genomics",
+      "studentCount": 15
+    },
+    {
+      "name": "BIOTECH-PhD-3rd",
+      "department": "Medical Biotech & Genomics",
+      "studentCount": 15
+    },
+    {
+      "name": "SPM-MPH-1st",
+      "department": "Community & Public Health",
+      "studentCount": 40
+    },
+    {
+      "name": "SPM-MPH-2nd",
+      "department": "Community & Public Health",
+      "studentCount": 40
+    },
+    {
+      "name": "SPM-MD-SPM-1st",
+      "department": "Community & Public Health",
+      "studentCount": 20
+    },
+    {
+      "name": "SPM-MD-SPM-2nd",
+      "department": "Community & Public Health",
+      "studentCount": 20
+    },
+    {
+      "name": "SPM-PhD-1st",
+      "department": "Community & Public Health",
+      "studentCount": 15
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Medical Auditorium LT-1",
+      "roomNumber": "MEDLT-1",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-2",
+      "roomNumber": "MEDLT-2",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-3",
+      "roomNumber": "MEDLT-3",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-4",
+      "roomNumber": "MEDLT-4",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-5",
+      "roomNumber": "MEDLT-5",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-6",
+      "roomNumber": "MEDLT-6",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-7",
+      "roomNumber": "MEDLT-7",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-8",
+      "roomNumber": "MEDLT-8",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-9",
+      "roomNumber": "MEDLT-9",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-10",
+      "roomNumber": "MEDLT-10",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-11",
+      "roomNumber": "MEDLT-11",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-12",
+      "roomNumber": "MEDLT-12",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-13",
+      "roomNumber": "MEDLT-13",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-14",
+      "roomNumber": "MEDLT-14",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-15",
+      "roomNumber": "MEDLT-15",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-16",
+      "roomNumber": "MEDLT-16",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-17",
+      "roomNumber": "MEDLT-17",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-18",
+      "roomNumber": "MEDLT-18",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-19",
+      "roomNumber": "MEDLT-19",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-20",
+      "roomNumber": "MEDLT-20",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-21",
+      "roomNumber": "MEDLT-21",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-22",
+      "roomNumber": "MEDLT-22",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-23",
+      "roomNumber": "MEDLT-23",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Auditorium LT-24",
+      "roomNumber": "MEDLT-24",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Clinical Case Seminar Room 1",
+      "roomNumber": "CSR-1",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 2",
+      "roomNumber": "CSR-2",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 3",
+      "roomNumber": "CSR-3",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 4",
+      "roomNumber": "CSR-4",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 5",
+      "roomNumber": "CSR-5",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 6",
+      "roomNumber": "CSR-6",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 7",
+      "roomNumber": "CSR-7",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Case Seminar Room 8",
+      "roomNumber": "CSR-8",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Anatomy Dissection & Histology Hall 1",
+      "roomNumber": "ANAT-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Anatomy Dissection & Histology Hall 2",
+      "roomNumber": "ANAT-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Anatomy Dissection & Histology Hall 3",
+      "roomNumber": "ANAT-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Anatomy Dissection & Histology Hall 4",
+      "roomNumber": "ANAT-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Anatomy Dissection & Histology Hall 5",
+      "roomNumber": "ANAT-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Pathology & Hematology Diagnostic Lab 1",
+      "roomNumber": "PATH-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Pathology & Hematology Diagnostic Lab 2",
+      "roomNumber": "PATH-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Pathology & Hematology Diagnostic Lab 3",
+      "roomNumber": "PATH-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Pathology & Hematology Diagnostic Lab 4",
+      "roomNumber": "PATH-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Pathology & Hematology Diagnostic Lab 5",
+      "roomNumber": "PATH-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Biochemistry & Molecular Genomics Lab 1",
+      "roomNumber": "MOLAB-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Biochemistry & Molecular Genomics Lab 2",
+      "roomNumber": "MOLAB-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Biochemistry & Molecular Genomics Lab 3",
+      "roomNumber": "MOLAB-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Biochemistry & Molecular Genomics Lab 4",
+      "roomNumber": "MOLAB-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Simulation & Skills Center 1",
+      "roomNumber": "SKILL-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Simulation & Skills Center 2",
+      "roomNumber": "SKILL-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Clinical Simulation & Skills Center 3",
+      "roomNumber": "SKILL-3",
+      "type": "Laboratory",
+      "capacity": 45
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. P. Venugopal (MD)",
+      "teacherCode": "AIIMS-FAC-001",
+      "teachableSubjectCodes": [
+        "MED-SCPD-1",
+        "MED-EHM-39",
+        "MED-SAOP-148"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Balram Bhargava (MD)",
+      "teacherCode": "AIIMS-FAC-002",
+      "teachableSubjectCodes": [
+        "MED-PTR-2",
+        "MED-BCDP-40",
+        "MED-SCPD-111",
+        "MED-EHM-149"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Randeep Guleria (MD)",
+      "teacherCode": "AIIMS-FAC-003",
+      "teachableSubjectCodes": [
+        "MED-SAOP-3",
+        "MED-PTR-112",
+        "MED-BCDP-150"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. M. C. Misra (MD)",
+      "teacherCode": "AIIMS-FAC-004",
+      "teachableSubjectCodes": [
+        "MED-EHM-4",
+        "MED-SAOP-113"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. K. Dave (MD)",
+      "teacherCode": "AIIMS-FAC-005",
+      "teachableSubjectCodes": [
+        "MED-BCDP-5",
+        "MED-SCPD-76",
+        "MED-EHM-114"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. K. Kacker (MD)",
+      "teacherCode": "AIIMS-FAC-006",
+      "teachableSubjectCodes": [
+        "MED-PTR-77",
+        "MED-BCDP-115",
+        "MED-SCPD-186"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Snehlata Deshmukh (MD)",
+      "teacherCode": "AIIMS-FAC-007",
+      "teachableSubjectCodes": [
+        "MED-SAOP-78",
+        "MED-PTR-187"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. K. Talwar (MD)",
+      "teacherCode": "AIIMS-FAC-008",
+      "teachableSubjectCodes": [
+        "MED-SCPD-41",
+        "MED-EHM-79",
+        "MED-SAOP-188"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Anoop Misra (MD)",
+      "teacherCode": "AIIMS-FAC-009",
+      "teachableSubjectCodes": [
+        "MED-PTR-42",
+        "MED-BCDP-80",
+        "MED-SCPD-151",
+        "MED-EHM-189"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Devi Shetty (MD)",
+      "teacherCode": "AIIMS-FAC-010",
+      "teachableSubjectCodes": [
+        "MED-SAOP-43",
+        "MED-PTR-152",
+        "MED-BCDP-190"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Naresh Trehan (MD)",
+      "teacherCode": "AIIMS-FAC-011",
+      "teachableSubjectCodes": [
+        "MED-SCPD-6",
+        "MED-EHM-44",
+        "MED-SAOP-153"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Ashok Seth (MD)",
+      "teacherCode": "AIIMS-FAC-012",
+      "teachableSubjectCodes": [
+        "MED-PTR-7",
+        "MED-BCDP-45",
+        "MED-SCPD-116",
+        "MED-EHM-154"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Purshotam Lal (MD)",
+      "teacherCode": "AIIMS-FAC-013",
+      "teachableSubjectCodes": [
+        "MED-SAOP-8",
+        "MED-PTR-117",
+        "MED-BCDP-155"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T. S. Kler (MD)",
+      "teacherCode": "AIIMS-FAC-014",
+      "teachableSubjectCodes": [
+        "MED-EHM-9",
+        "MED-SAOP-118"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Upendra Kaul (MD)",
+      "teacherCode": "AIIMS-FAC-015",
+      "teachableSubjectCodes": [
+        "MED-BCDP-10",
+        "MED-SCPD-81",
+        "MED-EHM-119"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. C. Manchanda (MD)",
+      "teacherCode": "AIIMS-FAC-016",
+      "teachableSubjectCodes": [
+        "MED-PTR-82",
+        "MED-BCDP-120",
+        "MED-SCPD-191"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Anita Saxena (MD)",
+      "teacherCode": "AIIMS-FAC-017",
+      "teachableSubjectCodes": [
+        "MED-SAOP-83",
+        "MED-PTR-192"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. V. K. Bahl (MD)",
+      "teacherCode": "AIIMS-FAC-018",
+      "teachableSubjectCodes": [
+        "MED-SCPD-46",
+        "MED-EHM-84",
+        "MED-SAOP-193"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Ambareesh Satwik (MD)",
+      "teacherCode": "AIIMS-FAC-019",
+      "teachableSubjectCodes": [
+        "MED-PTR-47",
+        "MED-BCDP-85",
+        "MED-SCPD-156",
+        "MED-EHM-194"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Arvinder Singh Soin (MD)",
+      "teacherCode": "AIIMS-FAC-020",
+      "teachableSubjectCodes": [
+        "MED-SAOP-48",
+        "MED-PTR-157",
+        "MED-BCDP-195"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Subhash Gupta (MD)",
+      "teacherCode": "AIIMS-FAC-021",
+      "teachableSubjectCodes": [
+        "MED-SCPD-11",
+        "MED-EHM-49",
+        "MED-SAOP-158"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Mohamed Rela (MD)",
+      "teacherCode": "AIIMS-FAC-022",
+      "teachableSubjectCodes": [
+        "MED-PTR-12",
+        "MED-BCDP-50",
+        "MED-SCPD-121",
+        "MED-EHM-159"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Nageshwar Reddy (MD)",
+      "teacherCode": "AIIMS-FAC-023",
+      "teachableSubjectCodes": [
+        "MED-SAOP-13",
+        "MED-PTR-122",
+        "MED-BCDP-160"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Samiran Nundy (MD)",
+      "teacherCode": "AIIMS-FAC-024",
+      "teachableSubjectCodes": [
+        "MED-EHM-14",
+        "MED-SAOP-123"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Adarsh Chaudhary (MD)",
+      "teacherCode": "AIIMS-FAC-025",
+      "teachableSubjectCodes": [
+        "MED-BCDP-15",
+        "MED-SCPD-86",
+        "MED-EHM-124"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Peush Sahni (MD)",
+      "teacherCode": "AIIMS-FAC-026",
+      "teachableSubjectCodes": [
+        "MED-PTR-87",
+        "MED-BCDP-125",
+        "MED-SCPD-196"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T. K. Chattopadhyay (MD)",
+      "teacherCode": "AIIMS-FAC-027",
+      "teachableSubjectCodes": [
+        "MED-SAOP-88",
+        "MED-PTR-197"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Rajesh Malhotra (MD)",
+      "teacherCode": "AIIMS-FAC-028",
+      "teachableSubjectCodes": [
+        "MED-SCPD-51",
+        "MED-EHM-89",
+        "MED-SAOP-198"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Surya Bhan (MD)",
+      "teacherCode": "AIIMS-FAC-029",
+      "teachableSubjectCodes": [
+        "MED-PTR-52",
+        "MED-BCDP-90",
+        "MED-SCPD-161",
+        "MED-EHM-199"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Shekhar Agarwal (MD)",
+      "teacherCode": "AIIMS-FAC-030",
+      "teachableSubjectCodes": [
+        "MED-SAOP-53",
+        "MED-PTR-162",
+        "MED-BCDP-200"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Pradeep Chowbey (MD)",
+      "teacherCode": "AIIMS-FAC-031",
+      "teachableSubjectCodes": [
+        "MED-SCPD-16",
+        "MED-EHM-54",
+        "MED-SAOP-163"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. B. K. Rao (MD)",
+      "teacherCode": "AIIMS-FAC-032",
+      "teachableSubjectCodes": [
+        "MED-PTR-17",
+        "MED-BCDP-55",
+        "MED-SCPD-126",
+        "MED-EHM-164"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Yatin Mehta (MD)",
+      "teacherCode": "AIIMS-FAC-033",
+      "teachableSubjectCodes": [
+        "MED-SAOP-18",
+        "MED-PTR-127",
+        "MED-BCDP-165"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Farhad Kapadia (MD)",
+      "teacherCode": "AIIMS-FAC-034",
+      "teachableSubjectCodes": [
+        "MED-EHM-19",
+        "MED-SAOP-128"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Rajesh Chawla (MD)",
+      "teacherCode": "AIIMS-FAC-035",
+      "teachableSubjectCodes": [
+        "MED-BCDP-20",
+        "MED-SCPD-91",
+        "MED-EHM-129"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. G. C. Khilnani (MD)",
+      "teacherCode": "AIIMS-FAC-036",
+      "teachableSubjectCodes": [
+        "MED-PTR-92",
+        "MED-BCDP-130"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. M. Dhamija (MD)",
+      "teacherCode": "AIIMS-FAC-037",
+      "teachableSubjectCodes": [
+        "MED-SAOP-93"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. M. V. Padma (MD)",
+      "teacherCode": "AIIMS-FAC-038",
+      "teachableSubjectCodes": [
+        "MED-SCPD-56",
+        "MED-EHM-94"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Kameshwar Prasad (MD)",
+      "teacherCode": "AIIMS-FAC-039",
+      "teachableSubjectCodes": [
+        "MED-PTR-57",
+        "MED-BCDP-95",
+        "MED-SCPD-166"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Manjari Tripathi (MD)",
+      "teacherCode": "AIIMS-FAC-040",
+      "teachableSubjectCodes": [
+        "MED-SAOP-58",
+        "MED-PTR-167"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. Satishchandra (MD)",
+      "teacherCode": "AIIMS-FAC-041",
+      "teachableSubjectCodes": [
+        "MED-SCPD-21",
+        "MED-EHM-59",
+        "MED-SAOP-168"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sanitary Anand (MD)",
+      "teacherCode": "AIIMS-FAC-042",
+      "teachableSubjectCodes": [
+        "MED-PTR-22",
+        "MED-BCDP-60",
+        "MED-SCPD-131",
+        "MED-EHM-169"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. B. N. Gangadhar (MD)",
+      "teacherCode": "AIIMS-FAC-043",
+      "teachableSubjectCodes": [
+        "MED-SAOP-23",
+        "MED-PTR-132",
+        "MED-BCDP-170"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. S. Murthy (MD)",
+      "teacherCode": "AIIMS-FAC-044",
+      "teachableSubjectCodes": [
+        "MED-EHM-24",
+        "MED-SAOP-133"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Vikram Patel (MD)",
+      "teacherCode": "AIIMS-FAC-045",
+      "teachableSubjectCodes": [
+        "MED-BCDP-25",
+        "MED-SCPD-96",
+        "MED-EHM-134"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sanjeev Jain (MD)",
+      "teacherCode": "AIIMS-FAC-046",
+      "teachableSubjectCodes": [
+        "MED-PTR-97",
+        "MED-BCDP-135"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Pratima Murthy (MD)",
+      "teacherCode": "AIIMS-FAC-047",
+      "teachableSubjectCodes": [
+        "MED-SAOP-98"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Chittaranjan Andrade (MD)",
+      "teacherCode": "AIIMS-FAC-048",
+      "teachableSubjectCodes": [
+        "MED-SCPD-61",
+        "MED-EHM-99"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Alok Sarin (MD)",
+      "teacherCode": "AIIMS-FAC-049",
+      "teachableSubjectCodes": [
+        "MED-PTR-62",
+        "MED-BCDP-100",
+        "MED-SCPD-171"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sudhir Khandelwal (MD)",
+      "teacherCode": "AIIMS-FAC-050",
+      "teachableSubjectCodes": [
+        "MED-SAOP-63",
+        "MED-PTR-172"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Mamta Sood (MD)",
+      "teacherCode": "AIIMS-FAC-051",
+      "teachableSubjectCodes": [
+        "MED-SCPD-26",
+        "MED-EHM-64",
+        "MED-SAOP-173"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Rakesh Chadda (MD)",
+      "teacherCode": "AIIMS-FAC-052",
+      "teachableSubjectCodes": [
+        "MED-PTR-27",
+        "MED-BCDP-65",
+        "MED-SCPD-136",
+        "MED-EHM-174"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. S. Jacob (MD)",
+      "teacherCode": "AIIMS-FAC-053",
+      "teachableSubjectCodes": [
+        "MED-SAOP-28",
+        "MED-PTR-137",
+        "MED-BCDP-175"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Roy Abraham Kallivayalil (MD)",
+      "teacherCode": "AIIMS-FAC-054",
+      "teachableSubjectCodes": [
+        "MED-EHM-29",
+        "MED-SAOP-138"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Indira Sharma (MD)",
+      "teacherCode": "AIIMS-FAC-055",
+      "teachableSubjectCodes": [
+        "MED-BCDP-30",
+        "MED-SCPD-101",
+        "MED-EHM-139"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Ajit Avasthi (MD)",
+      "teacherCode": "AIIMS-FAC-056",
+      "teachableSubjectCodes": [
+        "MED-PTR-102",
+        "MED-BCDP-140"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Savita Malhotra (MD)",
+      "teacherCode": "AIIMS-FAC-057",
+      "teachableSubjectCodes": [
+        "MED-SAOP-103"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Paramjit Singh (MD)",
+      "teacherCode": "AIIMS-FAC-058",
+      "teachableSubjectCodes": [
+        "MED-SCPD-66",
+        "MED-EHM-104"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. C. Jiloha (MD)",
+      "teacherCode": "AIIMS-FAC-059",
+      "teachableSubjectCodes": [
+        "MED-PTR-67",
+        "MED-BCDP-105",
+        "MED-SCPD-176"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Nimesh Parikh (MD)",
+      "teacherCode": "AIIMS-FAC-060",
+      "teachableSubjectCodes": [
+        "MED-SAOP-68",
+        "MED-PTR-177"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sunil Sharma (MD)",
+      "teacherCode": "AIIMS-FAC-061",
+      "teachableSubjectCodes": [
+        "MED-SCPD-31",
+        "MED-EHM-69",
+        "MED-SAOP-178"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Meera Varma (MD)",
+      "teacherCode": "AIIMS-FAC-062",
+      "teachableSubjectCodes": [
+        "MED-PTR-32",
+        "MED-BCDP-70",
+        "MED-SCPD-141",
+        "MED-EHM-179"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Geeta Kashyap (MD)",
+      "teacherCode": "AIIMS-FAC-063",
+      "teachableSubjectCodes": [
+        "MED-SAOP-33",
+        "MED-PTR-142",
+        "MED-BCDP-180"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Pooja Tandon (MD)",
+      "teacherCode": "AIIMS-FAC-064",
+      "teachableSubjectCodes": [
+        "MED-EHM-34",
+        "MED-SAOP-143"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Rashmi Sengupta (MD)",
+      "teacherCode": "AIIMS-FAC-065",
+      "teachableSubjectCodes": [
+        "MED-BCDP-35",
+        "MED-SCPD-106",
+        "MED-EHM-144"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Deepika Khurana (MD)",
+      "teacherCode": "AIIMS-FAC-066",
+      "teachableSubjectCodes": [
+        "MED-PTR-107",
+        "MED-BCDP-145"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Vandana Roy (MD)",
+      "teacherCode": "AIIMS-FAC-067",
+      "teachableSubjectCodes": [
+        "MED-SAOP-108"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sangeeta Sharma (MD)",
+      "teacherCode": "AIIMS-FAC-068",
+      "teachableSubjectCodes": [
+        "MED-SCPD-71",
+        "MED-EHM-109"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Urmila Gupta (MD)",
+      "teacherCode": "AIIMS-FAC-069",
+      "teachableSubjectCodes": [
+        "MED-PTR-72",
+        "MED-BCDP-110",
+        "MED-SCPD-181"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Shashi Kant (MD)",
+      "teacherCode": "AIIMS-FAC-070",
+      "teachableSubjectCodes": [
+        "MED-SAOP-73",
+        "MED-PTR-182"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Anand Krishnan (MD)",
+      "teacherCode": "AIIMS-FAC-071",
+      "teachableSubjectCodes": [
+        "MED-SCPD-36",
+        "MED-EHM-74",
+        "MED-SAOP-183"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. Anand (MD)",
+      "teacherCode": "AIIMS-FAC-072",
+      "teachableSubjectCodes": [
+        "MED-PTR-37",
+        "MED-BCDP-75",
+        "MED-SCPD-146",
+        "MED-EHM-184"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Baridalyne Nongkynrih (MD)",
+      "teacherCode": "AIIMS-FAC-073",
+      "teachableSubjectCodes": [
+        "MED-SAOP-38",
+        "MED-PTR-147",
+        "MED-BCDP-185"
+      ],
+      "maxWeeklyPeriods": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-MBBS-Phase1)",
+      "code": "MED-SCPD-1",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase1",
+      "teacherCode": "AIIMS-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-MBBS-Phase1)",
+      "code": "MED-PTR-2",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase1",
+      "teacherCode": "AIIMS-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-MBBS-Phase1)",
+      "code": "MED-SAOP-3",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase1",
+      "teacherCode": "AIIMS-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-MBBS-Phase1)",
+      "code": "MED-EHM-4",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase1",
+      "teacherCode": "AIIMS-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-MBBS-Phase1)",
+      "code": "MED-BCDP-5",
+      "type": "Lab",
+      "sectionName": "MED-PRE-MBBS-Phase1",
+      "teacherCode": "AIIMS-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-MBBS-Phase2)",
+      "code": "MED-SCPD-6",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase2",
+      "teacherCode": "AIIMS-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-MBBS-Phase2)",
+      "code": "MED-PTR-7",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase2",
+      "teacherCode": "AIIMS-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-MBBS-Phase2)",
+      "code": "MED-SAOP-8",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase2",
+      "teacherCode": "AIIMS-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-MBBS-Phase2)",
+      "code": "MED-EHM-9",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MBBS-Phase2",
+      "teacherCode": "AIIMS-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-MBBS-Phase2)",
+      "code": "MED-BCDP-10",
+      "type": "Lab",
+      "sectionName": "MED-PRE-MBBS-Phase2",
+      "teacherCode": "AIIMS-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-MD-Physio-1st)",
+      "code": "MED-SCPD-11",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-1st",
+      "teacherCode": "AIIMS-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-MD-Physio-1st)",
+      "code": "MED-PTR-12",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-1st",
+      "teacherCode": "AIIMS-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-MD-Physio-1st)",
+      "code": "MED-SAOP-13",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-1st",
+      "teacherCode": "AIIMS-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-MD-Physio-1st)",
+      "code": "MED-EHM-14",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-1st",
+      "teacherCode": "AIIMS-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-MD-Physio-1st)",
+      "code": "MED-BCDP-15",
+      "type": "Lab",
+      "sectionName": "MED-PRE-MD-Physio-1st",
+      "teacherCode": "AIIMS-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-MD-Physio-2nd)",
+      "code": "MED-SCPD-16",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-2nd",
+      "teacherCode": "AIIMS-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-MD-Physio-2nd)",
+      "code": "MED-PTR-17",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-2nd",
+      "teacherCode": "AIIMS-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-MD-Physio-2nd)",
+      "code": "MED-SAOP-18",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-2nd",
+      "teacherCode": "AIIMS-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-MD-Physio-2nd)",
+      "code": "MED-EHM-19",
+      "type": "Theory",
+      "sectionName": "MED-PRE-MD-Physio-2nd",
+      "teacherCode": "AIIMS-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-MD-Physio-2nd)",
+      "code": "MED-BCDP-20",
+      "type": "Lab",
+      "sectionName": "MED-PRE-MD-Physio-2nd",
+      "teacherCode": "AIIMS-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-PhD-1st)",
+      "code": "MED-SCPD-21",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-1st",
+      "teacherCode": "AIIMS-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-PhD-1st)",
+      "code": "MED-PTR-22",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-1st",
+      "teacherCode": "AIIMS-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-PhD-1st)",
+      "code": "MED-SAOP-23",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-1st",
+      "teacherCode": "AIIMS-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-PhD-1st)",
+      "code": "MED-EHM-24",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-1st",
+      "teacherCode": "AIIMS-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-PhD-1st)",
+      "code": "MED-BCDP-25",
+      "type": "Lab",
+      "sectionName": "MED-PRE-PhD-1st",
+      "teacherCode": "AIIMS-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PRE-PhD-2nd)",
+      "code": "MED-SCPD-26",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PRE-PhD-2nd)",
+      "code": "MED-PTR-27",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PRE-PhD-2nd)",
+      "code": "MED-SAOP-28",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PRE-PhD-2nd)",
+      "code": "MED-EHM-29",
+      "type": "Theory",
+      "sectionName": "MED-PRE-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PRE-PhD-2nd)",
+      "code": "MED-BCDP-30",
+      "type": "Lab",
+      "sectionName": "MED-PRE-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-MBBS-Phase3A)",
+      "code": "MED-SCPD-31",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3A",
+      "teacherCode": "AIIMS-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-MBBS-Phase3A)",
+      "code": "MED-PTR-32",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3A",
+      "teacherCode": "AIIMS-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-MBBS-Phase3A)",
+      "code": "MED-SAOP-33",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3A",
+      "teacherCode": "AIIMS-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-MBBS-Phase3A)",
+      "code": "MED-EHM-34",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3A",
+      "teacherCode": "AIIMS-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-MBBS-Phase3A)",
+      "code": "MED-BCDP-35",
+      "type": "Lab",
+      "sectionName": "MED-PARA-MBBS-Phase3A",
+      "teacherCode": "AIIMS-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-MBBS-Phase3B)",
+      "code": "MED-SCPD-36",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3B",
+      "teacherCode": "AIIMS-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-MBBS-Phase3B)",
+      "code": "MED-PTR-37",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3B",
+      "teacherCode": "AIIMS-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-MBBS-Phase3B)",
+      "code": "MED-SAOP-38",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3B",
+      "teacherCode": "AIIMS-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-MBBS-Phase3B)",
+      "code": "MED-EHM-39",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MBBS-Phase3B",
+      "teacherCode": "AIIMS-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-MBBS-Phase3B)",
+      "code": "MED-BCDP-40",
+      "type": "Lab",
+      "sectionName": "MED-PARA-MBBS-Phase3B",
+      "teacherCode": "AIIMS-FAC-002",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-MD-Patho-1st)",
+      "code": "MED-SCPD-41",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-1st",
+      "teacherCode": "AIIMS-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-MD-Patho-1st)",
+      "code": "MED-PTR-42",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-1st",
+      "teacherCode": "AIIMS-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-MD-Patho-1st)",
+      "code": "MED-SAOP-43",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-1st",
+      "teacherCode": "AIIMS-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-MD-Patho-1st)",
+      "code": "MED-EHM-44",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-1st",
+      "teacherCode": "AIIMS-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-MD-Patho-1st)",
+      "code": "MED-BCDP-45",
+      "type": "Lab",
+      "sectionName": "MED-PARA-MD-Patho-1st",
+      "teacherCode": "AIIMS-FAC-012",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-MD-Patho-2nd)",
+      "code": "MED-SCPD-46",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-2nd",
+      "teacherCode": "AIIMS-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-MD-Patho-2nd)",
+      "code": "MED-PTR-47",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-2nd",
+      "teacherCode": "AIIMS-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-MD-Patho-2nd)",
+      "code": "MED-SAOP-48",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-2nd",
+      "teacherCode": "AIIMS-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-MD-Patho-2nd)",
+      "code": "MED-EHM-49",
+      "type": "Theory",
+      "sectionName": "MED-PARA-MD-Patho-2nd",
+      "teacherCode": "AIIMS-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-MD-Patho-2nd)",
+      "code": "MED-BCDP-50",
+      "type": "Lab",
+      "sectionName": "MED-PARA-MD-Patho-2nd",
+      "teacherCode": "AIIMS-FAC-022",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-PhD-1st)",
+      "code": "MED-SCPD-51",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-1st",
+      "teacherCode": "AIIMS-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-PhD-1st)",
+      "code": "MED-PTR-52",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-1st",
+      "teacherCode": "AIIMS-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-PhD-1st)",
+      "code": "MED-SAOP-53",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-1st",
+      "teacherCode": "AIIMS-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-PhD-1st)",
+      "code": "MED-EHM-54",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-1st",
+      "teacherCode": "AIIMS-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-PhD-1st)",
+      "code": "MED-BCDP-55",
+      "type": "Lab",
+      "sectionName": "MED-PARA-PhD-1st",
+      "teacherCode": "AIIMS-FAC-032",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-PARA-PhD-2nd)",
+      "code": "MED-SCPD-56",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-PARA-PhD-2nd)",
+      "code": "MED-PTR-57",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-PARA-PhD-2nd)",
+      "code": "MED-SAOP-58",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-PARA-PhD-2nd)",
+      "code": "MED-EHM-59",
+      "type": "Theory",
+      "sectionName": "MED-PARA-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-PARA-PhD-2nd)",
+      "code": "MED-BCDP-60",
+      "type": "Lab",
+      "sectionName": "MED-PARA-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-042",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-MD-Med-1st)",
+      "code": "MED-SCPD-61",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-1st",
+      "teacherCode": "AIIMS-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-MD-Med-1st)",
+      "code": "MED-PTR-62",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-1st",
+      "teacherCode": "AIIMS-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-MD-Med-1st)",
+      "code": "MED-SAOP-63",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-1st",
+      "teacherCode": "AIIMS-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-MD-Med-1st)",
+      "code": "MED-EHM-64",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-1st",
+      "teacherCode": "AIIMS-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-MD-Med-1st)",
+      "code": "MED-BCDP-65",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-MD-Med-1st",
+      "teacherCode": "AIIMS-FAC-052",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-MD-Med-2nd)",
+      "code": "MED-SCPD-66",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-2nd",
+      "teacherCode": "AIIMS-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-MD-Med-2nd)",
+      "code": "MED-PTR-67",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-2nd",
+      "teacherCode": "AIIMS-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-MD-Med-2nd)",
+      "code": "MED-SAOP-68",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-2nd",
+      "teacherCode": "AIIMS-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-MD-Med-2nd)",
+      "code": "MED-EHM-69",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-2nd",
+      "teacherCode": "AIIMS-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-MD-Med-2nd)",
+      "code": "MED-BCDP-70",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-MD-Med-2nd",
+      "teacherCode": "AIIMS-FAC-062",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-MD-Med-3rd)",
+      "code": "MED-SCPD-71",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-3rd",
+      "teacherCode": "AIIMS-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-MD-Med-3rd)",
+      "code": "MED-PTR-72",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-3rd",
+      "teacherCode": "AIIMS-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-MD-Med-3rd)",
+      "code": "MED-SAOP-73",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-3rd",
+      "teacherCode": "AIIMS-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-MD-Med-3rd)",
+      "code": "MED-EHM-74",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-MD-Med-3rd",
+      "teacherCode": "AIIMS-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-MD-Med-3rd)",
+      "code": "MED-BCDP-75",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-MD-Med-3rd",
+      "teacherCode": "AIIMS-FAC-072",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-DM-Cardio-1st)",
+      "code": "MED-SCPD-76",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-1st",
+      "teacherCode": "AIIMS-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-DM-Cardio-1st)",
+      "code": "MED-PTR-77",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-1st",
+      "teacherCode": "AIIMS-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-DM-Cardio-1st)",
+      "code": "MED-SAOP-78",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-1st",
+      "teacherCode": "AIIMS-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-DM-Cardio-1st)",
+      "code": "MED-EHM-79",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-1st",
+      "teacherCode": "AIIMS-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-DM-Cardio-1st)",
+      "code": "MED-BCDP-80",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-DM-Cardio-1st",
+      "teacherCode": "AIIMS-FAC-009",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-DM-Cardio-2nd)",
+      "code": "MED-SCPD-81",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-2nd",
+      "teacherCode": "AIIMS-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-DM-Cardio-2nd)",
+      "code": "MED-PTR-82",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-2nd",
+      "teacherCode": "AIIMS-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-DM-Cardio-2nd)",
+      "code": "MED-SAOP-83",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-2nd",
+      "teacherCode": "AIIMS-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-DM-Cardio-2nd)",
+      "code": "MED-EHM-84",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-DM-Cardio-2nd",
+      "teacherCode": "AIIMS-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-DM-Cardio-2nd)",
+      "code": "MED-BCDP-85",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-DM-Cardio-2nd",
+      "teacherCode": "AIIMS-FAC-019",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-CLIN-PhD-1st)",
+      "code": "MED-SCPD-86",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-PhD-1st",
+      "teacherCode": "AIIMS-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-CLIN-PhD-1st)",
+      "code": "MED-PTR-87",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-PhD-1st",
+      "teacherCode": "AIIMS-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-CLIN-PhD-1st)",
+      "code": "MED-SAOP-88",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-PhD-1st",
+      "teacherCode": "AIIMS-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-CLIN-PhD-1st)",
+      "code": "MED-EHM-89",
+      "type": "Theory",
+      "sectionName": "MED-CLIN-PhD-1st",
+      "teacherCode": "AIIMS-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-CLIN-PhD-1st)",
+      "code": "MED-BCDP-90",
+      "type": "Lab",
+      "sectionName": "MED-CLIN-PhD-1st",
+      "teacherCode": "AIIMS-FAC-029",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-MS-Surg-1st)",
+      "code": "MED-SCPD-91",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-1st",
+      "teacherCode": "AIIMS-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-MS-Surg-1st)",
+      "code": "MED-PTR-92",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-1st",
+      "teacherCode": "AIIMS-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-MS-Surg-1st)",
+      "code": "MED-SAOP-93",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-1st",
+      "teacherCode": "AIIMS-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-MS-Surg-1st)",
+      "code": "MED-EHM-94",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-1st",
+      "teacherCode": "AIIMS-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-MS-Surg-1st)",
+      "code": "MED-BCDP-95",
+      "type": "Lab",
+      "sectionName": "MED-SURG-MS-Surg-1st",
+      "teacherCode": "AIIMS-FAC-039",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-MS-Surg-2nd)",
+      "code": "MED-SCPD-96",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-2nd",
+      "teacherCode": "AIIMS-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-MS-Surg-2nd)",
+      "code": "MED-PTR-97",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-2nd",
+      "teacherCode": "AIIMS-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-MS-Surg-2nd)",
+      "code": "MED-SAOP-98",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-2nd",
+      "teacherCode": "AIIMS-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-MS-Surg-2nd)",
+      "code": "MED-EHM-99",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-2nd",
+      "teacherCode": "AIIMS-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-MS-Surg-2nd)",
+      "code": "MED-BCDP-100",
+      "type": "Lab",
+      "sectionName": "MED-SURG-MS-Surg-2nd",
+      "teacherCode": "AIIMS-FAC-049",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-MS-Surg-3rd)",
+      "code": "MED-SCPD-101",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-3rd",
+      "teacherCode": "AIIMS-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-MS-Surg-3rd)",
+      "code": "MED-PTR-102",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-3rd",
+      "teacherCode": "AIIMS-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-MS-Surg-3rd)",
+      "code": "MED-SAOP-103",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-3rd",
+      "teacherCode": "AIIMS-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-MS-Surg-3rd)",
+      "code": "MED-EHM-104",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MS-Surg-3rd",
+      "teacherCode": "AIIMS-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-MS-Surg-3rd)",
+      "code": "MED-BCDP-105",
+      "type": "Lab",
+      "sectionName": "MED-SURG-MS-Surg-3rd",
+      "teacherCode": "AIIMS-FAC-059",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-MCh-Neuro-1st)",
+      "code": "MED-SCPD-106",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-1st",
+      "teacherCode": "AIIMS-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-MCh-Neuro-1st)",
+      "code": "MED-PTR-107",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-1st",
+      "teacherCode": "AIIMS-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-MCh-Neuro-1st)",
+      "code": "MED-SAOP-108",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-1st",
+      "teacherCode": "AIIMS-FAC-067",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-MCh-Neuro-1st)",
+      "code": "MED-EHM-109",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-1st",
+      "teacherCode": "AIIMS-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-MCh-Neuro-1st)",
+      "code": "MED-BCDP-110",
+      "type": "Lab",
+      "sectionName": "MED-SURG-MCh-Neuro-1st",
+      "teacherCode": "AIIMS-FAC-069",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-MCh-Neuro-2nd)",
+      "code": "MED-SCPD-111",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-2nd",
+      "teacherCode": "AIIMS-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-MCh-Neuro-2nd)",
+      "code": "MED-PTR-112",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-2nd",
+      "teacherCode": "AIIMS-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-MCh-Neuro-2nd)",
+      "code": "MED-SAOP-113",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-2nd",
+      "teacherCode": "AIIMS-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-MCh-Neuro-2nd)",
+      "code": "MED-EHM-114",
+      "type": "Theory",
+      "sectionName": "MED-SURG-MCh-Neuro-2nd",
+      "teacherCode": "AIIMS-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-MCh-Neuro-2nd)",
+      "code": "MED-BCDP-115",
+      "type": "Lab",
+      "sectionName": "MED-SURG-MCh-Neuro-2nd",
+      "teacherCode": "AIIMS-FAC-006",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (MED-SURG-PhD-1st)",
+      "code": "MED-SCPD-116",
+      "type": "Theory",
+      "sectionName": "MED-SURG-PhD-1st",
+      "teacherCode": "AIIMS-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (MED-SURG-PhD-1st)",
+      "code": "MED-PTR-117",
+      "type": "Theory",
+      "sectionName": "MED-SURG-PhD-1st",
+      "teacherCode": "AIIMS-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (MED-SURG-PhD-1st)",
+      "code": "MED-SAOP-118",
+      "type": "Theory",
+      "sectionName": "MED-SURG-PhD-1st",
+      "teacherCode": "AIIMS-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (MED-SURG-PhD-1st)",
+      "code": "MED-EHM-119",
+      "type": "Theory",
+      "sectionName": "MED-SURG-PhD-1st",
+      "teacherCode": "AIIMS-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (MED-SURG-PhD-1st)",
+      "code": "MED-BCDP-120",
+      "type": "Lab",
+      "sectionName": "MED-SURG-PhD-1st",
+      "teacherCode": "AIIMS-FAC-016",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-BSc-Nurs-1st)",
+      "code": "MED-SCPD-121",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-BSc-Nurs-1st)",
+      "code": "MED-PTR-122",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-BSc-Nurs-1st)",
+      "code": "MED-SAOP-123",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-BSc-Nurs-1st)",
+      "code": "MED-EHM-124",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-BSc-Nurs-1st)",
+      "code": "MED-BCDP-125",
+      "type": "Lab",
+      "sectionName": "NURS-BSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-026",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-BSc-Nurs-2nd)",
+      "code": "MED-SCPD-126",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-BSc-Nurs-2nd)",
+      "code": "MED-PTR-127",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-BSc-Nurs-2nd)",
+      "code": "MED-SAOP-128",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-BSc-Nurs-2nd)",
+      "code": "MED-EHM-129",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-BSc-Nurs-2nd)",
+      "code": "MED-BCDP-130",
+      "type": "Lab",
+      "sectionName": "NURS-BSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-036",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-BSc-Nurs-3rd)",
+      "code": "MED-SCPD-131",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-3rd",
+      "teacherCode": "AIIMS-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-BSc-Nurs-3rd)",
+      "code": "MED-PTR-132",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-3rd",
+      "teacherCode": "AIIMS-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-BSc-Nurs-3rd)",
+      "code": "MED-SAOP-133",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-3rd",
+      "teacherCode": "AIIMS-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-BSc-Nurs-3rd)",
+      "code": "MED-EHM-134",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-3rd",
+      "teacherCode": "AIIMS-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-BSc-Nurs-3rd)",
+      "code": "MED-BCDP-135",
+      "type": "Lab",
+      "sectionName": "NURS-BSc-Nurs-3rd",
+      "teacherCode": "AIIMS-FAC-046",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-BSc-Nurs-4th)",
+      "code": "MED-SCPD-136",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-4th",
+      "teacherCode": "AIIMS-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-BSc-Nurs-4th)",
+      "code": "MED-PTR-137",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-4th",
+      "teacherCode": "AIIMS-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-BSc-Nurs-4th)",
+      "code": "MED-SAOP-138",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-4th",
+      "teacherCode": "AIIMS-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-BSc-Nurs-4th)",
+      "code": "MED-EHM-139",
+      "type": "Theory",
+      "sectionName": "NURS-BSc-Nurs-4th",
+      "teacherCode": "AIIMS-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-BSc-Nurs-4th)",
+      "code": "MED-BCDP-140",
+      "type": "Lab",
+      "sectionName": "NURS-BSc-Nurs-4th",
+      "teacherCode": "AIIMS-FAC-056",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-MSc-Nurs-1st)",
+      "code": "MED-SCPD-141",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-MSc-Nurs-1st)",
+      "code": "MED-PTR-142",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-MSc-Nurs-1st)",
+      "code": "MED-SAOP-143",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-MSc-Nurs-1st)",
+      "code": "MED-EHM-144",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-MSc-Nurs-1st)",
+      "code": "MED-BCDP-145",
+      "type": "Lab",
+      "sectionName": "NURS-MSc-Nurs-1st",
+      "teacherCode": "AIIMS-FAC-066",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (NURS-MSc-Nurs-2nd)",
+      "code": "MED-SCPD-146",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (NURS-MSc-Nurs-2nd)",
+      "code": "MED-PTR-147",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (NURS-MSc-Nurs-2nd)",
+      "code": "MED-SAOP-148",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (NURS-MSc-Nurs-2nd)",
+      "code": "MED-EHM-149",
+      "type": "Theory",
+      "sectionName": "NURS-MSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (NURS-MSc-Nurs-2nd)",
+      "code": "MED-BCDP-150",
+      "type": "Lab",
+      "sectionName": "NURS-MSc-Nurs-2nd",
+      "teacherCode": "AIIMS-FAC-003",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (BIOTECH-MSc-Biotech-1st)",
+      "code": "MED-SCPD-151",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-1st",
+      "teacherCode": "AIIMS-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (BIOTECH-MSc-Biotech-1st)",
+      "code": "MED-PTR-152",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-1st",
+      "teacherCode": "AIIMS-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (BIOTECH-MSc-Biotech-1st)",
+      "code": "MED-SAOP-153",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-1st",
+      "teacherCode": "AIIMS-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (BIOTECH-MSc-Biotech-1st)",
+      "code": "MED-EHM-154",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-1st",
+      "teacherCode": "AIIMS-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (BIOTECH-MSc-Biotech-1st)",
+      "code": "MED-BCDP-155",
+      "type": "Lab",
+      "sectionName": "BIOTECH-MSc-Biotech-1st",
+      "teacherCode": "AIIMS-FAC-013",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (BIOTECH-MSc-Biotech-2nd)",
+      "code": "MED-SCPD-156",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-2nd",
+      "teacherCode": "AIIMS-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (BIOTECH-MSc-Biotech-2nd)",
+      "code": "MED-PTR-157",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-2nd",
+      "teacherCode": "AIIMS-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (BIOTECH-MSc-Biotech-2nd)",
+      "code": "MED-SAOP-158",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-2nd",
+      "teacherCode": "AIIMS-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (BIOTECH-MSc-Biotech-2nd)",
+      "code": "MED-EHM-159",
+      "type": "Theory",
+      "sectionName": "BIOTECH-MSc-Biotech-2nd",
+      "teacherCode": "AIIMS-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (BIOTECH-MSc-Biotech-2nd)",
+      "code": "MED-BCDP-160",
+      "type": "Lab",
+      "sectionName": "BIOTECH-MSc-Biotech-2nd",
+      "teacherCode": "AIIMS-FAC-023",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (BIOTECH-PhD-1st)",
+      "code": "MED-SCPD-161",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-1st",
+      "teacherCode": "AIIMS-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (BIOTECH-PhD-1st)",
+      "code": "MED-PTR-162",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-1st",
+      "teacherCode": "AIIMS-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (BIOTECH-PhD-1st)",
+      "code": "MED-SAOP-163",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-1st",
+      "teacherCode": "AIIMS-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (BIOTECH-PhD-1st)",
+      "code": "MED-EHM-164",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-1st",
+      "teacherCode": "AIIMS-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (BIOTECH-PhD-1st)",
+      "code": "MED-BCDP-165",
+      "type": "Lab",
+      "sectionName": "BIOTECH-PhD-1st",
+      "teacherCode": "AIIMS-FAC-033",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (BIOTECH-PhD-2nd)",
+      "code": "MED-SCPD-166",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (BIOTECH-PhD-2nd)",
+      "code": "MED-PTR-167",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (BIOTECH-PhD-2nd)",
+      "code": "MED-SAOP-168",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (BIOTECH-PhD-2nd)",
+      "code": "MED-EHM-169",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (BIOTECH-PhD-2nd)",
+      "code": "MED-BCDP-170",
+      "type": "Lab",
+      "sectionName": "BIOTECH-PhD-2nd",
+      "teacherCode": "AIIMS-FAC-043",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (BIOTECH-PhD-3rd)",
+      "code": "MED-SCPD-171",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-3rd",
+      "teacherCode": "AIIMS-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (BIOTECH-PhD-3rd)",
+      "code": "MED-PTR-172",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-3rd",
+      "teacherCode": "AIIMS-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (BIOTECH-PhD-3rd)",
+      "code": "MED-SAOP-173",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-3rd",
+      "teacherCode": "AIIMS-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (BIOTECH-PhD-3rd)",
+      "code": "MED-EHM-174",
+      "type": "Theory",
+      "sectionName": "BIOTECH-PhD-3rd",
+      "teacherCode": "AIIMS-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (BIOTECH-PhD-3rd)",
+      "code": "MED-BCDP-175",
+      "type": "Lab",
+      "sectionName": "BIOTECH-PhD-3rd",
+      "teacherCode": "AIIMS-FAC-053",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (SPM-MPH-1st)",
+      "code": "MED-SCPD-176",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-1st",
+      "teacherCode": "AIIMS-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (SPM-MPH-1st)",
+      "code": "MED-PTR-177",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-1st",
+      "teacherCode": "AIIMS-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (SPM-MPH-1st)",
+      "code": "MED-SAOP-178",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-1st",
+      "teacherCode": "AIIMS-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (SPM-MPH-1st)",
+      "code": "MED-EHM-179",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-1st",
+      "teacherCode": "AIIMS-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (SPM-MPH-1st)",
+      "code": "MED-BCDP-180",
+      "type": "Lab",
+      "sectionName": "SPM-MPH-1st",
+      "teacherCode": "AIIMS-FAC-063",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (SPM-MPH-2nd)",
+      "code": "MED-SCPD-181",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-2nd",
+      "teacherCode": "AIIMS-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (SPM-MPH-2nd)",
+      "code": "MED-PTR-182",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-2nd",
+      "teacherCode": "AIIMS-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (SPM-MPH-2nd)",
+      "code": "MED-SAOP-183",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-2nd",
+      "teacherCode": "AIIMS-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (SPM-MPH-2nd)",
+      "code": "MED-EHM-184",
+      "type": "Theory",
+      "sectionName": "SPM-MPH-2nd",
+      "teacherCode": "AIIMS-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (SPM-MPH-2nd)",
+      "code": "MED-BCDP-185",
+      "type": "Lab",
+      "sectionName": "SPM-MPH-2nd",
+      "teacherCode": "AIIMS-FAC-073",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (SPM-MD-SPM-1st)",
+      "code": "MED-SCPD-186",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-1st",
+      "teacherCode": "AIIMS-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (SPM-MD-SPM-1st)",
+      "code": "MED-PTR-187",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-1st",
+      "teacherCode": "AIIMS-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (SPM-MD-SPM-1st)",
+      "code": "MED-SAOP-188",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-1st",
+      "teacherCode": "AIIMS-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (SPM-MD-SPM-1st)",
+      "code": "MED-EHM-189",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-1st",
+      "teacherCode": "AIIMS-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (SPM-MD-SPM-1st)",
+      "code": "MED-BCDP-190",
+      "type": "Lab",
+      "sectionName": "SPM-MD-SPM-1st",
+      "teacherCode": "AIIMS-FAC-010",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (SPM-MD-SPM-2nd)",
+      "code": "MED-SCPD-191",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-2nd",
+      "teacherCode": "AIIMS-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (SPM-MD-SPM-2nd)",
+      "code": "MED-PTR-192",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-2nd",
+      "teacherCode": "AIIMS-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (SPM-MD-SPM-2nd)",
+      "code": "MED-SAOP-193",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-2nd",
+      "teacherCode": "AIIMS-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (SPM-MD-SPM-2nd)",
+      "code": "MED-EHM-194",
+      "type": "Theory",
+      "sectionName": "SPM-MD-SPM-2nd",
+      "teacherCode": "AIIMS-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (SPM-MD-SPM-2nd)",
+      "code": "MED-BCDP-195",
+      "type": "Lab",
+      "sectionName": "SPM-MD-SPM-2nd",
+      "teacherCode": "AIIMS-FAC-020",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Systemic Clinical Pathology & Diagnosis (SPM-PhD-1st)",
+      "code": "MED-SCPD-196",
+      "type": "Theory",
+      "sectionName": "SPM-PhD-1st",
+      "teacherCode": "AIIMS-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Pharmacotherapeutics & Regimens (SPM-PhD-1st)",
+      "code": "MED-PTR-197",
+      "type": "Theory",
+      "sectionName": "SPM-PhD-1st",
+      "teacherCode": "AIIMS-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Surgical Anatomy & Operative Procedures (SPM-PhD-1st)",
+      "code": "MED-SAOP-198",
+      "type": "Theory",
+      "sectionName": "SPM-PhD-1st",
+      "teacherCode": "AIIMS-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Epidemiology & Hospital Management (SPM-PhD-1st)",
+      "code": "MED-EHM-199",
+      "type": "Theory",
+      "sectionName": "SPM-PhD-1st",
+      "teacherCode": "AIIMS-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Bedside Clinical Demonstration & Practical (SPM-PhD-1st)",
+      "code": "MED-BCDP-200",
+      "type": "Lab",
+      "sectionName": "SPM-PhD-1st",
+      "teacherCode": "AIIMS-FAC-030",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    }
+  ]
+}

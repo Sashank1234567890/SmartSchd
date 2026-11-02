@@ -1,0 +1,2667 @@
+{
+  "id": "preset_5_nlu_law",
+  "title": "National Law University (Legal Studies)",
+  "category": "Law & Public Policy",
+  "description": "Premier National Law University dataset: B.A. LL.B (5-year integrated), B.B.A. LL.B, Constitutional, Corporate, Criminal, Cyber & International Law with 31 sections and 45 courtroom theatres/moot halls.",
+  "badge": "31 Sections \u2022 45 Rooms \u2022 155 Subjects",
+  "sections": [
+    {
+      "name": "CONST-BALLB-1st",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CONST-BALLB-2nd",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CONST-BALLB-3rd",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CONST-BALLB-4th",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CONST-BALLB-5th",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CONST-LLM-Const-1st",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 30
+    },
+    {
+      "name": "CONST-PhD-1st",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 15
+    },
+    {
+      "name": "CONST-PhD-2nd",
+      "department": "Constitutional & Administrative Law",
+      "studentCount": 15
+    },
+    {
+      "name": "CORP-BBALLB-1st",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CORP-BBALLB-2nd",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CORP-BBALLB-3rd",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CORP-BBALLB-4th",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CORP-BBALLB-5th",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 75
+    },
+    {
+      "name": "CORP-LLM-Corp-1st",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 35
+    },
+    {
+      "name": "CORP-PhD-1st",
+      "department": "Corporate & Commercial Law",
+      "studentCount": 15
+    },
+    {
+      "name": "CRIM-LLM-Crim-1st",
+      "department": "Criminal Justice & Criminology",
+      "studentCount": 30
+    },
+    {
+      "name": "CRIM-LLM-Crim-2nd",
+      "department": "Criminal Justice & Criminology",
+      "studentCount": 30
+    },
+    {
+      "name": "CRIM-PhD-1st",
+      "department": "Criminal Justice & Criminology",
+      "studentCount": 15
+    },
+    {
+      "name": "CRIM-PhD-2nd",
+      "department": "Criminal Justice & Criminology",
+      "studentCount": 15
+    },
+    {
+      "name": "CRIM-PG-Criminology",
+      "department": "Criminal Justice & Criminology",
+      "studentCount": 40
+    },
+    {
+      "name": "IPR-LLM-IPR-1st",
+      "department": "Intellectual Property & Cyber Law",
+      "studentCount": 35
+    },
+    {
+      "name": "IPR-LLM-IPR-2nd",
+      "department": "Intellectual Property & Cyber Law",
+      "studentCount": 35
+    },
+    {
+      "name": "IPR-PhD-1st",
+      "department": "Intellectual Property & Cyber Law",
+      "studentCount": 15
+    },
+    {
+      "name": "IPR-CyberLaw-PG",
+      "department": "Intellectual Property & Cyber Law",
+      "studentCount": 45
+    },
+    {
+      "name": "INTL-LLM-Intl-1st",
+      "department": "International Law & Human Rights",
+      "studentCount": 30
+    },
+    {
+      "name": "INTL-LLM-Intl-2nd",
+      "department": "International Law & Human Rights",
+      "studentCount": 30
+    },
+    {
+      "name": "INTL-PhD-1st",
+      "department": "International Law & Human Rights",
+      "studentCount": 15
+    },
+    {
+      "name": "INTL-PhD-2nd",
+      "department": "International Law & Human Rights",
+      "studentCount": 15
+    },
+    {
+      "name": "ADR-LLM-ADR-1st",
+      "department": "Dispute Resolution & Arbitration",
+      "studentCount": 30
+    },
+    {
+      "name": "ADR-LLM-ADR-2nd",
+      "department": "Dispute Resolution & Arbitration",
+      "studentCount": 30
+    },
+    {
+      "name": "ADR-PhD-1st",
+      "department": "Dispute Resolution & Arbitration",
+      "studentCount": 15
+    },
+    {
+      "name": "ADR-Arbitration-PG",
+      "department": "Dispute Resolution & Arbitration",
+      "studentCount": 40
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Justice Lecture Hall LH-1",
+      "roomNumber": "LAWLT-1",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-2",
+      "roomNumber": "LAWLT-2",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-3",
+      "roomNumber": "LAWLT-3",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-4",
+      "roomNumber": "LAWLT-4",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-5",
+      "roomNumber": "LAWLT-5",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-6",
+      "roomNumber": "LAWLT-6",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-7",
+      "roomNumber": "LAWLT-7",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-8",
+      "roomNumber": "LAWLT-8",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-9",
+      "roomNumber": "LAWLT-9",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-10",
+      "roomNumber": "LAWLT-10",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-11",
+      "roomNumber": "LAWLT-11",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-12",
+      "roomNumber": "LAWLT-12",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-13",
+      "roomNumber": "LAWLT-13",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-14",
+      "roomNumber": "LAWLT-14",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-15",
+      "roomNumber": "LAWLT-15",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-16",
+      "roomNumber": "LAWLT-16",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-17",
+      "roomNumber": "LAWLT-17",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-18",
+      "roomNumber": "LAWLT-18",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-19",
+      "roomNumber": "LAWLT-19",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-20",
+      "roomNumber": "LAWLT-20",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-21",
+      "roomNumber": "LAWLT-21",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Justice Lecture Hall LH-22",
+      "roomNumber": "LAWLT-22",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Legal Seminar Room 1",
+      "roomNumber": "LSR-1",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 2",
+      "roomNumber": "LSR-2",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 3",
+      "roomNumber": "LSR-3",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 4",
+      "roomNumber": "LSR-4",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 5",
+      "roomNumber": "LSR-5",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 6",
+      "roomNumber": "LSR-6",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 7",
+      "roomNumber": "LSR-7",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Seminar Room 8",
+      "roomNumber": "LSR-8",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-1",
+      "roomNumber": "MOOT-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-2",
+      "roomNumber": "MOOT-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-3",
+      "roomNumber": "MOOT-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-4",
+      "roomNumber": "MOOT-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-5",
+      "roomNumber": "MOOT-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-6",
+      "roomNumber": "MOOT-6",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-7",
+      "roomNumber": "MOOT-7",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "High Court Moot Courtroom MC-8",
+      "roomNumber": "MOOT-8",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Aid & Mediation Clinic 1",
+      "roomNumber": "CLINIC-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Aid & Mediation Clinic 2",
+      "roomNumber": "CLINIC-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Aid & Mediation Clinic 3",
+      "roomNumber": "CLINIC-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Legal Aid & Mediation Clinic 4",
+      "roomNumber": "CLINIC-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Cyber Forensic & Digital Evidence Lab 1",
+      "roomNumber": "CYBER-1",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Cyber Forensic & Digital Evidence Lab 2",
+      "roomNumber": "CYBER-2",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Cyber Forensic & Digital Evidence Lab 3",
+      "roomNumber": "CYBER-3",
+      "type": "ComputerLab",
+      "capacity": 45
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Hon. Prof. N. R. Madhava Menon",
+      "teacherCode": "NLU-FAC-001",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-1",
+        "LAW-CCPE-68",
+        "LAW-MCAD-135"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Upendra Baxi",
+      "teacherCode": "NLU-FAC-002",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-2",
+        "LAW-ICA-69"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Fali S. Nariman",
+      "teacherCode": "NLU-FAC-003",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-3",
+        "LAW-MCAD-70",
+        "LAW-CLJR-101"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Soli Sorabjee",
+      "teacherCode": "NLU-FAC-004",
+      "teachableSubjectCodes": [
+        "LAW-ICA-4",
+        "LAW-CGSR-102"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Ram Jethmalani",
+      "teacherCode": "NLU-FAC-005",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-5",
+        "LAW-CLJR-36",
+        "LAW-CCPE-103"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. K. K. Venugopal",
+      "teacherCode": "NLU-FAC-006",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-37",
+        "LAW-ICA-104"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Mukul Rohatgi",
+      "teacherCode": "NLU-FAC-007",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-38",
+        "LAW-CLDE-105",
+        "LAW-CLJR-136"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Abhishek Singhvi",
+      "teacherCode": "NLU-FAC-008",
+      "teachableSubjectCodes": [
+        "LAW-ICA-39",
+        "LAW-CGSR-137"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Harish Salve",
+      "teacherCode": "NLU-FAC-009",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-40",
+        "LAW-CLJR-71",
+        "LAW-CCPE-138"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Gopal Subramanium",
+      "teacherCode": "NLU-FAC-010",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-72",
+        "LAW-ICA-139"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Rajeev Dhavan",
+      "teacherCode": "NLU-FAC-011",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-6",
+        "LAW-CCPE-73",
+        "LAW-MCAD-140"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Indira Jaising",
+      "teacherCode": "NLU-FAC-012",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-7",
+        "LAW-ICA-74"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Kapil Sibal",
+      "teacherCode": "NLU-FAC-013",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-8",
+        "LAW-MCAD-75",
+        "LAW-CLJR-106"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Prashant Bhushan",
+      "teacherCode": "NLU-FAC-014",
+      "teachableSubjectCodes": [
+        "LAW-ICA-9",
+        "LAW-CGSR-107"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Arvind Datar",
+      "teacherCode": "NLU-FAC-015",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-10",
+        "LAW-CLJR-41",
+        "LAW-CCPE-108"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Dushyant Dave",
+      "teacherCode": "NLU-FAC-016",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-42",
+        "LAW-ICA-109"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. C. S. Vaidyanathan",
+      "teacherCode": "NLU-FAC-017",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-43",
+        "LAW-CLDE-110",
+        "LAW-CLJR-141"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Rakesh Dwivedi",
+      "teacherCode": "NLU-FAC-018",
+      "teachableSubjectCodes": [
+        "LAW-ICA-44",
+        "LAW-CGSR-142"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. K. T. S. Tulsi",
+      "teacherCode": "NLU-FAC-019",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-45",
+        "LAW-CLJR-76",
+        "LAW-CCPE-143"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Salman Khurshid",
+      "teacherCode": "NLU-FAC-020",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-77",
+        "LAW-ICA-144"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. P. Chidambaram",
+      "teacherCode": "NLU-FAC-021",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-11",
+        "LAW-CCPE-78",
+        "LAW-MCAD-145"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Maninder Singh",
+      "teacherCode": "NLU-FAC-022",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-12",
+        "LAW-ICA-79"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Tushar Mehta",
+      "teacherCode": "NLU-FAC-023",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-13",
+        "LAW-MCAD-80",
+        "LAW-CLJR-111"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Neeraj Kishan Kaul",
+      "teacherCode": "NLU-FAC-024",
+      "teachableSubjectCodes": [
+        "LAW-ICA-14",
+        "LAW-CGSR-112"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Gourab Banerji",
+      "teacherCode": "NLU-FAC-025",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-15",
+        "LAW-CLJR-46",
+        "LAW-CCPE-113"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Parag Tripathi",
+      "teacherCode": "NLU-FAC-026",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-47",
+        "LAW-ICA-114"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Sanjay Hegde",
+      "teacherCode": "NLU-FAC-027",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-48",
+        "LAW-CLDE-115",
+        "LAW-CLJR-146"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Menaka Guruswamy",
+      "teacherCode": "NLU-FAC-028",
+      "teachableSubjectCodes": [
+        "LAW-ICA-49",
+        "LAW-CGSR-147"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Karuna Nundy",
+      "teacherCode": "NLU-FAC-029",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-50",
+        "LAW-CLJR-81",
+        "LAW-CCPE-148"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Arundhati Katju",
+      "teacherCode": "NLU-FAC-030",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-82",
+        "LAW-ICA-149"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Vrinda Grover",
+      "teacherCode": "NLU-FAC-031",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-16",
+        "LAW-CCPE-83",
+        "LAW-MCAD-150"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Rebecca John",
+      "teacherCode": "NLU-FAC-032",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-17",
+        "LAW-ICA-84"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Geeta Luthra",
+      "teacherCode": "NLU-FAC-033",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-18",
+        "LAW-MCAD-85",
+        "LAW-CLJR-116"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Meenakshi Arora",
+      "teacherCode": "NLU-FAC-034",
+      "teachableSubjectCodes": [
+        "LAW-ICA-19",
+        "LAW-CGSR-117"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Aishwarya Bhati",
+      "teacherCode": "NLU-FAC-035",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-20",
+        "LAW-CLJR-51",
+        "LAW-CCPE-118"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Vibha Datta Makhija",
+      "teacherCode": "NLU-FAC-036",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-52",
+        "LAW-ICA-119"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Pankaj Bhatnagar",
+      "teacherCode": "NLU-FAC-037",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-53",
+        "LAW-CLDE-120",
+        "LAW-CLJR-151"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Sudhir Krishnaswamy",
+      "teacherCode": "NLU-FAC-038",
+      "teachableSubjectCodes": [
+        "LAW-ICA-54",
+        "LAW-CGSR-152"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Ranbir Singh",
+      "teacherCode": "NLU-FAC-039",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-55",
+        "LAW-CLJR-86",
+        "LAW-CCPE-153"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Faizan Mustafa",
+      "teacherCode": "NLU-FAC-040",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-87",
+        "LAW-ICA-154"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Poonam Saxena",
+      "teacherCode": "NLU-FAC-041",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-21",
+        "LAW-CCPE-88",
+        "LAW-MCAD-155"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Srikrishna Deva Rao",
+      "teacherCode": "NLU-FAC-042",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-22",
+        "LAW-ICA-89"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. V. C. Vivekanandan",
+      "teacherCode": "NLU-FAC-043",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-23",
+        "LAW-MCAD-90",
+        "LAW-CLJR-121"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. B. P. Panda",
+      "teacherCode": "NLU-FAC-044",
+      "teachableSubjectCodes": [
+        "LAW-ICA-24",
+        "LAW-CGSR-122"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. G. S. Bajpai",
+      "teacherCode": "NLU-FAC-045",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-25",
+        "LAW-CLJR-56",
+        "LAW-CCPE-123"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Manoj Kumar Sinha",
+      "teacherCode": "NLU-FAC-046",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-57",
+        "LAW-ICA-124"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Purvi Pokhariyal",
+      "teacherCode": "NLU-FAC-047",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-58",
+        "LAW-MCAD-125",
+        "LAW-CLJR-156"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. B. C. Nirmal",
+      "teacherCode": "NLU-FAC-048",
+      "teachableSubjectCodes": [
+        "LAW-ICA-59",
+        "LAW-CGSR-157"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Balraj Chauhan",
+      "teacherCode": "NLU-FAC-049",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-60",
+        "LAW-CLJR-91",
+        "LAW-CCPE-158"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. K. I. Vibhute",
+      "teacherCode": "NLU-FAC-050",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-92",
+        "LAW-ICA-159"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. T. V. Subba Rao",
+      "teacherCode": "NLU-FAC-051",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-26",
+        "LAW-CCPE-93",
+        "LAW-MCAD-160"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. V. Kesava Rao",
+      "teacherCode": "NLU-FAC-052",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-27",
+        "LAW-ICA-94"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. A. David Ambrose",
+      "teacherCode": "NLU-FAC-053",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-28",
+        "LAW-MCAD-95",
+        "LAW-CLJR-126"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. K. Vidyullatha Reddy",
+      "teacherCode": "NLU-FAC-054",
+      "teachableSubjectCodes": [
+        "LAW-ICA-29",
+        "LAW-CGSR-127"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. N. L. Mitra",
+      "teacherCode": "NLU-FAC-055",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-30",
+        "LAW-CLJR-61",
+        "LAW-CCPE-128"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. R. Venkata Rao",
+      "teacherCode": "NLU-FAC-056",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-62",
+        "LAW-ICA-129"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. A. Lakshminath",
+      "teacherCode": "NLU-FAC-057",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-63",
+        "LAW-MCAD-130"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Paramjit S. Jaswal",
+      "teacherCode": "NLU-FAC-058",
+      "teachableSubjectCodes": [
+        "LAW-ICA-64"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Nistha Jaswal",
+      "teacherCode": "NLU-FAC-059",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-65",
+        "LAW-CLJR-96"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Rose Varghese",
+      "teacherCode": "NLU-FAC-060",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-97"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. V. Nagaraj",
+      "teacherCode": "NLU-FAC-061",
+      "teachableSubjectCodes": [
+        "LAW-CLJR-31",
+        "LAW-CCPE-98"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. K. P. S. Mahalwar",
+      "teacherCode": "NLU-FAC-062",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-32",
+        "LAW-ICA-99"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. M. P. Singh",
+      "teacherCode": "NLU-FAC-063",
+      "teachableSubjectCodes": [
+        "LAW-CCPE-33",
+        "LAW-MCAD-100",
+        "LAW-CLJR-131"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Gurdeep Singh",
+      "teacherCode": "NLU-FAC-064",
+      "teachableSubjectCodes": [
+        "LAW-ICA-34",
+        "LAW-CGSR-132"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. S. C. Raina",
+      "teacherCode": "NLU-FAC-065",
+      "teachableSubjectCodes": [
+        "LAW-MCAD-35",
+        "LAW-CLJR-66",
+        "LAW-CCPE-133"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Hon. Prof. Amar Pal Singh",
+      "teacherCode": "NLU-FAC-066",
+      "teachableSubjectCodes": [
+        "LAW-CGSR-67",
+        "LAW-ICA-134"
+      ],
+      "maxWeeklyPeriods": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-BALLB-1st)",
+      "code": "LAW-CLJR-1",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-1st",
+      "teacherCode": "NLU-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-BALLB-1st)",
+      "code": "LAW-CGSR-2",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-1st",
+      "teacherCode": "NLU-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-BALLB-1st)",
+      "code": "LAW-CCPE-3",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-1st",
+      "teacherCode": "NLU-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-BALLB-1st)",
+      "code": "LAW-ICA-4",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-1st",
+      "teacherCode": "NLU-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-BALLB-1st)",
+      "code": "LAW-MCAD-5",
+      "type": "Lab",
+      "sectionName": "CONST-BALLB-1st",
+      "teacherCode": "NLU-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-BALLB-2nd)",
+      "code": "LAW-CLJR-6",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-2nd",
+      "teacherCode": "NLU-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-BALLB-2nd)",
+      "code": "LAW-CGSR-7",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-2nd",
+      "teacherCode": "NLU-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-BALLB-2nd)",
+      "code": "LAW-CCPE-8",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-2nd",
+      "teacherCode": "NLU-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-BALLB-2nd)",
+      "code": "LAW-ICA-9",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-2nd",
+      "teacherCode": "NLU-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-BALLB-2nd)",
+      "code": "LAW-MCAD-10",
+      "type": "Lab",
+      "sectionName": "CONST-BALLB-2nd",
+      "teacherCode": "NLU-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-BALLB-3rd)",
+      "code": "LAW-CLJR-11",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-3rd",
+      "teacherCode": "NLU-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-BALLB-3rd)",
+      "code": "LAW-CGSR-12",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-3rd",
+      "teacherCode": "NLU-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-BALLB-3rd)",
+      "code": "LAW-CCPE-13",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-3rd",
+      "teacherCode": "NLU-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-BALLB-3rd)",
+      "code": "LAW-ICA-14",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-3rd",
+      "teacherCode": "NLU-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-BALLB-3rd)",
+      "code": "LAW-MCAD-15",
+      "type": "Lab",
+      "sectionName": "CONST-BALLB-3rd",
+      "teacherCode": "NLU-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-BALLB-4th)",
+      "code": "LAW-CLJR-16",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-4th",
+      "teacherCode": "NLU-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-BALLB-4th)",
+      "code": "LAW-CGSR-17",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-4th",
+      "teacherCode": "NLU-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-BALLB-4th)",
+      "code": "LAW-CCPE-18",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-4th",
+      "teacherCode": "NLU-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-BALLB-4th)",
+      "code": "LAW-ICA-19",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-4th",
+      "teacherCode": "NLU-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-BALLB-4th)",
+      "code": "LAW-MCAD-20",
+      "type": "Lab",
+      "sectionName": "CONST-BALLB-4th",
+      "teacherCode": "NLU-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-BALLB-5th)",
+      "code": "LAW-CLJR-21",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-5th",
+      "teacherCode": "NLU-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-BALLB-5th)",
+      "code": "LAW-CGSR-22",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-5th",
+      "teacherCode": "NLU-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-BALLB-5th)",
+      "code": "LAW-CCPE-23",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-5th",
+      "teacherCode": "NLU-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-BALLB-5th)",
+      "code": "LAW-ICA-24",
+      "type": "Theory",
+      "sectionName": "CONST-BALLB-5th",
+      "teacherCode": "NLU-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-BALLB-5th)",
+      "code": "LAW-MCAD-25",
+      "type": "Lab",
+      "sectionName": "CONST-BALLB-5th",
+      "teacherCode": "NLU-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-LLM-Const-1st)",
+      "code": "LAW-CLJR-26",
+      "type": "Theory",
+      "sectionName": "CONST-LLM-Const-1st",
+      "teacherCode": "NLU-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-LLM-Const-1st)",
+      "code": "LAW-CGSR-27",
+      "type": "Theory",
+      "sectionName": "CONST-LLM-Const-1st",
+      "teacherCode": "NLU-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-LLM-Const-1st)",
+      "code": "LAW-CCPE-28",
+      "type": "Theory",
+      "sectionName": "CONST-LLM-Const-1st",
+      "teacherCode": "NLU-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-LLM-Const-1st)",
+      "code": "LAW-ICA-29",
+      "type": "Theory",
+      "sectionName": "CONST-LLM-Const-1st",
+      "teacherCode": "NLU-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-LLM-Const-1st)",
+      "code": "LAW-MCAD-30",
+      "type": "Lab",
+      "sectionName": "CONST-LLM-Const-1st",
+      "teacherCode": "NLU-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-PhD-1st)",
+      "code": "LAW-CLJR-31",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-1st",
+      "teacherCode": "NLU-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-PhD-1st)",
+      "code": "LAW-CGSR-32",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-1st",
+      "teacherCode": "NLU-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-PhD-1st)",
+      "code": "LAW-CCPE-33",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-1st",
+      "teacherCode": "NLU-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-PhD-1st)",
+      "code": "LAW-ICA-34",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-1st",
+      "teacherCode": "NLU-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-PhD-1st)",
+      "code": "LAW-MCAD-35",
+      "type": "Lab",
+      "sectionName": "CONST-PhD-1st",
+      "teacherCode": "NLU-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CONST-PhD-2nd)",
+      "code": "LAW-CLJR-36",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-2nd",
+      "teacherCode": "NLU-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CONST-PhD-2nd)",
+      "code": "LAW-CGSR-37",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-2nd",
+      "teacherCode": "NLU-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CONST-PhD-2nd)",
+      "code": "LAW-CCPE-38",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-2nd",
+      "teacherCode": "NLU-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CONST-PhD-2nd)",
+      "code": "LAW-ICA-39",
+      "type": "Theory",
+      "sectionName": "CONST-PhD-2nd",
+      "teacherCode": "NLU-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CONST-PhD-2nd)",
+      "code": "LAW-MCAD-40",
+      "type": "Lab",
+      "sectionName": "CONST-PhD-2nd",
+      "teacherCode": "NLU-FAC-009",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-BBALLB-1st)",
+      "code": "LAW-CLJR-41",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-1st",
+      "teacherCode": "NLU-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-BBALLB-1st)",
+      "code": "LAW-CGSR-42",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-1st",
+      "teacherCode": "NLU-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-BBALLB-1st)",
+      "code": "LAW-CCPE-43",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-1st",
+      "teacherCode": "NLU-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-BBALLB-1st)",
+      "code": "LAW-ICA-44",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-1st",
+      "teacherCode": "NLU-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-BBALLB-1st)",
+      "code": "LAW-MCAD-45",
+      "type": "Lab",
+      "sectionName": "CORP-BBALLB-1st",
+      "teacherCode": "NLU-FAC-019",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-BBALLB-2nd)",
+      "code": "LAW-CLJR-46",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-2nd",
+      "teacherCode": "NLU-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-BBALLB-2nd)",
+      "code": "LAW-CGSR-47",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-2nd",
+      "teacherCode": "NLU-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-BBALLB-2nd)",
+      "code": "LAW-CCPE-48",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-2nd",
+      "teacherCode": "NLU-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-BBALLB-2nd)",
+      "code": "LAW-ICA-49",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-2nd",
+      "teacherCode": "NLU-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-BBALLB-2nd)",
+      "code": "LAW-MCAD-50",
+      "type": "Lab",
+      "sectionName": "CORP-BBALLB-2nd",
+      "teacherCode": "NLU-FAC-029",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-BBALLB-3rd)",
+      "code": "LAW-CLJR-51",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-3rd",
+      "teacherCode": "NLU-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-BBALLB-3rd)",
+      "code": "LAW-CGSR-52",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-3rd",
+      "teacherCode": "NLU-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-BBALLB-3rd)",
+      "code": "LAW-CCPE-53",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-3rd",
+      "teacherCode": "NLU-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-BBALLB-3rd)",
+      "code": "LAW-ICA-54",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-3rd",
+      "teacherCode": "NLU-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-BBALLB-3rd)",
+      "code": "LAW-MCAD-55",
+      "type": "Lab",
+      "sectionName": "CORP-BBALLB-3rd",
+      "teacherCode": "NLU-FAC-039",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-BBALLB-4th)",
+      "code": "LAW-CLJR-56",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-4th",
+      "teacherCode": "NLU-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-BBALLB-4th)",
+      "code": "LAW-CGSR-57",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-4th",
+      "teacherCode": "NLU-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-BBALLB-4th)",
+      "code": "LAW-CCPE-58",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-4th",
+      "teacherCode": "NLU-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-BBALLB-4th)",
+      "code": "LAW-ICA-59",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-4th",
+      "teacherCode": "NLU-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-BBALLB-4th)",
+      "code": "LAW-MCAD-60",
+      "type": "Lab",
+      "sectionName": "CORP-BBALLB-4th",
+      "teacherCode": "NLU-FAC-049",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-BBALLB-5th)",
+      "code": "LAW-CLJR-61",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-5th",
+      "teacherCode": "NLU-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-BBALLB-5th)",
+      "code": "LAW-CGSR-62",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-5th",
+      "teacherCode": "NLU-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-BBALLB-5th)",
+      "code": "LAW-CCPE-63",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-5th",
+      "teacherCode": "NLU-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-BBALLB-5th)",
+      "code": "LAW-ICA-64",
+      "type": "Theory",
+      "sectionName": "CORP-BBALLB-5th",
+      "teacherCode": "NLU-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-BBALLB-5th)",
+      "code": "LAW-MCAD-65",
+      "type": "Lab",
+      "sectionName": "CORP-BBALLB-5th",
+      "teacherCode": "NLU-FAC-059",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-LLM-Corp-1st)",
+      "code": "LAW-CLJR-66",
+      "type": "Theory",
+      "sectionName": "CORP-LLM-Corp-1st",
+      "teacherCode": "NLU-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-LLM-Corp-1st)",
+      "code": "LAW-CGSR-67",
+      "type": "Theory",
+      "sectionName": "CORP-LLM-Corp-1st",
+      "teacherCode": "NLU-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-LLM-Corp-1st)",
+      "code": "LAW-CCPE-68",
+      "type": "Theory",
+      "sectionName": "CORP-LLM-Corp-1st",
+      "teacherCode": "NLU-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-LLM-Corp-1st)",
+      "code": "LAW-ICA-69",
+      "type": "Theory",
+      "sectionName": "CORP-LLM-Corp-1st",
+      "teacherCode": "NLU-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-LLM-Corp-1st)",
+      "code": "LAW-MCAD-70",
+      "type": "Lab",
+      "sectionName": "CORP-LLM-Corp-1st",
+      "teacherCode": "NLU-FAC-003",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CORP-PhD-1st)",
+      "code": "LAW-CLJR-71",
+      "type": "Theory",
+      "sectionName": "CORP-PhD-1st",
+      "teacherCode": "NLU-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CORP-PhD-1st)",
+      "code": "LAW-CGSR-72",
+      "type": "Theory",
+      "sectionName": "CORP-PhD-1st",
+      "teacherCode": "NLU-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CORP-PhD-1st)",
+      "code": "LAW-CCPE-73",
+      "type": "Theory",
+      "sectionName": "CORP-PhD-1st",
+      "teacherCode": "NLU-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CORP-PhD-1st)",
+      "code": "LAW-ICA-74",
+      "type": "Theory",
+      "sectionName": "CORP-PhD-1st",
+      "teacherCode": "NLU-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CORP-PhD-1st)",
+      "code": "LAW-MCAD-75",
+      "type": "Lab",
+      "sectionName": "CORP-PhD-1st",
+      "teacherCode": "NLU-FAC-013",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CRIM-LLM-Crim-1st)",
+      "code": "LAW-CLJR-76",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-1st",
+      "teacherCode": "NLU-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CRIM-LLM-Crim-1st)",
+      "code": "LAW-CGSR-77",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-1st",
+      "teacherCode": "NLU-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CRIM-LLM-Crim-1st)",
+      "code": "LAW-CCPE-78",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-1st",
+      "teacherCode": "NLU-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CRIM-LLM-Crim-1st)",
+      "code": "LAW-ICA-79",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-1st",
+      "teacherCode": "NLU-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CRIM-LLM-Crim-1st)",
+      "code": "LAW-MCAD-80",
+      "type": "Lab",
+      "sectionName": "CRIM-LLM-Crim-1st",
+      "teacherCode": "NLU-FAC-023",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CRIM-LLM-Crim-2nd)",
+      "code": "LAW-CLJR-81",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-2nd",
+      "teacherCode": "NLU-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CRIM-LLM-Crim-2nd)",
+      "code": "LAW-CGSR-82",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-2nd",
+      "teacherCode": "NLU-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CRIM-LLM-Crim-2nd)",
+      "code": "LAW-CCPE-83",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-2nd",
+      "teacherCode": "NLU-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CRIM-LLM-Crim-2nd)",
+      "code": "LAW-ICA-84",
+      "type": "Theory",
+      "sectionName": "CRIM-LLM-Crim-2nd",
+      "teacherCode": "NLU-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CRIM-LLM-Crim-2nd)",
+      "code": "LAW-MCAD-85",
+      "type": "Lab",
+      "sectionName": "CRIM-LLM-Crim-2nd",
+      "teacherCode": "NLU-FAC-033",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CRIM-PhD-1st)",
+      "code": "LAW-CLJR-86",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-1st",
+      "teacherCode": "NLU-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CRIM-PhD-1st)",
+      "code": "LAW-CGSR-87",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-1st",
+      "teacherCode": "NLU-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CRIM-PhD-1st)",
+      "code": "LAW-CCPE-88",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-1st",
+      "teacherCode": "NLU-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CRIM-PhD-1st)",
+      "code": "LAW-ICA-89",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-1st",
+      "teacherCode": "NLU-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CRIM-PhD-1st)",
+      "code": "LAW-MCAD-90",
+      "type": "Lab",
+      "sectionName": "CRIM-PhD-1st",
+      "teacherCode": "NLU-FAC-043",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CRIM-PhD-2nd)",
+      "code": "LAW-CLJR-91",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-2nd",
+      "teacherCode": "NLU-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CRIM-PhD-2nd)",
+      "code": "LAW-CGSR-92",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-2nd",
+      "teacherCode": "NLU-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CRIM-PhD-2nd)",
+      "code": "LAW-CCPE-93",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-2nd",
+      "teacherCode": "NLU-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CRIM-PhD-2nd)",
+      "code": "LAW-ICA-94",
+      "type": "Theory",
+      "sectionName": "CRIM-PhD-2nd",
+      "teacherCode": "NLU-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CRIM-PhD-2nd)",
+      "code": "LAW-MCAD-95",
+      "type": "Lab",
+      "sectionName": "CRIM-PhD-2nd",
+      "teacherCode": "NLU-FAC-053",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (CRIM-PG-Criminology)",
+      "code": "LAW-CLJR-96",
+      "type": "Theory",
+      "sectionName": "CRIM-PG-Criminology",
+      "teacherCode": "NLU-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (CRIM-PG-Criminology)",
+      "code": "LAW-CGSR-97",
+      "type": "Theory",
+      "sectionName": "CRIM-PG-Criminology",
+      "teacherCode": "NLU-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (CRIM-PG-Criminology)",
+      "code": "LAW-CCPE-98",
+      "type": "Theory",
+      "sectionName": "CRIM-PG-Criminology",
+      "teacherCode": "NLU-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (CRIM-PG-Criminology)",
+      "code": "LAW-ICA-99",
+      "type": "Theory",
+      "sectionName": "CRIM-PG-Criminology",
+      "teacherCode": "NLU-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (CRIM-PG-Criminology)",
+      "code": "LAW-MCAD-100",
+      "type": "Lab",
+      "sectionName": "CRIM-PG-Criminology",
+      "teacherCode": "NLU-FAC-063",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (IPR-LLM-IPR-1st)",
+      "code": "LAW-CLJR-101",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-1st",
+      "teacherCode": "NLU-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (IPR-LLM-IPR-1st)",
+      "code": "LAW-CGSR-102",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-1st",
+      "teacherCode": "NLU-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (IPR-LLM-IPR-1st)",
+      "code": "LAW-CCPE-103",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-1st",
+      "teacherCode": "NLU-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (IPR-LLM-IPR-1st)",
+      "code": "LAW-ICA-104",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-1st",
+      "teacherCode": "NLU-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Law & Digital Evidence Workshop (IPR-LLM-IPR-1st)",
+      "code": "LAW-CLDE-105",
+      "type": "Lab",
+      "sectionName": "IPR-LLM-IPR-1st",
+      "teacherCode": "NLU-FAC-007",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (IPR-LLM-IPR-2nd)",
+      "code": "LAW-CLJR-106",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-2nd",
+      "teacherCode": "NLU-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (IPR-LLM-IPR-2nd)",
+      "code": "LAW-CGSR-107",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-2nd",
+      "teacherCode": "NLU-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (IPR-LLM-IPR-2nd)",
+      "code": "LAW-CCPE-108",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-2nd",
+      "teacherCode": "NLU-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (IPR-LLM-IPR-2nd)",
+      "code": "LAW-ICA-109",
+      "type": "Theory",
+      "sectionName": "IPR-LLM-IPR-2nd",
+      "teacherCode": "NLU-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Law & Digital Evidence Workshop (IPR-LLM-IPR-2nd)",
+      "code": "LAW-CLDE-110",
+      "type": "Lab",
+      "sectionName": "IPR-LLM-IPR-2nd",
+      "teacherCode": "NLU-FAC-017",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (IPR-PhD-1st)",
+      "code": "LAW-CLJR-111",
+      "type": "Theory",
+      "sectionName": "IPR-PhD-1st",
+      "teacherCode": "NLU-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (IPR-PhD-1st)",
+      "code": "LAW-CGSR-112",
+      "type": "Theory",
+      "sectionName": "IPR-PhD-1st",
+      "teacherCode": "NLU-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (IPR-PhD-1st)",
+      "code": "LAW-CCPE-113",
+      "type": "Theory",
+      "sectionName": "IPR-PhD-1st",
+      "teacherCode": "NLU-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (IPR-PhD-1st)",
+      "code": "LAW-ICA-114",
+      "type": "Theory",
+      "sectionName": "IPR-PhD-1st",
+      "teacherCode": "NLU-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Law & Digital Evidence Workshop (IPR-PhD-1st)",
+      "code": "LAW-CLDE-115",
+      "type": "Lab",
+      "sectionName": "IPR-PhD-1st",
+      "teacherCode": "NLU-FAC-027",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (IPR-CyberLaw-PG)",
+      "code": "LAW-CLJR-116",
+      "type": "Theory",
+      "sectionName": "IPR-CyberLaw-PG",
+      "teacherCode": "NLU-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (IPR-CyberLaw-PG)",
+      "code": "LAW-CGSR-117",
+      "type": "Theory",
+      "sectionName": "IPR-CyberLaw-PG",
+      "teacherCode": "NLU-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (IPR-CyberLaw-PG)",
+      "code": "LAW-CCPE-118",
+      "type": "Theory",
+      "sectionName": "IPR-CyberLaw-PG",
+      "teacherCode": "NLU-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (IPR-CyberLaw-PG)",
+      "code": "LAW-ICA-119",
+      "type": "Theory",
+      "sectionName": "IPR-CyberLaw-PG",
+      "teacherCode": "NLU-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Law & Digital Evidence Workshop (IPR-CyberLaw-PG)",
+      "code": "LAW-CLDE-120",
+      "type": "Lab",
+      "sectionName": "IPR-CyberLaw-PG",
+      "teacherCode": "NLU-FAC-037",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (INTL-LLM-Intl-1st)",
+      "code": "LAW-CLJR-121",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-1st",
+      "teacherCode": "NLU-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (INTL-LLM-Intl-1st)",
+      "code": "LAW-CGSR-122",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-1st",
+      "teacherCode": "NLU-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (INTL-LLM-Intl-1st)",
+      "code": "LAW-CCPE-123",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-1st",
+      "teacherCode": "NLU-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (INTL-LLM-Intl-1st)",
+      "code": "LAW-ICA-124",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-1st",
+      "teacherCode": "NLU-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (INTL-LLM-Intl-1st)",
+      "code": "LAW-MCAD-125",
+      "type": "Lab",
+      "sectionName": "INTL-LLM-Intl-1st",
+      "teacherCode": "NLU-FAC-047",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (INTL-LLM-Intl-2nd)",
+      "code": "LAW-CLJR-126",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-2nd",
+      "teacherCode": "NLU-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (INTL-LLM-Intl-2nd)",
+      "code": "LAW-CGSR-127",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-2nd",
+      "teacherCode": "NLU-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (INTL-LLM-Intl-2nd)",
+      "code": "LAW-CCPE-128",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-2nd",
+      "teacherCode": "NLU-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (INTL-LLM-Intl-2nd)",
+      "code": "LAW-ICA-129",
+      "type": "Theory",
+      "sectionName": "INTL-LLM-Intl-2nd",
+      "teacherCode": "NLU-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (INTL-LLM-Intl-2nd)",
+      "code": "LAW-MCAD-130",
+      "type": "Lab",
+      "sectionName": "INTL-LLM-Intl-2nd",
+      "teacherCode": "NLU-FAC-057",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (INTL-PhD-1st)",
+      "code": "LAW-CLJR-131",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-1st",
+      "teacherCode": "NLU-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (INTL-PhD-1st)",
+      "code": "LAW-CGSR-132",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-1st",
+      "teacherCode": "NLU-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (INTL-PhD-1st)",
+      "code": "LAW-CCPE-133",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-1st",
+      "teacherCode": "NLU-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (INTL-PhD-1st)",
+      "code": "LAW-ICA-134",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-1st",
+      "teacherCode": "NLU-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (INTL-PhD-1st)",
+      "code": "LAW-MCAD-135",
+      "type": "Lab",
+      "sectionName": "INTL-PhD-1st",
+      "teacherCode": "NLU-FAC-001",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (INTL-PhD-2nd)",
+      "code": "LAW-CLJR-136",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-2nd",
+      "teacherCode": "NLU-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (INTL-PhD-2nd)",
+      "code": "LAW-CGSR-137",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-2nd",
+      "teacherCode": "NLU-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (INTL-PhD-2nd)",
+      "code": "LAW-CCPE-138",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-2nd",
+      "teacherCode": "NLU-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (INTL-PhD-2nd)",
+      "code": "LAW-ICA-139",
+      "type": "Theory",
+      "sectionName": "INTL-PhD-2nd",
+      "teacherCode": "NLU-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (INTL-PhD-2nd)",
+      "code": "LAW-MCAD-140",
+      "type": "Lab",
+      "sectionName": "INTL-PhD-2nd",
+      "teacherCode": "NLU-FAC-011",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (ADR-LLM-ADR-1st)",
+      "code": "LAW-CLJR-141",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-1st",
+      "teacherCode": "NLU-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (ADR-LLM-ADR-1st)",
+      "code": "LAW-CGSR-142",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-1st",
+      "teacherCode": "NLU-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (ADR-LLM-ADR-1st)",
+      "code": "LAW-CCPE-143",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-1st",
+      "teacherCode": "NLU-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (ADR-LLM-ADR-1st)",
+      "code": "LAW-ICA-144",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-1st",
+      "teacherCode": "NLU-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (ADR-LLM-ADR-1st)",
+      "code": "LAW-MCAD-145",
+      "type": "Lab",
+      "sectionName": "ADR-LLM-ADR-1st",
+      "teacherCode": "NLU-FAC-021",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (ADR-LLM-ADR-2nd)",
+      "code": "LAW-CLJR-146",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-2nd",
+      "teacherCode": "NLU-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (ADR-LLM-ADR-2nd)",
+      "code": "LAW-CGSR-147",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-2nd",
+      "teacherCode": "NLU-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (ADR-LLM-ADR-2nd)",
+      "code": "LAW-CCPE-148",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-2nd",
+      "teacherCode": "NLU-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (ADR-LLM-ADR-2nd)",
+      "code": "LAW-ICA-149",
+      "type": "Theory",
+      "sectionName": "ADR-LLM-ADR-2nd",
+      "teacherCode": "NLU-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (ADR-LLM-ADR-2nd)",
+      "code": "LAW-MCAD-150",
+      "type": "Lab",
+      "sectionName": "ADR-LLM-ADR-2nd",
+      "teacherCode": "NLU-FAC-031",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (ADR-PhD-1st)",
+      "code": "LAW-CLJR-151",
+      "type": "Theory",
+      "sectionName": "ADR-PhD-1st",
+      "teacherCode": "NLU-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (ADR-PhD-1st)",
+      "code": "LAW-CGSR-152",
+      "type": "Theory",
+      "sectionName": "ADR-PhD-1st",
+      "teacherCode": "NLU-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (ADR-PhD-1st)",
+      "code": "LAW-CCPE-153",
+      "type": "Theory",
+      "sectionName": "ADR-PhD-1st",
+      "teacherCode": "NLU-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (ADR-PhD-1st)",
+      "code": "LAW-ICA-154",
+      "type": "Theory",
+      "sectionName": "ADR-PhD-1st",
+      "teacherCode": "NLU-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (ADR-PhD-1st)",
+      "code": "LAW-MCAD-155",
+      "type": "Lab",
+      "sectionName": "ADR-PhD-1st",
+      "teacherCode": "NLU-FAC-041",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Constitutional Law & Judicial Review (ADR-Arbitration-PG)",
+      "code": "LAW-CLJR-156",
+      "type": "Theory",
+      "sectionName": "ADR-Arbitration-PG",
+      "teacherCode": "NLU-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Corporate Governance & Securities Regulation (ADR-Arbitration-PG)",
+      "code": "LAW-CGSR-157",
+      "type": "Theory",
+      "sectionName": "ADR-Arbitration-PG",
+      "teacherCode": "NLU-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Code of Criminal Procedure & Evidence (ADR-Arbitration-PG)",
+      "code": "LAW-CCPE-158",
+      "type": "Theory",
+      "sectionName": "ADR-Arbitration-PG",
+      "teacherCode": "NLU-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "International Commercial Arbitration (ADR-Arbitration-PG)",
+      "code": "LAW-ICA-159",
+      "type": "Theory",
+      "sectionName": "ADR-Arbitration-PG",
+      "teacherCode": "NLU-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Moot Court Advocacy & Drafting Clinic (ADR-Arbitration-PG)",
+      "code": "LAW-MCAD-160",
+      "type": "Lab",
+      "sectionName": "ADR-Arbitration-PG",
+      "teacherCode": "NLU-FAC-051",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    }
+  ]
+}

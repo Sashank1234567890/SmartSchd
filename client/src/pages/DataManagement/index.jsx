@@ -11,13 +11,80 @@ import {
   Download,
   FileText,
   CheckCircle2,
-  X
+  X,
+  Trash2,
+  Sparkles,
+  Database,
+  Layers,
+  Library,
+  Check,
+  ChevronRight,
+  AlertTriangle
 } from 'lucide-react';
 
 import SectionsTab from './SectionsTab';
 import RoomsTab from './RoomsTab';
 import TeachersTab from './TeachersTab';
 import SubjectsTab from './SubjectsTab';
+
+const PRESET_LIST = [
+  {
+    id: 'preset_1_nit_delhi',
+    title: 'NIT Comprehensive (Engineering & Tech)',
+    category: 'Engineering & Technology',
+    badge: '60 Sections • 61 Rooms • 328 Subjects',
+    desc: 'Full national university dataset: 7 engineering branches (CSE, IT, AIDS, ECE, EE, ME, CE) with 4-year B.Tech, 2-year M.Tech, and 2-year Ph.D. Minimum 5 subjects per section with specialized hardware & software labs.',
+    tagColor: 'bg-sky-50 text-sky-700 border-sky-200'
+  },
+  {
+    id: 'preset_2_iit_tech',
+    title: 'IIT Advanced Tech & Research',
+    category: 'Deep Tech & Science',
+    badge: '54 Sections • 54 Rooms • 270 Subjects',
+    desc: 'Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with supercomputing clusters and cleanroom fab labs.',
+    tagColor: 'bg-indigo-50 text-indigo-700 border-indigo-200'
+  },
+  {
+    id: 'preset_3_delhi_university',
+    title: 'Central Multidisciplinary University',
+    category: 'Sciences & Humanities',
+    badge: '49 Sections • 53 Rooms • 245 Subjects',
+    desc: 'Multi-faculty Central University: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics & Public Policy, Commerce, and Humanities with dedicated science and language labs.',
+    tagColor: 'bg-emerald-50 text-emerald-700 border-emerald-200'
+  },
+  {
+    id: 'preset_4_aiims_medical',
+    title: 'AIIMS Medical & Healthcare Sciences',
+    category: 'Medicine & Healthcare',
+    badge: '40 Sections • 49 Rooms • 200 Subjects',
+    desc: 'National Institute of Medical Sciences: MBBS (Phases 1-3), MD/MS Postgraduates, B.Sc Nursing, Medical Biotech, Anatomy Dissection halls, Histopathology labs, and hospital clinical case theatres.',
+    tagColor: 'bg-rose-50 text-rose-700 border-rose-200'
+  },
+  {
+    id: 'preset_5_nlu_law',
+    title: 'National Law University (Legal Studies)',
+    category: 'Law & Public Policy',
+    badge: '32 Sections • 45 Rooms • 160 Subjects',
+    desc: 'Premier National Law University: B.A. LL.B (5-year integrated), B.B.A. LL.B, Constitutional Law, Corporate & Commercial Law, Criminal Justice, Cyber Law, and Moot Courtrooms.',
+    tagColor: 'bg-amber-50 text-amber-700 border-amber-200'
+  },
+  {
+    id: 'preset_6_nid_architecture',
+    title: 'Institute of Design & Architecture',
+    category: 'Architecture & Design',
+    badge: '35 Sections • 46 Rooms • 175 Subjects',
+    desc: 'Premier Institute of Architecture & Design: B.Arch (5-year studio), Industrial & Product Design, Visual Communication, UI/UX Interaction, and Textile Innovation with drafting halls & 3D CNC fab labs.',
+    tagColor: 'bg-purple-50 text-purple-700 border-purple-200'
+  },
+  {
+    id: 'preset_7_iim_management',
+    title: 'Indian Institute of Management',
+    category: 'Management & Business',
+    badge: '33 Sections • 44 Rooms • 165 Subjects',
+    desc: 'Top-tier IIM Business School: MBA/PGP Core, Quantitative Finance, Marketing Analytics, Global Logistics, Strategic Management, and FinTech with tiered case amphitheaters and Bloomberg financial labs.',
+    tagColor: 'bg-teal-50 text-teal-700 border-teal-200'
+  }
+];
 
 const SAMPLE_IMPORT_JSON = JSON.stringify({
   sections: [
@@ -49,6 +116,18 @@ export default function DataManagement() {
   const [teachers, setTeachers] = useState([]);
   const [subjects, setSubjects] = useState([]);
   const [settings, setSettings] = useState(null);
+
+  // Preset Modal state
+  const [presetModalOpen, setPresetModalOpen] = useState(false);
+  const [loadingPresetId, setLoadingPresetId] = useState(null);
+  const [cleanBeforeLoad, setCleanBeforeLoad] = useState(true);
+  const [presetFeedback, setPresetFeedback] = useState(null);
+
+  // Clear Data Modal state
+  const [clearModalOpen, setClearModalOpen] = useState(false);
+  const [clearTarget, setClearTarget] = useState('timetables'); // 'timetables' | 'college' | 'all'
+  const [clearing, setClearing] = useState(false);
+  const [clearFeedback, setClearFeedback] = useState(null);
 
   // Import Modal state
   const [importModalOpen, setImportModalOpen] = useState(false);
@@ -84,6 +163,51 @@ export default function DataManagement() {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const handleLoadPreset = async (presetId) => {
+    setLoadingPresetId(presetId);
+    setPresetFeedback(null);
+    try {
+      const res = await axios.post(`/api/dev/preset/${presetId}?clean=${cleanBeforeLoad}`);
+      setPresetFeedback({
+        success: true,
+        message: `Successfully loaded '${res.data.data.title || presetId}'!`,
+        details: res.data.data
+      });
+      await fetchData();
+    } catch (err) {
+      setPresetFeedback({
+        success: false,
+        message: err.response?.data?.error?.message || err.message || 'Failed to load preset'
+      });
+    } finally {
+      setLoadingPresetId(null);
+    }
+  };
+
+  const handleExecuteClear = async () => {
+    setClearing(true);
+    setClearFeedback(null);
+    try {
+      let endpoint = '/api/dev/timetables';
+      if (clearTarget === 'college') endpoint = '/api/dev/college-data';
+      if (clearTarget === 'all') endpoint = '/api/dev/all';
+
+      const res = await axios.delete(endpoint);
+      setClearFeedback({
+        success: true,
+        message: res.data.data?.message || 'Data cleared successfully!'
+      });
+      await fetchData();
+    } catch (err) {
+      setClearFeedback({
+        success: false,
+        message: err.response?.data?.error?.message || err.message || 'Failed to clear data'
+      });
+    } finally {
+      setClearing(false);
+    }
+  };
 
   const handleExportJson = async () => {
     try {
@@ -153,13 +277,40 @@ export default function DataManagement() {
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+          {/* Load Presets Button */}
+          <button
+            onClick={() => {
+              setPresetFeedback(null);
+              setPresetModalOpen(true);
+            }}
+            className="inline-flex items-center px-3 py-1.5 border border-purple-300 text-xs font-semibold rounded-lg text-purple-900 bg-purple-50 hover:bg-purple-100 shadow-xs transition group"
+            title="Load 1 of 7 comprehensive dummy university datasets"
+          >
+            <Sparkles className="w-3.5 h-3.5 mr-1.5 text-purple-600 group-hover:scale-110 transition-transform" />
+            Load Preset Data (7 Types)
+          </button>
+
+          {/* Clear Old Data Button */}
+          <button
+            onClick={() => {
+              setClearFeedback(null);
+              setClearModalOpen(true);
+            }}
+            className="inline-flex items-center px-3 py-1.5 border border-rose-300 text-xs font-semibold rounded-lg text-rose-800 bg-rose-50 hover:bg-rose-100 shadow-xs transition"
+            title="Delete old generated timetables or clear database"
+          >
+            <Trash2 className="w-3.5 h-3.5 mr-1.5 text-rose-600" />
+            Clear Data
+          </button>
+
           <button
             onClick={() => setImportModalOpen(true)}
             className="inline-flex items-center px-3 py-1.5 border border-sky-300 text-xs font-semibold rounded-lg text-sky-800 bg-sky-50 hover:bg-sky-100 shadow-xs transition"
           >
             <Upload className="w-3.5 h-3.5 mr-1.5" />
-            Import JSON File
+            Import JSON
           </button>
+
           <button
             onClick={handleExportJson}
             className="inline-flex items-center px-3 py-1.5 border border-slate-300 text-xs font-semibold rounded-lg text-slate-700 bg-white hover:bg-slate-50 shadow-xs transition"
@@ -167,6 +318,7 @@ export default function DataManagement() {
             <Download className="w-3.5 h-3.5 mr-1.5" />
             Export JSON
           </button>
+
           <button
             onClick={fetchData}
             disabled={loading}
@@ -240,7 +392,286 @@ export default function DataManagement() {
         </div>
       )}
 
-      {/* Import JSON Dataset Modal */}
+      {/* ========================================================================= */}
+      {/* 1. PRESET DATASETS MODAL (7 Realistic Archetypes) */}
+      {/* ========================================================================= */}
+      {presetModalOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full p-6 my-8 space-y-5 border border-slate-200 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-200">
+              <div className="flex items-center space-x-2.5">
+                <div className="p-2 rounded-xl bg-purple-100 text-purple-700">
+                  <Sparkles className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-slate-900">7 University Dummy Datasets</h3>
+                  <p className="text-xs text-slate-500">
+                    Select any institutional archetype with realistic departments, courses, faculty, and room configurations.
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setPresetModalOpen(false)}
+                className="text-slate-400 hover:text-slate-600 p-1 rounded-lg"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Clean option switch */}
+            <div className="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs">
+              <div className="flex items-center space-x-2">
+                <Database className="w-4 h-4 text-slate-500" />
+                <span className="font-semibold text-slate-800">Clean Previous College Data:</span>
+                <span className="text-slate-500">
+                  {cleanBeforeLoad ? 'Wipes existing sections/rooms before loading (recommended)' : 'Appends/merges into current database'}
+                </span>
+              </div>
+              <label className="relative inline-flex items-center cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={cleanBeforeLoad}
+                  onChange={(e) => setCleanBeforeLoad(e.target.checked)}
+                  className="sr-only peer"
+                />
+                <div className="w-9 h-5 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-purple-600"></div>
+              </label>
+            </div>
+
+            {/* Feedback alert */}
+            {presetFeedback && (
+              <div className={`p-3.5 rounded-xl text-xs flex items-start space-x-2.5 ${
+                presetFeedback.success ? 'bg-emerald-50 border border-emerald-200 text-emerald-900' : 'bg-rose-50 border border-rose-200 text-rose-900'
+              }`}>
+                {presetFeedback.success ? (
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 shrink-0" />
+                ) : (
+                  <AlertCircle className="w-4 h-4 text-rose-600 mt-0.5 shrink-0" />
+                )}
+                <div>
+                  <div className="font-bold">{presetFeedback.message}</div>
+                  {presetFeedback.details && (
+                    <div className="mt-1 text-[11px] text-emerald-800 flex items-center space-x-3">
+                      <span>• Sections: {presetFeedback.details.sectionsImported}</span>
+                      <span>• Rooms: {presetFeedback.details.roomsImported}</span>
+                      <span>• Faculty: {presetFeedback.details.teachersImported}</span>
+                      <span>• Courses: {presetFeedback.details.subjectsImported}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* 7 Preset Cards Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-[60vh] overflow-y-auto pr-1">
+              {PRESET_LIST.map((preset) => {
+                const isCurrentLoading = loadingPresetId === preset.id;
+                return (
+                  <div
+                    key={preset.id}
+                    className="flex flex-col justify-between p-4 rounded-xl border border-slate-200 bg-white hover:border-purple-300 hover:shadow-sm transition group"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between gap-2 mb-1.5">
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md border ${preset.tagColor}`}>
+                          {preset.category}
+                        </span>
+                        <span className="text-[10px] font-mono font-medium text-slate-500 bg-slate-100 px-2 py-0.5 rounded">
+                          {preset.badge}
+                        </span>
+                      </div>
+                      <h4 className="text-sm font-bold text-slate-900 group-hover:text-purple-700 transition">
+                        {preset.title}
+                      </h4>
+                      <p className="text-xs text-slate-600 mt-1.5 leading-relaxed">
+                        {preset.desc}
+                      </p>
+                    </div>
+
+                    <div className="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-[11px] text-slate-400 font-medium">
+                        Min. 5 subjects / section
+                      </span>
+                      <button
+                        onClick={() => handleLoadPreset(preset.id)}
+                        disabled={loadingPresetId !== null}
+                        className="inline-flex items-center px-3 py-1.5 text-xs font-bold text-white bg-purple-600 hover:bg-purple-700 active:bg-purple-800 rounded-lg shadow-xs transition disabled:opacity-50"
+                      >
+                        {isCurrentLoading ? (
+                          <>
+                            <RefreshCw className="w-3.5 h-3.5 mr-1.5 animate-spin" />
+                            Loading...
+                          </>
+                        ) : (
+                          <>
+                            <span>Load Preset</span>
+                            <ChevronRight className="w-3.5 h-3.5 ml-1" />
+                          </>
+                        )}
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="flex justify-end pt-2 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setPresetModalOpen(false)}
+                className="px-4 py-2 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 2. CLEAR OLD DATA MODAL */}
+      {/* ========================================================================= */}
+      {clearModalOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4 border border-slate-200 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-200">
+              <div className="flex items-center space-x-2.5">
+                <div className="p-2 rounded-xl bg-rose-100 text-rose-700">
+                  <Trash2 className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-slate-900">Clear Data & Reset</h3>
+                  <p className="text-xs text-slate-500">
+                    Delete old generated schedules or reset the database.
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setClearModalOpen(false)}
+                className="text-slate-400 hover:text-slate-600 p-1 rounded-lg"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Clear Target Selection Options */}
+            <div className="space-y-2.5">
+              <label
+                onClick={() => setClearTarget('timetables')}
+                className={`flex items-start p-3 rounded-xl border cursor-pointer transition ${
+                  clearTarget === 'timetables'
+                    ? 'border-rose-500 bg-rose-50/40 ring-1 ring-rose-500'
+                    : 'border-slate-200 bg-white hover:bg-slate-50'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="clearOption"
+                  checked={clearTarget === 'timetables'}
+                  onChange={() => setClearTarget('timetables')}
+                  className="mt-0.5 text-rose-600 focus:ring-rose-500"
+                />
+                <div className="ml-3">
+                  <div className="text-xs font-bold text-slate-900">
+                    Clear Generated Timetables Only (Recommended)
+                  </div>
+                  <div className="text-[11px] text-slate-500 mt-0.5 leading-relaxed">
+                    Deletes all previously generated timetables and algorithm comparison benchmark runs. Keeps your sections, rooms, teachers, and subjects intact.
+                  </div>
+                </div>
+              </label>
+
+              <label
+                onClick={() => setClearTarget('college')}
+                className={`flex items-start p-3 rounded-xl border cursor-pointer transition ${
+                  clearTarget === 'college'
+                    ? 'border-rose-500 bg-rose-50/40 ring-1 ring-rose-500'
+                    : 'border-slate-200 bg-white hover:bg-slate-50'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="clearOption"
+                  checked={clearTarget === 'college'}
+                  onChange={() => setClearTarget('college')}
+                  className="mt-0.5 text-rose-600 focus:ring-rose-500"
+                />
+                <div className="ml-3">
+                  <div className="text-xs font-bold text-slate-900">
+                    Clear College Academic Data
+                  </div>
+                  <div className="text-[11px] text-slate-500 mt-0.5 leading-relaxed">
+                    Wipes all sections, rooms, faculty, and subjects. Use this when you want to load a completely new university preset.
+                  </div>
+                </div>
+              </label>
+
+              <label
+                onClick={() => setClearTarget('all')}
+                className={`flex items-start p-3 rounded-xl border cursor-pointer transition ${
+                  clearTarget === 'all'
+                    ? 'border-rose-500 bg-rose-50/40 ring-1 ring-rose-500'
+                    : 'border-slate-200 bg-white hover:bg-slate-50'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="clearOption"
+                  checked={clearTarget === 'all'}
+                  onChange={() => setClearTarget('all')}
+                  className="mt-0.5 text-rose-600 focus:ring-rose-500"
+                />
+                <div className="ml-3">
+                  <div className="text-xs font-bold text-rose-950 flex items-center space-x-1.5">
+                    <span>Factory Reset Everything</span>
+                    <AlertTriangle className="w-3.5 h-3.5 text-rose-600" />
+                  </div>
+                  <div className="text-[11px] text-rose-700/80 mt-0.5 leading-relaxed">
+                    Completely resets the database: clears all academic records and all generated timetables.
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            {/* Clear Result Feedback */}
+            {clearFeedback && (
+              <div className={`p-3 rounded-xl text-xs flex items-center space-x-2 ${
+                clearFeedback.success ? 'bg-emerald-50 border border-emerald-200 text-emerald-800' : 'bg-rose-50 border border-rose-200 text-rose-800'
+              }`}>
+                {clearFeedback.success ? (
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                ) : (
+                  <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+                )}
+                <span>{clearFeedback.message}</span>
+              </div>
+            )}
+
+            <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setClearModalOpen(false)}
+                className="px-4 py-2 text-xs font-semibold text-slate-600 hover:text-slate-800 hover:bg-slate-100 rounded-lg transition"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleExecuteClear}
+                disabled={clearing}
+                className="inline-flex items-center px-4 py-2 text-xs font-bold text-white bg-rose-600 hover:bg-rose-700 active:bg-rose-800 rounded-lg shadow-xs transition disabled:opacity-50"
+              >
+                {clearing && <RefreshCw className="w-3.5 h-3.5 mr-1.5 animate-spin" />}
+                {clearing ? 'Clearing Data...' : 'Confirm & Delete'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 3. IMPORT JSON DATASET MODAL */}
+      {/* ========================================================================= */}
       {importModalOpen && (
         <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 overflow-y-auto">
           <div className="bg-white rounded-xl shadow-2xl max-w-2xl w-full p-6 my-8 space-y-4">

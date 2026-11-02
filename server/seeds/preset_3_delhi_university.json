@@ -1,0 +1,3861 @@
+{
+  "id": "preset_3_delhi_university",
+  "title": "Central Multidisciplinary University",
+  "category": "Sciences & Humanities",
+  "description": "Multi-faculty Central University dataset: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities with 49 sections and 54 dedicated halls/laboratories.",
+  "badge": "49 Sections \u2022 54 Rooms \u2022 245 Subjects",
+  "sections": [
+    {
+      "name": "MATH-BSc-1st",
+      "department": "Mathematical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "MATH-BSc-2nd",
+      "department": "Mathematical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "MATH-BSc-3rd",
+      "department": "Mathematical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "MATH-MSc-1st",
+      "department": "Mathematical Sciences",
+      "studentCount": 35
+    },
+    {
+      "name": "MATH-MSc-2nd",
+      "department": "Mathematical Sciences",
+      "studentCount": 35
+    },
+    {
+      "name": "MATH-PhD-1st",
+      "department": "Mathematical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "MATH-PhD-2nd",
+      "department": "Mathematical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "CA-BCA-1st",
+      "department": "Computer Applications & IT",
+      "studentCount": 70
+    },
+    {
+      "name": "CA-BCA-2nd",
+      "department": "Computer Applications & IT",
+      "studentCount": 70
+    },
+    {
+      "name": "CA-BCA-3rd",
+      "department": "Computer Applications & IT",
+      "studentCount": 70
+    },
+    {
+      "name": "CA-MCA-1st",
+      "department": "Computer Applications & IT",
+      "studentCount": 45
+    },
+    {
+      "name": "CA-MCA-2nd",
+      "department": "Computer Applications & IT",
+      "studentCount": 45
+    },
+    {
+      "name": "CA-PhD-1st",
+      "department": "Computer Applications & IT",
+      "studentCount": 15
+    },
+    {
+      "name": "CA-PhD-2nd",
+      "department": "Computer Applications & IT",
+      "studentCount": 15
+    },
+    {
+      "name": "PHYS-BSc-1st",
+      "department": "Physical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "PHYS-BSc-2nd",
+      "department": "Physical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "PHYS-BSc-3rd",
+      "department": "Physical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "PHYS-MSc-1st",
+      "department": "Physical Sciences",
+      "studentCount": 30
+    },
+    {
+      "name": "PHYS-MSc-2nd",
+      "department": "Physical Sciences",
+      "studentCount": 30
+    },
+    {
+      "name": "PHYS-PhD-1st",
+      "department": "Physical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "PHYS-PhD-2nd",
+      "department": "Physical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "CHEM-BSc-1st",
+      "department": "Chemical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "CHEM-BSc-2nd",
+      "department": "Chemical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "CHEM-BSc-3rd",
+      "department": "Chemical Sciences",
+      "studentCount": 65
+    },
+    {
+      "name": "CHEM-MSc-1st",
+      "department": "Chemical Sciences",
+      "studentCount": 30
+    },
+    {
+      "name": "CHEM-MSc-2nd",
+      "department": "Chemical Sciences",
+      "studentCount": 30
+    },
+    {
+      "name": "CHEM-PhD-1st",
+      "department": "Chemical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "CHEM-PhD-2nd",
+      "department": "Chemical Sciences",
+      "studentCount": 15
+    },
+    {
+      "name": "ECON-BA-1st",
+      "department": "Economics & Public Policy",
+      "studentCount": 75
+    },
+    {
+      "name": "ECON-BA-2nd",
+      "department": "Economics & Public Policy",
+      "studentCount": 75
+    },
+    {
+      "name": "ECON-BA-3rd",
+      "department": "Economics & Public Policy",
+      "studentCount": 75
+    },
+    {
+      "name": "ECON-MA-1st",
+      "department": "Economics & Public Policy",
+      "studentCount": 40
+    },
+    {
+      "name": "ECON-MA-2nd",
+      "department": "Economics & Public Policy",
+      "studentCount": 40
+    },
+    {
+      "name": "ECON-PhD-1st",
+      "department": "Economics & Public Policy",
+      "studentCount": 15
+    },
+    {
+      "name": "ECON-PhD-2nd",
+      "department": "Economics & Public Policy",
+      "studentCount": 15
+    },
+    {
+      "name": "COMM-BCom-1st",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 75
+    },
+    {
+      "name": "COMM-BCom-2nd",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 75
+    },
+    {
+      "name": "COMM-BCom-3rd",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 75
+    },
+    {
+      "name": "COMM-MCom-1st",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-MCom-2nd",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-PhD-1st",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 15
+    },
+    {
+      "name": "COMM-PhD-2nd",
+      "department": "Commerce & Financial Studies",
+      "studentCount": 15
+    },
+    {
+      "name": "ENG-BA-1st",
+      "department": "Humanities & English",
+      "studentCount": 70
+    },
+    {
+      "name": "ENG-BA-2nd",
+      "department": "Humanities & English",
+      "studentCount": 70
+    },
+    {
+      "name": "ENG-BA-3rd",
+      "department": "Humanities & English",
+      "studentCount": 70
+    },
+    {
+      "name": "ENG-MA-1st",
+      "department": "Humanities & English",
+      "studentCount": 35
+    },
+    {
+      "name": "ENG-MA-2nd",
+      "department": "Humanities & English",
+      "studentCount": 35
+    },
+    {
+      "name": "ENG-PhD-1st",
+      "department": "Humanities & English",
+      "studentCount": 15
+    },
+    {
+      "name": "ENG-PhD-2nd",
+      "department": "Humanities & English",
+      "studentCount": 15
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Arts & Science Lecture Room 1",
+      "roomNumber": "CR-1",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 2",
+      "roomNumber": "CR-2",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 3",
+      "roomNumber": "CR-3",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 4",
+      "roomNumber": "CR-4",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 5",
+      "roomNumber": "CR-5",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 6",
+      "roomNumber": "CR-6",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 7",
+      "roomNumber": "CR-7",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 8",
+      "roomNumber": "CR-8",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 9",
+      "roomNumber": "CR-9",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 10",
+      "roomNumber": "CR-10",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 11",
+      "roomNumber": "CR-11",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 12",
+      "roomNumber": "CR-12",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 13",
+      "roomNumber": "CR-13",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 14",
+      "roomNumber": "CR-14",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 15",
+      "roomNumber": "CR-15",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 16",
+      "roomNumber": "CR-16",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 17",
+      "roomNumber": "CR-17",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 18",
+      "roomNumber": "CR-18",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 19",
+      "roomNumber": "CR-19",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 20",
+      "roomNumber": "CR-20",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 21",
+      "roomNumber": "CR-21",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 22",
+      "roomNumber": "CR-22",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 23",
+      "roomNumber": "CR-23",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 24",
+      "roomNumber": "CR-24",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 25",
+      "roomNumber": "CR-25",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Arts & Science Lecture Room 26",
+      "roomNumber": "CR-26",
+      "type": "Classroom",
+      "capacity": 85
+    },
+    {
+      "name": "Faculty Seminar Room 1",
+      "roomNumber": "FSR-1",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 2",
+      "roomNumber": "FSR-2",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 3",
+      "roomNumber": "FSR-3",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 4",
+      "roomNumber": "FSR-4",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 5",
+      "roomNumber": "FSR-5",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 6",
+      "roomNumber": "FSR-6",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 7",
+      "roomNumber": "FSR-7",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Faculty Seminar Room 8",
+      "roomNumber": "FSR-8",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 1",
+      "roomNumber": "CCF-1",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 2",
+      "roomNumber": "CCF-2",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 3",
+      "roomNumber": "CCF-3",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 4",
+      "roomNumber": "CCF-4",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 5",
+      "roomNumber": "CCF-5",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Central Computing Facility 6",
+      "roomNumber": "CCF-6",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Physics Optics & Electronics Lab 1",
+      "roomNumber": "PHYLAB-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Physics Optics & Electronics Lab 2",
+      "roomNumber": "PHYLAB-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Physics Optics & Electronics Lab 3",
+      "roomNumber": "PHYLAB-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Physics Optics & Electronics Lab 4",
+      "roomNumber": "PHYLAB-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Physics Optics & Electronics Lab 5",
+      "roomNumber": "PHYLAB-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Chemistry Wet Analysis Lab 1",
+      "roomNumber": "CHMLAB-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Chemistry Wet Analysis Lab 2",
+      "roomNumber": "CHMLAB-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Chemistry Wet Analysis Lab 3",
+      "roomNumber": "CHMLAB-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Chemistry Wet Analysis Lab 4",
+      "roomNumber": "CHMLAB-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Chemistry Wet Analysis Lab 5",
+      "roomNumber": "CHMLAB-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Language Phonetics Lab 1",
+      "roomNumber": "LANGLAB-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Language Phonetics Lab 2",
+      "roomNumber": "LANGLAB-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Language Phonetics Lab 3",
+      "roomNumber": "LANGLAB-3",
+      "type": "Laboratory",
+      "capacity": 45
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Amartya Kumar",
+      "teacherCode": "DU-FAC-001",
+      "teachableSubjectCodes": [
+        "DU-CAF-1",
+        "DU-BASL-45",
+        "DU-ACM-128",
+        "DU-CAF-211"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Romila Thapar",
+      "teacherCode": "DU-FAC-002",
+      "teachableSubjectCodes": [
+        "DU-MEM-2",
+        "DU-ISE-129",
+        "DU-MEM-212"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Deepak Nayyar",
+      "teacherCode": "DU-FAC-003",
+      "teachableSubjectCodes": [
+        "DU-ACM-3",
+        "DU-CAF-86",
+        "DU-PEP-130",
+        "DU-ACM-213"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Kaushik Basu",
+      "teacherCode": "DU-FAC-004",
+      "teachableSubjectCodes": [
+        "DU-ISE-4",
+        "DU-MEM-87",
+        "DU-ISE-214"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Prabhat Patnaik",
+      "teacherCode": "DU-FAC-005",
+      "teachableSubjectCodes": [
+        "DU-PEP-5",
+        "DU-ACM-88",
+        "DU-CAF-171",
+        "DU-PDW-215"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Jayati Ghosh",
+      "teacherCode": "DU-FAC-006",
+      "teachableSubjectCodes": [
+        "DU-ISE-89",
+        "DU-MEM-172"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Bipan Chandra",
+      "teacherCode": "DU-FAC-007",
+      "teachableSubjectCodes": [
+        "DU-CAF-46",
+        "DU-PEP-90",
+        "DU-ACM-173"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Andre Beteille",
+      "teacherCode": "DU-FAC-008",
+      "teachableSubjectCodes": [
+        "DU-MEM-47",
+        "DU-ISE-174"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Upendra Baxi",
+      "teacherCode": "DU-FAC-009",
+      "teachableSubjectCodes": [
+        "DU-ACM-48",
+        "DU-CAF-131",
+        "DU-PDW-175"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Mushirul Hasan",
+      "teacherCode": "DU-FAC-010",
+      "teachableSubjectCodes": [
+        "DU-ISE-49",
+        "DU-MEM-132"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Utsa Patnaik",
+      "teacherCode": "DU-FAC-011",
+      "teachableSubjectCodes": [
+        "DU-CAF-6",
+        "DU-BASL-50",
+        "DU-ACM-133",
+        "DU-CAF-216"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Dipankar Gupta",
+      "teacherCode": "DU-FAC-012",
+      "teachableSubjectCodes": [
+        "DU-MEM-7",
+        "DU-ISE-134",
+        "DU-MEM-217"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Achin Vanaik",
+      "teacherCode": "DU-FAC-013",
+      "teachableSubjectCodes": [
+        "DU-ACM-8",
+        "DU-CAF-91",
+        "DU-PEP-135",
+        "DU-ACM-218"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Zoya Hasan",
+      "teacherCode": "DU-FAC-014",
+      "teachableSubjectCodes": [
+        "DU-ISE-9",
+        "DU-MEM-92",
+        "DU-ISE-219"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. G. K. Chadha",
+      "teacherCode": "DU-FAC-015",
+      "teachableSubjectCodes": [
+        "DU-PEP-10",
+        "DU-ACM-93",
+        "DU-CAF-176",
+        "DU-PDW-220"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. L. Sharma",
+      "teacherCode": "DU-FAC-016",
+      "teachableSubjectCodes": [
+        "DU-ISE-94",
+        "DU-MEM-177"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. S. Sharma",
+      "teacherCode": "DU-FAC-017",
+      "teachableSubjectCodes": [
+        "DU-CAF-51",
+        "DU-PEP-95",
+        "DU-ACM-178"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Tanika Sarkar",
+      "teacherCode": "DU-FAC-018",
+      "teachableSubjectCodes": [
+        "DU-MEM-52",
+        "DU-ISE-179"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sumit Sarkar",
+      "teacherCode": "DU-FAC-019",
+      "teachableSubjectCodes": [
+        "DU-ACM-53",
+        "DU-CAF-136",
+        "DU-BASL-180"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Neera Chandhoke",
+      "teacherCode": "DU-FAC-020",
+      "teachableSubjectCodes": [
+        "DU-ISE-54",
+        "DU-MEM-137"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sabyasachi Bhattacharya",
+      "teacherCode": "DU-FAC-021",
+      "teachableSubjectCodes": [
+        "DU-CAF-11",
+        "DU-BASL-55",
+        "DU-ACM-138",
+        "DU-CAF-221"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Satish Saberwal",
+      "teacherCode": "DU-FAC-022",
+      "teachableSubjectCodes": [
+        "DU-MEM-12",
+        "DU-ISE-139",
+        "DU-MEM-222"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Radha Kumar",
+      "teacherCode": "DU-FAC-023",
+      "teachableSubjectCodes": [
+        "DU-ACM-13",
+        "DU-CAF-96",
+        "DU-PEP-140",
+        "DU-ACM-223"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Madhu Kishwar",
+      "teacherCode": "DU-FAC-024",
+      "teachableSubjectCodes": [
+        "DU-ISE-14",
+        "DU-MEM-97",
+        "DU-ISE-224"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Raveesh Agarwal",
+      "teacherCode": "DU-FAC-025",
+      "teachableSubjectCodes": [
+        "DU-PEP-15",
+        "DU-ACM-98",
+        "DU-CAF-181",
+        "DU-PDW-225"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sunita Narain",
+      "teacherCode": "DU-FAC-026",
+      "teachableSubjectCodes": [
+        "DU-ISE-99",
+        "DU-MEM-182"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sudha Pai",
+      "teacherCode": "DU-FAC-027",
+      "teachableSubjectCodes": [
+        "DU-CAF-56",
+        "DU-PEP-100",
+        "DU-ACM-183"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. G. P. Sharma",
+      "teacherCode": "DU-FAC-028",
+      "teachableSubjectCodes": [
+        "DU-MEM-57",
+        "DU-ISE-184"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Harish Trivedi",
+      "teacherCode": "DU-FAC-029",
+      "teachableSubjectCodes": [
+        "DU-ACM-58",
+        "DU-CAF-141",
+        "DU-BASL-185"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Meenakshi Mukherjee",
+      "teacherCode": "DU-FAC-030",
+      "teachableSubjectCodes": [
+        "DU-ISE-59",
+        "DU-MEM-142"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Alok Bhalla",
+      "teacherCode": "DU-FAC-031",
+      "teachableSubjectCodes": [
+        "DU-CAF-16",
+        "DU-BASL-60",
+        "DU-ACM-143",
+        "DU-CAF-226"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Kavita Sharma",
+      "teacherCode": "DU-FAC-032",
+      "teachableSubjectCodes": [
+        "DU-MEM-17",
+        "DU-ISE-144",
+        "DU-MEM-227"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. Raj Rao",
+      "teacherCode": "DU-FAC-033",
+      "teachableSubjectCodes": [
+        "DU-ACM-18",
+        "DU-CAF-101",
+        "DU-PDW-145",
+        "DU-ACM-228"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Shormishtha Panja",
+      "teacherCode": "DU-FAC-034",
+      "teachableSubjectCodes": [
+        "DU-ISE-19",
+        "DU-MEM-102",
+        "DU-ISE-229"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Christel Devadawson",
+      "teacherCode": "DU-FAC-035",
+      "teachableSubjectCodes": [
+        "DU-PEP-20",
+        "DU-ACM-103",
+        "DU-CAF-186",
+        "DU-PDW-230"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. G. J. V. Prasad",
+      "teacherCode": "DU-FAC-036",
+      "teachableSubjectCodes": [
+        "DU-ISE-104",
+        "DU-MEM-187"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sukrita Paul Kumar",
+      "teacherCode": "DU-FAC-037",
+      "teachableSubjectCodes": [
+        "DU-CAF-61",
+        "DU-PEP-105",
+        "DU-ACM-188"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Anvita Abbi",
+      "teacherCode": "DU-FAC-038",
+      "teachableSubjectCodes": [
+        "DU-MEM-62",
+        "DU-ISE-189"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. K. Roy",
+      "teacherCode": "DU-FAC-039",
+      "teachableSubjectCodes": [
+        "DU-ACM-63",
+        "DU-CAF-146",
+        "DU-BASL-190"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. B. K. Das",
+      "teacherCode": "DU-FAC-040",
+      "teachableSubjectCodes": [
+        "DU-ISE-64",
+        "DU-MEM-147"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. K. Tandon",
+      "teacherCode": "DU-FAC-041",
+      "teachableSubjectCodes": [
+        "DU-CAF-21",
+        "DU-BASL-65",
+        "DU-ACM-148",
+        "DU-CAF-231"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. V. Rajamani",
+      "teacherCode": "DU-FAC-042",
+      "teachableSubjectCodes": [
+        "DU-MEM-22",
+        "DU-ISE-149",
+        "DU-MEM-232"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. H. Y. Mohan Ram",
+      "teacherCode": "DU-FAC-043",
+      "teachableSubjectCodes": [
+        "DU-ACM-23",
+        "DU-CAF-106",
+        "DU-PDW-150",
+        "DU-ACM-233"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. S. Ramakrishnan",
+      "teacherCode": "DU-FAC-044",
+      "teachableSubjectCodes": [
+        "DU-ISE-24",
+        "DU-MEM-107",
+        "DU-ISE-234"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. C. R. Babu",
+      "teacherCode": "DU-FAC-045",
+      "teachableSubjectCodes": [
+        "DU-PEP-25",
+        "DU-ACM-108",
+        "DU-CAF-191",
+        "DU-PDW-235"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. S. Rao",
+      "teacherCode": "DU-FAC-046",
+      "teachableSubjectCodes": [
+        "DU-ISE-109",
+        "DU-MEM-192"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Indira Nath",
+      "teacherCode": "DU-FAC-047",
+      "teachableSubjectCodes": [
+        "DU-CAF-66",
+        "DU-PEP-110",
+        "DU-ACM-193"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. N. K. Ganguly",
+      "teacherCode": "DU-FAC-048",
+      "teachableSubjectCodes": [
+        "DU-MEM-67",
+        "DU-ISE-194"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. V. M. Katoch",
+      "teacherCode": "DU-FAC-049",
+      "teachableSubjectCodes": [
+        "DU-ACM-68",
+        "DU-CAF-151",
+        "DU-BASL-195"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. K. Sarin",
+      "teacherCode": "DU-FAC-050",
+      "teachableSubjectCodes": [
+        "DU-ISE-69",
+        "DU-MEM-152"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. N. Tandon",
+      "teacherCode": "DU-FAC-051",
+      "teachableSubjectCodes": [
+        "DU-CAF-26",
+        "DU-BASL-70",
+        "DU-ACM-153",
+        "DU-CAF-236"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. M. G. K. Menon",
+      "teacherCode": "DU-FAC-052",
+      "teachableSubjectCodes": [
+        "DU-MEM-27",
+        "DU-ISE-154",
+        "DU-MEM-237"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Yash Pal",
+      "teacherCode": "DU-FAC-053",
+      "teachableSubjectCodes": [
+        "DU-ACM-28",
+        "DU-CAF-111",
+        "DU-PDW-155",
+        "DU-ACM-238"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. C. N. R. Rao",
+      "teacherCode": "DU-FAC-054",
+      "teachableSubjectCodes": [
+        "DU-ISE-29",
+        "DU-MEM-112",
+        "DU-ISE-239"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Govind Swarup",
+      "teacherCode": "DU-FAC-055",
+      "teachableSubjectCodes": [
+        "DU-PEP-30",
+        "DU-ACM-113",
+        "DU-CAF-196",
+        "DU-PDW-240"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Obaid Siddiqi",
+      "teacherCode": "DU-FAC-056",
+      "teachableSubjectCodes": [
+        "DU-ISE-114",
+        "DU-MEM-197"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Asis Datta",
+      "teacherCode": "DU-FAC-057",
+      "teachableSubjectCodes": [
+        "DU-CAF-71",
+        "DU-PEP-115",
+        "DU-ACM-198"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. K. Sopory",
+      "teacherCode": "DU-FAC-058",
+      "teachableSubjectCodes": [
+        "DU-MEM-72",
+        "DU-ISE-199"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. Sudhir Kumar",
+      "teacherCode": "DU-FAC-059",
+      "teachableSubjectCodes": [
+        "DU-ACM-73",
+        "DU-CAF-156",
+        "DU-BASL-200"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. P. Roy",
+      "teacherCode": "DU-FAC-060",
+      "teachableSubjectCodes": [
+        "DU-ISE-74",
+        "DU-MEM-157"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. A. K. Sharma",
+      "teacherCode": "DU-FAC-061",
+      "teachableSubjectCodes": [
+        "DU-CAF-31",
+        "DU-PEP-75",
+        "DU-ACM-158",
+        "DU-CAF-241"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. N. Mehra",
+      "teacherCode": "DU-FAC-062",
+      "teachableSubjectCodes": [
+        "DU-MEM-32",
+        "DU-ISE-159",
+        "DU-MEM-242"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. V. Puri",
+      "teacherCode": "DU-FAC-063",
+      "teachableSubjectCodes": [
+        "DU-ACM-33",
+        "DU-CAF-116",
+        "DU-PDW-160",
+        "DU-ACM-243"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. B. M. Johri",
+      "teacherCode": "DU-FAC-064",
+      "teachableSubjectCodes": [
+        "DU-ISE-34",
+        "DU-MEM-117",
+        "DU-ISE-244"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. N. Kapil",
+      "teacherCode": "DU-FAC-065",
+      "teachableSubjectCodes": [
+        "DU-PEP-35",
+        "DU-ACM-118",
+        "DU-CAF-201",
+        "DU-PDW-245"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. H. S. Srivastava",
+      "teacherCode": "DU-FAC-066",
+      "teachableSubjectCodes": [
+        "DU-ISE-119",
+        "DU-MEM-202"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. C. Maheshwari",
+      "teacherCode": "DU-FAC-067",
+      "teachableSubjectCodes": [
+        "DU-CAF-76",
+        "DU-PEP-120",
+        "DU-ACM-203"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. N. S. Rangaswamy",
+      "teacherCode": "DU-FAC-068",
+      "teachableSubjectCodes": [
+        "DU-MEM-77",
+        "DU-ISE-204"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. K. R. Shivanna",
+      "teacherCode": "DU-FAC-069",
+      "teachableSubjectCodes": [
+        "DU-ACM-78",
+        "DU-CAF-161",
+        "DU-BASL-205"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. C. B. L. Srivastava",
+      "teacherCode": "DU-FAC-070",
+      "teachableSubjectCodes": [
+        "DU-ISE-79",
+        "DU-MEM-162"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. U. S. Srivastava",
+      "teacherCode": "DU-FAC-071",
+      "teachableSubjectCodes": [
+        "DU-CAF-36",
+        "DU-PEP-80",
+        "DU-ACM-163"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. P. N. Srivastava",
+      "teacherCode": "DU-FAC-072",
+      "teachableSubjectCodes": [
+        "DU-MEM-37",
+        "DU-ISE-164"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. A. S. Mukherjee",
+      "teacherCode": "DU-FAC-073",
+      "teachableSubjectCodes": [
+        "DU-ACM-38",
+        "DU-CAF-121",
+        "DU-PDW-165"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. J. P. Thapliyal",
+      "teacherCode": "DU-FAC-074",
+      "teachableSubjectCodes": [
+        "DU-ISE-39",
+        "DU-MEM-122"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. M. S. Kanungo",
+      "teacherCode": "DU-FAC-075",
+      "teachableSubjectCodes": [
+        "DU-BASL-40",
+        "DU-ACM-123",
+        "DU-CAF-206"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. B. I. Sundararaj",
+      "teacherCode": "DU-FAC-076",
+      "teachableSubjectCodes": [
+        "DU-ISE-124",
+        "DU-MEM-207"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. V. C. Shah",
+      "teacherCode": "DU-FAC-077",
+      "teachableSubjectCodes": [
+        "DU-CAF-81",
+        "DU-PEP-125",
+        "DU-ACM-208"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. R. V. Rao",
+      "teacherCode": "DU-FAC-078",
+      "teachableSubjectCodes": [
+        "DU-MEM-82",
+        "DU-ISE-209"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. T. Sharma",
+      "teacherCode": "DU-FAC-079",
+      "teachableSubjectCodes": [
+        "DU-ACM-83",
+        "DU-CAF-166",
+        "DU-BASL-210"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. S. C. Lakhotia",
+      "teacherCode": "DU-FAC-080",
+      "teachableSubjectCodes": [
+        "DU-ISE-84",
+        "DU-MEM-167"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. H. A. Ranganath",
+      "teacherCode": "DU-FAC-081",
+      "teachableSubjectCodes": [
+        "DU-CAF-41",
+        "DU-PEP-85",
+        "DU-ACM-168"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. Gadagkar",
+      "teacherCode": "DU-FAC-082",
+      "teachableSubjectCodes": [
+        "DU-MEM-42",
+        "DU-ISE-169"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. M. K. Chandrashekaran",
+      "teacherCode": "DU-FAC-083",
+      "teachableSubjectCodes": [
+        "DU-ACM-43",
+        "DU-CAF-126",
+        "DU-PDW-170"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Dr. R. Sukumar",
+      "teacherCode": "DU-FAC-084",
+      "teachableSubjectCodes": [
+        "DU-ISE-44",
+        "DU-MEM-127"
+      ],
+      "maxWeeklyPeriods": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Classical Analysis & Foundations (MATH-BSc-1st)",
+      "code": "DU-CAF-1",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-1st",
+      "teacherCode": "DU-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-BSc-1st)",
+      "code": "DU-MEM-2",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-1st",
+      "teacherCode": "DU-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-BSc-1st)",
+      "code": "DU-ACM-3",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-1st",
+      "teacherCode": "DU-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-BSc-1st)",
+      "code": "DU-ISE-4",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-1st",
+      "teacherCode": "DU-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-BSc-1st)",
+      "code": "DU-PEP-5",
+      "type": "Lab",
+      "sectionName": "MATH-BSc-1st",
+      "teacherCode": "DU-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-BSc-2nd)",
+      "code": "DU-CAF-6",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-2nd",
+      "teacherCode": "DU-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-BSc-2nd)",
+      "code": "DU-MEM-7",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-2nd",
+      "teacherCode": "DU-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-BSc-2nd)",
+      "code": "DU-ACM-8",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-2nd",
+      "teacherCode": "DU-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-BSc-2nd)",
+      "code": "DU-ISE-9",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-2nd",
+      "teacherCode": "DU-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-BSc-2nd)",
+      "code": "DU-PEP-10",
+      "type": "Lab",
+      "sectionName": "MATH-BSc-2nd",
+      "teacherCode": "DU-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-BSc-3rd)",
+      "code": "DU-CAF-11",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-3rd",
+      "teacherCode": "DU-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-BSc-3rd)",
+      "code": "DU-MEM-12",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-3rd",
+      "teacherCode": "DU-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-BSc-3rd)",
+      "code": "DU-ACM-13",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-3rd",
+      "teacherCode": "DU-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-BSc-3rd)",
+      "code": "DU-ISE-14",
+      "type": "Theory",
+      "sectionName": "MATH-BSc-3rd",
+      "teacherCode": "DU-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-BSc-3rd)",
+      "code": "DU-PEP-15",
+      "type": "Lab",
+      "sectionName": "MATH-BSc-3rd",
+      "teacherCode": "DU-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-MSc-1st)",
+      "code": "DU-CAF-16",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-1st",
+      "teacherCode": "DU-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-MSc-1st)",
+      "code": "DU-MEM-17",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-1st",
+      "teacherCode": "DU-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-MSc-1st)",
+      "code": "DU-ACM-18",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-1st",
+      "teacherCode": "DU-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-MSc-1st)",
+      "code": "DU-ISE-19",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-1st",
+      "teacherCode": "DU-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-MSc-1st)",
+      "code": "DU-PEP-20",
+      "type": "Lab",
+      "sectionName": "MATH-MSc-1st",
+      "teacherCode": "DU-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-MSc-2nd)",
+      "code": "DU-CAF-21",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-2nd",
+      "teacherCode": "DU-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-MSc-2nd)",
+      "code": "DU-MEM-22",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-2nd",
+      "teacherCode": "DU-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-MSc-2nd)",
+      "code": "DU-ACM-23",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-2nd",
+      "teacherCode": "DU-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-MSc-2nd)",
+      "code": "DU-ISE-24",
+      "type": "Theory",
+      "sectionName": "MATH-MSc-2nd",
+      "teacherCode": "DU-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-MSc-2nd)",
+      "code": "DU-PEP-25",
+      "type": "Lab",
+      "sectionName": "MATH-MSc-2nd",
+      "teacherCode": "DU-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-PhD-1st)",
+      "code": "DU-CAF-26",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-1st",
+      "teacherCode": "DU-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-PhD-1st)",
+      "code": "DU-MEM-27",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-1st",
+      "teacherCode": "DU-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-PhD-1st)",
+      "code": "DU-ACM-28",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-1st",
+      "teacherCode": "DU-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-PhD-1st)",
+      "code": "DU-ISE-29",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-1st",
+      "teacherCode": "DU-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-PhD-1st)",
+      "code": "DU-PEP-30",
+      "type": "Lab",
+      "sectionName": "MATH-PhD-1st",
+      "teacherCode": "DU-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (MATH-PhD-2nd)",
+      "code": "DU-CAF-31",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-2nd",
+      "teacherCode": "DU-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (MATH-PhD-2nd)",
+      "code": "DU-MEM-32",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-2nd",
+      "teacherCode": "DU-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (MATH-PhD-2nd)",
+      "code": "DU-ACM-33",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-2nd",
+      "teacherCode": "DU-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (MATH-PhD-2nd)",
+      "code": "DU-ISE-34",
+      "type": "Theory",
+      "sectionName": "MATH-PhD-2nd",
+      "teacherCode": "DU-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (MATH-PhD-2nd)",
+      "code": "DU-PEP-35",
+      "type": "Lab",
+      "sectionName": "MATH-PhD-2nd",
+      "teacherCode": "DU-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-BCA-1st)",
+      "code": "DU-CAF-36",
+      "type": "Theory",
+      "sectionName": "CA-BCA-1st",
+      "teacherCode": "DU-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-BCA-1st)",
+      "code": "DU-MEM-37",
+      "type": "Theory",
+      "sectionName": "CA-BCA-1st",
+      "teacherCode": "DU-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-BCA-1st)",
+      "code": "DU-ACM-38",
+      "type": "Theory",
+      "sectionName": "CA-BCA-1st",
+      "teacherCode": "DU-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-BCA-1st)",
+      "code": "DU-ISE-39",
+      "type": "Theory",
+      "sectionName": "CA-BCA-1st",
+      "teacherCode": "DU-FAC-074",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-BCA-1st)",
+      "code": "DU-BASL-40",
+      "type": "Lab",
+      "sectionName": "CA-BCA-1st",
+      "teacherCode": "DU-FAC-075",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-BCA-2nd)",
+      "code": "DU-CAF-41",
+      "type": "Theory",
+      "sectionName": "CA-BCA-2nd",
+      "teacherCode": "DU-FAC-081",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-BCA-2nd)",
+      "code": "DU-MEM-42",
+      "type": "Theory",
+      "sectionName": "CA-BCA-2nd",
+      "teacherCode": "DU-FAC-082",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-BCA-2nd)",
+      "code": "DU-ACM-43",
+      "type": "Theory",
+      "sectionName": "CA-BCA-2nd",
+      "teacherCode": "DU-FAC-083",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-BCA-2nd)",
+      "code": "DU-ISE-44",
+      "type": "Theory",
+      "sectionName": "CA-BCA-2nd",
+      "teacherCode": "DU-FAC-084",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-BCA-2nd)",
+      "code": "DU-BASL-45",
+      "type": "Lab",
+      "sectionName": "CA-BCA-2nd",
+      "teacherCode": "DU-FAC-001",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-BCA-3rd)",
+      "code": "DU-CAF-46",
+      "type": "Theory",
+      "sectionName": "CA-BCA-3rd",
+      "teacherCode": "DU-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-BCA-3rd)",
+      "code": "DU-MEM-47",
+      "type": "Theory",
+      "sectionName": "CA-BCA-3rd",
+      "teacherCode": "DU-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-BCA-3rd)",
+      "code": "DU-ACM-48",
+      "type": "Theory",
+      "sectionName": "CA-BCA-3rd",
+      "teacherCode": "DU-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-BCA-3rd)",
+      "code": "DU-ISE-49",
+      "type": "Theory",
+      "sectionName": "CA-BCA-3rd",
+      "teacherCode": "DU-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-BCA-3rd)",
+      "code": "DU-BASL-50",
+      "type": "Lab",
+      "sectionName": "CA-BCA-3rd",
+      "teacherCode": "DU-FAC-011",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-MCA-1st)",
+      "code": "DU-CAF-51",
+      "type": "Theory",
+      "sectionName": "CA-MCA-1st",
+      "teacherCode": "DU-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-MCA-1st)",
+      "code": "DU-MEM-52",
+      "type": "Theory",
+      "sectionName": "CA-MCA-1st",
+      "teacherCode": "DU-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-MCA-1st)",
+      "code": "DU-ACM-53",
+      "type": "Theory",
+      "sectionName": "CA-MCA-1st",
+      "teacherCode": "DU-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-MCA-1st)",
+      "code": "DU-ISE-54",
+      "type": "Theory",
+      "sectionName": "CA-MCA-1st",
+      "teacherCode": "DU-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-MCA-1st)",
+      "code": "DU-BASL-55",
+      "type": "Lab",
+      "sectionName": "CA-MCA-1st",
+      "teacherCode": "DU-FAC-021",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-MCA-2nd)",
+      "code": "DU-CAF-56",
+      "type": "Theory",
+      "sectionName": "CA-MCA-2nd",
+      "teacherCode": "DU-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-MCA-2nd)",
+      "code": "DU-MEM-57",
+      "type": "Theory",
+      "sectionName": "CA-MCA-2nd",
+      "teacherCode": "DU-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-MCA-2nd)",
+      "code": "DU-ACM-58",
+      "type": "Theory",
+      "sectionName": "CA-MCA-2nd",
+      "teacherCode": "DU-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-MCA-2nd)",
+      "code": "DU-ISE-59",
+      "type": "Theory",
+      "sectionName": "CA-MCA-2nd",
+      "teacherCode": "DU-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-MCA-2nd)",
+      "code": "DU-BASL-60",
+      "type": "Lab",
+      "sectionName": "CA-MCA-2nd",
+      "teacherCode": "DU-FAC-031",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-PhD-1st)",
+      "code": "DU-CAF-61",
+      "type": "Theory",
+      "sectionName": "CA-PhD-1st",
+      "teacherCode": "DU-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-PhD-1st)",
+      "code": "DU-MEM-62",
+      "type": "Theory",
+      "sectionName": "CA-PhD-1st",
+      "teacherCode": "DU-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-PhD-1st)",
+      "code": "DU-ACM-63",
+      "type": "Theory",
+      "sectionName": "CA-PhD-1st",
+      "teacherCode": "DU-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-PhD-1st)",
+      "code": "DU-ISE-64",
+      "type": "Theory",
+      "sectionName": "CA-PhD-1st",
+      "teacherCode": "DU-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-PhD-1st)",
+      "code": "DU-BASL-65",
+      "type": "Lab",
+      "sectionName": "CA-PhD-1st",
+      "teacherCode": "DU-FAC-041",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CA-PhD-2nd)",
+      "code": "DU-CAF-66",
+      "type": "Theory",
+      "sectionName": "CA-PhD-2nd",
+      "teacherCode": "DU-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CA-PhD-2nd)",
+      "code": "DU-MEM-67",
+      "type": "Theory",
+      "sectionName": "CA-PhD-2nd",
+      "teacherCode": "DU-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CA-PhD-2nd)",
+      "code": "DU-ACM-68",
+      "type": "Theory",
+      "sectionName": "CA-PhD-2nd",
+      "teacherCode": "DU-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CA-PhD-2nd)",
+      "code": "DU-ISE-69",
+      "type": "Theory",
+      "sectionName": "CA-PhD-2nd",
+      "teacherCode": "DU-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (CA-PhD-2nd)",
+      "code": "DU-BASL-70",
+      "type": "Lab",
+      "sectionName": "CA-PhD-2nd",
+      "teacherCode": "DU-FAC-051",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-BSc-1st)",
+      "code": "DU-CAF-71",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-1st",
+      "teacherCode": "DU-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-BSc-1st)",
+      "code": "DU-MEM-72",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-1st",
+      "teacherCode": "DU-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-BSc-1st)",
+      "code": "DU-ACM-73",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-1st",
+      "teacherCode": "DU-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-BSc-1st)",
+      "code": "DU-ISE-74",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-1st",
+      "teacherCode": "DU-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-BSc-1st)",
+      "code": "DU-PEP-75",
+      "type": "Lab",
+      "sectionName": "PHYS-BSc-1st",
+      "teacherCode": "DU-FAC-061",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-BSc-2nd)",
+      "code": "DU-CAF-76",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-2nd",
+      "teacherCode": "DU-FAC-067",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-BSc-2nd)",
+      "code": "DU-MEM-77",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-2nd",
+      "teacherCode": "DU-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-BSc-2nd)",
+      "code": "DU-ACM-78",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-2nd",
+      "teacherCode": "DU-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-BSc-2nd)",
+      "code": "DU-ISE-79",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-2nd",
+      "teacherCode": "DU-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-BSc-2nd)",
+      "code": "DU-PEP-80",
+      "type": "Lab",
+      "sectionName": "PHYS-BSc-2nd",
+      "teacherCode": "DU-FAC-071",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-BSc-3rd)",
+      "code": "DU-CAF-81",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-3rd",
+      "teacherCode": "DU-FAC-077",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-BSc-3rd)",
+      "code": "DU-MEM-82",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-3rd",
+      "teacherCode": "DU-FAC-078",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-BSc-3rd)",
+      "code": "DU-ACM-83",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-3rd",
+      "teacherCode": "DU-FAC-079",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-BSc-3rd)",
+      "code": "DU-ISE-84",
+      "type": "Theory",
+      "sectionName": "PHYS-BSc-3rd",
+      "teacherCode": "DU-FAC-080",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-BSc-3rd)",
+      "code": "DU-PEP-85",
+      "type": "Lab",
+      "sectionName": "PHYS-BSc-3rd",
+      "teacherCode": "DU-FAC-081",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-MSc-1st)",
+      "code": "DU-CAF-86",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-1st",
+      "teacherCode": "DU-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-MSc-1st)",
+      "code": "DU-MEM-87",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-1st",
+      "teacherCode": "DU-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-MSc-1st)",
+      "code": "DU-ACM-88",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-1st",
+      "teacherCode": "DU-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-MSc-1st)",
+      "code": "DU-ISE-89",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-1st",
+      "teacherCode": "DU-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-MSc-1st)",
+      "code": "DU-PEP-90",
+      "type": "Lab",
+      "sectionName": "PHYS-MSc-1st",
+      "teacherCode": "DU-FAC-007",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-MSc-2nd)",
+      "code": "DU-CAF-91",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-2nd",
+      "teacherCode": "DU-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-MSc-2nd)",
+      "code": "DU-MEM-92",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-2nd",
+      "teacherCode": "DU-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-MSc-2nd)",
+      "code": "DU-ACM-93",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-2nd",
+      "teacherCode": "DU-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-MSc-2nd)",
+      "code": "DU-ISE-94",
+      "type": "Theory",
+      "sectionName": "PHYS-MSc-2nd",
+      "teacherCode": "DU-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-MSc-2nd)",
+      "code": "DU-PEP-95",
+      "type": "Lab",
+      "sectionName": "PHYS-MSc-2nd",
+      "teacherCode": "DU-FAC-017",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-PhD-1st)",
+      "code": "DU-CAF-96",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-1st",
+      "teacherCode": "DU-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-PhD-1st)",
+      "code": "DU-MEM-97",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-1st",
+      "teacherCode": "DU-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-PhD-1st)",
+      "code": "DU-ACM-98",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-1st",
+      "teacherCode": "DU-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-PhD-1st)",
+      "code": "DU-ISE-99",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-1st",
+      "teacherCode": "DU-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-PhD-1st)",
+      "code": "DU-PEP-100",
+      "type": "Lab",
+      "sectionName": "PHYS-PhD-1st",
+      "teacherCode": "DU-FAC-027",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (PHYS-PhD-2nd)",
+      "code": "DU-CAF-101",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-2nd",
+      "teacherCode": "DU-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (PHYS-PhD-2nd)",
+      "code": "DU-MEM-102",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-2nd",
+      "teacherCode": "DU-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (PHYS-PhD-2nd)",
+      "code": "DU-ACM-103",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-2nd",
+      "teacherCode": "DU-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (PHYS-PhD-2nd)",
+      "code": "DU-ISE-104",
+      "type": "Theory",
+      "sectionName": "PHYS-PhD-2nd",
+      "teacherCode": "DU-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (PHYS-PhD-2nd)",
+      "code": "DU-PEP-105",
+      "type": "Lab",
+      "sectionName": "PHYS-PhD-2nd",
+      "teacherCode": "DU-FAC-037",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-BSc-1st)",
+      "code": "DU-CAF-106",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-1st",
+      "teacherCode": "DU-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-BSc-1st)",
+      "code": "DU-MEM-107",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-1st",
+      "teacherCode": "DU-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-BSc-1st)",
+      "code": "DU-ACM-108",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-1st",
+      "teacherCode": "DU-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-BSc-1st)",
+      "code": "DU-ISE-109",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-1st",
+      "teacherCode": "DU-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-BSc-1st)",
+      "code": "DU-PEP-110",
+      "type": "Lab",
+      "sectionName": "CHEM-BSc-1st",
+      "teacherCode": "DU-FAC-047",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-BSc-2nd)",
+      "code": "DU-CAF-111",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-2nd",
+      "teacherCode": "DU-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-BSc-2nd)",
+      "code": "DU-MEM-112",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-2nd",
+      "teacherCode": "DU-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-BSc-2nd)",
+      "code": "DU-ACM-113",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-2nd",
+      "teacherCode": "DU-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-BSc-2nd)",
+      "code": "DU-ISE-114",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-2nd",
+      "teacherCode": "DU-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-BSc-2nd)",
+      "code": "DU-PEP-115",
+      "type": "Lab",
+      "sectionName": "CHEM-BSc-2nd",
+      "teacherCode": "DU-FAC-057",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-BSc-3rd)",
+      "code": "DU-CAF-116",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-3rd",
+      "teacherCode": "DU-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-BSc-3rd)",
+      "code": "DU-MEM-117",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-3rd",
+      "teacherCode": "DU-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-BSc-3rd)",
+      "code": "DU-ACM-118",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-3rd",
+      "teacherCode": "DU-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-BSc-3rd)",
+      "code": "DU-ISE-119",
+      "type": "Theory",
+      "sectionName": "CHEM-BSc-3rd",
+      "teacherCode": "DU-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-BSc-3rd)",
+      "code": "DU-PEP-120",
+      "type": "Lab",
+      "sectionName": "CHEM-BSc-3rd",
+      "teacherCode": "DU-FAC-067",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-MSc-1st)",
+      "code": "DU-CAF-121",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-1st",
+      "teacherCode": "DU-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-MSc-1st)",
+      "code": "DU-MEM-122",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-1st",
+      "teacherCode": "DU-FAC-074",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-MSc-1st)",
+      "code": "DU-ACM-123",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-1st",
+      "teacherCode": "DU-FAC-075",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-MSc-1st)",
+      "code": "DU-ISE-124",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-1st",
+      "teacherCode": "DU-FAC-076",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-MSc-1st)",
+      "code": "DU-PEP-125",
+      "type": "Lab",
+      "sectionName": "CHEM-MSc-1st",
+      "teacherCode": "DU-FAC-077",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-MSc-2nd)",
+      "code": "DU-CAF-126",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-2nd",
+      "teacherCode": "DU-FAC-083",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-MSc-2nd)",
+      "code": "DU-MEM-127",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-2nd",
+      "teacherCode": "DU-FAC-084",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-MSc-2nd)",
+      "code": "DU-ACM-128",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-2nd",
+      "teacherCode": "DU-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-MSc-2nd)",
+      "code": "DU-ISE-129",
+      "type": "Theory",
+      "sectionName": "CHEM-MSc-2nd",
+      "teacherCode": "DU-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-MSc-2nd)",
+      "code": "DU-PEP-130",
+      "type": "Lab",
+      "sectionName": "CHEM-MSc-2nd",
+      "teacherCode": "DU-FAC-003",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-PhD-1st)",
+      "code": "DU-CAF-131",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-1st",
+      "teacherCode": "DU-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-PhD-1st)",
+      "code": "DU-MEM-132",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-1st",
+      "teacherCode": "DU-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-PhD-1st)",
+      "code": "DU-ACM-133",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-1st",
+      "teacherCode": "DU-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-PhD-1st)",
+      "code": "DU-ISE-134",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-1st",
+      "teacherCode": "DU-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-PhD-1st)",
+      "code": "DU-PEP-135",
+      "type": "Lab",
+      "sectionName": "CHEM-PhD-1st",
+      "teacherCode": "DU-FAC-013",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (CHEM-PhD-2nd)",
+      "code": "DU-CAF-136",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-2nd",
+      "teacherCode": "DU-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (CHEM-PhD-2nd)",
+      "code": "DU-MEM-137",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-2nd",
+      "teacherCode": "DU-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (CHEM-PhD-2nd)",
+      "code": "DU-ACM-138",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-2nd",
+      "teacherCode": "DU-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (CHEM-PhD-2nd)",
+      "code": "DU-ISE-139",
+      "type": "Theory",
+      "sectionName": "CHEM-PhD-2nd",
+      "teacherCode": "DU-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Practical Experimental Practicum (CHEM-PhD-2nd)",
+      "code": "DU-PEP-140",
+      "type": "Lab",
+      "sectionName": "CHEM-PhD-2nd",
+      "teacherCode": "DU-FAC-023",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-BA-1st)",
+      "code": "DU-CAF-141",
+      "type": "Theory",
+      "sectionName": "ECON-BA-1st",
+      "teacherCode": "DU-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-BA-1st)",
+      "code": "DU-MEM-142",
+      "type": "Theory",
+      "sectionName": "ECON-BA-1st",
+      "teacherCode": "DU-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-BA-1st)",
+      "code": "DU-ACM-143",
+      "type": "Theory",
+      "sectionName": "ECON-BA-1st",
+      "teacherCode": "DU-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-BA-1st)",
+      "code": "DU-ISE-144",
+      "type": "Theory",
+      "sectionName": "ECON-BA-1st",
+      "teacherCode": "DU-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-BA-1st)",
+      "code": "DU-PDW-145",
+      "type": "Lab",
+      "sectionName": "ECON-BA-1st",
+      "teacherCode": "DU-FAC-033",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-BA-2nd)",
+      "code": "DU-CAF-146",
+      "type": "Theory",
+      "sectionName": "ECON-BA-2nd",
+      "teacherCode": "DU-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-BA-2nd)",
+      "code": "DU-MEM-147",
+      "type": "Theory",
+      "sectionName": "ECON-BA-2nd",
+      "teacherCode": "DU-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-BA-2nd)",
+      "code": "DU-ACM-148",
+      "type": "Theory",
+      "sectionName": "ECON-BA-2nd",
+      "teacherCode": "DU-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-BA-2nd)",
+      "code": "DU-ISE-149",
+      "type": "Theory",
+      "sectionName": "ECON-BA-2nd",
+      "teacherCode": "DU-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-BA-2nd)",
+      "code": "DU-PDW-150",
+      "type": "Lab",
+      "sectionName": "ECON-BA-2nd",
+      "teacherCode": "DU-FAC-043",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-BA-3rd)",
+      "code": "DU-CAF-151",
+      "type": "Theory",
+      "sectionName": "ECON-BA-3rd",
+      "teacherCode": "DU-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-BA-3rd)",
+      "code": "DU-MEM-152",
+      "type": "Theory",
+      "sectionName": "ECON-BA-3rd",
+      "teacherCode": "DU-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-BA-3rd)",
+      "code": "DU-ACM-153",
+      "type": "Theory",
+      "sectionName": "ECON-BA-3rd",
+      "teacherCode": "DU-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-BA-3rd)",
+      "code": "DU-ISE-154",
+      "type": "Theory",
+      "sectionName": "ECON-BA-3rd",
+      "teacherCode": "DU-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-BA-3rd)",
+      "code": "DU-PDW-155",
+      "type": "Lab",
+      "sectionName": "ECON-BA-3rd",
+      "teacherCode": "DU-FAC-053",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-MA-1st)",
+      "code": "DU-CAF-156",
+      "type": "Theory",
+      "sectionName": "ECON-MA-1st",
+      "teacherCode": "DU-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-MA-1st)",
+      "code": "DU-MEM-157",
+      "type": "Theory",
+      "sectionName": "ECON-MA-1st",
+      "teacherCode": "DU-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-MA-1st)",
+      "code": "DU-ACM-158",
+      "type": "Theory",
+      "sectionName": "ECON-MA-1st",
+      "teacherCode": "DU-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-MA-1st)",
+      "code": "DU-ISE-159",
+      "type": "Theory",
+      "sectionName": "ECON-MA-1st",
+      "teacherCode": "DU-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-MA-1st)",
+      "code": "DU-PDW-160",
+      "type": "Lab",
+      "sectionName": "ECON-MA-1st",
+      "teacherCode": "DU-FAC-063",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-MA-2nd)",
+      "code": "DU-CAF-161",
+      "type": "Theory",
+      "sectionName": "ECON-MA-2nd",
+      "teacherCode": "DU-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-MA-2nd)",
+      "code": "DU-MEM-162",
+      "type": "Theory",
+      "sectionName": "ECON-MA-2nd",
+      "teacherCode": "DU-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-MA-2nd)",
+      "code": "DU-ACM-163",
+      "type": "Theory",
+      "sectionName": "ECON-MA-2nd",
+      "teacherCode": "DU-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-MA-2nd)",
+      "code": "DU-ISE-164",
+      "type": "Theory",
+      "sectionName": "ECON-MA-2nd",
+      "teacherCode": "DU-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-MA-2nd)",
+      "code": "DU-PDW-165",
+      "type": "Lab",
+      "sectionName": "ECON-MA-2nd",
+      "teacherCode": "DU-FAC-073",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-PhD-1st)",
+      "code": "DU-CAF-166",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-1st",
+      "teacherCode": "DU-FAC-079",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-PhD-1st)",
+      "code": "DU-MEM-167",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-1st",
+      "teacherCode": "DU-FAC-080",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-PhD-1st)",
+      "code": "DU-ACM-168",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-1st",
+      "teacherCode": "DU-FAC-081",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-PhD-1st)",
+      "code": "DU-ISE-169",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-1st",
+      "teacherCode": "DU-FAC-082",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-PhD-1st)",
+      "code": "DU-PDW-170",
+      "type": "Lab",
+      "sectionName": "ECON-PhD-1st",
+      "teacherCode": "DU-FAC-083",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ECON-PhD-2nd)",
+      "code": "DU-CAF-171",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-2nd",
+      "teacherCode": "DU-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ECON-PhD-2nd)",
+      "code": "DU-MEM-172",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-2nd",
+      "teacherCode": "DU-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ECON-PhD-2nd)",
+      "code": "DU-ACM-173",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-2nd",
+      "teacherCode": "DU-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ECON-PhD-2nd)",
+      "code": "DU-ISE-174",
+      "type": "Theory",
+      "sectionName": "ECON-PhD-2nd",
+      "teacherCode": "DU-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ECON-PhD-2nd)",
+      "code": "DU-PDW-175",
+      "type": "Lab",
+      "sectionName": "ECON-PhD-2nd",
+      "teacherCode": "DU-FAC-009",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-BCom-1st)",
+      "code": "DU-CAF-176",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-1st",
+      "teacherCode": "DU-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-BCom-1st)",
+      "code": "DU-MEM-177",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-1st",
+      "teacherCode": "DU-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-BCom-1st)",
+      "code": "DU-ACM-178",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-1st",
+      "teacherCode": "DU-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-BCom-1st)",
+      "code": "DU-ISE-179",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-1st",
+      "teacherCode": "DU-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-BCom-1st)",
+      "code": "DU-BASL-180",
+      "type": "Lab",
+      "sectionName": "COMM-BCom-1st",
+      "teacherCode": "DU-FAC-019",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-BCom-2nd)",
+      "code": "DU-CAF-181",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-2nd",
+      "teacherCode": "DU-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-BCom-2nd)",
+      "code": "DU-MEM-182",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-2nd",
+      "teacherCode": "DU-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-BCom-2nd)",
+      "code": "DU-ACM-183",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-2nd",
+      "teacherCode": "DU-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-BCom-2nd)",
+      "code": "DU-ISE-184",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-2nd",
+      "teacherCode": "DU-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-BCom-2nd)",
+      "code": "DU-BASL-185",
+      "type": "Lab",
+      "sectionName": "COMM-BCom-2nd",
+      "teacherCode": "DU-FAC-029",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-BCom-3rd)",
+      "code": "DU-CAF-186",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-3rd",
+      "teacherCode": "DU-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-BCom-3rd)",
+      "code": "DU-MEM-187",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-3rd",
+      "teacherCode": "DU-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-BCom-3rd)",
+      "code": "DU-ACM-188",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-3rd",
+      "teacherCode": "DU-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-BCom-3rd)",
+      "code": "DU-ISE-189",
+      "type": "Theory",
+      "sectionName": "COMM-BCom-3rd",
+      "teacherCode": "DU-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-BCom-3rd)",
+      "code": "DU-BASL-190",
+      "type": "Lab",
+      "sectionName": "COMM-BCom-3rd",
+      "teacherCode": "DU-FAC-039",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-MCom-1st)",
+      "code": "DU-CAF-191",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-1st",
+      "teacherCode": "DU-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-MCom-1st)",
+      "code": "DU-MEM-192",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-1st",
+      "teacherCode": "DU-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-MCom-1st)",
+      "code": "DU-ACM-193",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-1st",
+      "teacherCode": "DU-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-MCom-1st)",
+      "code": "DU-ISE-194",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-1st",
+      "teacherCode": "DU-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-MCom-1st)",
+      "code": "DU-BASL-195",
+      "type": "Lab",
+      "sectionName": "COMM-MCom-1st",
+      "teacherCode": "DU-FAC-049",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-MCom-2nd)",
+      "code": "DU-CAF-196",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-2nd",
+      "teacherCode": "DU-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-MCom-2nd)",
+      "code": "DU-MEM-197",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-2nd",
+      "teacherCode": "DU-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-MCom-2nd)",
+      "code": "DU-ACM-198",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-2nd",
+      "teacherCode": "DU-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-MCom-2nd)",
+      "code": "DU-ISE-199",
+      "type": "Theory",
+      "sectionName": "COMM-MCom-2nd",
+      "teacherCode": "DU-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-MCom-2nd)",
+      "code": "DU-BASL-200",
+      "type": "Lab",
+      "sectionName": "COMM-MCom-2nd",
+      "teacherCode": "DU-FAC-059",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-PhD-1st)",
+      "code": "DU-CAF-201",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "DU-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-PhD-1st)",
+      "code": "DU-MEM-202",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "DU-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-PhD-1st)",
+      "code": "DU-ACM-203",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "DU-FAC-067",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-PhD-1st)",
+      "code": "DU-ISE-204",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "DU-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-PhD-1st)",
+      "code": "DU-BASL-205",
+      "type": "Lab",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "DU-FAC-069",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (COMM-PhD-2nd)",
+      "code": "DU-CAF-206",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-2nd",
+      "teacherCode": "DU-FAC-075",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (COMM-PhD-2nd)",
+      "code": "DU-MEM-207",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-2nd",
+      "teacherCode": "DU-FAC-076",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (COMM-PhD-2nd)",
+      "code": "DU-ACM-208",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-2nd",
+      "teacherCode": "DU-FAC-077",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (COMM-PhD-2nd)",
+      "code": "DU-ISE-209",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-2nd",
+      "teacherCode": "DU-FAC-078",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Business Analytics & Software Lab (COMM-PhD-2nd)",
+      "code": "DU-BASL-210",
+      "type": "Lab",
+      "sectionName": "COMM-PhD-2nd",
+      "teacherCode": "DU-FAC-079",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-BA-1st)",
+      "code": "DU-CAF-211",
+      "type": "Theory",
+      "sectionName": "ENG-BA-1st",
+      "teacherCode": "DU-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-BA-1st)",
+      "code": "DU-MEM-212",
+      "type": "Theory",
+      "sectionName": "ENG-BA-1st",
+      "teacherCode": "DU-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-BA-1st)",
+      "code": "DU-ACM-213",
+      "type": "Theory",
+      "sectionName": "ENG-BA-1st",
+      "teacherCode": "DU-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-BA-1st)",
+      "code": "DU-ISE-214",
+      "type": "Theory",
+      "sectionName": "ENG-BA-1st",
+      "teacherCode": "DU-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-BA-1st)",
+      "code": "DU-PDW-215",
+      "type": "Lab",
+      "sectionName": "ENG-BA-1st",
+      "teacherCode": "DU-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-BA-2nd)",
+      "code": "DU-CAF-216",
+      "type": "Theory",
+      "sectionName": "ENG-BA-2nd",
+      "teacherCode": "DU-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-BA-2nd)",
+      "code": "DU-MEM-217",
+      "type": "Theory",
+      "sectionName": "ENG-BA-2nd",
+      "teacherCode": "DU-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-BA-2nd)",
+      "code": "DU-ACM-218",
+      "type": "Theory",
+      "sectionName": "ENG-BA-2nd",
+      "teacherCode": "DU-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-BA-2nd)",
+      "code": "DU-ISE-219",
+      "type": "Theory",
+      "sectionName": "ENG-BA-2nd",
+      "teacherCode": "DU-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-BA-2nd)",
+      "code": "DU-PDW-220",
+      "type": "Lab",
+      "sectionName": "ENG-BA-2nd",
+      "teacherCode": "DU-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-BA-3rd)",
+      "code": "DU-CAF-221",
+      "type": "Theory",
+      "sectionName": "ENG-BA-3rd",
+      "teacherCode": "DU-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-BA-3rd)",
+      "code": "DU-MEM-222",
+      "type": "Theory",
+      "sectionName": "ENG-BA-3rd",
+      "teacherCode": "DU-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-BA-3rd)",
+      "code": "DU-ACM-223",
+      "type": "Theory",
+      "sectionName": "ENG-BA-3rd",
+      "teacherCode": "DU-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-BA-3rd)",
+      "code": "DU-ISE-224",
+      "type": "Theory",
+      "sectionName": "ENG-BA-3rd",
+      "teacherCode": "DU-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-BA-3rd)",
+      "code": "DU-PDW-225",
+      "type": "Lab",
+      "sectionName": "ENG-BA-3rd",
+      "teacherCode": "DU-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-MA-1st)",
+      "code": "DU-CAF-226",
+      "type": "Theory",
+      "sectionName": "ENG-MA-1st",
+      "teacherCode": "DU-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-MA-1st)",
+      "code": "DU-MEM-227",
+      "type": "Theory",
+      "sectionName": "ENG-MA-1st",
+      "teacherCode": "DU-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-MA-1st)",
+      "code": "DU-ACM-228",
+      "type": "Theory",
+      "sectionName": "ENG-MA-1st",
+      "teacherCode": "DU-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-MA-1st)",
+      "code": "DU-ISE-229",
+      "type": "Theory",
+      "sectionName": "ENG-MA-1st",
+      "teacherCode": "DU-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-MA-1st)",
+      "code": "DU-PDW-230",
+      "type": "Lab",
+      "sectionName": "ENG-MA-1st",
+      "teacherCode": "DU-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-MA-2nd)",
+      "code": "DU-CAF-231",
+      "type": "Theory",
+      "sectionName": "ENG-MA-2nd",
+      "teacherCode": "DU-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-MA-2nd)",
+      "code": "DU-MEM-232",
+      "type": "Theory",
+      "sectionName": "ENG-MA-2nd",
+      "teacherCode": "DU-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-MA-2nd)",
+      "code": "DU-ACM-233",
+      "type": "Theory",
+      "sectionName": "ENG-MA-2nd",
+      "teacherCode": "DU-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-MA-2nd)",
+      "code": "DU-ISE-234",
+      "type": "Theory",
+      "sectionName": "ENG-MA-2nd",
+      "teacherCode": "DU-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-MA-2nd)",
+      "code": "DU-PDW-235",
+      "type": "Lab",
+      "sectionName": "ENG-MA-2nd",
+      "teacherCode": "DU-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-PhD-1st)",
+      "code": "DU-CAF-236",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-1st",
+      "teacherCode": "DU-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-PhD-1st)",
+      "code": "DU-MEM-237",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-1st",
+      "teacherCode": "DU-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-PhD-1st)",
+      "code": "DU-ACM-238",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-1st",
+      "teacherCode": "DU-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-PhD-1st)",
+      "code": "DU-ISE-239",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-1st",
+      "teacherCode": "DU-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-PhD-1st)",
+      "code": "DU-PDW-240",
+      "type": "Lab",
+      "sectionName": "ENG-PhD-1st",
+      "teacherCode": "DU-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Classical Analysis & Foundations (ENG-PhD-2nd)",
+      "code": "DU-CAF-241",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-2nd",
+      "teacherCode": "DU-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Empirical Methodology (ENG-PhD-2nd)",
+      "code": "DU-MEM-242",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-2nd",
+      "teacherCode": "DU-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Applied Computational Modeling (ENG-PhD-2nd)",
+      "code": "DU-ACM-243",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-2nd",
+      "teacherCode": "DU-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Seminar & Ethics (ENG-PhD-2nd)",
+      "code": "DU-ISE-244",
+      "type": "Theory",
+      "sectionName": "ENG-PhD-2nd",
+      "teacherCode": "DU-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Phonetics & Data Workshop (ENG-PhD-2nd)",
+      "code": "DU-PDW-245",
+      "type": "Lab",
+      "sectionName": "ENG-PhD-2nd",
+      "teacherCode": "DU-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    }
+  ]
+}

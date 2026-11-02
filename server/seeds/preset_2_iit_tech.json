@@ -1,0 +1,4195 @@
+{
+  "id": "preset_2_iit_tech",
+  "title": "IIT Advanced Tech & Research",
+  "category": "Engineering & Science",
+  "description": "Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with 52 sections and 55 research halls/labs.",
+  "badge": "52 Sections \u2022 55 Rooms \u2022 260 Subjects",
+  "sections": [
+    {
+      "name": "CSE-1st",
+      "department": "Computer Science & HPC",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-2nd",
+      "department": "Computer Science & HPC",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-3rd",
+      "department": "Computer Science & HPC",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-4th",
+      "department": "Computer Science & HPC",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-MTech-1st",
+      "department": "Computer Science & HPC",
+      "studentCount": 30
+    },
+    {
+      "name": "CSE-MTech-2nd",
+      "department": "Computer Science & HPC",
+      "studentCount": 30
+    },
+    {
+      "name": "CSE-PhD-1st",
+      "department": "Computer Science & HPC",
+      "studentCount": 15
+    },
+    {
+      "name": "CSE-PhD-2nd",
+      "department": "Computer Science & HPC",
+      "studentCount": 15
+    },
+    {
+      "name": "AIR-1st",
+      "department": "AI & Robotics",
+      "studentCount": 65
+    },
+    {
+      "name": "AIR-2nd",
+      "department": "AI & Robotics",
+      "studentCount": 65
+    },
+    {
+      "name": "AIR-3rd",
+      "department": "AI & Robotics",
+      "studentCount": 65
+    },
+    {
+      "name": "AIR-4th",
+      "department": "AI & Robotics",
+      "studentCount": 65
+    },
+    {
+      "name": "AIR-MTech-1st",
+      "department": "AI & Robotics",
+      "studentCount": 25
+    },
+    {
+      "name": "AIR-MTech-2nd",
+      "department": "AI & Robotics",
+      "studentCount": 25
+    },
+    {
+      "name": "AIR-PhD-1st",
+      "department": "AI & Robotics",
+      "studentCount": 15
+    },
+    {
+      "name": "AIR-PhD-2nd",
+      "department": "AI & Robotics",
+      "studentCount": 15
+    },
+    {
+      "name": "VLSI-1st",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 65
+    },
+    {
+      "name": "VLSI-2nd",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 65
+    },
+    {
+      "name": "VLSI-3rd",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 65
+    },
+    {
+      "name": "VLSI-4th",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 65
+    },
+    {
+      "name": "VLSI-MTech-1st",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 25
+    },
+    {
+      "name": "VLSI-MTech-2nd",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 25
+    },
+    {
+      "name": "VLSI-PhD-1st",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 15
+    },
+    {
+      "name": "VLSI-PhD-2nd",
+      "department": "Microelectronics & VLSI",
+      "studentCount": 15
+    },
+    {
+      "name": "AERO-1st",
+      "department": "Aerospace & Avionics",
+      "studentCount": 60
+    },
+    {
+      "name": "AERO-2nd",
+      "department": "Aerospace & Avionics",
+      "studentCount": 60
+    },
+    {
+      "name": "AERO-3rd",
+      "department": "Aerospace & Avionics",
+      "studentCount": 60
+    },
+    {
+      "name": "AERO-4th",
+      "department": "Aerospace & Avionics",
+      "studentCount": 60
+    },
+    {
+      "name": "AERO-MTech-1st",
+      "department": "Aerospace & Avionics",
+      "studentCount": 25
+    },
+    {
+      "name": "AERO-MTech-2nd",
+      "department": "Aerospace & Avionics",
+      "studentCount": 25
+    },
+    {
+      "name": "AERO-PhD-1st",
+      "department": "Aerospace & Avionics",
+      "studentCount": 15
+    },
+    {
+      "name": "AERO-PhD-2nd",
+      "department": "Aerospace & Avionics",
+      "studentCount": 15
+    },
+    {
+      "name": "MAT-1st",
+      "department": "Materials Science & Nano",
+      "studentCount": 60
+    },
+    {
+      "name": "MAT-2nd",
+      "department": "Materials Science & Nano",
+      "studentCount": 60
+    },
+    {
+      "name": "MAT-3rd",
+      "department": "Materials Science & Nano",
+      "studentCount": 60
+    },
+    {
+      "name": "MAT-4th",
+      "department": "Materials Science & Nano",
+      "studentCount": 60
+    },
+    {
+      "name": "MAT-MTech-1st",
+      "department": "Materials Science & Nano",
+      "studentCount": 20
+    },
+    {
+      "name": "MAT-MTech-2nd",
+      "department": "Materials Science & Nano",
+      "studentCount": 20
+    },
+    {
+      "name": "MAT-PhD-1st",
+      "department": "Materials Science & Nano",
+      "studentCount": 15
+    },
+    {
+      "name": "MAT-PhD-2nd",
+      "department": "Materials Science & Nano",
+      "studentCount": 15
+    },
+    {
+      "name": "QUANT-1st",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 55
+    },
+    {
+      "name": "QUANT-2nd",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 55
+    },
+    {
+      "name": "QUANT-3rd",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 55
+    },
+    {
+      "name": "QUANT-4th",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 55
+    },
+    {
+      "name": "QUANT-MTech-1st",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 20
+    },
+    {
+      "name": "QUANT-MTech-2nd",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 20
+    },
+    {
+      "name": "QUANT-PhD-1st",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 15
+    },
+    {
+      "name": "QUANT-PhD-2nd",
+      "department": "Quantum Systems & Physics",
+      "studentCount": 15
+    },
+    {
+      "name": "CHEM-1st",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 55
+    },
+    {
+      "name": "CHEM-2nd",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 55
+    },
+    {
+      "name": "CHEM-3rd",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 55
+    },
+    {
+      "name": "CHEM-4th",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 55
+    },
+    {
+      "name": "CHEM-MTech-1st",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 20
+    },
+    {
+      "name": "CHEM-MTech-2nd",
+      "department": "Chemical & Bio-Engineering",
+      "studentCount": 20
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Lecture Theatre LT-1",
+      "roomNumber": "LT-1",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-2",
+      "roomNumber": "LT-2",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-3",
+      "roomNumber": "LT-3",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-4",
+      "roomNumber": "LT-4",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-5",
+      "roomNumber": "LT-5",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-6",
+      "roomNumber": "LT-6",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-7",
+      "roomNumber": "LT-7",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-8",
+      "roomNumber": "LT-8",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-9",
+      "roomNumber": "LT-9",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-10",
+      "roomNumber": "LT-10",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-11",
+      "roomNumber": "LT-11",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-12",
+      "roomNumber": "LT-12",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-13",
+      "roomNumber": "LT-13",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-14",
+      "roomNumber": "LT-14",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-15",
+      "roomNumber": "LT-15",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-16",
+      "roomNumber": "LT-16",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-17",
+      "roomNumber": "LT-17",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-18",
+      "roomNumber": "LT-18",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-19",
+      "roomNumber": "LT-19",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-20",
+      "roomNumber": "LT-20",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-21",
+      "roomNumber": "LT-21",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-22",
+      "roomNumber": "LT-22",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-23",
+      "roomNumber": "LT-23",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-24",
+      "roomNumber": "LT-24",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-25",
+      "roomNumber": "LT-25",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Lecture Theatre LT-26",
+      "roomNumber": "LT-26",
+      "type": "Classroom",
+      "capacity": 80
+    },
+    {
+      "name": "Research Seminar Hall 1",
+      "roomNumber": "RSH-1",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 2",
+      "roomNumber": "RSH-2",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 3",
+      "roomNumber": "RSH-3",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 4",
+      "roomNumber": "RSH-4",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 5",
+      "roomNumber": "RSH-5",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 6",
+      "roomNumber": "RSH-6",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 7",
+      "roomNumber": "RSH-7",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 8",
+      "roomNumber": "RSH-8",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "HPC Supercomputing Lab 1",
+      "roomNumber": "HPC-1",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "HPC Supercomputing Lab 2",
+      "roomNumber": "HPC-2",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "HPC Supercomputing Lab 3",
+      "roomNumber": "HPC-3",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "HPC Supercomputing Lab 4",
+      "roomNumber": "HPC-4",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "HPC Supercomputing Lab 5",
+      "roomNumber": "HPC-5",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "HPC Supercomputing Lab 6",
+      "roomNumber": "HPC-6",
+      "type": "ComputerLab",
+      "capacity": 40
+    },
+    {
+      "name": "Autonomous Robotics Lab 1",
+      "roomNumber": "ROBO-1",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "Autonomous Robotics Lab 2",
+      "roomNumber": "ROBO-2",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "Autonomous Robotics Lab 3",
+      "roomNumber": "ROBO-3",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "Autonomous Robotics Lab 4",
+      "roomNumber": "ROBO-4",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "VLSI Cleanroom Fab 1",
+      "roomNumber": "FAB-1",
+      "type": "ElectronicsLab",
+      "capacity": 40
+    },
+    {
+      "name": "VLSI Cleanroom Fab 2",
+      "roomNumber": "FAB-2",
+      "type": "ElectronicsLab",
+      "capacity": 40
+    },
+    {
+      "name": "VLSI Cleanroom Fab 3",
+      "roomNumber": "FAB-3",
+      "type": "ElectronicsLab",
+      "capacity": 40
+    },
+    {
+      "name": "VLSI Cleanroom Fab 4",
+      "roomNumber": "FAB-4",
+      "type": "ElectronicsLab",
+      "capacity": 40
+    },
+    {
+      "name": "Aerodynamics Wind Tunnel 1",
+      "roomNumber": "WIND-1",
+      "type": "MechanicalWorkshop",
+      "capacity": 40
+    },
+    {
+      "name": "Aerodynamics Wind Tunnel 2",
+      "roomNumber": "WIND-2",
+      "type": "MechanicalWorkshop",
+      "capacity": 40
+    },
+    {
+      "name": "Aerodynamics Wind Tunnel 3",
+      "roomNumber": "WIND-3",
+      "type": "MechanicalWorkshop",
+      "capacity": 40
+    },
+    {
+      "name": "Quantum Optics & Materials Lab 1",
+      "roomNumber": "QMAT-1",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "Quantum Optics & Materials Lab 2",
+      "roomNumber": "QMAT-2",
+      "type": "Laboratory",
+      "capacity": 40
+    },
+    {
+      "name": "Quantum Optics & Materials Lab 3",
+      "roomNumber": "QMAT-3",
+      "type": "Laboratory",
+      "capacity": 40
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Prof. H. K. Verma",
+      "teacherCode": "IIT-FAC-001",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-1",
+        "IIT-FDSL-135",
+        "IIT-DNA-178",
+        "IIT-AAGT-221"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Sen",
+      "teacherCode": "IIT-FAC-002",
+      "teachableSubjectCodes": [
+        "IIT-DOS-2",
+        "IIT-SPE-179",
+        "IIT-DOS-222"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. Sengupta",
+      "teacherCode": "IIT-FAC-003",
+      "teachableSubjectCodes": [
+        "IIT-DNA-3",
+        "IIT-AAGT-46",
+        "IIT-SSLAB-180",
+        "IIT-DNA-223",
+        "IIT-AAGT-266"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. Natarajan",
+      "teacherCode": "IIT-FAC-004",
+      "teachableSubjectCodes": [
+        "IIT-SPE-4",
+        "IIT-DOS-47",
+        "IIT-SPE-224",
+        "IIT-DOS-267"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. Biswas",
+      "teacherCode": "IIT-FAC-005",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-5",
+        "IIT-DNA-48",
+        "IIT-AAGT-91",
+        "IIT-QCLL-225",
+        "IIT-DNA-268"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. Ramamurthy",
+      "teacherCode": "IIT-FAC-006",
+      "teachableSubjectCodes": [
+        "IIT-SPE-49",
+        "IIT-DOS-92",
+        "IIT-SPE-269"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. Chakravarty",
+      "teacherCode": "IIT-FAC-007",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-50",
+        "IIT-DNA-93",
+        "IIT-AAGT-136",
+        "IIT-SSLAB-270"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. M. Banerjee",
+      "teacherCode": "IIT-FAC-008",
+      "teachableSubjectCodes": [
+        "IIT-SPE-94",
+        "IIT-DOS-137"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. T. Roy",
+      "teacherCode": "IIT-FAC-009",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-95",
+        "IIT-DNA-138",
+        "IIT-AAGT-181"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. N. Balakrishnan",
+      "teacherCode": "IIT-FAC-010",
+      "teachableSubjectCodes": [
+        "IIT-SPE-139",
+        "IIT-DOS-182"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. C. Rao",
+      "teacherCode": "IIT-FAC-011",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-6",
+        "IIT-FDSL-140",
+        "IIT-DNA-183",
+        "IIT-AAGT-226"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Mahapatra",
+      "teacherCode": "IIT-FAC-012",
+      "teachableSubjectCodes": [
+        "IIT-DOS-7",
+        "IIT-SPE-184",
+        "IIT-DOS-227"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. R. Govindarajan",
+      "teacherCode": "IIT-FAC-013",
+      "teachableSubjectCodes": [
+        "IIT-DNA-8",
+        "IIT-AAGT-51",
+        "IIT-SSLAB-185",
+        "IIT-DNA-228"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. G. K. Ananthasuresh",
+      "teacherCode": "IIT-FAC-014",
+      "teachableSubjectCodes": [
+        "IIT-SPE-9",
+        "IIT-DOS-52",
+        "IIT-SPE-229"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. S. Murthy",
+      "teacherCode": "IIT-FAC-015",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-10",
+        "IIT-DNA-53",
+        "IIT-AAGT-96",
+        "IIT-QCLL-230"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. V. S. Hari",
+      "teacherCode": "IIT-FAC-016",
+      "teachableSubjectCodes": [
+        "IIT-SPE-54",
+        "IIT-DOS-97"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. Chockalingam",
+      "teacherCode": "IIT-FAC-017",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-55",
+        "IIT-DNA-98",
+        "IIT-AAGT-141"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Y. Narahari",
+      "teacherCode": "IIT-FAC-018",
+      "teachableSubjectCodes": [
+        "IIT-SPE-99",
+        "IIT-DOS-142"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. U. Ramamurty",
+      "teacherCode": "IIT-FAC-019",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-100",
+        "IIT-DNA-143",
+        "IIT-AAGT-186"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. E. D. Jemmis",
+      "teacherCode": "IIT-FAC-020",
+      "teachableSubjectCodes": [
+        "IIT-SPE-144",
+        "IIT-DOS-187"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. Bagchi",
+      "teacherCode": "IIT-FAC-021",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-11",
+        "IIT-FDSL-145",
+        "IIT-DNA-188",
+        "IIT-AAGT-231"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. K. Shukla",
+      "teacherCode": "IIT-FAC-022",
+      "teachableSubjectCodes": [
+        "IIT-DOS-12",
+        "IIT-SPE-189",
+        "IIT-DOS-232"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Sampath",
+      "teacherCode": "IIT-FAC-023",
+      "teachableSubjectCodes": [
+        "IIT-DNA-13",
+        "IIT-AAGT-56",
+        "IIT-SSLAB-190",
+        "IIT-DNA-233"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. D. Sarma",
+      "teacherCode": "IIT-FAC-024",
+      "teachableSubjectCodes": [
+        "IIT-SPE-14",
+        "IIT-DOS-57",
+        "IIT-SPE-234"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. K. Sood",
+      "teacherCode": "IIT-FAC-025",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-15",
+        "IIT-DNA-58",
+        "IIT-AAGT-101",
+        "IIT-QCLL-235"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Ramasesha",
+      "teacherCode": "IIT-FAC-026",
+      "teachableSubjectCodes": [
+        "IIT-SPE-59",
+        "IIT-DOS-102"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. S. Anil Kumar",
+      "teacherCode": "IIT-FAC-027",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-60",
+        "IIT-DNA-103",
+        "IIT-AAGT-146"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. Venkataraman",
+      "teacherCode": "IIT-FAC-028",
+      "teachableSubjectCodes": [
+        "IIT-SPE-104",
+        "IIT-DOS-147"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. R. Srikant",
+      "teacherCode": "IIT-FAC-029",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-105",
+        "IIT-DNA-148",
+        "IIT-AAGT-191"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. K. Sikdar",
+      "teacherCode": "IIT-FAC-030",
+      "teachableSubjectCodes": [
+        "IIT-SPE-149",
+        "IIT-DOS-192"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. S. Borkar",
+      "teacherCode": "IIT-FAC-031",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-16",
+        "IIT-FDSL-150",
+        "IIT-DNA-193",
+        "IIT-AAGT-236"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. P. Arun",
+      "teacherCode": "IIT-FAC-032",
+      "teachableSubjectCodes": [
+        "IIT-DOS-17",
+        "IIT-SPE-194",
+        "IIT-DOS-237"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. V. Venkatesh",
+      "teacherCode": "IIT-FAC-033",
+      "teachableSubjectCodes": [
+        "IIT-DNA-18",
+        "IIT-AAGT-61",
+        "IIT-SSLAB-195",
+        "IIT-DNA-238"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. Q. Contractor",
+      "teacherCode": "IIT-FAC-034",
+      "teachableSubjectCodes": [
+        "IIT-SPE-19",
+        "IIT-DOS-62",
+        "IIT-SPE-239"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. J. Vasi",
+      "teacherCode": "IIT-FAC-035",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-20",
+        "IIT-DNA-63",
+        "IIT-AAGT-106",
+        "IIT-QCLL-240"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. C. Amarnath",
+      "teacherCode": "IIT-FAC-036",
+      "teachableSubjectCodes": [
+        "IIT-SPE-64",
+        "IIT-DOS-107"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. N. Buragohain",
+      "teacherCode": "IIT-FAC-037",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-65",
+        "IIT-DNA-108",
+        "IIT-AAGT-151"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. L. Narayanamurthy",
+      "teacherCode": "IIT-FAC-038",
+      "teachableSubjectCodes": [
+        "IIT-SPE-109",
+        "IIT-DOS-152"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Suryanarayan",
+      "teacherCode": "IIT-FAC-039",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-110",
+        "IIT-DNA-153",
+        "IIT-AAGT-196"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. K. Kelkar",
+      "teacherCode": "IIT-FAC-040",
+      "teachableSubjectCodes": [
+        "IIT-SPE-154",
+        "IIT-DOS-197"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. M. S. Ananth",
+      "teacherCode": "IIT-FAC-041",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-21",
+        "IIT-FDSL-155",
+        "IIT-DNA-198",
+        "IIT-AAGT-241"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. R. Krishnaswamy",
+      "teacherCode": "IIT-FAC-042",
+      "teachableSubjectCodes": [
+        "IIT-DOS-22",
+        "IIT-SPE-199",
+        "IIT-DOS-242"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. A. Damodaran",
+      "teacherCode": "IIT-FAC-043",
+      "teachableSubjectCodes": [
+        "IIT-DNA-23",
+        "IIT-AAGT-66",
+        "IIT-SSLAB-200",
+        "IIT-DNA-243"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. C. Rajvanshi",
+      "teacherCode": "IIT-FAC-044",
+      "teachableSubjectCodes": [
+        "IIT-SPE-24",
+        "IIT-DOS-67",
+        "IIT-SPE-244"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. K. Mallik",
+      "teacherCode": "IIT-FAC-045",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-25",
+        "IIT-DNA-68",
+        "IIT-AAGT-111",
+        "IIT-SSLAB-245"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. G. Biswas",
+      "teacherCode": "IIT-FAC-046",
+      "teachableSubjectCodes": [
+        "IIT-SPE-69",
+        "IIT-DOS-112"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. Muralidhar",
+      "teacherCode": "IIT-FAC-047",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-70",
+        "IIT-DNA-113",
+        "IIT-AAGT-156"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. K. Ghosh",
+      "teacherCode": "IIT-FAC-048",
+      "teachableSubjectCodes": [
+        "IIT-SPE-114",
+        "IIT-DOS-157"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. G. Dhande",
+      "teacherCode": "IIT-FAC-049",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-115",
+        "IIT-DNA-158",
+        "IIT-AAGT-201"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. Eswaran",
+      "teacherCode": "IIT-FAC-050",
+      "teachableSubjectCodes": [
+        "IIT-SPE-159",
+        "IIT-DOS-202"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. K. Sharma",
+      "teacherCode": "IIT-FAC-051",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-26",
+        "IIT-FDSL-160",
+        "IIT-DNA-203",
+        "IIT-AAGT-246"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. K. Mathur",
+      "teacherCode": "IIT-FAC-052",
+      "teachableSubjectCodes": [
+        "IIT-DOS-27",
+        "IIT-SPE-204",
+        "IIT-DOS-247"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. K. J. Mohapatra",
+      "teacherCode": "IIT-FAC-053",
+      "teachableSubjectCodes": [
+        "IIT-DNA-28",
+        "IIT-AAGT-71",
+        "IIT-QCLL-205",
+        "IIT-DNA-248"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. C. Dutta Roy",
+      "teacherCode": "IIT-FAC-054",
+      "teachableSubjectCodes": [
+        "IIT-SPE-29",
+        "IIT-DOS-72",
+        "IIT-SPE-249"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. Thyagarajan",
+      "teacherCode": "IIT-FAC-055",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-30",
+        "IIT-DNA-73",
+        "IIT-AAGT-116",
+        "IIT-SSLAB-250"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. P. Pal",
+      "teacherCode": "IIT-FAC-056",
+      "teachableSubjectCodes": [
+        "IIT-SPE-74",
+        "IIT-DOS-117"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. K. Ghatak",
+      "teacherCode": "IIT-FAC-057",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-75",
+        "IIT-DNA-118",
+        "IIT-AAGT-161"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. M. S. Sodha",
+      "teacherCode": "IIT-FAC-058",
+      "teachableSubjectCodes": [
+        "IIT-SPE-119",
+        "IIT-DOS-162"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. K. Tripathi",
+      "teacherCode": "IIT-FAC-059",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-120",
+        "IIT-DNA-163",
+        "IIT-AAGT-206"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. Subbarao",
+      "teacherCode": "IIT-FAC-060",
+      "teachableSubjectCodes": [
+        "IIT-SPE-164",
+        "IIT-DOS-207"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. H. K. Sehgal",
+      "teacherCode": "IIT-FAC-061",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-31",
+        "IIT-SSLAB-165",
+        "IIT-DNA-208",
+        "IIT-AAGT-251"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. B. Tripathi",
+      "teacherCode": "IIT-FAC-062",
+      "teachableSubjectCodes": [
+        "IIT-DOS-32",
+        "IIT-SPE-209",
+        "IIT-DOS-252"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. C. Kashyap",
+      "teacherCode": "IIT-FAC-063",
+      "teachableSubjectCodes": [
+        "IIT-DNA-33",
+        "IIT-AAGT-76",
+        "IIT-QCLL-210",
+        "IIT-DNA-253"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. K. Pandya",
+      "teacherCode": "IIT-FAC-064",
+      "teachableSubjectCodes": [
+        "IIT-SPE-34",
+        "IIT-DOS-77",
+        "IIT-SPE-254"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. L. K. Malhotra",
+      "teacherCode": "IIT-FAC-065",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-35",
+        "IIT-DNA-78",
+        "IIT-AAGT-121",
+        "IIT-SSLAB-255"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. D. Vankar",
+      "teacherCode": "IIT-FAC-066",
+      "teachableSubjectCodes": [
+        "IIT-SPE-79",
+        "IIT-DOS-122"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. R. D. Tarey",
+      "teacherCode": "IIT-FAC-067",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-80",
+        "IIT-DNA-123",
+        "IIT-AAGT-166"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. K. Koul",
+      "teacherCode": "IIT-FAC-068",
+      "teachableSubjectCodes": [
+        "IIT-SPE-124",
+        "IIT-DOS-167"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. Bhat",
+      "teacherCode": "IIT-FAC-069",
+      "teachableSubjectCodes": [
+        "IIT-FDSL-125",
+        "IIT-DNA-168",
+        "IIT-AAGT-211"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. R. Bahl",
+      "teacherCode": "IIT-FAC-070",
+      "teachableSubjectCodes": [
+        "IIT-SPE-169",
+        "IIT-DOS-212"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. Kumar",
+      "teacherCode": "IIT-FAC-071",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-36",
+        "IIT-SSLAB-170",
+        "IIT-DNA-213",
+        "IIT-AAGT-256"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. Prasad",
+      "teacherCode": "IIT-FAC-072",
+      "teachableSubjectCodes": [
+        "IIT-DOS-37",
+        "IIT-SPE-214",
+        "IIT-DOS-257"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. H. M. Gupta",
+      "teacherCode": "IIT-FAC-073",
+      "teachableSubjectCodes": [
+        "IIT-DNA-38",
+        "IIT-AAGT-81",
+        "IIT-QCLL-215",
+        "IIT-DNA-258"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. V. C. Prasad",
+      "teacherCode": "IIT-FAC-074",
+      "teachableSubjectCodes": [
+        "IIT-SPE-39",
+        "IIT-DOS-82",
+        "IIT-SPE-259"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. S. P. Rao",
+      "teacherCode": "IIT-FAC-075",
+      "teachableSubjectCodes": [
+        "IIT-HPCL-40",
+        "IIT-DNA-83",
+        "IIT-AAGT-126",
+        "IIT-SSLAB-260"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. M. L. Kothari",
+      "teacherCode": "IIT-FAC-076",
+      "teachableSubjectCodes": [
+        "IIT-SPE-84",
+        "IIT-DOS-127"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. P. R. Bijwe",
+      "teacherCode": "IIT-FAC-077",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-85",
+        "IIT-DNA-128",
+        "IIT-AAGT-171"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. D. P. Kothari",
+      "teacherCode": "IIT-FAC-078",
+      "teachableSubjectCodes": [
+        "IIT-SPE-129",
+        "IIT-DOS-172"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. S. S. Iyer",
+      "teacherCode": "IIT-FAC-079",
+      "teachableSubjectCodes": [
+        "IIT-FDSL-130",
+        "IIT-DNA-173",
+        "IIT-AAGT-216"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. J. Nanda",
+      "teacherCode": "IIT-FAC-080",
+      "teachableSubjectCodes": [
+        "IIT-SPE-174",
+        "IIT-DOS-217"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. S. Lamba",
+      "teacherCode": "IIT-FAC-081",
+      "teachableSubjectCodes": [
+        "IIT-AAGT-41",
+        "IIT-SSLAB-175",
+        "IIT-DNA-218",
+        "IIT-AAGT-261"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. P. Singh",
+      "teacherCode": "IIT-FAC-082",
+      "teachableSubjectCodes": [
+        "IIT-DOS-42",
+        "IIT-SPE-219",
+        "IIT-DOS-262"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. C. M. Bhatia",
+      "teacherCode": "IIT-FAC-083",
+      "teachableSubjectCodes": [
+        "IIT-DNA-43",
+        "IIT-AAGT-86",
+        "IIT-QCLL-220",
+        "IIT-DNA-263"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. Singh",
+      "teacherCode": "IIT-FAC-084",
+      "teachableSubjectCodes": [
+        "IIT-SPE-44",
+        "IIT-DOS-87",
+        "IIT-SPE-264"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. M. Veerachary",
+      "teacherCode": "IIT-FAC-085",
+      "teachableSubjectCodes": [
+        "IIT-KRSL-45",
+        "IIT-DNA-88",
+        "IIT-AAGT-131",
+        "IIT-SSLAB-265"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. R. K. Mallik",
+      "teacherCode": "IIT-FAC-086",
+      "teachableSubjectCodes": [
+        "IIT-SPE-89",
+        "IIT-DOS-132"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. S. D. Joshi",
+      "teacherCode": "IIT-FAC-087",
+      "teachableSubjectCodes": [
+        "IIT-SCDL-90",
+        "IIT-DNA-133",
+        "IIT-AAGT-176"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. K. Dey",
+      "teacherCode": "IIT-FAC-088",
+      "teachableSubjectCodes": [
+        "IIT-SPE-134",
+        "IIT-DOS-177"
+      ],
+      "maxWeeklyPeriods": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-1st)",
+      "code": "IIT-AAGT-1",
+      "type": "Theory",
+      "sectionName": "CSE-1st",
+      "teacherCode": "IIT-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-1st)",
+      "code": "IIT-DOS-2",
+      "type": "Theory",
+      "sectionName": "CSE-1st",
+      "teacherCode": "IIT-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-1st)",
+      "code": "IIT-DNA-3",
+      "type": "Theory",
+      "sectionName": "CSE-1st",
+      "teacherCode": "IIT-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-1st)",
+      "code": "IIT-SPE-4",
+      "type": "Theory",
+      "sectionName": "CSE-1st",
+      "teacherCode": "IIT-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-1st)",
+      "code": "IIT-HPCL-5",
+      "type": "Lab",
+      "sectionName": "CSE-1st",
+      "teacherCode": "IIT-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-2nd)",
+      "code": "IIT-AAGT-6",
+      "type": "Theory",
+      "sectionName": "CSE-2nd",
+      "teacherCode": "IIT-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-2nd)",
+      "code": "IIT-DOS-7",
+      "type": "Theory",
+      "sectionName": "CSE-2nd",
+      "teacherCode": "IIT-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-2nd)",
+      "code": "IIT-DNA-8",
+      "type": "Theory",
+      "sectionName": "CSE-2nd",
+      "teacherCode": "IIT-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-2nd)",
+      "code": "IIT-SPE-9",
+      "type": "Theory",
+      "sectionName": "CSE-2nd",
+      "teacherCode": "IIT-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-2nd)",
+      "code": "IIT-HPCL-10",
+      "type": "Lab",
+      "sectionName": "CSE-2nd",
+      "teacherCode": "IIT-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-3rd)",
+      "code": "IIT-AAGT-11",
+      "type": "Theory",
+      "sectionName": "CSE-3rd",
+      "teacherCode": "IIT-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-3rd)",
+      "code": "IIT-DOS-12",
+      "type": "Theory",
+      "sectionName": "CSE-3rd",
+      "teacherCode": "IIT-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-3rd)",
+      "code": "IIT-DNA-13",
+      "type": "Theory",
+      "sectionName": "CSE-3rd",
+      "teacherCode": "IIT-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-3rd)",
+      "code": "IIT-SPE-14",
+      "type": "Theory",
+      "sectionName": "CSE-3rd",
+      "teacherCode": "IIT-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-3rd)",
+      "code": "IIT-HPCL-15",
+      "type": "Lab",
+      "sectionName": "CSE-3rd",
+      "teacherCode": "IIT-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-4th)",
+      "code": "IIT-AAGT-16",
+      "type": "Theory",
+      "sectionName": "CSE-4th",
+      "teacherCode": "IIT-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-4th)",
+      "code": "IIT-DOS-17",
+      "type": "Theory",
+      "sectionName": "CSE-4th",
+      "teacherCode": "IIT-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-4th)",
+      "code": "IIT-DNA-18",
+      "type": "Theory",
+      "sectionName": "CSE-4th",
+      "teacherCode": "IIT-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-4th)",
+      "code": "IIT-SPE-19",
+      "type": "Theory",
+      "sectionName": "CSE-4th",
+      "teacherCode": "IIT-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-4th)",
+      "code": "IIT-HPCL-20",
+      "type": "Lab",
+      "sectionName": "CSE-4th",
+      "teacherCode": "IIT-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-MTech-1st)",
+      "code": "IIT-AAGT-21",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-1st",
+      "teacherCode": "IIT-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-MTech-1st)",
+      "code": "IIT-DOS-22",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-1st",
+      "teacherCode": "IIT-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-MTech-1st)",
+      "code": "IIT-DNA-23",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-1st",
+      "teacherCode": "IIT-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-MTech-1st)",
+      "code": "IIT-SPE-24",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-1st",
+      "teacherCode": "IIT-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-MTech-1st)",
+      "code": "IIT-HPCL-25",
+      "type": "Lab",
+      "sectionName": "CSE-MTech-1st",
+      "teacherCode": "IIT-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-MTech-2nd)",
+      "code": "IIT-AAGT-26",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-2nd",
+      "teacherCode": "IIT-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-MTech-2nd)",
+      "code": "IIT-DOS-27",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-2nd",
+      "teacherCode": "IIT-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-MTech-2nd)",
+      "code": "IIT-DNA-28",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-2nd",
+      "teacherCode": "IIT-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-MTech-2nd)",
+      "code": "IIT-SPE-29",
+      "type": "Theory",
+      "sectionName": "CSE-MTech-2nd",
+      "teacherCode": "IIT-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-MTech-2nd)",
+      "code": "IIT-HPCL-30",
+      "type": "Lab",
+      "sectionName": "CSE-MTech-2nd",
+      "teacherCode": "IIT-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-PhD-1st)",
+      "code": "IIT-AAGT-31",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-1st",
+      "teacherCode": "IIT-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-PhD-1st)",
+      "code": "IIT-DOS-32",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-1st",
+      "teacherCode": "IIT-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-PhD-1st)",
+      "code": "IIT-DNA-33",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-1st",
+      "teacherCode": "IIT-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-PhD-1st)",
+      "code": "IIT-SPE-34",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-1st",
+      "teacherCode": "IIT-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-PhD-1st)",
+      "code": "IIT-HPCL-35",
+      "type": "Lab",
+      "sectionName": "CSE-PhD-1st",
+      "teacherCode": "IIT-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CSE-PhD-2nd)",
+      "code": "IIT-AAGT-36",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-2nd",
+      "teacherCode": "IIT-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CSE-PhD-2nd)",
+      "code": "IIT-DOS-37",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-2nd",
+      "teacherCode": "IIT-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CSE-PhD-2nd)",
+      "code": "IIT-DNA-38",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-2nd",
+      "teacherCode": "IIT-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CSE-PhD-2nd)",
+      "code": "IIT-SPE-39",
+      "type": "Theory",
+      "sectionName": "CSE-PhD-2nd",
+      "teacherCode": "IIT-FAC-074",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High-Performance Computing Lab (CSE-PhD-2nd)",
+      "code": "IIT-HPCL-40",
+      "type": "Lab",
+      "sectionName": "CSE-PhD-2nd",
+      "teacherCode": "IIT-FAC-075",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-1st)",
+      "code": "IIT-AAGT-41",
+      "type": "Theory",
+      "sectionName": "AIR-1st",
+      "teacherCode": "IIT-FAC-081",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-1st)",
+      "code": "IIT-DOS-42",
+      "type": "Theory",
+      "sectionName": "AIR-1st",
+      "teacherCode": "IIT-FAC-082",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-1st)",
+      "code": "IIT-DNA-43",
+      "type": "Theory",
+      "sectionName": "AIR-1st",
+      "teacherCode": "IIT-FAC-083",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-1st)",
+      "code": "IIT-SPE-44",
+      "type": "Theory",
+      "sectionName": "AIR-1st",
+      "teacherCode": "IIT-FAC-084",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-1st)",
+      "code": "IIT-KRSL-45",
+      "type": "Lab",
+      "sectionName": "AIR-1st",
+      "teacherCode": "IIT-FAC-085",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-2nd)",
+      "code": "IIT-AAGT-46",
+      "type": "Theory",
+      "sectionName": "AIR-2nd",
+      "teacherCode": "IIT-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-2nd)",
+      "code": "IIT-DOS-47",
+      "type": "Theory",
+      "sectionName": "AIR-2nd",
+      "teacherCode": "IIT-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-2nd)",
+      "code": "IIT-DNA-48",
+      "type": "Theory",
+      "sectionName": "AIR-2nd",
+      "teacherCode": "IIT-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-2nd)",
+      "code": "IIT-SPE-49",
+      "type": "Theory",
+      "sectionName": "AIR-2nd",
+      "teacherCode": "IIT-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-2nd)",
+      "code": "IIT-KRSL-50",
+      "type": "Lab",
+      "sectionName": "AIR-2nd",
+      "teacherCode": "IIT-FAC-007",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-3rd)",
+      "code": "IIT-AAGT-51",
+      "type": "Theory",
+      "sectionName": "AIR-3rd",
+      "teacherCode": "IIT-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-3rd)",
+      "code": "IIT-DOS-52",
+      "type": "Theory",
+      "sectionName": "AIR-3rd",
+      "teacherCode": "IIT-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-3rd)",
+      "code": "IIT-DNA-53",
+      "type": "Theory",
+      "sectionName": "AIR-3rd",
+      "teacherCode": "IIT-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-3rd)",
+      "code": "IIT-SPE-54",
+      "type": "Theory",
+      "sectionName": "AIR-3rd",
+      "teacherCode": "IIT-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-3rd)",
+      "code": "IIT-KRSL-55",
+      "type": "Lab",
+      "sectionName": "AIR-3rd",
+      "teacherCode": "IIT-FAC-017",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-4th)",
+      "code": "IIT-AAGT-56",
+      "type": "Theory",
+      "sectionName": "AIR-4th",
+      "teacherCode": "IIT-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-4th)",
+      "code": "IIT-DOS-57",
+      "type": "Theory",
+      "sectionName": "AIR-4th",
+      "teacherCode": "IIT-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-4th)",
+      "code": "IIT-DNA-58",
+      "type": "Theory",
+      "sectionName": "AIR-4th",
+      "teacherCode": "IIT-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-4th)",
+      "code": "IIT-SPE-59",
+      "type": "Theory",
+      "sectionName": "AIR-4th",
+      "teacherCode": "IIT-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-4th)",
+      "code": "IIT-KRSL-60",
+      "type": "Lab",
+      "sectionName": "AIR-4th",
+      "teacherCode": "IIT-FAC-027",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-MTech-1st)",
+      "code": "IIT-AAGT-61",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-1st",
+      "teacherCode": "IIT-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-MTech-1st)",
+      "code": "IIT-DOS-62",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-1st",
+      "teacherCode": "IIT-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-MTech-1st)",
+      "code": "IIT-DNA-63",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-1st",
+      "teacherCode": "IIT-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-MTech-1st)",
+      "code": "IIT-SPE-64",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-1st",
+      "teacherCode": "IIT-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-MTech-1st)",
+      "code": "IIT-KRSL-65",
+      "type": "Lab",
+      "sectionName": "AIR-MTech-1st",
+      "teacherCode": "IIT-FAC-037",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-MTech-2nd)",
+      "code": "IIT-AAGT-66",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-2nd",
+      "teacherCode": "IIT-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-MTech-2nd)",
+      "code": "IIT-DOS-67",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-2nd",
+      "teacherCode": "IIT-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-MTech-2nd)",
+      "code": "IIT-DNA-68",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-2nd",
+      "teacherCode": "IIT-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-MTech-2nd)",
+      "code": "IIT-SPE-69",
+      "type": "Theory",
+      "sectionName": "AIR-MTech-2nd",
+      "teacherCode": "IIT-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-MTech-2nd)",
+      "code": "IIT-KRSL-70",
+      "type": "Lab",
+      "sectionName": "AIR-MTech-2nd",
+      "teacherCode": "IIT-FAC-047",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-PhD-1st)",
+      "code": "IIT-AAGT-71",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-1st",
+      "teacherCode": "IIT-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-PhD-1st)",
+      "code": "IIT-DOS-72",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-1st",
+      "teacherCode": "IIT-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-PhD-1st)",
+      "code": "IIT-DNA-73",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-1st",
+      "teacherCode": "IIT-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-PhD-1st)",
+      "code": "IIT-SPE-74",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-1st",
+      "teacherCode": "IIT-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-PhD-1st)",
+      "code": "IIT-KRSL-75",
+      "type": "Lab",
+      "sectionName": "AIR-PhD-1st",
+      "teacherCode": "IIT-FAC-057",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AIR-PhD-2nd)",
+      "code": "IIT-AAGT-76",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-2nd",
+      "teacherCode": "IIT-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AIR-PhD-2nd)",
+      "code": "IIT-DOS-77",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-2nd",
+      "teacherCode": "IIT-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AIR-PhD-2nd)",
+      "code": "IIT-DNA-78",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-2nd",
+      "teacherCode": "IIT-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AIR-PhD-2nd)",
+      "code": "IIT-SPE-79",
+      "type": "Theory",
+      "sectionName": "AIR-PhD-2nd",
+      "teacherCode": "IIT-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Kinematics & Robotics Simulation Lab (AIR-PhD-2nd)",
+      "code": "IIT-KRSL-80",
+      "type": "Lab",
+      "sectionName": "AIR-PhD-2nd",
+      "teacherCode": "IIT-FAC-067",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-1st)",
+      "code": "IIT-AAGT-81",
+      "type": "Theory",
+      "sectionName": "VLSI-1st",
+      "teacherCode": "IIT-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-1st)",
+      "code": "IIT-DOS-82",
+      "type": "Theory",
+      "sectionName": "VLSI-1st",
+      "teacherCode": "IIT-FAC-074",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-1st)",
+      "code": "IIT-DNA-83",
+      "type": "Theory",
+      "sectionName": "VLSI-1st",
+      "teacherCode": "IIT-FAC-075",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-1st)",
+      "code": "IIT-SPE-84",
+      "type": "Theory",
+      "sectionName": "VLSI-1st",
+      "teacherCode": "IIT-FAC-076",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-1st)",
+      "code": "IIT-SCDL-85",
+      "type": "Lab",
+      "sectionName": "VLSI-1st",
+      "teacherCode": "IIT-FAC-077",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-2nd)",
+      "code": "IIT-AAGT-86",
+      "type": "Theory",
+      "sectionName": "VLSI-2nd",
+      "teacherCode": "IIT-FAC-083",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-2nd)",
+      "code": "IIT-DOS-87",
+      "type": "Theory",
+      "sectionName": "VLSI-2nd",
+      "teacherCode": "IIT-FAC-084",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-2nd)",
+      "code": "IIT-DNA-88",
+      "type": "Theory",
+      "sectionName": "VLSI-2nd",
+      "teacherCode": "IIT-FAC-085",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-2nd)",
+      "code": "IIT-SPE-89",
+      "type": "Theory",
+      "sectionName": "VLSI-2nd",
+      "teacherCode": "IIT-FAC-086",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-2nd)",
+      "code": "IIT-SCDL-90",
+      "type": "Lab",
+      "sectionName": "VLSI-2nd",
+      "teacherCode": "IIT-FAC-087",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-3rd)",
+      "code": "IIT-AAGT-91",
+      "type": "Theory",
+      "sectionName": "VLSI-3rd",
+      "teacherCode": "IIT-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-3rd)",
+      "code": "IIT-DOS-92",
+      "type": "Theory",
+      "sectionName": "VLSI-3rd",
+      "teacherCode": "IIT-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-3rd)",
+      "code": "IIT-DNA-93",
+      "type": "Theory",
+      "sectionName": "VLSI-3rd",
+      "teacherCode": "IIT-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-3rd)",
+      "code": "IIT-SPE-94",
+      "type": "Theory",
+      "sectionName": "VLSI-3rd",
+      "teacherCode": "IIT-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-3rd)",
+      "code": "IIT-SCDL-95",
+      "type": "Lab",
+      "sectionName": "VLSI-3rd",
+      "teacherCode": "IIT-FAC-009",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-4th)",
+      "code": "IIT-AAGT-96",
+      "type": "Theory",
+      "sectionName": "VLSI-4th",
+      "teacherCode": "IIT-FAC-015",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-4th)",
+      "code": "IIT-DOS-97",
+      "type": "Theory",
+      "sectionName": "VLSI-4th",
+      "teacherCode": "IIT-FAC-016",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-4th)",
+      "code": "IIT-DNA-98",
+      "type": "Theory",
+      "sectionName": "VLSI-4th",
+      "teacherCode": "IIT-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-4th)",
+      "code": "IIT-SPE-99",
+      "type": "Theory",
+      "sectionName": "VLSI-4th",
+      "teacherCode": "IIT-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-4th)",
+      "code": "IIT-SCDL-100",
+      "type": "Lab",
+      "sectionName": "VLSI-4th",
+      "teacherCode": "IIT-FAC-019",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-MTech-1st)",
+      "code": "IIT-AAGT-101",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-1st",
+      "teacherCode": "IIT-FAC-025",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-MTech-1st)",
+      "code": "IIT-DOS-102",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-1st",
+      "teacherCode": "IIT-FAC-026",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-MTech-1st)",
+      "code": "IIT-DNA-103",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-1st",
+      "teacherCode": "IIT-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-MTech-1st)",
+      "code": "IIT-SPE-104",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-1st",
+      "teacherCode": "IIT-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-MTech-1st)",
+      "code": "IIT-SCDL-105",
+      "type": "Lab",
+      "sectionName": "VLSI-MTech-1st",
+      "teacherCode": "IIT-FAC-029",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-MTech-2nd)",
+      "code": "IIT-AAGT-106",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-2nd",
+      "teacherCode": "IIT-FAC-035",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-MTech-2nd)",
+      "code": "IIT-DOS-107",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-2nd",
+      "teacherCode": "IIT-FAC-036",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-MTech-2nd)",
+      "code": "IIT-DNA-108",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-2nd",
+      "teacherCode": "IIT-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-MTech-2nd)",
+      "code": "IIT-SPE-109",
+      "type": "Theory",
+      "sectionName": "VLSI-MTech-2nd",
+      "teacherCode": "IIT-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-MTech-2nd)",
+      "code": "IIT-SCDL-110",
+      "type": "Lab",
+      "sectionName": "VLSI-MTech-2nd",
+      "teacherCode": "IIT-FAC-039",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-PhD-1st)",
+      "code": "IIT-AAGT-111",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-1st",
+      "teacherCode": "IIT-FAC-045",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-PhD-1st)",
+      "code": "IIT-DOS-112",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-1st",
+      "teacherCode": "IIT-FAC-046",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-PhD-1st)",
+      "code": "IIT-DNA-113",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-1st",
+      "teacherCode": "IIT-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-PhD-1st)",
+      "code": "IIT-SPE-114",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-1st",
+      "teacherCode": "IIT-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-PhD-1st)",
+      "code": "IIT-SCDL-115",
+      "type": "Lab",
+      "sectionName": "VLSI-PhD-1st",
+      "teacherCode": "IIT-FAC-049",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (VLSI-PhD-2nd)",
+      "code": "IIT-AAGT-116",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-2nd",
+      "teacherCode": "IIT-FAC-055",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (VLSI-PhD-2nd)",
+      "code": "IIT-DOS-117",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-2nd",
+      "teacherCode": "IIT-FAC-056",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (VLSI-PhD-2nd)",
+      "code": "IIT-DNA-118",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-2nd",
+      "teacherCode": "IIT-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (VLSI-PhD-2nd)",
+      "code": "IIT-SPE-119",
+      "type": "Theory",
+      "sectionName": "VLSI-PhD-2nd",
+      "teacherCode": "IIT-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Semiconductor Cadence Design Lab (VLSI-PhD-2nd)",
+      "code": "IIT-SCDL-120",
+      "type": "Lab",
+      "sectionName": "VLSI-PhD-2nd",
+      "teacherCode": "IIT-FAC-059",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-1st)",
+      "code": "IIT-AAGT-121",
+      "type": "Theory",
+      "sectionName": "AERO-1st",
+      "teacherCode": "IIT-FAC-065",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-1st)",
+      "code": "IIT-DOS-122",
+      "type": "Theory",
+      "sectionName": "AERO-1st",
+      "teacherCode": "IIT-FAC-066",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-1st)",
+      "code": "IIT-DNA-123",
+      "type": "Theory",
+      "sectionName": "AERO-1st",
+      "teacherCode": "IIT-FAC-067",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-1st)",
+      "code": "IIT-SPE-124",
+      "type": "Theory",
+      "sectionName": "AERO-1st",
+      "teacherCode": "IIT-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-1st)",
+      "code": "IIT-FDSL-125",
+      "type": "Lab",
+      "sectionName": "AERO-1st",
+      "teacherCode": "IIT-FAC-069",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-2nd)",
+      "code": "IIT-AAGT-126",
+      "type": "Theory",
+      "sectionName": "AERO-2nd",
+      "teacherCode": "IIT-FAC-075",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-2nd)",
+      "code": "IIT-DOS-127",
+      "type": "Theory",
+      "sectionName": "AERO-2nd",
+      "teacherCode": "IIT-FAC-076",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-2nd)",
+      "code": "IIT-DNA-128",
+      "type": "Theory",
+      "sectionName": "AERO-2nd",
+      "teacherCode": "IIT-FAC-077",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-2nd)",
+      "code": "IIT-SPE-129",
+      "type": "Theory",
+      "sectionName": "AERO-2nd",
+      "teacherCode": "IIT-FAC-078",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-2nd)",
+      "code": "IIT-FDSL-130",
+      "type": "Lab",
+      "sectionName": "AERO-2nd",
+      "teacherCode": "IIT-FAC-079",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-3rd)",
+      "code": "IIT-AAGT-131",
+      "type": "Theory",
+      "sectionName": "AERO-3rd",
+      "teacherCode": "IIT-FAC-085",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-3rd)",
+      "code": "IIT-DOS-132",
+      "type": "Theory",
+      "sectionName": "AERO-3rd",
+      "teacherCode": "IIT-FAC-086",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-3rd)",
+      "code": "IIT-DNA-133",
+      "type": "Theory",
+      "sectionName": "AERO-3rd",
+      "teacherCode": "IIT-FAC-087",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-3rd)",
+      "code": "IIT-SPE-134",
+      "type": "Theory",
+      "sectionName": "AERO-3rd",
+      "teacherCode": "IIT-FAC-088",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-3rd)",
+      "code": "IIT-FDSL-135",
+      "type": "Lab",
+      "sectionName": "AERO-3rd",
+      "teacherCode": "IIT-FAC-001",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-4th)",
+      "code": "IIT-AAGT-136",
+      "type": "Theory",
+      "sectionName": "AERO-4th",
+      "teacherCode": "IIT-FAC-007",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-4th)",
+      "code": "IIT-DOS-137",
+      "type": "Theory",
+      "sectionName": "AERO-4th",
+      "teacherCode": "IIT-FAC-008",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-4th)",
+      "code": "IIT-DNA-138",
+      "type": "Theory",
+      "sectionName": "AERO-4th",
+      "teacherCode": "IIT-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-4th)",
+      "code": "IIT-SPE-139",
+      "type": "Theory",
+      "sectionName": "AERO-4th",
+      "teacherCode": "IIT-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-4th)",
+      "code": "IIT-FDSL-140",
+      "type": "Lab",
+      "sectionName": "AERO-4th",
+      "teacherCode": "IIT-FAC-011",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-MTech-1st)",
+      "code": "IIT-AAGT-141",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-1st",
+      "teacherCode": "IIT-FAC-017",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-MTech-1st)",
+      "code": "IIT-DOS-142",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-1st",
+      "teacherCode": "IIT-FAC-018",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-MTech-1st)",
+      "code": "IIT-DNA-143",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-1st",
+      "teacherCode": "IIT-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-MTech-1st)",
+      "code": "IIT-SPE-144",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-1st",
+      "teacherCode": "IIT-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-MTech-1st)",
+      "code": "IIT-FDSL-145",
+      "type": "Lab",
+      "sectionName": "AERO-MTech-1st",
+      "teacherCode": "IIT-FAC-021",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-MTech-2nd)",
+      "code": "IIT-AAGT-146",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-2nd",
+      "teacherCode": "IIT-FAC-027",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-MTech-2nd)",
+      "code": "IIT-DOS-147",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-2nd",
+      "teacherCode": "IIT-FAC-028",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-MTech-2nd)",
+      "code": "IIT-DNA-148",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-2nd",
+      "teacherCode": "IIT-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-MTech-2nd)",
+      "code": "IIT-SPE-149",
+      "type": "Theory",
+      "sectionName": "AERO-MTech-2nd",
+      "teacherCode": "IIT-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-MTech-2nd)",
+      "code": "IIT-FDSL-150",
+      "type": "Lab",
+      "sectionName": "AERO-MTech-2nd",
+      "teacherCode": "IIT-FAC-031",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-PhD-1st)",
+      "code": "IIT-AAGT-151",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-1st",
+      "teacherCode": "IIT-FAC-037",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-PhD-1st)",
+      "code": "IIT-DOS-152",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-1st",
+      "teacherCode": "IIT-FAC-038",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-PhD-1st)",
+      "code": "IIT-DNA-153",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-1st",
+      "teacherCode": "IIT-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-PhD-1st)",
+      "code": "IIT-SPE-154",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-1st",
+      "teacherCode": "IIT-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-PhD-1st)",
+      "code": "IIT-FDSL-155",
+      "type": "Lab",
+      "sectionName": "AERO-PhD-1st",
+      "teacherCode": "IIT-FAC-041",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (AERO-PhD-2nd)",
+      "code": "IIT-AAGT-156",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-2nd",
+      "teacherCode": "IIT-FAC-047",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (AERO-PhD-2nd)",
+      "code": "IIT-DOS-157",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-2nd",
+      "teacherCode": "IIT-FAC-048",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (AERO-PhD-2nd)",
+      "code": "IIT-DNA-158",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-2nd",
+      "teacherCode": "IIT-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (AERO-PhD-2nd)",
+      "code": "IIT-SPE-159",
+      "type": "Theory",
+      "sectionName": "AERO-PhD-2nd",
+      "teacherCode": "IIT-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Flight Dynamics & Supersonic Lab (AERO-PhD-2nd)",
+      "code": "IIT-FDSL-160",
+      "type": "Lab",
+      "sectionName": "AERO-PhD-2nd",
+      "teacherCode": "IIT-FAC-051",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-1st)",
+      "code": "IIT-AAGT-161",
+      "type": "Theory",
+      "sectionName": "MAT-1st",
+      "teacherCode": "IIT-FAC-057",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-1st)",
+      "code": "IIT-DOS-162",
+      "type": "Theory",
+      "sectionName": "MAT-1st",
+      "teacherCode": "IIT-FAC-058",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-1st)",
+      "code": "IIT-DNA-163",
+      "type": "Theory",
+      "sectionName": "MAT-1st",
+      "teacherCode": "IIT-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-1st)",
+      "code": "IIT-SPE-164",
+      "type": "Theory",
+      "sectionName": "MAT-1st",
+      "teacherCode": "IIT-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-1st)",
+      "code": "IIT-SSLAB-165",
+      "type": "Lab",
+      "sectionName": "MAT-1st",
+      "teacherCode": "IIT-FAC-061",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-2nd)",
+      "code": "IIT-AAGT-166",
+      "type": "Theory",
+      "sectionName": "MAT-2nd",
+      "teacherCode": "IIT-FAC-067",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-2nd)",
+      "code": "IIT-DOS-167",
+      "type": "Theory",
+      "sectionName": "MAT-2nd",
+      "teacherCode": "IIT-FAC-068",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-2nd)",
+      "code": "IIT-DNA-168",
+      "type": "Theory",
+      "sectionName": "MAT-2nd",
+      "teacherCode": "IIT-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-2nd)",
+      "code": "IIT-SPE-169",
+      "type": "Theory",
+      "sectionName": "MAT-2nd",
+      "teacherCode": "IIT-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-2nd)",
+      "code": "IIT-SSLAB-170",
+      "type": "Lab",
+      "sectionName": "MAT-2nd",
+      "teacherCode": "IIT-FAC-071",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-3rd)",
+      "code": "IIT-AAGT-171",
+      "type": "Theory",
+      "sectionName": "MAT-3rd",
+      "teacherCode": "IIT-FAC-077",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-3rd)",
+      "code": "IIT-DOS-172",
+      "type": "Theory",
+      "sectionName": "MAT-3rd",
+      "teacherCode": "IIT-FAC-078",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-3rd)",
+      "code": "IIT-DNA-173",
+      "type": "Theory",
+      "sectionName": "MAT-3rd",
+      "teacherCode": "IIT-FAC-079",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-3rd)",
+      "code": "IIT-SPE-174",
+      "type": "Theory",
+      "sectionName": "MAT-3rd",
+      "teacherCode": "IIT-FAC-080",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-3rd)",
+      "code": "IIT-SSLAB-175",
+      "type": "Lab",
+      "sectionName": "MAT-3rd",
+      "teacherCode": "IIT-FAC-081",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-4th)",
+      "code": "IIT-AAGT-176",
+      "type": "Theory",
+      "sectionName": "MAT-4th",
+      "teacherCode": "IIT-FAC-087",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-4th)",
+      "code": "IIT-DOS-177",
+      "type": "Theory",
+      "sectionName": "MAT-4th",
+      "teacherCode": "IIT-FAC-088",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-4th)",
+      "code": "IIT-DNA-178",
+      "type": "Theory",
+      "sectionName": "MAT-4th",
+      "teacherCode": "IIT-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-4th)",
+      "code": "IIT-SPE-179",
+      "type": "Theory",
+      "sectionName": "MAT-4th",
+      "teacherCode": "IIT-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-4th)",
+      "code": "IIT-SSLAB-180",
+      "type": "Lab",
+      "sectionName": "MAT-4th",
+      "teacherCode": "IIT-FAC-003",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-MTech-1st)",
+      "code": "IIT-AAGT-181",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-1st",
+      "teacherCode": "IIT-FAC-009",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-MTech-1st)",
+      "code": "IIT-DOS-182",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-1st",
+      "teacherCode": "IIT-FAC-010",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-MTech-1st)",
+      "code": "IIT-DNA-183",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-1st",
+      "teacherCode": "IIT-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-MTech-1st)",
+      "code": "IIT-SPE-184",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-1st",
+      "teacherCode": "IIT-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-MTech-1st)",
+      "code": "IIT-SSLAB-185",
+      "type": "Lab",
+      "sectionName": "MAT-MTech-1st",
+      "teacherCode": "IIT-FAC-013",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-MTech-2nd)",
+      "code": "IIT-AAGT-186",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-2nd",
+      "teacherCode": "IIT-FAC-019",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-MTech-2nd)",
+      "code": "IIT-DOS-187",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-2nd",
+      "teacherCode": "IIT-FAC-020",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-MTech-2nd)",
+      "code": "IIT-DNA-188",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-2nd",
+      "teacherCode": "IIT-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-MTech-2nd)",
+      "code": "IIT-SPE-189",
+      "type": "Theory",
+      "sectionName": "MAT-MTech-2nd",
+      "teacherCode": "IIT-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-MTech-2nd)",
+      "code": "IIT-SSLAB-190",
+      "type": "Lab",
+      "sectionName": "MAT-MTech-2nd",
+      "teacherCode": "IIT-FAC-023",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-PhD-1st)",
+      "code": "IIT-AAGT-191",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-1st",
+      "teacherCode": "IIT-FAC-029",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-PhD-1st)",
+      "code": "IIT-DOS-192",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-1st",
+      "teacherCode": "IIT-FAC-030",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-PhD-1st)",
+      "code": "IIT-DNA-193",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-1st",
+      "teacherCode": "IIT-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-PhD-1st)",
+      "code": "IIT-SPE-194",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-1st",
+      "teacherCode": "IIT-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-PhD-1st)",
+      "code": "IIT-SSLAB-195",
+      "type": "Lab",
+      "sectionName": "MAT-PhD-1st",
+      "teacherCode": "IIT-FAC-033",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (MAT-PhD-2nd)",
+      "code": "IIT-AAGT-196",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-2nd",
+      "teacherCode": "IIT-FAC-039",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (MAT-PhD-2nd)",
+      "code": "IIT-DOS-197",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-2nd",
+      "teacherCode": "IIT-FAC-040",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (MAT-PhD-2nd)",
+      "code": "IIT-DNA-198",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-2nd",
+      "teacherCode": "IIT-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (MAT-PhD-2nd)",
+      "code": "IIT-SPE-199",
+      "type": "Theory",
+      "sectionName": "MAT-PhD-2nd",
+      "teacherCode": "IIT-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (MAT-PhD-2nd)",
+      "code": "IIT-SSLAB-200",
+      "type": "Lab",
+      "sectionName": "MAT-PhD-2nd",
+      "teacherCode": "IIT-FAC-043",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-1st)",
+      "code": "IIT-AAGT-201",
+      "type": "Theory",
+      "sectionName": "QUANT-1st",
+      "teacherCode": "IIT-FAC-049",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-1st)",
+      "code": "IIT-DOS-202",
+      "type": "Theory",
+      "sectionName": "QUANT-1st",
+      "teacherCode": "IIT-FAC-050",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-1st)",
+      "code": "IIT-DNA-203",
+      "type": "Theory",
+      "sectionName": "QUANT-1st",
+      "teacherCode": "IIT-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-1st)",
+      "code": "IIT-SPE-204",
+      "type": "Theory",
+      "sectionName": "QUANT-1st",
+      "teacherCode": "IIT-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-1st)",
+      "code": "IIT-QCLL-205",
+      "type": "Lab",
+      "sectionName": "QUANT-1st",
+      "teacherCode": "IIT-FAC-053",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-2nd)",
+      "code": "IIT-AAGT-206",
+      "type": "Theory",
+      "sectionName": "QUANT-2nd",
+      "teacherCode": "IIT-FAC-059",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-2nd)",
+      "code": "IIT-DOS-207",
+      "type": "Theory",
+      "sectionName": "QUANT-2nd",
+      "teacherCode": "IIT-FAC-060",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-2nd)",
+      "code": "IIT-DNA-208",
+      "type": "Theory",
+      "sectionName": "QUANT-2nd",
+      "teacherCode": "IIT-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-2nd)",
+      "code": "IIT-SPE-209",
+      "type": "Theory",
+      "sectionName": "QUANT-2nd",
+      "teacherCode": "IIT-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-2nd)",
+      "code": "IIT-QCLL-210",
+      "type": "Lab",
+      "sectionName": "QUANT-2nd",
+      "teacherCode": "IIT-FAC-063",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-3rd)",
+      "code": "IIT-AAGT-211",
+      "type": "Theory",
+      "sectionName": "QUANT-3rd",
+      "teacherCode": "IIT-FAC-069",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-3rd)",
+      "code": "IIT-DOS-212",
+      "type": "Theory",
+      "sectionName": "QUANT-3rd",
+      "teacherCode": "IIT-FAC-070",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-3rd)",
+      "code": "IIT-DNA-213",
+      "type": "Theory",
+      "sectionName": "QUANT-3rd",
+      "teacherCode": "IIT-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-3rd)",
+      "code": "IIT-SPE-214",
+      "type": "Theory",
+      "sectionName": "QUANT-3rd",
+      "teacherCode": "IIT-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-3rd)",
+      "code": "IIT-QCLL-215",
+      "type": "Lab",
+      "sectionName": "QUANT-3rd",
+      "teacherCode": "IIT-FAC-073",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-4th)",
+      "code": "IIT-AAGT-216",
+      "type": "Theory",
+      "sectionName": "QUANT-4th",
+      "teacherCode": "IIT-FAC-079",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-4th)",
+      "code": "IIT-DOS-217",
+      "type": "Theory",
+      "sectionName": "QUANT-4th",
+      "teacherCode": "IIT-FAC-080",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-4th)",
+      "code": "IIT-DNA-218",
+      "type": "Theory",
+      "sectionName": "QUANT-4th",
+      "teacherCode": "IIT-FAC-081",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-4th)",
+      "code": "IIT-SPE-219",
+      "type": "Theory",
+      "sectionName": "QUANT-4th",
+      "teacherCode": "IIT-FAC-082",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-4th)",
+      "code": "IIT-QCLL-220",
+      "type": "Lab",
+      "sectionName": "QUANT-4th",
+      "teacherCode": "IIT-FAC-083",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-MTech-1st)",
+      "code": "IIT-AAGT-221",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-1st",
+      "teacherCode": "IIT-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-MTech-1st)",
+      "code": "IIT-DOS-222",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-1st",
+      "teacherCode": "IIT-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-MTech-1st)",
+      "code": "IIT-DNA-223",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-1st",
+      "teacherCode": "IIT-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-MTech-1st)",
+      "code": "IIT-SPE-224",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-1st",
+      "teacherCode": "IIT-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-MTech-1st)",
+      "code": "IIT-QCLL-225",
+      "type": "Lab",
+      "sectionName": "QUANT-MTech-1st",
+      "teacherCode": "IIT-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-MTech-2nd)",
+      "code": "IIT-AAGT-226",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-2nd",
+      "teacherCode": "IIT-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-MTech-2nd)",
+      "code": "IIT-DOS-227",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-2nd",
+      "teacherCode": "IIT-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-MTech-2nd)",
+      "code": "IIT-DNA-228",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-2nd",
+      "teacherCode": "IIT-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-MTech-2nd)",
+      "code": "IIT-SPE-229",
+      "type": "Theory",
+      "sectionName": "QUANT-MTech-2nd",
+      "teacherCode": "IIT-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-MTech-2nd)",
+      "code": "IIT-QCLL-230",
+      "type": "Lab",
+      "sectionName": "QUANT-MTech-2nd",
+      "teacherCode": "IIT-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-PhD-1st)",
+      "code": "IIT-AAGT-231",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-1st",
+      "teacherCode": "IIT-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-PhD-1st)",
+      "code": "IIT-DOS-232",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-1st",
+      "teacherCode": "IIT-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-PhD-1st)",
+      "code": "IIT-DNA-233",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-1st",
+      "teacherCode": "IIT-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-PhD-1st)",
+      "code": "IIT-SPE-234",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-1st",
+      "teacherCode": "IIT-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-PhD-1st)",
+      "code": "IIT-QCLL-235",
+      "type": "Lab",
+      "sectionName": "QUANT-PhD-1st",
+      "teacherCode": "IIT-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (QUANT-PhD-2nd)",
+      "code": "IIT-AAGT-236",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-2nd",
+      "teacherCode": "IIT-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (QUANT-PhD-2nd)",
+      "code": "IIT-DOS-237",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-2nd",
+      "teacherCode": "IIT-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (QUANT-PhD-2nd)",
+      "code": "IIT-DNA-238",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-2nd",
+      "teacherCode": "IIT-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (QUANT-PhD-2nd)",
+      "code": "IIT-SPE-239",
+      "type": "Theory",
+      "sectionName": "QUANT-PhD-2nd",
+      "teacherCode": "IIT-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantum Cryptography & Laser Lab (QUANT-PhD-2nd)",
+      "code": "IIT-QCLL-240",
+      "type": "Lab",
+      "sectionName": "QUANT-PhD-2nd",
+      "teacherCode": "IIT-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-1st)",
+      "code": "IIT-AAGT-241",
+      "type": "Theory",
+      "sectionName": "CHEM-1st",
+      "teacherCode": "IIT-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-1st)",
+      "code": "IIT-DOS-242",
+      "type": "Theory",
+      "sectionName": "CHEM-1st",
+      "teacherCode": "IIT-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-1st)",
+      "code": "IIT-DNA-243",
+      "type": "Theory",
+      "sectionName": "CHEM-1st",
+      "teacherCode": "IIT-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-1st)",
+      "code": "IIT-SPE-244",
+      "type": "Theory",
+      "sectionName": "CHEM-1st",
+      "teacherCode": "IIT-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-1st)",
+      "code": "IIT-SSLAB-245",
+      "type": "Lab",
+      "sectionName": "CHEM-1st",
+      "teacherCode": "IIT-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-2nd)",
+      "code": "IIT-AAGT-246",
+      "type": "Theory",
+      "sectionName": "CHEM-2nd",
+      "teacherCode": "IIT-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-2nd)",
+      "code": "IIT-DOS-247",
+      "type": "Theory",
+      "sectionName": "CHEM-2nd",
+      "teacherCode": "IIT-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-2nd)",
+      "code": "IIT-DNA-248",
+      "type": "Theory",
+      "sectionName": "CHEM-2nd",
+      "teacherCode": "IIT-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-2nd)",
+      "code": "IIT-SPE-249",
+      "type": "Theory",
+      "sectionName": "CHEM-2nd",
+      "teacherCode": "IIT-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-2nd)",
+      "code": "IIT-SSLAB-250",
+      "type": "Lab",
+      "sectionName": "CHEM-2nd",
+      "teacherCode": "IIT-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-3rd)",
+      "code": "IIT-AAGT-251",
+      "type": "Theory",
+      "sectionName": "CHEM-3rd",
+      "teacherCode": "IIT-FAC-061",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-3rd)",
+      "code": "IIT-DOS-252",
+      "type": "Theory",
+      "sectionName": "CHEM-3rd",
+      "teacherCode": "IIT-FAC-062",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-3rd)",
+      "code": "IIT-DNA-253",
+      "type": "Theory",
+      "sectionName": "CHEM-3rd",
+      "teacherCode": "IIT-FAC-063",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-3rd)",
+      "code": "IIT-SPE-254",
+      "type": "Theory",
+      "sectionName": "CHEM-3rd",
+      "teacherCode": "IIT-FAC-064",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-3rd)",
+      "code": "IIT-SSLAB-255",
+      "type": "Lab",
+      "sectionName": "CHEM-3rd",
+      "teacherCode": "IIT-FAC-065",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-4th)",
+      "code": "IIT-AAGT-256",
+      "type": "Theory",
+      "sectionName": "CHEM-4th",
+      "teacherCode": "IIT-FAC-071",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-4th)",
+      "code": "IIT-DOS-257",
+      "type": "Theory",
+      "sectionName": "CHEM-4th",
+      "teacherCode": "IIT-FAC-072",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-4th)",
+      "code": "IIT-DNA-258",
+      "type": "Theory",
+      "sectionName": "CHEM-4th",
+      "teacherCode": "IIT-FAC-073",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-4th)",
+      "code": "IIT-SPE-259",
+      "type": "Theory",
+      "sectionName": "CHEM-4th",
+      "teacherCode": "IIT-FAC-074",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-4th)",
+      "code": "IIT-SSLAB-260",
+      "type": "Lab",
+      "sectionName": "CHEM-4th",
+      "teacherCode": "IIT-FAC-075",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-MTech-1st)",
+      "code": "IIT-AAGT-261",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-1st",
+      "teacherCode": "IIT-FAC-081",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-MTech-1st)",
+      "code": "IIT-DOS-262",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-1st",
+      "teacherCode": "IIT-FAC-082",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-MTech-1st)",
+      "code": "IIT-DNA-263",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-1st",
+      "teacherCode": "IIT-FAC-083",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-MTech-1st)",
+      "code": "IIT-SPE-264",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-1st",
+      "teacherCode": "IIT-FAC-084",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-MTech-1st)",
+      "code": "IIT-SSLAB-265",
+      "type": "Lab",
+      "sectionName": "CHEM-MTech-1st",
+      "teacherCode": "IIT-FAC-085",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Advanced Algorithms & Graph Theory (CHEM-MTech-2nd)",
+      "code": "IIT-AAGT-266",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-2nd",
+      "teacherCode": "IIT-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Distributed Operating Systems (CHEM-MTech-2nd)",
+      "code": "IIT-DOS-267",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-2nd",
+      "teacherCode": "IIT-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Neural Architectures (CHEM-MTech-2nd)",
+      "code": "IIT-DNA-268",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-2nd",
+      "teacherCode": "IIT-FAC-005",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Stochastic Process & Estimation (CHEM-MTech-2nd)",
+      "code": "IIT-SPE-269",
+      "type": "Theory",
+      "sectionName": "CHEM-MTech-2nd",
+      "teacherCode": "IIT-FAC-006",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Spectroscopy & Synthesis Lab (CHEM-MTech-2nd)",
+      "code": "IIT-SSLAB-270",
+      "type": "Lab",
+      "sectionName": "CHEM-MTech-2nd",
+      "teacherCode": "IIT-FAC-007",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    }
+  ]
+}

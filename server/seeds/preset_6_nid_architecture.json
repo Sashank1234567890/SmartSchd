@@ -1,0 +1,2781 @@
+{
+  "id": "preset_6_nid_architecture",
+  "title": "Institute of Design & Architecture",
+  "category": "Architecture & Design",
+  "description": "Premier Institute of Architecture & Design dataset: B.Arch (5-yr studio), Industrial Design, Communication, UI/UX, and Textile Innovation with 35 sections and 48 drafting halls, CNC fabrication, and review pods.",
+  "badge": "35 Sections \u2022 48 Rooms \u2022 175 Subjects",
+  "sections": [
+    {
+      "name": "ARCH-BArch-1st",
+      "department": "Architecture & Urban Design",
+      "studentCount": 50
+    },
+    {
+      "name": "ARCH-BArch-2nd",
+      "department": "Architecture & Urban Design",
+      "studentCount": 50
+    },
+    {
+      "name": "ARCH-BArch-3rd",
+      "department": "Architecture & Urban Design",
+      "studentCount": 50
+    },
+    {
+      "name": "ARCH-BArch-4th",
+      "department": "Architecture & Urban Design",
+      "studentCount": 50
+    },
+    {
+      "name": "ARCH-BArch-5th",
+      "department": "Architecture & Urban Design",
+      "studentCount": 50
+    },
+    {
+      "name": "ARCH-MArch-1st",
+      "department": "Architecture & Urban Design",
+      "studentCount": 25
+    },
+    {
+      "name": "ARCH-MArch-2nd",
+      "department": "Architecture & Urban Design",
+      "studentCount": 25
+    },
+    {
+      "name": "ARCH-PhD-1st",
+      "department": "Architecture & Urban Design",
+      "studentCount": 15
+    },
+    {
+      "name": "PROD-BDes-Prod-1st",
+      "department": "Industrial & Product Design",
+      "studentCount": 45
+    },
+    {
+      "name": "PROD-BDes-Prod-2nd",
+      "department": "Industrial & Product Design",
+      "studentCount": 45
+    },
+    {
+      "name": "PROD-BDes-Prod-3rd",
+      "department": "Industrial & Product Design",
+      "studentCount": 45
+    },
+    {
+      "name": "PROD-BDes-Prod-4th",
+      "department": "Industrial & Product Design",
+      "studentCount": 45
+    },
+    {
+      "name": "PROD-MDes-Prod-1st",
+      "department": "Industrial & Product Design",
+      "studentCount": 25
+    },
+    {
+      "name": "PROD-MDes-Prod-2nd",
+      "department": "Industrial & Product Design",
+      "studentCount": 25
+    },
+    {
+      "name": "PROD-PhD-1st",
+      "department": "Industrial & Product Design",
+      "studentCount": 15
+    },
+    {
+      "name": "COMM-BDes-Comm-1st",
+      "department": "Communication & Graphic Design",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-BDes-Comm-2nd",
+      "department": "Communication & Graphic Design",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-BDes-Comm-3rd",
+      "department": "Communication & Graphic Design",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-BDes-Comm-4th",
+      "department": "Communication & Graphic Design",
+      "studentCount": 45
+    },
+    {
+      "name": "COMM-MDes-Comm-1st",
+      "department": "Communication & Graphic Design",
+      "studentCount": 25
+    },
+    {
+      "name": "COMM-MDes-Comm-2nd",
+      "department": "Communication & Graphic Design",
+      "studentCount": 25
+    },
+    {
+      "name": "COMM-PhD-1st",
+      "department": "Communication & Graphic Design",
+      "studentCount": 15
+    },
+    {
+      "name": "UX-BDes-UX-1st",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 45
+    },
+    {
+      "name": "UX-BDes-UX-2nd",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 45
+    },
+    {
+      "name": "UX-BDes-UX-3rd",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 45
+    },
+    {
+      "name": "UX-BDes-UX-4th",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 45
+    },
+    {
+      "name": "UX-MDes-UX-1st",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 25
+    },
+    {
+      "name": "UX-MDes-UX-2nd",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 25
+    },
+    {
+      "name": "UX-PhD-1st",
+      "department": "Interaction Design & UI/UX",
+      "studentCount": 15
+    },
+    {
+      "name": "TEXT-BDes-Text-1st",
+      "department": "Textile & Material Innovation",
+      "studentCount": 40
+    },
+    {
+      "name": "TEXT-BDes-Text-2nd",
+      "department": "Textile & Material Innovation",
+      "studentCount": 40
+    },
+    {
+      "name": "TEXT-BDes-Text-3rd",
+      "department": "Textile & Material Innovation",
+      "studentCount": 40
+    },
+    {
+      "name": "TEXT-BDes-Text-4th",
+      "department": "Textile & Material Innovation",
+      "studentCount": 40
+    },
+    {
+      "name": "TEXT-MDes-Text-1st",
+      "department": "Textile & Material Innovation",
+      "studentCount": 20
+    },
+    {
+      "name": "TEXT-MDes-Text-2nd",
+      "department": "Textile & Material Innovation",
+      "studentCount": 20
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Design Studio Theatre DS-1",
+      "roomNumber": "DSLT-1",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-2",
+      "roomNumber": "DSLT-2",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-3",
+      "roomNumber": "DSLT-3",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-4",
+      "roomNumber": "DSLT-4",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-5",
+      "roomNumber": "DSLT-5",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-6",
+      "roomNumber": "DSLT-6",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-7",
+      "roomNumber": "DSLT-7",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-8",
+      "roomNumber": "DSLT-8",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-9",
+      "roomNumber": "DSLT-9",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-10",
+      "roomNumber": "DSLT-10",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-11",
+      "roomNumber": "DSLT-11",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-12",
+      "roomNumber": "DSLT-12",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-13",
+      "roomNumber": "DSLT-13",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-14",
+      "roomNumber": "DSLT-14",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-15",
+      "roomNumber": "DSLT-15",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-16",
+      "roomNumber": "DSLT-16",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-17",
+      "roomNumber": "DSLT-17",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-18",
+      "roomNumber": "DSLT-18",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-19",
+      "roomNumber": "DSLT-19",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Design Studio Theatre DS-20",
+      "roomNumber": "DSLT-20",
+      "type": "Classroom",
+      "capacity": 65
+    },
+    {
+      "name": "Critique & Jury Pod 1",
+      "roomNumber": "JURY-1",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 2",
+      "roomNumber": "JURY-2",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 3",
+      "roomNumber": "JURY-3",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 4",
+      "roomNumber": "JURY-4",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 5",
+      "roomNumber": "JURY-5",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 6",
+      "roomNumber": "JURY-6",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 7",
+      "roomNumber": "JURY-7",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Critique & Jury Pod 8",
+      "roomNumber": "JURY-8",
+      "type": "Classroom",
+      "capacity": 35
+    },
+    {
+      "name": "Architectural Drafting Studio 1",
+      "roomNumber": "DRAFT-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Architectural Drafting Studio 2",
+      "roomNumber": "DRAFT-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Architectural Drafting Studio 3",
+      "roomNumber": "DRAFT-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Architectural Drafting Studio 4",
+      "roomNumber": "DRAFT-4",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Architectural Drafting Studio 5",
+      "roomNumber": "DRAFT-5",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Architectural Drafting Studio 6",
+      "roomNumber": "DRAFT-6",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Rapid 3D Prototyping & CNC Lab 1",
+      "roomNumber": "PROTO-1",
+      "type": "MechanicalWorkshop",
+      "capacity": 45
+    },
+    {
+      "name": "Rapid 3D Prototyping & CNC Lab 2",
+      "roomNumber": "PROTO-2",
+      "type": "MechanicalWorkshop",
+      "capacity": 45
+    },
+    {
+      "name": "Rapid 3D Prototyping & CNC Lab 3",
+      "roomNumber": "PROTO-3",
+      "type": "MechanicalWorkshop",
+      "capacity": 45
+    },
+    {
+      "name": "Rapid 3D Prototyping & CNC Lab 4",
+      "roomNumber": "PROTO-4",
+      "type": "MechanicalWorkshop",
+      "capacity": 45
+    },
+    {
+      "name": "Digital Media & UX Lab 1",
+      "roomNumber": "UXLAB-1",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Digital Media & UX Lab 2",
+      "roomNumber": "UXLAB-2",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Digital Media & UX Lab 3",
+      "roomNumber": "UXLAB-3",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Digital Media & UX Lab 4",
+      "roomNumber": "UXLAB-4",
+      "type": "ComputerLab",
+      "capacity": 45
+    },
+    {
+      "name": "Material & Ceramic Studio 1",
+      "roomNumber": "MATSTU-1",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Material & Ceramic Studio 2",
+      "roomNumber": "MATSTU-2",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Material & Ceramic Studio 3",
+      "roomNumber": "MATSTU-3",
+      "type": "Laboratory",
+      "capacity": 45
+    },
+    {
+      "name": "Material & Ceramic Studio 4",
+      "roomNumber": "MATSTU-4",
+      "type": "Laboratory",
+      "capacity": 45
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Prof. B. V. Doshi",
+      "teacherCode": "NID-FAC-001",
+      "teachableSubjectCodes": [
+        "DES-SGFS-1",
+        "DES-SGFS-31",
+        "DES-SGFS-61",
+        "DES-SGFS-91",
+        "DES-SGFS-121",
+        "DES-SGFS-151"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Charles Correa",
+      "teacherCode": "NID-FAC-002",
+      "teachableSubjectCodes": [
+        "DES-HGAD-2",
+        "DES-HGAD-32",
+        "DES-HGAD-62",
+        "DES-HGAD-92",
+        "DES-HGAD-122",
+        "DES-HGAD-152"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Achyut Kanvinde",
+      "teacherCode": "NID-FAC-003",
+      "teachableSubjectCodes": [
+        "DES-BSSE-3",
+        "DES-BSSE-33",
+        "DES-BSSE-63",
+        "DES-BSSE-93",
+        "DES-BSSE-123",
+        "DES-BSSE-153"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Raj Rewal",
+      "teacherCode": "NID-FAC-004",
+      "teachableSubjectCodes": [
+        "DES-DRMS-4",
+        "DES-DRMS-34",
+        "DES-DRMS-64",
+        "DES-DRMS-94",
+        "DES-DRMS-124",
+        "DES-DRMS-154"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Laurie Baker",
+      "teacherCode": "NID-FAC-005",
+      "teachableSubjectCodes": [
+        "DES-CSFP-5",
+        "DES-CSFP-35",
+        "DES-MFCP-65",
+        "DES-DIMD-95",
+        "DES-DIMD-125",
+        "DES-CSFP-155"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Hafiz Contractor",
+      "teacherCode": "NID-FAC-006",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Brinda Somaya",
+      "teacherCode": "NID-FAC-007",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Hafeez Contractor",
+      "teacherCode": "NID-FAC-008",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sheila Sri Prakash",
+      "teacherCode": "NID-FAC-009",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Rahul Mehrotra",
+      "teacherCode": "NID-FAC-010",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sanjay Puri",
+      "teacherCode": "NID-FAC-011",
+      "teachableSubjectCodes": [
+        "DES-SGFS-6",
+        "DES-SGFS-36",
+        "DES-SGFS-66",
+        "DES-SGFS-96",
+        "DES-SGFS-126",
+        "DES-SGFS-156"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Chitra Vishwanath",
+      "teacherCode": "NID-FAC-012",
+      "teachableSubjectCodes": [
+        "DES-HGAD-7",
+        "DES-HGAD-37",
+        "DES-HGAD-67",
+        "DES-HGAD-97",
+        "DES-HGAD-127",
+        "DES-HGAD-157"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Prem Nath",
+      "teacherCode": "NID-FAC-013",
+      "teachableSubjectCodes": [
+        "DES-BSSE-8",
+        "DES-BSSE-38",
+        "DES-BSSE-68",
+        "DES-BSSE-98",
+        "DES-BSSE-128",
+        "DES-BSSE-158"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Abhimanyu Dalal",
+      "teacherCode": "NID-FAC-014",
+      "teachableSubjectCodes": [
+        "DES-DRMS-9",
+        "DES-DRMS-39",
+        "DES-DRMS-69",
+        "DES-DRMS-99",
+        "DES-DRMS-129",
+        "DES-DRMS-159"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. K. T. Ravindran",
+      "teacherCode": "NID-FAC-015",
+      "teachableSubjectCodes": [
+        "DES-CSFP-10",
+        "DES-CSFP-40",
+        "DES-MFCP-70",
+        "DES-DIMD-100",
+        "DES-DIMD-130",
+        "DES-CSFP-160"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Dean D'Cruz",
+      "teacherCode": "NID-FAC-016",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sen Kapadia",
+      "teacherCode": "NID-FAC-017",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sujatha Shankar",
+      "teacherCode": "NID-FAC-018",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Komal Mathur",
+      "teacherCode": "NID-FAC-019",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Anupama Kundoo",
+      "teacherCode": "NID-FAC-020",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sunil Joshi",
+      "teacherCode": "NID-FAC-021",
+      "teachableSubjectCodes": [
+        "DES-SGFS-11",
+        "DES-SGFS-41",
+        "DES-SGFS-71",
+        "DES-SGFS-101",
+        "DES-SGFS-131",
+        "DES-SGFS-161"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sudhir Sharma",
+      "teacherCode": "NID-FAC-022",
+      "teachableSubjectCodes": [
+        "DES-HGAD-12",
+        "DES-HGAD-42",
+        "DES-HGAD-72",
+        "DES-HGAD-102",
+        "DES-HGAD-132",
+        "DES-HGAD-162"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Pradyumna Vyas",
+      "teacherCode": "NID-FAC-023",
+      "teachableSubjectCodes": [
+        "DES-BSSE-13",
+        "DES-BSSE-43",
+        "DES-BSSE-73",
+        "DES-BSSE-103",
+        "DES-BSSE-133",
+        "DES-BSSE-163"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Ashoke Chatterjee",
+      "teacherCode": "NID-FAC-024",
+      "teachableSubjectCodes": [
+        "DES-DRMS-14",
+        "DES-DRMS-44",
+        "DES-DRMS-74",
+        "DES-DRMS-104",
+        "DES-DRMS-134",
+        "DES-DRMS-164"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. H. Kumar Vyas",
+      "teacherCode": "NID-FAC-025",
+      "teachableSubjectCodes": [
+        "DES-CSFP-15",
+        "DES-MFCP-45",
+        "DES-MFCP-75",
+        "DES-DIMD-105",
+        "DES-DIMD-135",
+        "DES-CSFP-165"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Vikas Satwalekar",
+      "teacherCode": "NID-FAC-026",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Singanapalli Balaram",
+      "teacherCode": "NID-FAC-027",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Mahendra Patel",
+      "teacherCode": "NID-FAC-028",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. I. S. Mathur",
+      "teacherCode": "NID-FAC-029",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. G. V. Sreekumar",
+      "teacherCode": "NID-FAC-030",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Kirti Trivedi",
+      "teacherCode": "NID-FAC-031",
+      "teachableSubjectCodes": [
+        "DES-SGFS-16",
+        "DES-SGFS-46",
+        "DES-SGFS-76",
+        "DES-SGFS-106",
+        "DES-SGFS-136",
+        "DES-SGFS-166"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. U. A. Athavankar",
+      "teacherCode": "NID-FAC-032",
+      "teachableSubjectCodes": [
+        "DES-HGAD-17",
+        "DES-HGAD-47",
+        "DES-HGAD-77",
+        "DES-HGAD-107",
+        "DES-HGAD-137",
+        "DES-HGAD-167"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. A. G. Rao",
+      "teacherCode": "NID-FAC-033",
+      "teachableSubjectCodes": [
+        "DES-BSSE-18",
+        "DES-BSSE-48",
+        "DES-BSSE-78",
+        "DES-BSSE-108",
+        "DES-BSSE-138",
+        "DES-BSSE-168"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Ravi Poovaiah",
+      "teacherCode": "NID-FAC-034",
+      "teachableSubjectCodes": [
+        "DES-DRMS-19",
+        "DES-DRMS-49",
+        "DES-DRMS-79",
+        "DES-DRMS-109",
+        "DES-DRMS-139",
+        "DES-DRMS-169"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. B. K. Chakravarthy",
+      "teacherCode": "NID-FAC-035",
+      "teachableSubjectCodes": [
+        "DES-CSFP-20",
+        "DES-MFCP-50",
+        "DES-DIMD-80",
+        "DES-DIMD-110",
+        "DES-DIMD-140",
+        "DES-CSFP-170"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Nina Sabnani",
+      "teacherCode": "NID-FAC-036",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Phani Tetali",
+      "teacherCode": "NID-FAC-037",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Girish Dalvi",
+      "teacherCode": "NID-FAC-038",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Manish Sharma",
+      "teacherCode": "NID-FAC-039",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Jatin Bhatt",
+      "teacherCode": "NID-FAC-040",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sudhakar Nadkarni",
+      "teacherCode": "NID-FAC-041",
+      "teachableSubjectCodes": [
+        "DES-SGFS-21",
+        "DES-SGFS-51",
+        "DES-SGFS-81",
+        "DES-SGFS-111",
+        "DES-SGFS-141",
+        "DES-SGFS-171"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Tarun Deep Girdher",
+      "teacherCode": "NID-FAC-042",
+      "teachableSubjectCodes": [
+        "DES-HGAD-22",
+        "DES-HGAD-52",
+        "DES-HGAD-82",
+        "DES-HGAD-112",
+        "DES-HGAD-142",
+        "DES-HGAD-172"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Praveen Nahar",
+      "teacherCode": "NID-FAC-043",
+      "teachableSubjectCodes": [
+        "DES-BSSE-23",
+        "DES-BSSE-53",
+        "DES-BSSE-83",
+        "DES-BSSE-113",
+        "DES-BSSE-143",
+        "DES-BSSE-173"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Tanishka Kachru",
+      "teacherCode": "NID-FAC-044",
+      "teachableSubjectCodes": [
+        "DES-DRMS-24",
+        "DES-DRMS-54",
+        "DES-DRMS-84",
+        "DES-DRMS-114",
+        "DES-DRMS-144",
+        "DES-DRMS-174"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Shilpa Das",
+      "teacherCode": "NID-FAC-045",
+      "teachableSubjectCodes": [
+        "DES-CSFP-25",
+        "DES-MFCP-55",
+        "DES-DIMD-85",
+        "DES-DIMD-115",
+        "DES-DIMD-145",
+        "DES-CSFP-175"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sujith Kumar",
+      "teacherCode": "NID-FAC-046",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Manoj Kothari",
+      "teacherCode": "NID-FAC-047",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Naveen Rampal",
+      "teacherCode": "NID-FAC-048",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Satish Gokhale",
+      "teacherCode": "NID-FAC-049",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Michael Foley",
+      "teacherCode": "NID-FAC-050",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Abhijit Bansod",
+      "teacherCode": "NID-FAC-051",
+      "teachableSubjectCodes": [
+        "DES-SGFS-26",
+        "DES-SGFS-56",
+        "DES-SGFS-86",
+        "DES-SGFS-116",
+        "DES-SGFS-146"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Neil Foley",
+      "teacherCode": "NID-FAC-052",
+      "teachableSubjectCodes": [
+        "DES-HGAD-27",
+        "DES-HGAD-57",
+        "DES-HGAD-87",
+        "DES-HGAD-117",
+        "DES-HGAD-147"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Alok Nandi",
+      "teacherCode": "NID-FAC-053",
+      "teachableSubjectCodes": [
+        "DES-BSSE-28",
+        "DES-BSSE-58",
+        "DES-BSSE-88",
+        "DES-BSSE-118",
+        "DES-BSSE-148"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sudhir John Horo",
+      "teacherCode": "NID-FAC-054",
+      "teachableSubjectCodes": [
+        "DES-DRMS-29",
+        "DES-DRMS-59",
+        "DES-DRMS-89",
+        "DES-DRMS-119",
+        "DES-DRMS-149"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Gaurav Jain",
+      "teacherCode": "NID-FAC-055",
+      "teachableSubjectCodes": [
+        "DES-CSFP-30",
+        "DES-MFCP-60",
+        "DES-DIMD-90",
+        "DES-DIMD-120",
+        "DES-CSFP-150"
+      ],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Kavita Arvind",
+      "teacherCode": "NID-FAC-056",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Ruchita Madhok",
+      "teacherCode": "NID-FAC-057",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Lokesh Karekar",
+      "teacherCode": "NID-FAC-058",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sameer Kulavoor",
+      "teacherCode": "NID-FAC-059",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    },
+    {
+      "name": "Prof. Sujata Keshavan",
+      "teacherCode": "NID-FAC-060",
+      "teachableSubjectCodes": [],
+      "maxWeeklyPeriods": 18
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-BArch-1st)",
+      "code": "DES-SGFS-1",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-1st",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-BArch-1st)",
+      "code": "DES-HGAD-2",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-1st",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-BArch-1st)",
+      "code": "DES-BSSE-3",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-1st",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-BArch-1st)",
+      "code": "DES-DRMS-4",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-1st",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-BArch-1st)",
+      "code": "DES-CSFP-5",
+      "type": "Lab",
+      "sectionName": "ARCH-BArch-1st",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-BArch-2nd)",
+      "code": "DES-SGFS-6",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-2nd",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-BArch-2nd)",
+      "code": "DES-HGAD-7",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-2nd",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-BArch-2nd)",
+      "code": "DES-BSSE-8",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-2nd",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-BArch-2nd)",
+      "code": "DES-DRMS-9",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-2nd",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-BArch-2nd)",
+      "code": "DES-CSFP-10",
+      "type": "Lab",
+      "sectionName": "ARCH-BArch-2nd",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-BArch-3rd)",
+      "code": "DES-SGFS-11",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-3rd",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-BArch-3rd)",
+      "code": "DES-HGAD-12",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-3rd",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-BArch-3rd)",
+      "code": "DES-BSSE-13",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-3rd",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-BArch-3rd)",
+      "code": "DES-DRMS-14",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-3rd",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-BArch-3rd)",
+      "code": "DES-CSFP-15",
+      "type": "Lab",
+      "sectionName": "ARCH-BArch-3rd",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-BArch-4th)",
+      "code": "DES-SGFS-16",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-4th",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-BArch-4th)",
+      "code": "DES-HGAD-17",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-4th",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-BArch-4th)",
+      "code": "DES-BSSE-18",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-4th",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-BArch-4th)",
+      "code": "DES-DRMS-19",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-4th",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-BArch-4th)",
+      "code": "DES-CSFP-20",
+      "type": "Lab",
+      "sectionName": "ARCH-BArch-4th",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-BArch-5th)",
+      "code": "DES-SGFS-21",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-5th",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-BArch-5th)",
+      "code": "DES-HGAD-22",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-5th",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-BArch-5th)",
+      "code": "DES-BSSE-23",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-5th",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-BArch-5th)",
+      "code": "DES-DRMS-24",
+      "type": "Theory",
+      "sectionName": "ARCH-BArch-5th",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-BArch-5th)",
+      "code": "DES-CSFP-25",
+      "type": "Lab",
+      "sectionName": "ARCH-BArch-5th",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-MArch-1st)",
+      "code": "DES-SGFS-26",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-1st",
+      "teacherCode": "NID-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-MArch-1st)",
+      "code": "DES-HGAD-27",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-1st",
+      "teacherCode": "NID-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-MArch-1st)",
+      "code": "DES-BSSE-28",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-1st",
+      "teacherCode": "NID-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-MArch-1st)",
+      "code": "DES-DRMS-29",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-1st",
+      "teacherCode": "NID-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-MArch-1st)",
+      "code": "DES-CSFP-30",
+      "type": "Lab",
+      "sectionName": "ARCH-MArch-1st",
+      "teacherCode": "NID-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-MArch-2nd)",
+      "code": "DES-SGFS-31",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-2nd",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-MArch-2nd)",
+      "code": "DES-HGAD-32",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-2nd",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-MArch-2nd)",
+      "code": "DES-BSSE-33",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-2nd",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-MArch-2nd)",
+      "code": "DES-DRMS-34",
+      "type": "Theory",
+      "sectionName": "ARCH-MArch-2nd",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-MArch-2nd)",
+      "code": "DES-CSFP-35",
+      "type": "Lab",
+      "sectionName": "ARCH-MArch-2nd",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (ARCH-PhD-1st)",
+      "code": "DES-SGFS-36",
+      "type": "Theory",
+      "sectionName": "ARCH-PhD-1st",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (ARCH-PhD-1st)",
+      "code": "DES-HGAD-37",
+      "type": "Theory",
+      "sectionName": "ARCH-PhD-1st",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (ARCH-PhD-1st)",
+      "code": "DES-BSSE-38",
+      "type": "Theory",
+      "sectionName": "ARCH-PhD-1st",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (ARCH-PhD-1st)",
+      "code": "DES-DRMS-39",
+      "type": "Theory",
+      "sectionName": "ARCH-PhD-1st",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (ARCH-PhD-1st)",
+      "code": "DES-CSFP-40",
+      "type": "Lab",
+      "sectionName": "ARCH-PhD-1st",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-BDes-Prod-1st)",
+      "code": "DES-SGFS-41",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-1st",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-BDes-Prod-1st)",
+      "code": "DES-HGAD-42",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-1st",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-BDes-Prod-1st)",
+      "code": "DES-BSSE-43",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-1st",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-BDes-Prod-1st)",
+      "code": "DES-DRMS-44",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-1st",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-BDes-Prod-1st)",
+      "code": "DES-MFCP-45",
+      "type": "Lab",
+      "sectionName": "PROD-BDes-Prod-1st",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-BDes-Prod-2nd)",
+      "code": "DES-SGFS-46",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-2nd",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-BDes-Prod-2nd)",
+      "code": "DES-HGAD-47",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-2nd",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-BDes-Prod-2nd)",
+      "code": "DES-BSSE-48",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-2nd",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-BDes-Prod-2nd)",
+      "code": "DES-DRMS-49",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-2nd",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-BDes-Prod-2nd)",
+      "code": "DES-MFCP-50",
+      "type": "Lab",
+      "sectionName": "PROD-BDes-Prod-2nd",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-BDes-Prod-3rd)",
+      "code": "DES-SGFS-51",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-3rd",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-BDes-Prod-3rd)",
+      "code": "DES-HGAD-52",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-3rd",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-BDes-Prod-3rd)",
+      "code": "DES-BSSE-53",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-3rd",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-BDes-Prod-3rd)",
+      "code": "DES-DRMS-54",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-3rd",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-BDes-Prod-3rd)",
+      "code": "DES-MFCP-55",
+      "type": "Lab",
+      "sectionName": "PROD-BDes-Prod-3rd",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-BDes-Prod-4th)",
+      "code": "DES-SGFS-56",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-4th",
+      "teacherCode": "NID-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-BDes-Prod-4th)",
+      "code": "DES-HGAD-57",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-4th",
+      "teacherCode": "NID-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-BDes-Prod-4th)",
+      "code": "DES-BSSE-58",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-4th",
+      "teacherCode": "NID-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-BDes-Prod-4th)",
+      "code": "DES-DRMS-59",
+      "type": "Theory",
+      "sectionName": "PROD-BDes-Prod-4th",
+      "teacherCode": "NID-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-BDes-Prod-4th)",
+      "code": "DES-MFCP-60",
+      "type": "Lab",
+      "sectionName": "PROD-BDes-Prod-4th",
+      "teacherCode": "NID-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-MDes-Prod-1st)",
+      "code": "DES-SGFS-61",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-1st",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-MDes-Prod-1st)",
+      "code": "DES-HGAD-62",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-1st",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-MDes-Prod-1st)",
+      "code": "DES-BSSE-63",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-1st",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-MDes-Prod-1st)",
+      "code": "DES-DRMS-64",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-1st",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-MDes-Prod-1st)",
+      "code": "DES-MFCP-65",
+      "type": "Lab",
+      "sectionName": "PROD-MDes-Prod-1st",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-MDes-Prod-2nd)",
+      "code": "DES-SGFS-66",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-2nd",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-MDes-Prod-2nd)",
+      "code": "DES-HGAD-67",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-2nd",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-MDes-Prod-2nd)",
+      "code": "DES-BSSE-68",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-2nd",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-MDes-Prod-2nd)",
+      "code": "DES-DRMS-69",
+      "type": "Theory",
+      "sectionName": "PROD-MDes-Prod-2nd",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-MDes-Prod-2nd)",
+      "code": "DES-MFCP-70",
+      "type": "Lab",
+      "sectionName": "PROD-MDes-Prod-2nd",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (PROD-PhD-1st)",
+      "code": "DES-SGFS-71",
+      "type": "Theory",
+      "sectionName": "PROD-PhD-1st",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (PROD-PhD-1st)",
+      "code": "DES-HGAD-72",
+      "type": "Theory",
+      "sectionName": "PROD-PhD-1st",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (PROD-PhD-1st)",
+      "code": "DES-BSSE-73",
+      "type": "Theory",
+      "sectionName": "PROD-PhD-1st",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (PROD-PhD-1st)",
+      "code": "DES-DRMS-74",
+      "type": "Theory",
+      "sectionName": "PROD-PhD-1st",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Material Fabrication & CNC Prototyping (PROD-PhD-1st)",
+      "code": "DES-MFCP-75",
+      "type": "Lab",
+      "sectionName": "PROD-PhD-1st",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-BDes-Comm-1st)",
+      "code": "DES-SGFS-76",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-1st",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-BDes-Comm-1st)",
+      "code": "DES-HGAD-77",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-1st",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-BDes-Comm-1st)",
+      "code": "DES-BSSE-78",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-1st",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-BDes-Comm-1st)",
+      "code": "DES-DRMS-79",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-1st",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-BDes-Comm-1st)",
+      "code": "DES-DIMD-80",
+      "type": "Lab",
+      "sectionName": "COMM-BDes-Comm-1st",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-BDes-Comm-2nd)",
+      "code": "DES-SGFS-81",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-2nd",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-BDes-Comm-2nd)",
+      "code": "DES-HGAD-82",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-2nd",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-BDes-Comm-2nd)",
+      "code": "DES-BSSE-83",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-2nd",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-BDes-Comm-2nd)",
+      "code": "DES-DRMS-84",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-2nd",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-BDes-Comm-2nd)",
+      "code": "DES-DIMD-85",
+      "type": "Lab",
+      "sectionName": "COMM-BDes-Comm-2nd",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-BDes-Comm-3rd)",
+      "code": "DES-SGFS-86",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-3rd",
+      "teacherCode": "NID-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-BDes-Comm-3rd)",
+      "code": "DES-HGAD-87",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-3rd",
+      "teacherCode": "NID-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-BDes-Comm-3rd)",
+      "code": "DES-BSSE-88",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-3rd",
+      "teacherCode": "NID-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-BDes-Comm-3rd)",
+      "code": "DES-DRMS-89",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-3rd",
+      "teacherCode": "NID-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-BDes-Comm-3rd)",
+      "code": "DES-DIMD-90",
+      "type": "Lab",
+      "sectionName": "COMM-BDes-Comm-3rd",
+      "teacherCode": "NID-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-BDes-Comm-4th)",
+      "code": "DES-SGFS-91",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-4th",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-BDes-Comm-4th)",
+      "code": "DES-HGAD-92",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-4th",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-BDes-Comm-4th)",
+      "code": "DES-BSSE-93",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-4th",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-BDes-Comm-4th)",
+      "code": "DES-DRMS-94",
+      "type": "Theory",
+      "sectionName": "COMM-BDes-Comm-4th",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-BDes-Comm-4th)",
+      "code": "DES-DIMD-95",
+      "type": "Lab",
+      "sectionName": "COMM-BDes-Comm-4th",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-MDes-Comm-1st)",
+      "code": "DES-SGFS-96",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-1st",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-MDes-Comm-1st)",
+      "code": "DES-HGAD-97",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-1st",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-MDes-Comm-1st)",
+      "code": "DES-BSSE-98",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-1st",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-MDes-Comm-1st)",
+      "code": "DES-DRMS-99",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-1st",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-MDes-Comm-1st)",
+      "code": "DES-DIMD-100",
+      "type": "Lab",
+      "sectionName": "COMM-MDes-Comm-1st",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-MDes-Comm-2nd)",
+      "code": "DES-SGFS-101",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-2nd",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-MDes-Comm-2nd)",
+      "code": "DES-HGAD-102",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-2nd",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-MDes-Comm-2nd)",
+      "code": "DES-BSSE-103",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-2nd",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-MDes-Comm-2nd)",
+      "code": "DES-DRMS-104",
+      "type": "Theory",
+      "sectionName": "COMM-MDes-Comm-2nd",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-MDes-Comm-2nd)",
+      "code": "DES-DIMD-105",
+      "type": "Lab",
+      "sectionName": "COMM-MDes-Comm-2nd",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (COMM-PhD-1st)",
+      "code": "DES-SGFS-106",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (COMM-PhD-1st)",
+      "code": "DES-HGAD-107",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (COMM-PhD-1st)",
+      "code": "DES-BSSE-108",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (COMM-PhD-1st)",
+      "code": "DES-DRMS-109",
+      "type": "Theory",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (COMM-PhD-1st)",
+      "code": "DES-DIMD-110",
+      "type": "Lab",
+      "sectionName": "COMM-PhD-1st",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-BDes-UX-1st)",
+      "code": "DES-SGFS-111",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-1st",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-BDes-UX-1st)",
+      "code": "DES-HGAD-112",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-1st",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-BDes-UX-1st)",
+      "code": "DES-BSSE-113",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-1st",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-BDes-UX-1st)",
+      "code": "DES-DRMS-114",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-1st",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-BDes-UX-1st)",
+      "code": "DES-DIMD-115",
+      "type": "Lab",
+      "sectionName": "UX-BDes-UX-1st",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-BDes-UX-2nd)",
+      "code": "DES-SGFS-116",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-2nd",
+      "teacherCode": "NID-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-BDes-UX-2nd)",
+      "code": "DES-HGAD-117",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-2nd",
+      "teacherCode": "NID-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-BDes-UX-2nd)",
+      "code": "DES-BSSE-118",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-2nd",
+      "teacherCode": "NID-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-BDes-UX-2nd)",
+      "code": "DES-DRMS-119",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-2nd",
+      "teacherCode": "NID-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-BDes-UX-2nd)",
+      "code": "DES-DIMD-120",
+      "type": "Lab",
+      "sectionName": "UX-BDes-UX-2nd",
+      "teacherCode": "NID-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-BDes-UX-3rd)",
+      "code": "DES-SGFS-121",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-3rd",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-BDes-UX-3rd)",
+      "code": "DES-HGAD-122",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-3rd",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-BDes-UX-3rd)",
+      "code": "DES-BSSE-123",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-3rd",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-BDes-UX-3rd)",
+      "code": "DES-DRMS-124",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-3rd",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-BDes-UX-3rd)",
+      "code": "DES-DIMD-125",
+      "type": "Lab",
+      "sectionName": "UX-BDes-UX-3rd",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-BDes-UX-4th)",
+      "code": "DES-SGFS-126",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-4th",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-BDes-UX-4th)",
+      "code": "DES-HGAD-127",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-4th",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-BDes-UX-4th)",
+      "code": "DES-BSSE-128",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-4th",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-BDes-UX-4th)",
+      "code": "DES-DRMS-129",
+      "type": "Theory",
+      "sectionName": "UX-BDes-UX-4th",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-BDes-UX-4th)",
+      "code": "DES-DIMD-130",
+      "type": "Lab",
+      "sectionName": "UX-BDes-UX-4th",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-MDes-UX-1st)",
+      "code": "DES-SGFS-131",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-1st",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-MDes-UX-1st)",
+      "code": "DES-HGAD-132",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-1st",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-MDes-UX-1st)",
+      "code": "DES-BSSE-133",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-1st",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-MDes-UX-1st)",
+      "code": "DES-DRMS-134",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-1st",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-MDes-UX-1st)",
+      "code": "DES-DIMD-135",
+      "type": "Lab",
+      "sectionName": "UX-MDes-UX-1st",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-MDes-UX-2nd)",
+      "code": "DES-SGFS-136",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-2nd",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-MDes-UX-2nd)",
+      "code": "DES-HGAD-137",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-2nd",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-MDes-UX-2nd)",
+      "code": "DES-BSSE-138",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-2nd",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-MDes-UX-2nd)",
+      "code": "DES-DRMS-139",
+      "type": "Theory",
+      "sectionName": "UX-MDes-UX-2nd",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-MDes-UX-2nd)",
+      "code": "DES-DIMD-140",
+      "type": "Lab",
+      "sectionName": "UX-MDes-UX-2nd",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (UX-PhD-1st)",
+      "code": "DES-SGFS-141",
+      "type": "Theory",
+      "sectionName": "UX-PhD-1st",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (UX-PhD-1st)",
+      "code": "DES-HGAD-142",
+      "type": "Theory",
+      "sectionName": "UX-PhD-1st",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (UX-PhD-1st)",
+      "code": "DES-BSSE-143",
+      "type": "Theory",
+      "sectionName": "UX-PhD-1st",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (UX-PhD-1st)",
+      "code": "DES-DRMS-144",
+      "type": "Theory",
+      "sectionName": "UX-PhD-1st",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Interface & Motion Design Lab (UX-PhD-1st)",
+      "code": "DES-DIMD-145",
+      "type": "Lab",
+      "sectionName": "UX-PhD-1st",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-BDes-Text-1st)",
+      "code": "DES-SGFS-146",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-1st",
+      "teacherCode": "NID-FAC-051",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-BDes-Text-1st)",
+      "code": "DES-HGAD-147",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-1st",
+      "teacherCode": "NID-FAC-052",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-BDes-Text-1st)",
+      "code": "DES-BSSE-148",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-1st",
+      "teacherCode": "NID-FAC-053",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-BDes-Text-1st)",
+      "code": "DES-DRMS-149",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-1st",
+      "teacherCode": "NID-FAC-054",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-BDes-Text-1st)",
+      "code": "DES-CSFP-150",
+      "type": "Lab",
+      "sectionName": "TEXT-BDes-Text-1st",
+      "teacherCode": "NID-FAC-055",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-BDes-Text-2nd)",
+      "code": "DES-SGFS-151",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-2nd",
+      "teacherCode": "NID-FAC-001",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-BDes-Text-2nd)",
+      "code": "DES-HGAD-152",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-2nd",
+      "teacherCode": "NID-FAC-002",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-BDes-Text-2nd)",
+      "code": "DES-BSSE-153",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-2nd",
+      "teacherCode": "NID-FAC-003",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-BDes-Text-2nd)",
+      "code": "DES-DRMS-154",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-2nd",
+      "teacherCode": "NID-FAC-004",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-BDes-Text-2nd)",
+      "code": "DES-CSFP-155",
+      "type": "Lab",
+      "sectionName": "TEXT-BDes-Text-2nd",
+      "teacherCode": "NID-FAC-005",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-BDes-Text-3rd)",
+      "code": "DES-SGFS-156",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-3rd",
+      "teacherCode": "NID-FAC-011",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-BDes-Text-3rd)",
+      "code": "DES-HGAD-157",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-3rd",
+      "teacherCode": "NID-FAC-012",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-BDes-Text-3rd)",
+      "code": "DES-BSSE-158",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-3rd",
+      "teacherCode": "NID-FAC-013",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-BDes-Text-3rd)",
+      "code": "DES-DRMS-159",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-3rd",
+      "teacherCode": "NID-FAC-014",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-BDes-Text-3rd)",
+      "code": "DES-CSFP-160",
+      "type": "Lab",
+      "sectionName": "TEXT-BDes-Text-3rd",
+      "teacherCode": "NID-FAC-015",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-BDes-Text-4th)",
+      "code": "DES-SGFS-161",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-4th",
+      "teacherCode": "NID-FAC-021",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-BDes-Text-4th)",
+      "code": "DES-HGAD-162",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-4th",
+      "teacherCode": "NID-FAC-022",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-BDes-Text-4th)",
+      "code": "DES-BSSE-163",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-4th",
+      "teacherCode": "NID-FAC-023",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-BDes-Text-4th)",
+      "code": "DES-DRMS-164",
+      "type": "Theory",
+      "sectionName": "TEXT-BDes-Text-4th",
+      "teacherCode": "NID-FAC-024",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-BDes-Text-4th)",
+      "code": "DES-CSFP-165",
+      "type": "Lab",
+      "sectionName": "TEXT-BDes-Text-4th",
+      "teacherCode": "NID-FAC-025",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-MDes-Text-1st)",
+      "code": "DES-SGFS-166",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-1st",
+      "teacherCode": "NID-FAC-031",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-MDes-Text-1st)",
+      "code": "DES-HGAD-167",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-1st",
+      "teacherCode": "NID-FAC-032",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-MDes-Text-1st)",
+      "code": "DES-BSSE-168",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-1st",
+      "teacherCode": "NID-FAC-033",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-MDes-Text-1st)",
+      "code": "DES-DRMS-169",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-1st",
+      "teacherCode": "NID-FAC-034",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-MDes-Text-1st)",
+      "code": "DES-CSFP-170",
+      "type": "Lab",
+      "sectionName": "TEXT-MDes-Text-1st",
+      "teacherCode": "NID-FAC-035",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    },
+    {
+      "name": "Spatial Geometry & Form Studies (TEXT-MDes-Text-2nd)",
+      "code": "DES-SGFS-171",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-2nd",
+      "teacherCode": "NID-FAC-041",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "History of Global Architecture & Design (TEXT-MDes-Text-2nd)",
+      "code": "DES-HGAD-172",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-2nd",
+      "teacherCode": "NID-FAC-042",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Services & Sustainable Envelopes (TEXT-MDes-Text-2nd)",
+      "code": "DES-BSSE-173",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-2nd",
+      "teacherCode": "NID-FAC-043",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design Research Methodology & Semiotics (TEXT-MDes-Text-2nd)",
+      "code": "DES-DRMS-174",
+      "type": "Theory",
+      "sectionName": "TEXT-MDes-Text-2nd",
+      "teacherCode": "NID-FAC-044",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Comprehensive Studio & Fabrication Practicum (TEXT-MDes-Text-2nd)",
+      "code": "DES-CSFP-175",
+      "type": "Lab",
+      "sectionName": "TEXT-MDes-Text-2nd",
+      "teacherCode": "NID-FAC-045",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "Laboratory"
+    }
+  ]
+}

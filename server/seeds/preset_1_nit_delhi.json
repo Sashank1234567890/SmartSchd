@@ -1,0 +1,5136 @@
+{
+  "name": "college",
+  "description": "Full university dataset: 7 branches (CSE, IT, AIDS, ECE, EE, ME, CE) with 4-year B.Tech, 2-year M.Tech, and 2-year Ph.D. Minimum 5 subjects per section.",
+  "sections": [
+    {
+      "name": "CSE-1st-CS1",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-1st-CS2",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-2nd-CS1",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-2nd-CS2",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-3rd-CS1",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-3rd-CS2",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-4th-CS1",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "CSE-4th-CS2",
+      "department": "Computer Science",
+      "studentCount": 70
+    },
+    {
+      "name": "MTech-CSE-1st",
+      "department": "Computer Science",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-CSE-2nd",
+      "department": "Computer Science",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-CSE-1st",
+      "department": "Computer Science",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-CSE-2nd",
+      "department": "Computer Science",
+      "studentCount": 15
+    },
+    {
+      "name": "IT-1st",
+      "department": "Information Technology",
+      "studentCount": 70
+    },
+    {
+      "name": "IT-2nd",
+      "department": "Information Technology",
+      "studentCount": 70
+    },
+    {
+      "name": "IT-3rd",
+      "department": "Information Technology",
+      "studentCount": 70
+    },
+    {
+      "name": "IT-4th",
+      "department": "Information Technology",
+      "studentCount": 70
+    },
+    {
+      "name": "MTech-IT-1st",
+      "department": "Information Technology",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-IT-2nd",
+      "department": "Information Technology",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-IT-1st",
+      "department": "Information Technology",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-IT-2nd",
+      "department": "Information Technology",
+      "studentCount": 15
+    },
+    {
+      "name": "AIDS-1st",
+      "department": "AI & Data Science",
+      "studentCount": 70
+    },
+    {
+      "name": "AIDS-2nd",
+      "department": "AI & Data Science",
+      "studentCount": 70
+    },
+    {
+      "name": "AIDS-3rd",
+      "department": "AI & Data Science",
+      "studentCount": 70
+    },
+    {
+      "name": "AIDS-4th",
+      "department": "AI & Data Science",
+      "studentCount": 70
+    },
+    {
+      "name": "MTech-AIDS-1st",
+      "department": "AI & Data Science",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-AIDS-2nd",
+      "department": "AI & Data Science",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-AIDS-1st",
+      "department": "AI & Data Science",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-AIDS-2nd",
+      "department": "AI & Data Science",
+      "studentCount": 15
+    },
+    {
+      "name": "ECE-1st",
+      "department": "Electronics",
+      "studentCount": 70
+    },
+    {
+      "name": "ECE-2nd",
+      "department": "Electronics",
+      "studentCount": 70
+    },
+    {
+      "name": "ECE-3rd",
+      "department": "Electronics",
+      "studentCount": 70
+    },
+    {
+      "name": "ECE-4th",
+      "department": "Electronics",
+      "studentCount": 70
+    },
+    {
+      "name": "MTech-ECE-1st",
+      "department": "Electronics",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-ECE-2nd",
+      "department": "Electronics",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-ECE-1st",
+      "department": "Electronics",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-ECE-2nd",
+      "department": "Electronics",
+      "studentCount": 15
+    },
+    {
+      "name": "EE-1st",
+      "department": "Electrical",
+      "studentCount": 65
+    },
+    {
+      "name": "EE-2nd",
+      "department": "Electrical",
+      "studentCount": 65
+    },
+    {
+      "name": "EE-3rd",
+      "department": "Electrical",
+      "studentCount": 65
+    },
+    {
+      "name": "EE-4th",
+      "department": "Electrical",
+      "studentCount": 65
+    },
+    {
+      "name": "MTech-EE-1st",
+      "department": "Electrical",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-EE-2nd",
+      "department": "Electrical",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-EE-1st",
+      "department": "Electrical",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-EE-2nd",
+      "department": "Electrical",
+      "studentCount": 15
+    },
+    {
+      "name": "ME-1st",
+      "department": "Mechanical",
+      "studentCount": 65
+    },
+    {
+      "name": "ME-2nd",
+      "department": "Mechanical",
+      "studentCount": 65
+    },
+    {
+      "name": "ME-3rd",
+      "department": "Mechanical",
+      "studentCount": 65
+    },
+    {
+      "name": "ME-4th",
+      "department": "Mechanical",
+      "studentCount": 65
+    },
+    {
+      "name": "MTech-ME-1st",
+      "department": "Mechanical",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-ME-2nd",
+      "department": "Mechanical",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-ME-1st",
+      "department": "Mechanical",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-ME-2nd",
+      "department": "Mechanical",
+      "studentCount": 15
+    },
+    {
+      "name": "CE-1st",
+      "department": "Civil",
+      "studentCount": 60
+    },
+    {
+      "name": "CE-2nd",
+      "department": "Civil",
+      "studentCount": 60
+    },
+    {
+      "name": "CE-3rd",
+      "department": "Civil",
+      "studentCount": 60
+    },
+    {
+      "name": "CE-4th",
+      "department": "Civil",
+      "studentCount": 60
+    },
+    {
+      "name": "MTech-CE-1st",
+      "department": "Civil",
+      "studentCount": 25
+    },
+    {
+      "name": "MTech-CE-2nd",
+      "department": "Civil",
+      "studentCount": 25
+    },
+    {
+      "name": "PhD-CE-1st",
+      "department": "Civil",
+      "studentCount": 15
+    },
+    {
+      "name": "PhD-CE-2nd",
+      "department": "Civil",
+      "studentCount": 15
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Lecture Hall 101",
+      "roomNumber": "LH-101",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 102",
+      "roomNumber": "LH-102",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 103",
+      "roomNumber": "LH-103",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 104",
+      "roomNumber": "LH-104",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 105",
+      "roomNumber": "LH-105",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 106",
+      "roomNumber": "LH-106",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 201",
+      "roomNumber": "LH-201",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 202",
+      "roomNumber": "LH-202",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 203",
+      "roomNumber": "LH-203",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 204",
+      "roomNumber": "LH-204",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 205",
+      "roomNumber": "LH-205",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 206",
+      "roomNumber": "LH-206",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 301",
+      "roomNumber": "LH-301",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 302",
+      "roomNumber": "LH-302",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 303",
+      "roomNumber": "LH-303",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 304",
+      "roomNumber": "LH-304",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 305",
+      "roomNumber": "LH-305",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 306",
+      "roomNumber": "LH-306",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 401",
+      "roomNumber": "LH-401",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 402",
+      "roomNumber": "LH-402",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 403",
+      "roomNumber": "LH-403",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 404",
+      "roomNumber": "LH-404",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 405",
+      "roomNumber": "LH-405",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "Lecture Hall 406",
+      "roomNumber": "LH-406",
+      "type": "Classroom",
+      "capacity": 75
+    },
+    {
+      "name": "PG Seminar Room 1",
+      "roomNumber": "PG-101",
+      "type": "Classroom",
+      "capacity": 40
+    },
+    {
+      "name": "PG Seminar Room 2",
+      "roomNumber": "PG-102",
+      "type": "Classroom",
+      "capacity": 40
+    },
+    {
+      "name": "PG Seminar Room 3",
+      "roomNumber": "PG-103",
+      "type": "Classroom",
+      "capacity": 40
+    },
+    {
+      "name": "PG Seminar Room 4",
+      "roomNumber": "PG-104",
+      "type": "Classroom",
+      "capacity": 40
+    },
+    {
+      "name": "Research Seminar Hall 1",
+      "roomNumber": "SEM-101",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 2",
+      "roomNumber": "SEM-102",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 3",
+      "roomNumber": "SEM-103",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Research Seminar Hall 4",
+      "roomNumber": "SEM-104",
+      "type": "Classroom",
+      "capacity": 45
+    },
+    {
+      "name": "Computer Science Lab 1",
+      "roomNumber": "CSLAB-1",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "Computer Science Lab 2",
+      "roomNumber": "CSLAB-2",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "Computer Science Lab 3",
+      "roomNumber": "CSLAB-3",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "Computer Science Lab 4",
+      "roomNumber": "CSLAB-4",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "AI & Machine Learning Lab 1",
+      "roomNumber": "AIDSLAB-1",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "AI & Machine Learning Lab 2",
+      "roomNumber": "AIDSLAB-2",
+      "type": "ComputerLab",
+      "capacity": 38
+    },
+    {
+      "name": "Electronics Devices Lab",
+      "roomNumber": "ECLAB-1",
+      "type": "ElectronicsLab",
+      "capacity": 38
+    },
+    {
+      "name": "Communication Systems Lab",
+      "roomNumber": "ECLAB-2",
+      "type": "ElectronicsLab",
+      "capacity": 38
+    },
+    {
+      "name": "VLSI & Microelectronics Lab",
+      "roomNumber": "VLSILAB",
+      "type": "ElectronicsLab",
+      "capacity": 38
+    },
+    {
+      "name": "Electrical Circuits Lab",
+      "roomNumber": "EELAB-1",
+      "type": "ElectricalLab",
+      "capacity": 38
+    },
+    {
+      "name": "Electrical Machines Lab",
+      "roomNumber": "EELAB-2",
+      "type": "ElectricalLab",
+      "capacity": 38
+    },
+    {
+      "name": "Power Systems & Drives Lab",
+      "roomNumber": "POWLAB",
+      "type": "ElectricalLab",
+      "capacity": 38
+    },
+    {
+      "name": "Mechanical Workshop 1",
+      "roomNumber": "MEWK-1",
+      "type": "MechanicalWorkshop",
+      "capacity": 38
+    },
+    {
+      "name": "Mechanical Workshop 2",
+      "roomNumber": "MEWK-2",
+      "type": "MechanicalWorkshop",
+      "capacity": 38
+    },
+    {
+      "name": "CAD/CAM Modeling Lab",
+      "roomNumber": "MEWK-3",
+      "type": "MechanicalWorkshop",
+      "capacity": 38
+    },
+    {
+      "name": "Thermal & Fluid Dynamics Lab",
+      "roomNumber": "TFLAB",
+      "type": "MechanicalWorkshop",
+      "capacity": 38
+    },
+    {
+      "name": "Surveying & Geomatics Lab",
+      "roomNumber": "CIVILLAB-1",
+      "type": "CivilLab",
+      "capacity": 38
+    },
+    {
+      "name": "Geotechnical Engineering Lab",
+      "roomNumber": "CIVILLAB-2",
+      "type": "CivilLab",
+      "capacity": 38
+    },
+    {
+      "name": "Concrete Testing Lab",
+      "roomNumber": "CONCLAB",
+      "type": "CivilLab",
+      "capacity": 38
+    },
+    {
+      "name": "Engineering Physics Lab 1",
+      "roomNumber": "PHYLAB-1",
+      "type": "PhysicsLab",
+      "capacity": 38
+    },
+    {
+      "name": "Engineering Physics Lab 2",
+      "roomNumber": "PHYLAB-2",
+      "type": "PhysicsLab",
+      "capacity": 38
+    },
+    {
+      "name": "Engineering Chemistry Lab 1",
+      "roomNumber": "CHMLAB-1",
+      "type": "ChemistryLab",
+      "capacity": 38
+    },
+    {
+      "name": "Engineering Chemistry Lab 2",
+      "roomNumber": "CHMLAB-2",
+      "type": "ChemistryLab",
+      "capacity": 38
+    },
+    {
+      "name": "Main Sports Stadium",
+      "roomNumber": "SPORTS-1",
+      "type": "SportsGround",
+      "capacity": 300
+    },
+    {
+      "name": "East Athletic Ground",
+      "roomNumber": "SPORTS-2",
+      "type": "SportsGround",
+      "capacity": 300
+    },
+    {
+      "name": "West Sports Complex",
+      "roomNumber": "SPORTS-3",
+      "type": "SportsGround",
+      "capacity": 300
+    },
+    {
+      "name": "Indoor Badminton & Table Tennis Arena",
+      "roomNumber": "SPORTS-4",
+      "type": "SportsGround",
+      "capacity": 200
+    },
+    {
+      "name": "Gymnasium & Fitness Arena",
+      "roomNumber": "SPORTS-5",
+      "type": "SportsGround",
+      "capacity": 200
+    },
+    {
+      "name": "Outdoor Basketball Courts",
+      "roomNumber": "SPORTS-6",
+      "type": "SportsGround",
+      "capacity": 200
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Anurag Singh",
+      "teacherCode": "T01",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS101L-G1",
+        "MCS101",
+        "CS101L-G2",
+        "CS101"
+      ]
+    },
+    {
+      "name": "Dr. Shelly Sachdeva",
+      "teacherCode": "T02",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS102L-G2",
+        "MCS104",
+        "MCS201",
+        "CS102",
+        "PHD-CS203",
+        "CS102L-G1"
+      ]
+    },
+    {
+      "name": "Dr. Chandra Prakash",
+      "teacherCode": "T03",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS103",
+        "CS401",
+        "PHD-CS204",
+        "MCS102"
+      ]
+    },
+    {
+      "name": "Dr. Gautam Kumar",
+      "teacherCode": "T04",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS201",
+        "MCS202",
+        "CS406",
+        "CS201L-G2",
+        "CS201L-G1"
+      ]
+    },
+    {
+      "name": "Dr. Rajiv Misra",
+      "teacherCode": "T05",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS201",
+        "MCS101L",
+        "MCS103",
+        "CS202"
+      ]
+    },
+    {
+      "name": "Dr. Amritanjali",
+      "teacherCode": "T06",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS203",
+        "MCS203",
+        "CS402"
+      ]
+    },
+    {
+      "name": "Prof. Sanjeev Sofat",
+      "teacherCode": "T07",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS104",
+        "CS204L-G2",
+        "CS204L-G1",
+        "CS204"
+      ]
+    },
+    {
+      "name": "Dr. Divya Bansal",
+      "teacherCode": "T08",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS101",
+        "MCS205",
+        "CS205"
+      ]
+    },
+    {
+      "name": "Dr. Preeti Chawla",
+      "teacherCode": "T09",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS105",
+        "CS403",
+        "CS301"
+      ]
+    },
+    {
+      "name": "Dr. Rajesh Kumar",
+      "teacherCode": "T10",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS205",
+        "CS302",
+        "CS302L-G1",
+        "CS302L-G2",
+        "PHD-CS102"
+      ]
+    },
+    {
+      "name": "Dr. Shweta Anand",
+      "teacherCode": "T11",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS404",
+        "CS405",
+        "CS303"
+      ]
+    },
+    {
+      "name": "Dr. Manoj Sharma",
+      "teacherCode": "T12",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS304",
+        "PHD-CS103",
+        "CS304L-G1",
+        "CS304L-G2"
+      ]
+    },
+    {
+      "name": "Dr. Nitin Auluck",
+      "teacherCode": "T13",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CS305",
+        "MCS204"
+      ]
+    },
+    {
+      "name": "Prof. Geeta Sikka",
+      "teacherCode": "T14",
+      "department": "Computer Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CS202",
+        "CS306"
+      ]
+    },
+    {
+      "name": "Prof. Ananya Das",
+      "teacherCode": "T15",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "IT101L-G2",
+        "MIT101",
+        "IT101L-G1",
+        "IT101",
+        "PHD-IT104"
+      ]
+    },
+    {
+      "name": "Dr. Rohit Bansal",
+      "teacherCode": "T16",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "IT201L-G2",
+        "IT201L-G1",
+        "MIT102",
+        "PHD-IT201",
+        "PHD-IT105",
+        "IT201"
+      ]
+    },
+    {
+      "name": "Dr. Pooja Sharma",
+      "teacherCode": "T17",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "IT202",
+        "MIT101L",
+        "MIT103"
+      ]
+    },
+    {
+      "name": "Dr. Mohit Kumar",
+      "teacherCode": "T18",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "IT301",
+        "MIT104",
+        "MIT201"
+      ]
+    },
+    {
+      "name": "Dr. Sonam Gupta",
+      "teacherCode": "T19",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-IT203",
+        "IT302",
+        "MIT202"
+      ]
+    },
+    {
+      "name": "Prof. Vikas Saxena",
+      "teacherCode": "T20",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MIT205",
+        "PHD-IT204",
+        "IT303",
+        "IT303L-G1",
+        "IT303L-G2"
+      ]
+    },
+    {
+      "name": "Dr. Alok Joshi",
+      "teacherCode": "T21",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "IT401",
+        "PHD-IT101"
+      ]
+    },
+    {
+      "name": "Dr. Renu Bagoria",
+      "teacherCode": "T22",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-IT205",
+        "IT402",
+        "PHD-IT102"
+      ]
+    },
+    {
+      "name": "Dr. Deepak Garg",
+      "teacherCode": "T23",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-IT202",
+        "IT403",
+        "MIT203"
+      ]
+    },
+    {
+      "name": "Dr. Tanvi Verma",
+      "teacherCode": "T24",
+      "department": "Information Technology",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-IT103",
+        "MIT204"
+      ]
+    },
+    {
+      "name": "Dr. Sneha Roy",
+      "teacherCode": "T25",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI101L-G1",
+        "AI101",
+        "PHD-AI104",
+        "AI101L-G2"
+      ]
+    },
+    {
+      "name": "Prof. Karan Kapoor",
+      "teacherCode": "T26",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MAI101",
+        "AI201"
+      ]
+    },
+    {
+      "name": "Dr. Anupam Shukla",
+      "teacherCode": "T27",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI202L-G2",
+        "AI202L-G1",
+        "PHD-AI203",
+        "AI202",
+        "PHD-AI101",
+        "MAI102"
+      ]
+    },
+    {
+      "name": "Dr. Tanmoy Chakraborty",
+      "teacherCode": "T28",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI301L-G1",
+        "AI301",
+        "AI301L-G2",
+        "MAI103",
+        "PHD-AI201",
+        "MAI101L"
+      ]
+    },
+    {
+      "name": "Dr. Richa Singh",
+      "teacherCode": "T29",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MAI201",
+        "PHD-AI105",
+        "AI302"
+      ]
+    },
+    {
+      "name": "Prof. Mayank Vatsa",
+      "teacherCode": "T30",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI303",
+        "MAI203",
+        "PHD-AI204"
+      ]
+    },
+    {
+      "name": "Dr. Saket Anand",
+      "teacherCode": "T31",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-AI205",
+        "MAI202",
+        "AI401"
+      ]
+    },
+    {
+      "name": "Dr. Pradeep Atrey",
+      "teacherCode": "T32",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI402",
+        "PHD-AI102",
+        "MAI204"
+      ]
+    },
+    {
+      "name": "Dr. Aruna Tiwari",
+      "teacherCode": "T33",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "AI403",
+        "MAI205",
+        "PHD-AI103"
+      ]
+    },
+    {
+      "name": "Dr. Vinod Kumar",
+      "teacherCode": "T34",
+      "department": "AI & Data Science",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MAI104",
+        "PHD-AI202"
+      ]
+    },
+    {
+      "name": "Dr. Sunita Verma",
+      "teacherCode": "T35",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EC203",
+        "EC101",
+        "EC101L-G2",
+        "EC101L-G1"
+      ]
+    },
+    {
+      "name": "Dr. Vikram Joshi",
+      "teacherCode": "T36",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEC101",
+        "PHD-EC104",
+        "EC201",
+        "EC201L-G1",
+        "EC201L-G2"
+      ]
+    },
+    {
+      "name": "Prof. Neelam Gupta",
+      "teacherCode": "T37",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EC202",
+        "MEC104"
+      ]
+    },
+    {
+      "name": "Dr. Amit Trivedi",
+      "teacherCode": "T38",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EC203",
+        "MEC102",
+        "MEC101L"
+      ]
+    },
+    {
+      "name": "Dr. Ritu Agarwal",
+      "teacherCode": "T39",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EC301L-G1",
+        "EC301",
+        "EC301L-G2",
+        "MEC103",
+        "PHD-EC105"
+      ]
+    },
+    {
+      "name": "Dr. Shailesh Kumar",
+      "teacherCode": "T40",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EC302",
+        "PHD-EC101",
+        "MEC204"
+      ]
+    },
+    {
+      "name": "Prof. B. S. Saini",
+      "teacherCode": "T41",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEC201",
+        "EC303",
+        "PHD-EC204"
+      ]
+    },
+    {
+      "name": "Dr. Arun Khosla",
+      "teacherCode": "T42",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EC102",
+        "EC401"
+      ]
+    },
+    {
+      "name": "Dr. Balwinder Raj",
+      "teacherCode": "T43",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EC103",
+        "EC402",
+        "MEC203"
+      ]
+    },
+    {
+      "name": "Dr. Indu Saini",
+      "teacherCode": "T44",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EC403",
+        "PHD-EC201"
+      ]
+    },
+    {
+      "name": "Dr. Mamta Khosla",
+      "teacherCode": "T45",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEC202",
+        "PHD-EC205"
+      ]
+    },
+    {
+      "name": "Dr. Ramesh Kumar",
+      "teacherCode": "T46",
+      "department": "Electronics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EC202",
+        "MEC205"
+      ]
+    },
+    {
+      "name": "Prof. Sanjay Kulkarni",
+      "teacherCode": "T47",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EE203",
+        "EE101",
+        "EE101L-G1",
+        "EE101L-G2",
+        "MEE101"
+      ]
+    },
+    {
+      "name": "Dr. Harish Rawat",
+      "teacherCode": "T48",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-EE101",
+        "EE201L-G1",
+        "EE201",
+        "MEE102",
+        "EE201L-G2"
+      ]
+    },
+    {
+      "name": "Dr. Meenakshi Sundaram",
+      "teacherCode": "T49",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EE202",
+        "MEE104",
+        "PHD-EE204"
+      ]
+    },
+    {
+      "name": "Prof. Alok Sen",
+      "teacherCode": "T50",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EE203",
+        "MEE201",
+        "PHD-EE104"
+      ]
+    },
+    {
+      "name": "Dr. Ashwani Sharma",
+      "teacherCode": "T51",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EE301L-G1",
+        "EE301",
+        "EE301L-G2",
+        "MEE103",
+        "MEE101L",
+        "PHD-EE102"
+      ]
+    },
+    {
+      "name": "Dr. Dilbag Singh",
+      "teacherCode": "T52",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EE302",
+        "PHD-EE105",
+        "MEE202"
+      ]
+    },
+    {
+      "name": "Dr. Jyoti Saxena",
+      "teacherCode": "T53",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEE203",
+        "EE303",
+        "PHD-EE205"
+      ]
+    },
+    {
+      "name": "Prof. Arvind Kumar",
+      "teacherCode": "T54",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "EE401",
+        "PHD-EE103"
+      ]
+    },
+    {
+      "name": "Dr. Sukhminder Singh",
+      "teacherCode": "T55",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEE204",
+        "PHD-EE201",
+        "EE402"
+      ]
+    },
+    {
+      "name": "Dr. Gurmeet Singh",
+      "teacherCode": "T56",
+      "department": "Electrical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MEE205",
+        "EE403",
+        "PHD-EE202"
+      ]
+    },
+    {
+      "name": "Dr. Anil Sharma",
+      "teacherCode": "T57",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-ME203",
+        "ME101L-G2",
+        "ME101",
+        "ME101L-G1"
+      ]
+    },
+    {
+      "name": "Dr. Priya Nair",
+      "teacherCode": "T58",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME201",
+        "PHD-ME104",
+        "MME101"
+      ]
+    },
+    {
+      "name": "Prof. Rajesh Khanna",
+      "teacherCode": "T59",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME202L-G2",
+        "MME102",
+        "ME202",
+        "ME202L-G1"
+      ]
+    },
+    {
+      "name": "Dr. Suresh Reddy",
+      "teacherCode": "T60",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-ME101",
+        "ME203",
+        "MME101L",
+        "MME103"
+      ]
+    },
+    {
+      "name": "Dr. Divya Chauhan",
+      "teacherCode": "T61",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME301",
+        "PHD-ME204",
+        "MME201"
+      ]
+    },
+    {
+      "name": "Dr. Subhash Chander",
+      "teacherCode": "T62",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME302",
+        "ME302L-G2",
+        "ME302L-G1",
+        "MME104"
+      ]
+    },
+    {
+      "name": "Prof. T. P. Singh",
+      "teacherCode": "T63",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-ME105",
+        "ME303",
+        "MME202"
+      ]
+    },
+    {
+      "name": "Dr. Dinesh Kumar",
+      "teacherCode": "T64",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME401",
+        "PHD-ME102"
+      ]
+    },
+    {
+      "name": "Dr. Pramod Kumar",
+      "teacherCode": "T65",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "ME402",
+        "PHD-ME103"
+      ]
+    },
+    {
+      "name": "Dr. Rajeev Kumar",
+      "teacherCode": "T66",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MME204",
+        "PHD-ME201",
+        "ME403"
+      ]
+    },
+    {
+      "name": "Dr. Manoj Kumar",
+      "teacherCode": "T67",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-ME205",
+        "MME205"
+      ]
+    },
+    {
+      "name": "Dr. R. S. Walia",
+      "teacherCode": "T68",
+      "department": "Mechanical",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-ME202",
+        "MME203"
+      ]
+    },
+    {
+      "name": "Dr. Ramesh Choudhary",
+      "teacherCode": "T69",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CE101L-G2",
+        "CE101",
+        "PHD-CE203",
+        "MCE204",
+        "CE101L-G1"
+      ]
+    },
+    {
+      "name": "Prof. Vandana Mehta",
+      "teacherCode": "T70",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CE201L-G2",
+        "PHD-CE104",
+        "CE201L-G1",
+        "CE201",
+        "MCE101"
+      ]
+    },
+    {
+      "name": "Dr. Tarun Bhatia",
+      "teacherCode": "T71",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MCE102",
+        "PHD-CE101",
+        "CE202",
+        "MCE101L"
+      ]
+    },
+    {
+      "name": "Dr. H. S. Chore",
+      "teacherCode": "T72",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CE201",
+        "CE203",
+        "MCE103"
+      ]
+    },
+    {
+      "name": "Prof. A. K. Agnihotri",
+      "teacherCode": "T73",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PHD-CE102",
+        "PHD-CE204",
+        "CE301"
+      ]
+    },
+    {
+      "name": "Dr. S. P. Singh",
+      "teacherCode": "T74",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CE302",
+        "CE302L-G2",
+        "CE302L-G1",
+        "MCE201"
+      ]
+    },
+    {
+      "name": "Dr. Rajiv Kumar",
+      "teacherCode": "T75",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MCE203",
+        "CE303"
+      ]
+    },
+    {
+      "name": "Dr. Navdeep Singh",
+      "teacherCode": "T76",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CE401",
+        "PHD-CE105",
+        "MCE205"
+      ]
+    },
+    {
+      "name": "Dr. Kanish Kapoor",
+      "teacherCode": "T77",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MCE104",
+        "PHD-CE205",
+        "PHD-CE103",
+        "CE402"
+      ]
+    },
+    {
+      "name": "Dr. Rupali S.",
+      "teacherCode": "T78",
+      "department": "Civil",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MCE202",
+        "CE403",
+        "PHD-CE202"
+      ]
+    },
+    {
+      "name": "Prof. Raghav Mehra",
+      "teacherCode": "T79",
+      "department": "Mathematics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MA101-A",
+        "MA101-C",
+        "MA101-H"
+      ]
+    },
+    {
+      "name": "Dr. Sangeeta Rao",
+      "teacherCode": "T80",
+      "department": "Mathematics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MA101-E",
+        "MA201-B",
+        "MA101-B"
+      ]
+    },
+    {
+      "name": "Dr. K. S. Sharma",
+      "teacherCode": "T81",
+      "department": "Mathematics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MA201-A",
+        "MA101-D",
+        "MA101-F"
+      ]
+    },
+    {
+      "name": "Dr. Sunita Saxena",
+      "teacherCode": "T82",
+      "department": "Mathematics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "MA101-G",
+        "MA201-C"
+      ]
+    },
+    {
+      "name": "Dr. Kavita Rao",
+      "teacherCode": "T83",
+      "department": "Physics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PH101-A",
+        "PH101-C"
+      ]
+    },
+    {
+      "name": "Prof. Rohit Sachdeva",
+      "teacherCode": "T84",
+      "department": "Physics",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "PH101-D",
+        "PH101-B"
+      ]
+    },
+    {
+      "name": "Prof. Manoj Mishra",
+      "teacherCode": "T85",
+      "department": "Chemistry",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CH101-A",
+        "ES101"
+      ]
+    },
+    {
+      "name": "Dr. Suman Rani",
+      "teacherCode": "T86",
+      "department": "Chemistry",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "CH101-B"
+      ]
+    },
+    {
+      "name": "Dr. Shalini Saxena",
+      "teacherCode": "T87",
+      "department": "Humanities",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "HS401-C",
+        "HS101-B",
+        "HS401-A",
+        "HS101-A",
+        "HS401-D"
+      ]
+    },
+    {
+      "name": "Prof. Anupama Sharma",
+      "teacherCode": "T88",
+      "department": "Humanities",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "HS301-B",
+        "HS401-F",
+        "HS401-B",
+        "HS401-E",
+        "HS301-A"
+      ]
+    },
+    {
+      "name": "Coach Deepak Sharma",
+      "teacherCode": "T89",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-EE3",
+        "SPT-IT3",
+        "SPT-CE1",
+        "SPT-EC1",
+        "SPT-301",
+        "SPT-101"
+      ]
+    },
+    {
+      "name": "Coach Virendra Singh",
+      "teacherCode": "T90",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-102",
+        "SPT-CE2",
+        "SPT-EC2",
+        "SPT-EE4",
+        "SPT-302",
+        "SPT-IT4"
+      ]
+    },
+    {
+      "name": "Coach Neha Malik",
+      "teacherCode": "T91",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-EC3",
+        "SPT-103",
+        "SPT-AI1",
+        "SPT-CE3",
+        "SPT-401",
+        "SPT-ME1"
+      ]
+    },
+    {
+      "name": "Coach Rajesh Rawat",
+      "teacherCode": "T92",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-402",
+        "SPT-CE4",
+        "SPT-ME2",
+        "SPT-EC4",
+        "SPT-104",
+        "SPT-AI2"
+      ]
+    },
+    {
+      "name": "Coach Amit Kumar",
+      "teacherCode": "T93",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-EE1",
+        "SPT-201",
+        "SPT-AI3",
+        "SPT-IT1",
+        "SPT-ME3"
+      ]
+    },
+    {
+      "name": "Coach Sunita Yadav",
+      "teacherCode": "T94",
+      "department": "Sports",
+      "maxWeeklyPeriods": 24,
+      "maxDailyPeriods": 8,
+      "teachableSubjectCodes": [
+        "SPT-202",
+        "SPT-AI4",
+        "SPT-EE2",
+        "SPT-IT2",
+        "SPT-ME4"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Programming & Problem Solving",
+      "code": "CS101",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Linear Algebra",
+      "code": "MA101-A",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T79",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Physics",
+      "code": "PH101-A",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T83",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Communication Skills",
+      "code": "HS101-A",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T87",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Programming Lab (Group 1)",
+      "code": "CS101L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Programming Lab (Group 2)",
+      "code": "CS101L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T01",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness (Group 1)",
+      "code": "SPT-101",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Sports & Fitness (Group 2)",
+      "code": "SPT-102",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS1",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Digital Logic Design",
+      "code": "CS102",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Linear Algebra",
+      "code": "MA101-B",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T80",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "CS103",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Communication Skills",
+      "code": "HS101-B",
+      "type": "Theory",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T87",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital Logic Lab (Group 1)",
+      "code": "CS102L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Digital Logic Lab (Group 2)",
+      "code": "CS102L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T02",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness (Group 1)",
+      "code": "SPT-103",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Sports & Fitness (Group 2)",
+      "code": "SPT-104",
+      "type": "Lab",
+      "sectionName": "CSE-1st-CS2",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "code": "CS201",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computer Organization & Arch",
+      "code": "CS202",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T05",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "code": "CS203",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T06",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Data Structures Lab (Group 1)",
+      "code": "CS201L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T04",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Data Structures Lab (Group 2)",
+      "code": "CS201L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T04",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Athletics",
+      "code": "SPT-201",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS1",
+      "teacherCode": "T93",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Operating Systems",
+      "code": "CS204",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T07",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Database Management Systems",
+      "code": "CS205",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T08",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Probability & Statistics",
+      "code": "MA201-A",
+      "type": "Theory",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T81",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Operating Systems Lab (Group 1)",
+      "code": "CS204L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T07",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Operating Systems Lab (Group 2)",
+      "code": "CS204L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T07",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Athletics",
+      "code": "SPT-202",
+      "type": "Lab",
+      "sectionName": "CSE-2nd-CS2",
+      "teacherCode": "T94",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Theory of Computation",
+      "code": "CS301",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T09",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computer Networks",
+      "code": "CS302",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Software Engineering",
+      "code": "CS303",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T11",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Networks Lab (Group 1)",
+      "code": "CS302L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T10",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Networks Lab (Group 2)",
+      "code": "CS302L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T10",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-301",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS1",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Compiler Design",
+      "code": "CS304",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T12",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "CS305",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T13",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Web Technologies",
+      "code": "CS306",
+      "type": "Theory",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T14",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Compiler Lab (Group 1)",
+      "code": "CS304L-G1",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T12",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Compiler Lab (Group 2)",
+      "code": "CS304L-G2",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T12",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-302",
+      "type": "Lab",
+      "sectionName": "CSE-3rd-CS2",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Cloud Computing & DevOps",
+      "code": "CS401",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS1",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Security & Cryptography",
+      "code": "CS402",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS1",
+      "teacherCode": "T06",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Professional Ethics",
+      "code": "HS301-A",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS1",
+      "teacherCode": "T88",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Information Security & Forensics",
+      "code": "CS405",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS1",
+      "teacherCode": "T11",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-401",
+      "type": "Lab",
+      "sectionName": "CSE-4th-CS1",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Distributed Systems",
+      "code": "CS403",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS2",
+      "teacherCode": "T09",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Big Data Analytics",
+      "code": "CS404",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS2",
+      "teacherCode": "T11",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Professional Ethics",
+      "code": "HS301-B",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS2",
+      "teacherCode": "T88",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Machine Learning in Production",
+      "code": "CS406",
+      "type": "Theory",
+      "sectionName": "CSE-4th-CS2",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-402",
+      "type": "Lab",
+      "sectionName": "CSE-4th-CS2",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "IT Fundamentals & C",
+      "code": "IT101",
+      "type": "Theory",
+      "sectionName": "IT-1st",
+      "teacherCode": "T15",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Matrices",
+      "code": "MA101-C",
+      "type": "Theory",
+      "sectionName": "IT-1st",
+      "teacherCode": "T79",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Physics",
+      "code": "PH101-B",
+      "type": "Theory",
+      "sectionName": "IT-1st",
+      "teacherCode": "T84",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "IT Workshop Lab (Group 1)",
+      "code": "IT101L-G1",
+      "type": "Lab",
+      "sectionName": "IT-1st",
+      "teacherCode": "T15",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "IT Workshop Lab (Group 2)",
+      "code": "IT101L-G2",
+      "type": "Lab",
+      "sectionName": "IT-1st",
+      "teacherCode": "T15",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-IT1",
+      "type": "Lab",
+      "sectionName": "IT-1st",
+      "teacherCode": "T93",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Data Structures in Java",
+      "code": "IT201",
+      "type": "Theory",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T16",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Database Management",
+      "code": "IT202",
+      "type": "Theory",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T17",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Discrete Mathematics",
+      "code": "MA201-B",
+      "type": "Theory",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T80",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Java Programming Lab (Group 1)",
+      "code": "IT201L-G1",
+      "type": "Lab",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T16",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Java Programming Lab (Group 2)",
+      "code": "IT201L-G2",
+      "type": "Lab",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T16",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-IT2",
+      "type": "Lab",
+      "sectionName": "IT-2nd",
+      "teacherCode": "T94",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Software Engineering & Testing",
+      "code": "IT301",
+      "type": "Theory",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T18",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computer Networks & Security",
+      "code": "IT302",
+      "type": "Theory",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T19",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Web Frameworks",
+      "code": "IT303",
+      "type": "Theory",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T20",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Web Development Lab (Group 1)",
+      "code": "IT303L-G1",
+      "type": "Lab",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T20",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Web Development Lab (Group 2)",
+      "code": "IT303L-G2",
+      "type": "Lab",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T20",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-IT3",
+      "type": "Lab",
+      "sectionName": "IT-3rd",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Information Security",
+      "code": "IT401",
+      "type": "Theory",
+      "sectionName": "IT-4th",
+      "teacherCode": "T21",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Mobile Application Development",
+      "code": "IT402",
+      "type": "Theory",
+      "sectionName": "IT-4th",
+      "teacherCode": "T22",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Human Values & Ethics",
+      "code": "HS401-A",
+      "type": "Theory",
+      "sectionName": "IT-4th",
+      "teacherCode": "T87",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cloud Architecture & Microservices",
+      "code": "IT403",
+      "type": "Theory",
+      "sectionName": "IT-4th",
+      "teacherCode": "T23",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-IT4",
+      "type": "Lab",
+      "sectionName": "IT-4th",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Introduction to AI & Python",
+      "code": "AI101",
+      "type": "Theory",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T25",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Analytical Geometry",
+      "code": "MA101-D",
+      "type": "Theory",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T81",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Physics for Information Science",
+      "code": "PH101-C",
+      "type": "Theory",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T83",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Python AI Lab (Group 1)",
+      "code": "AI101L-G1",
+      "type": "Lab",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T25",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Python AI Lab (Group 2)",
+      "code": "AI101L-G2",
+      "type": "Lab",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T25",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-AI1",
+      "type": "Lab",
+      "sectionName": "AIDS-1st",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "code": "AI201",
+      "type": "Theory",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T26",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Statistical Methods for AI",
+      "code": "MA201-C",
+      "type": "Theory",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T82",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Machine Learning Foundations",
+      "code": "AI202",
+      "type": "Theory",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T27",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "ML Foundations Lab (Group 1)",
+      "code": "AI202L-G1",
+      "type": "Lab",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T27",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "ML Foundations Lab (Group 2)",
+      "code": "AI202L-G2",
+      "type": "Lab",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T27",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-AI2",
+      "type": "Lab",
+      "sectionName": "AIDS-2nd",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Deep Learning & Neural Nets",
+      "code": "AI301",
+      "type": "Theory",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T28",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Natural Language Processing",
+      "code": "AI302",
+      "type": "Theory",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T29",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computer Vision Foundations",
+      "code": "AI303",
+      "type": "Theory",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T30",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Learning Lab (Group 1)",
+      "code": "AI301L-G1",
+      "type": "Lab",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T28",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Deep Learning Lab (Group 2)",
+      "code": "AI301L-G2",
+      "type": "Lab",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T28",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-AI3",
+      "type": "Lab",
+      "sectionName": "AIDS-3rd",
+      "teacherCode": "T93",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Reinforcement Learning",
+      "code": "AI401",
+      "type": "Theory",
+      "sectionName": "AIDS-4th",
+      "teacherCode": "T31",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Big Data Mining",
+      "code": "AI402",
+      "type": "Theory",
+      "sectionName": "AIDS-4th",
+      "teacherCode": "T32",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "AI Ethics & Policy",
+      "code": "HS401-B",
+      "type": "Theory",
+      "sectionName": "AIDS-4th",
+      "teacherCode": "T88",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Autonomous Systems & Robotics",
+      "code": "AI403",
+      "type": "Theory",
+      "sectionName": "AIDS-4th",
+      "teacherCode": "T33",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-AI4",
+      "type": "Lab",
+      "sectionName": "AIDS-4th",
+      "teacherCode": "T94",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Basic Electrical & Electronics",
+      "code": "EC101",
+      "type": "Theory",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T35",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Differential Equations",
+      "code": "MA101-E",
+      "type": "Theory",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T80",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Chemistry",
+      "code": "CH101-A",
+      "type": "Theory",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T85",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Electronics Lab (Group 1)",
+      "code": "EC101L-G1",
+      "type": "Lab",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T35",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Electronics Lab (Group 2)",
+      "code": "EC101L-G2",
+      "type": "Lab",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T35",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EC1",
+      "type": "Lab",
+      "sectionName": "ECE-1st",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Electronic Devices & Circuits",
+      "code": "EC201",
+      "type": "Theory",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T36",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Digital System Design",
+      "code": "EC202",
+      "type": "Theory",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T37",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Signals & Systems",
+      "code": "EC203",
+      "type": "Theory",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T38",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Circuit Design Lab (Group 1)",
+      "code": "EC201L-G1",
+      "type": "Lab",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T36",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Circuit Design Lab (Group 2)",
+      "code": "EC201L-G2",
+      "type": "Lab",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T36",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EC2",
+      "type": "Lab",
+      "sectionName": "ECE-2nd",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Analog & Digital Communication",
+      "code": "EC301",
+      "type": "Theory",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T39",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Microprocessors & Interfacing",
+      "code": "EC302",
+      "type": "Theory",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T40",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "VLSI Circuit Design",
+      "code": "EC303",
+      "type": "Theory",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T41",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Communication Lab (Group 1)",
+      "code": "EC301L-G1",
+      "type": "Lab",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T39",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Communication Lab (Group 2)",
+      "code": "EC301L-G2",
+      "type": "Lab",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T39",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EC3",
+      "type": "Lab",
+      "sectionName": "ECE-3rd",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Wireless & Mobile Networks",
+      "code": "EC401",
+      "type": "Theory",
+      "sectionName": "ECE-4th",
+      "teacherCode": "T42",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Embedded IoT Systems",
+      "code": "EC402",
+      "type": "Theory",
+      "sectionName": "ECE-4th",
+      "teacherCode": "T43",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Economics",
+      "code": "HS401-C",
+      "type": "Theory",
+      "sectionName": "ECE-4th",
+      "teacherCode": "T87",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Radar & Satellite Systems",
+      "code": "EC403",
+      "type": "Theory",
+      "sectionName": "ECE-4th",
+      "teacherCode": "T44",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-EC4",
+      "type": "Lab",
+      "sectionName": "ECE-4th",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Electric Circuit Analysis",
+      "code": "EE101",
+      "type": "Theory",
+      "sectionName": "EE-1st",
+      "teacherCode": "T47",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Differential Equations",
+      "code": "MA101-F",
+      "type": "Theory",
+      "sectionName": "EE-1st",
+      "teacherCode": "T81",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Chemistry",
+      "code": "CH101-B",
+      "type": "Theory",
+      "sectionName": "EE-1st",
+      "teacherCode": "T86",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Circuits Lab (Group 1)",
+      "code": "EE101L-G1",
+      "type": "Lab",
+      "sectionName": "EE-1st",
+      "teacherCode": "T47",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Circuits Lab (Group 2)",
+      "code": "EE101L-G2",
+      "type": "Lab",
+      "sectionName": "EE-1st",
+      "teacherCode": "T47",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EE1",
+      "type": "Lab",
+      "sectionName": "EE-1st",
+      "teacherCode": "T93",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Electrical Machines I",
+      "code": "EE201",
+      "type": "Theory",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T48",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Electromagnetic Field Theory",
+      "code": "EE202",
+      "type": "Theory",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T49",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Power Systems I",
+      "code": "EE203",
+      "type": "Theory",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T50",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Machines Lab (Group 1)",
+      "code": "EE201L-G1",
+      "type": "Lab",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T48",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Machines Lab (Group 2)",
+      "code": "EE201L-G2",
+      "type": "Lab",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T48",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EE2",
+      "type": "Lab",
+      "sectionName": "EE-2nd",
+      "teacherCode": "T94",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Power Electronics",
+      "code": "EE301",
+      "type": "Theory",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T51",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Control Systems Engineering",
+      "code": "EE302",
+      "type": "Theory",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T52",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Renewable Energy Systems",
+      "code": "EE303",
+      "type": "Theory",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T53",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Power Electronics Lab (Group 1)",
+      "code": "EE301L-G1",
+      "type": "Lab",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T51",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Power Electronics Lab (Group 2)",
+      "code": "EE301L-G2",
+      "type": "Lab",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T51",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-EE3",
+      "type": "Lab",
+      "sectionName": "EE-3rd",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Smart Grids & Substation Automation",
+      "code": "EE401",
+      "type": "Theory",
+      "sectionName": "EE-4th",
+      "teacherCode": "T54",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High Voltage Engineering",
+      "code": "EE402",
+      "type": "Theory",
+      "sectionName": "EE-4th",
+      "teacherCode": "T55",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Economics",
+      "code": "HS401-D",
+      "type": "Theory",
+      "sectionName": "EE-4th",
+      "teacherCode": "T87",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Industrial Electric Drives",
+      "code": "EE403",
+      "type": "Theory",
+      "sectionName": "EE-4th",
+      "teacherCode": "T56",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-EE4",
+      "type": "Lab",
+      "sectionName": "EE-4th",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Engineering Mechanics",
+      "code": "ME101",
+      "type": "Theory",
+      "sectionName": "ME-1st",
+      "teacherCode": "T57",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Differential Equations",
+      "code": "MA101-G",
+      "type": "Theory",
+      "sectionName": "ME-1st",
+      "teacherCode": "T82",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Engineering Physics",
+      "code": "PH101-D",
+      "type": "Theory",
+      "sectionName": "ME-1st",
+      "teacherCode": "T84",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Workshop Practice (Group 1)",
+      "code": "ME101L-G1",
+      "type": "Lab",
+      "sectionName": "ME-1st",
+      "teacherCode": "T57",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Workshop Practice (Group 2)",
+      "code": "ME101L-G2",
+      "type": "Lab",
+      "sectionName": "ME-1st",
+      "teacherCode": "T57",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-ME1",
+      "type": "Lab",
+      "sectionName": "ME-1st",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Thermodynamics",
+      "code": "ME201",
+      "type": "Theory",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T58",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Mechanics of Solids",
+      "code": "ME202",
+      "type": "Theory",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T59",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Manufacturing Processes",
+      "code": "ME203",
+      "type": "Theory",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T60",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Strength of Materials Lab (Group 1)",
+      "code": "ME202L-G1",
+      "type": "Lab",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T59",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Strength of Materials Lab (Group 2)",
+      "code": "ME202L-G2",
+      "type": "Lab",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T59",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-ME2",
+      "type": "Lab",
+      "sectionName": "ME-2nd",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Fluid Mechanics & Machinery",
+      "code": "ME301",
+      "type": "Theory",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T61",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Heat & Mass Transfer",
+      "code": "ME302",
+      "type": "Theory",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T62",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Machine Design",
+      "code": "ME303",
+      "type": "Theory",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T63",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Thermal Engineering Lab (Group 1)",
+      "code": "ME302L-G1",
+      "type": "Lab",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T62",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Thermal Engineering Lab (Group 2)",
+      "code": "ME302L-G2",
+      "type": "Lab",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T62",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-ME3",
+      "type": "Lab",
+      "sectionName": "ME-3rd",
+      "teacherCode": "T93",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Power Plant Engineering",
+      "code": "ME401",
+      "type": "Theory",
+      "sectionName": "ME-4th",
+      "teacherCode": "T64",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Operations Research & Supply Chain",
+      "code": "ME402",
+      "type": "Theory",
+      "sectionName": "ME-4th",
+      "teacherCode": "T65",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Principles of Management",
+      "code": "HS401-E",
+      "type": "Theory",
+      "sectionName": "ME-4th",
+      "teacherCode": "T88",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Automobile Engineering & Dynamics",
+      "code": "ME403",
+      "type": "Theory",
+      "sectionName": "ME-4th",
+      "teacherCode": "T66",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-ME4",
+      "type": "Lab",
+      "sectionName": "ME-4th",
+      "teacherCode": "T94",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Engineering Mechanics & Statics",
+      "code": "CE101",
+      "type": "Theory",
+      "sectionName": "CE-1st",
+      "teacherCode": "T69",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Calculus & Analytical Geometry",
+      "code": "MA101-H",
+      "type": "Theory",
+      "sectionName": "CE-1st",
+      "teacherCode": "T79",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Environmental Science",
+      "code": "ES101",
+      "type": "Theory",
+      "sectionName": "CE-1st",
+      "teacherCode": "T85",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Civil Surveying Lab (Group 1)",
+      "code": "CE101L-G1",
+      "type": "Lab",
+      "sectionName": "CE-1st",
+      "teacherCode": "T69",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Civil Surveying Lab (Group 2)",
+      "code": "CE101L-G2",
+      "type": "Lab",
+      "sectionName": "CE-1st",
+      "teacherCode": "T69",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-CE1",
+      "type": "Lab",
+      "sectionName": "CE-1st",
+      "teacherCode": "T89",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Strength of Materials",
+      "code": "CE201",
+      "type": "Theory",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T70",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Fluid Mechanics in Civil",
+      "code": "CE202",
+      "type": "Theory",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T71",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Building Materials & Construction",
+      "code": "CE203",
+      "type": "Theory",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T72",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Materials Testing Lab (Group 1)",
+      "code": "CE201L-G1",
+      "type": "Lab",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T70",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Materials Testing Lab (Group 2)",
+      "code": "CE201L-G2",
+      "type": "Lab",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T70",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-CE2",
+      "type": "Lab",
+      "sectionName": "CE-2nd",
+      "teacherCode": "T90",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Structural Analysis I",
+      "code": "CE301",
+      "type": "Theory",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T73",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Geotechnical Engineering",
+      "code": "CE302",
+      "type": "Theory",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T74",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Design of Concrete Structures",
+      "code": "CE303",
+      "type": "Theory",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T75",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Geotechnical Lab (Group 1)",
+      "code": "CE302L-G1",
+      "type": "Lab",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T74",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Geotechnical Lab (Group 2)",
+      "code": "CE302L-G2",
+      "type": "Lab",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T74",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Sports & Fitness",
+      "code": "SPT-CE3",
+      "type": "Lab",
+      "sectionName": "CE-3rd",
+      "teacherCode": "T91",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Bridge Engineering & Prestressed Concrete",
+      "code": "CE401",
+      "type": "Theory",
+      "sectionName": "CE-4th",
+      "teacherCode": "T76",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Construction Planning & Management",
+      "code": "CE402",
+      "type": "Theory",
+      "sectionName": "CE-4th",
+      "teacherCode": "T77",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Principles of Management",
+      "code": "HS401-F",
+      "type": "Theory",
+      "sectionName": "CE-4th",
+      "teacherCode": "T88",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Hydrology & Water Resource Systems",
+      "code": "CE403",
+      "type": "Theory",
+      "sectionName": "CE-4th",
+      "teacherCode": "T78",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Sports & Recreation",
+      "code": "SPT-CE4",
+      "type": "Lab",
+      "sectionName": "CE-4th",
+      "teacherCode": "T92",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "SportsGround"
+    },
+    {
+      "name": "Advanced Algorithms & Complexity",
+      "code": "MCS101",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-1st",
+      "teacherCode": "T01",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Computer Architecture",
+      "code": "MCS102",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-1st",
+      "teacherCode": "T03",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cloud & Distributed Computing",
+      "code": "MCS103",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-1st",
+      "teacherCode": "T05",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Computing Systems Lab",
+      "code": "MCS101L",
+      "type": "Lab",
+      "sectionName": "MTech-CSE-1st",
+      "teacherCode": "T05",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced Research Colloquium",
+      "code": "MCS104",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-1st",
+      "teacherCode": "T02",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Machine Learning & Data Mining",
+      "code": "MCS201",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-2nd",
+      "teacherCode": "T02",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High Performance Computing",
+      "code": "MCS202",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-2nd",
+      "teacherCode": "T04",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Research Seminar",
+      "code": "MCS203",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-2nd",
+      "teacherCode": "T06",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Secure Cloud Architectures",
+      "code": "MCS204",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-2nd",
+      "teacherCode": "T13",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MCS205",
+      "type": "Theory",
+      "sectionName": "MTech-CSE-2nd",
+      "teacherCode": "T08",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Software Engineering",
+      "code": "MIT101",
+      "type": "Theory",
+      "sectionName": "MTech-IT-1st",
+      "teacherCode": "T15",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Next-Gen Wireless Systems",
+      "code": "MIT102",
+      "type": "Theory",
+      "sectionName": "MTech-IT-1st",
+      "teacherCode": "T16",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Cyber Threats & Forensics",
+      "code": "MIT103",
+      "type": "Theory",
+      "sectionName": "MTech-IT-1st",
+      "teacherCode": "T17",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Cyber Security Lab",
+      "code": "MIT101L",
+      "type": "Lab",
+      "sectionName": "MTech-IT-1st",
+      "teacherCode": "T17",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "Advanced IT Research Colloquium",
+      "code": "MIT104",
+      "type": "Theory",
+      "sectionName": "MTech-IT-1st",
+      "teacherCode": "T18",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Big Data Systems & NoSQL",
+      "code": "MIT201",
+      "type": "Theory",
+      "sectionName": "MTech-IT-2nd",
+      "teacherCode": "T18",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "IoT Middleware & Cloud Systems",
+      "code": "MIT202",
+      "type": "Theory",
+      "sectionName": "MTech-IT-2nd",
+      "teacherCode": "T19",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Research Colloquium",
+      "code": "MIT203",
+      "type": "Theory",
+      "sectionName": "MTech-IT-2nd",
+      "teacherCode": "T23",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Enterprise System Security",
+      "code": "MIT204",
+      "type": "Theory",
+      "sectionName": "MTech-IT-2nd",
+      "teacherCode": "T24",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MIT205",
+      "type": "Theory",
+      "sectionName": "MTech-IT-2nd",
+      "teacherCode": "T20",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Foundations of Data Science",
+      "code": "MAI101",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-1st",
+      "teacherCode": "T26",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Learning Systems & GPU",
+      "code": "MAI102",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-1st",
+      "teacherCode": "T27",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Probabilistic Graphical Models",
+      "code": "MAI103",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-1st",
+      "teacherCode": "T28",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Learning Systems Lab",
+      "code": "MAI101L",
+      "type": "Lab",
+      "sectionName": "MTech-AIDS-1st",
+      "teacherCode": "T28",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ComputerLab"
+    },
+    {
+      "name": "AI Ethics & Quantitative Modeling",
+      "code": "MAI104",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-1st",
+      "teacherCode": "T34",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Reinforcement Learning & Planning",
+      "code": "MAI201",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-2nd",
+      "teacherCode": "T29",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Conversational AI & LLMs",
+      "code": "MAI202",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-2nd",
+      "teacherCode": "T31",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech AI Seminar",
+      "code": "MAI203",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-2nd",
+      "teacherCode": "T30",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Deep Reinforcement Learning Practicum",
+      "code": "MAI204",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-2nd",
+      "teacherCode": "T32",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MAI205",
+      "type": "Theory",
+      "sectionName": "MTech-AIDS-2nd",
+      "teacherCode": "T33",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Digital Signal Processing",
+      "code": "MEC101",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-1st",
+      "teacherCode": "T36",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "VLSI Technology & CAD Tools",
+      "code": "MEC102",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-1st",
+      "teacherCode": "T38",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "RF & Microwave Circuits",
+      "code": "MEC103",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-1st",
+      "teacherCode": "T39",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced VLSI Design Lab",
+      "code": "MEC101L",
+      "type": "Lab",
+      "sectionName": "MTech-ECE-1st",
+      "teacherCode": "T38",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectronicsLab"
+    },
+    {
+      "name": "Advanced Communication Colloquium",
+      "code": "MEC104",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-1st",
+      "teacherCode": "T37",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Wireless Communications & MIMO",
+      "code": "MEC201",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-2nd",
+      "teacherCode": "T41",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Optical Networks & Photonics",
+      "code": "MEC202",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-2nd",
+      "teacherCode": "T45",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech ECE Seminar",
+      "code": "MEC203",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-2nd",
+      "teacherCode": "T43",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "High Speed VLSI Systems",
+      "code": "MEC204",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-2nd",
+      "teacherCode": "T40",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MEC205",
+      "type": "Theory",
+      "sectionName": "MTech-ECE-2nd",
+      "teacherCode": "T46",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Power Electronics",
+      "code": "MEE101",
+      "type": "Theory",
+      "sectionName": "MTech-EE-1st",
+      "teacherCode": "T47",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Power System Dynamics & Stability",
+      "code": "MEE102",
+      "type": "Theory",
+      "sectionName": "MTech-EE-1st",
+      "teacherCode": "T48",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Control Systems",
+      "code": "MEE103",
+      "type": "Theory",
+      "sectionName": "MTech-EE-1st",
+      "teacherCode": "T51",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Power Systems Lab",
+      "code": "MEE101L",
+      "type": "Lab",
+      "sectionName": "MTech-EE-1st",
+      "teacherCode": "T51",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "ElectricalLab"
+    },
+    {
+      "name": "Clean Energy & Smart Grid Colloquium",
+      "code": "MEE104",
+      "type": "Theory",
+      "sectionName": "MTech-EE-1st",
+      "teacherCode": "T49",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Smart Grid Communications",
+      "code": "MEE201",
+      "type": "Theory",
+      "sectionName": "MTech-EE-2nd",
+      "teacherCode": "T50",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Renewable Energy Grid Integration",
+      "code": "MEE202",
+      "type": "Theory",
+      "sectionName": "MTech-EE-2nd",
+      "teacherCode": "T52",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech EE Seminar",
+      "code": "MEE203",
+      "type": "Theory",
+      "sectionName": "MTech-EE-2nd",
+      "teacherCode": "T53",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Electric Vehicle Powertrains",
+      "code": "MEE204",
+      "type": "Theory",
+      "sectionName": "MTech-EE-2nd",
+      "teacherCode": "T55",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MEE205",
+      "type": "Theory",
+      "sectionName": "MTech-EE-2nd",
+      "teacherCode": "T56",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Finite Element Analysis in Design",
+      "code": "MME101",
+      "type": "Theory",
+      "sectionName": "MTech-ME-1st",
+      "teacherCode": "T58",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Fluid Dynamics",
+      "code": "MME102",
+      "type": "Theory",
+      "sectionName": "MTech-ME-1st",
+      "teacherCode": "T59",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computer Integrated Manufacturing",
+      "code": "MME103",
+      "type": "Theory",
+      "sectionName": "MTech-ME-1st",
+      "teacherCode": "T60",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced CAD/CAM Lab",
+      "code": "MME101L",
+      "type": "Lab",
+      "sectionName": "MTech-ME-1st",
+      "teacherCode": "T60",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "MechanicalWorkshop"
+    },
+    {
+      "name": "Advanced Mechanical Colloquium",
+      "code": "MME104",
+      "type": "Theory",
+      "sectionName": "MTech-ME-1st",
+      "teacherCode": "T62",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Robotics & Autonomous Systems",
+      "code": "MME201",
+      "type": "Theory",
+      "sectionName": "MTech-ME-2nd",
+      "teacherCode": "T61",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computational Heat Transfer",
+      "code": "MME202",
+      "type": "Theory",
+      "sectionName": "MTech-ME-2nd",
+      "teacherCode": "T63",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Research Colloquium",
+      "code": "MME203",
+      "type": "Theory",
+      "sectionName": "MTech-ME-2nd",
+      "teacherCode": "T68",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computational Thermal Systems",
+      "code": "MME204",
+      "type": "Theory",
+      "sectionName": "MTech-ME-2nd",
+      "teacherCode": "T66",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MME205",
+      "type": "Theory",
+      "sectionName": "MTech-ME-2nd",
+      "teacherCode": "T67",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Structural Analysis & Dynamics",
+      "code": "MCE101",
+      "type": "Theory",
+      "sectionName": "MTech-CE-1st",
+      "teacherCode": "T70",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Soil Mechanics & Foundation",
+      "code": "MCE102",
+      "type": "Theory",
+      "sectionName": "MTech-CE-1st",
+      "teacherCode": "T71",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Environmental Modeling & Remediation",
+      "code": "MCE103",
+      "type": "Theory",
+      "sectionName": "MTech-CE-1st",
+      "teacherCode": "T72",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Civil Engineering Lab",
+      "code": "MCE101L",
+      "type": "Lab",
+      "sectionName": "MTech-CE-1st",
+      "teacherCode": "T71",
+      "weeklySessions": 1,
+      "durationPeriods": 2,
+      "requiredRoomType": "CivilLab"
+    },
+    {
+      "name": "Smart Infrastructure Colloquium",
+      "code": "MCE104",
+      "type": "Theory",
+      "sectionName": "MTech-CE-1st",
+      "teacherCode": "T77",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Earthquake Resistant Design",
+      "code": "MCE201",
+      "type": "Theory",
+      "sectionName": "MTech-CE-2nd",
+      "teacherCode": "T74",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Smart Transportation Systems",
+      "code": "MCE202",
+      "type": "Theory",
+      "sectionName": "MTech-CE-2nd",
+      "teacherCode": "T78",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Research Colloquium",
+      "code": "MCE203",
+      "type": "Theory",
+      "sectionName": "MTech-CE-2nd",
+      "teacherCode": "T75",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Finite Element Analysis in Civil",
+      "code": "MCE204",
+      "type": "Theory",
+      "sectionName": "MTech-CE-2nd",
+      "teacherCode": "T69",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "M.Tech Thesis Presentation",
+      "code": "MCE205",
+      "type": "Theory",
+      "sectionName": "MTech-CE-2nd",
+      "teacherCode": "T76",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology & Scientific Ethics",
+      "code": "PHD-CS101",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-1st",
+      "teacherCode": "T08",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Doctoral Studies in Computing",
+      "code": "PHD-CS102",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-1st",
+      "teacherCode": "T10",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Seminar & Proposal Presentation",
+      "code": "PHD-CS103",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-1st",
+      "teacherCode": "T12",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-CS104",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-1st",
+      "teacherCode": "T07",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Quantitative Computing Foundations",
+      "code": "PHD-CS105",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-1st",
+      "teacherCode": "T09",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Review & Colloquium",
+      "code": "PHD-CS201",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-2nd",
+      "teacherCode": "T05",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Topics in CS Research",
+      "code": "PHD-CS202",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-2nd",
+      "teacherCode": "T14",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-CS203",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-2nd",
+      "teacherCode": "T02",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-CS204",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-2nd",
+      "teacherCode": "T03",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-CS205",
+      "type": "Theory",
+      "sectionName": "PhD-CSE-2nd",
+      "teacherCode": "T10",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology & Quantitative Analysis",
+      "code": "PHD-IT101",
+      "type": "Theory",
+      "sectionName": "PhD-IT-1st",
+      "teacherCode": "T21",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Information Networks Research",
+      "code": "PHD-IT102",
+      "type": "Theory",
+      "sectionName": "PhD-IT-1st",
+      "teacherCode": "T22",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Research Seminar",
+      "code": "PHD-IT103",
+      "type": "Theory",
+      "sectionName": "PhD-IT-1st",
+      "teacherCode": "T24",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-IT104",
+      "type": "Theory",
+      "sectionName": "PhD-IT-1st",
+      "teacherCode": "T15",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Statistical Decision Theory",
+      "code": "PHD-IT105",
+      "type": "Theory",
+      "sectionName": "PhD-IT-1st",
+      "teacherCode": "T16",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Review Colloquium",
+      "code": "PHD-IT201",
+      "type": "Theory",
+      "sectionName": "PhD-IT-2nd",
+      "teacherCode": "T16",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Emerging Paradigms in IT",
+      "code": "PHD-IT202",
+      "type": "Theory",
+      "sectionName": "PhD-IT-2nd",
+      "teacherCode": "T23",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-IT203",
+      "type": "Theory",
+      "sectionName": "PhD-IT-2nd",
+      "teacherCode": "T19",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-IT204",
+      "type": "Theory",
+      "sectionName": "PhD-IT-2nd",
+      "teacherCode": "T20",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-IT205",
+      "type": "Theory",
+      "sectionName": "PhD-IT-2nd",
+      "teacherCode": "T22",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology in AI & Data Science",
+      "code": "PHD-AI101",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-1st",
+      "teacherCode": "T27",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Theoretical Machine Learning",
+      "code": "PHD-AI102",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-1st",
+      "teacherCode": "T32",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral AI Seminar & Lit Review",
+      "code": "PHD-AI103",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-1st",
+      "teacherCode": "T33",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-AI104",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-1st",
+      "teacherCode": "T25",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Probability for AI",
+      "code": "PHD-AI105",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-1st",
+      "teacherCode": "T29",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Presentation",
+      "code": "PHD-AI201",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-2nd",
+      "teacherCode": "T28",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Frontiers in Cognitive Science & AI",
+      "code": "PHD-AI202",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-2nd",
+      "teacherCode": "T34",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-AI203",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-2nd",
+      "teacherCode": "T27",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-AI204",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-2nd",
+      "teacherCode": "T30",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-AI205",
+      "type": "Theory",
+      "sectionName": "PhD-AIDS-2nd",
+      "teacherCode": "T31",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology & Signal Modeling",
+      "code": "PHD-EC101",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-1st",
+      "teacherCode": "T40",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Solid State & Quantum Devices",
+      "code": "PHD-EC102",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-1st",
+      "teacherCode": "T42",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral ECE Seminar",
+      "code": "PHD-EC103",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-1st",
+      "teacherCode": "T43",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-EC104",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-1st",
+      "teacherCode": "T36",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Mathematical Modeling in Signals",
+      "code": "PHD-EC105",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-1st",
+      "teacherCode": "T39",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Review",
+      "code": "PHD-EC201",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-2nd",
+      "teacherCode": "T44",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Frontiers in Nanotechnology & Photonics",
+      "code": "PHD-EC202",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-2nd",
+      "teacherCode": "T46",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-EC203",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-2nd",
+      "teacherCode": "T35",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-EC204",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-2nd",
+      "teacherCode": "T41",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-EC205",
+      "type": "Theory",
+      "sectionName": "PhD-ECE-2nd",
+      "teacherCode": "T45",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology in Energy Systems",
+      "code": "PHD-EE101",
+      "type": "Theory",
+      "sectionName": "PhD-EE-1st",
+      "teacherCode": "T48",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Nonlinear Control & Estimation Theory",
+      "code": "PHD-EE102",
+      "type": "Theory",
+      "sectionName": "PhD-EE-1st",
+      "teacherCode": "T51",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Electrical Seminar",
+      "code": "PHD-EE103",
+      "type": "Theory",
+      "sectionName": "PhD-EE-1st",
+      "teacherCode": "T54",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-EE104",
+      "type": "Theory",
+      "sectionName": "PhD-EE-1st",
+      "teacherCode": "T50",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Modern Optimization in Energy",
+      "code": "PHD-EE105",
+      "type": "Theory",
+      "sectionName": "PhD-EE-1st",
+      "teacherCode": "T52",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Review",
+      "code": "PHD-EE201",
+      "type": "Theory",
+      "sectionName": "PhD-EE-2nd",
+      "teacherCode": "T55",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Renewable Integration Studies",
+      "code": "PHD-EE202",
+      "type": "Theory",
+      "sectionName": "PhD-EE-2nd",
+      "teacherCode": "T56",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-EE203",
+      "type": "Theory",
+      "sectionName": "PhD-EE-2nd",
+      "teacherCode": "T47",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-EE204",
+      "type": "Theory",
+      "sectionName": "PhD-EE-2nd",
+      "teacherCode": "T49",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-EE205",
+      "type": "Theory",
+      "sectionName": "PhD-EE-2nd",
+      "teacherCode": "T53",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology & Experimental Design",
+      "code": "PHD-ME101",
+      "type": "Theory",
+      "sectionName": "PhD-ME-1st",
+      "teacherCode": "T60",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Continuum Mechanics",
+      "code": "PHD-ME102",
+      "type": "Theory",
+      "sectionName": "PhD-ME-1st",
+      "teacherCode": "T64",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Mechanical Seminar",
+      "code": "PHD-ME103",
+      "type": "Theory",
+      "sectionName": "PhD-ME-1st",
+      "teacherCode": "T65",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-ME104",
+      "type": "Theory",
+      "sectionName": "PhD-ME-1st",
+      "teacherCode": "T58",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Mathematical Methods in ME",
+      "code": "PHD-ME105",
+      "type": "Theory",
+      "sectionName": "PhD-ME-1st",
+      "teacherCode": "T63",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Colloquium",
+      "code": "PHD-ME201",
+      "type": "Theory",
+      "sectionName": "PhD-ME-2nd",
+      "teacherCode": "T66",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Advanced Computational Fluid Mechanics",
+      "code": "PHD-ME202",
+      "type": "Theory",
+      "sectionName": "PhD-ME-2nd",
+      "teacherCode": "T68",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-ME203",
+      "type": "Theory",
+      "sectionName": "PhD-ME-2nd",
+      "teacherCode": "T57",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-ME204",
+      "type": "Theory",
+      "sectionName": "PhD-ME-2nd",
+      "teacherCode": "T61",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-ME205",
+      "type": "Theory",
+      "sectionName": "PhD-ME-2nd",
+      "teacherCode": "T67",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Research Methodology in Infrastructure",
+      "code": "PHD-CE101",
+      "type": "Theory",
+      "sectionName": "PhD-CE-1st",
+      "teacherCode": "T71",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Computational Geomechanics & Materials",
+      "code": "PHD-CE102",
+      "type": "Theory",
+      "sectionName": "PhD-CE-1st",
+      "teacherCode": "T73",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Civil Seminar",
+      "code": "PHD-CE103",
+      "type": "Theory",
+      "sectionName": "PhD-CE-1st",
+      "teacherCode": "T77",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Academic Writing & Publishing",
+      "code": "PHD-CE104",
+      "type": "Theory",
+      "sectionName": "PhD-CE-1st",
+      "teacherCode": "T70",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Numerical Methods in Geotechnics",
+      "code": "PHD-CE105",
+      "type": "Theory",
+      "sectionName": "PhD-CE-1st",
+      "teacherCode": "T76",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Doctoral Progress Colloquium",
+      "code": "PHD-CE201",
+      "type": "Theory",
+      "sectionName": "PhD-CE-2nd",
+      "teacherCode": "T72",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Resilient Infrastructure Design",
+      "code": "PHD-CE202",
+      "type": "Theory",
+      "sectionName": "PhD-CE-2nd",
+      "teacherCode": "T78",
+      "weeklySessions": 3,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Grant Writing & Research Ethics",
+      "code": "PHD-CE203",
+      "type": "Theory",
+      "sectionName": "PhD-CE-2nd",
+      "teacherCode": "T69",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Teaching Practicum & Pedagogy",
+      "code": "PHD-CE204",
+      "type": "Theory",
+      "sectionName": "PhD-CE-2nd",
+      "teacherCode": "T73",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    },
+    {
+      "name": "Interdisciplinary Research Colloquium",
+      "code": "PHD-CE205",
+      "type": "Theory",
+      "sectionName": "PhD-CE-2nd",
+      "teacherCode": "T77",
+      "weeklySessions": 2,
+      "durationPeriods": 1,
+      "requiredRoomType": "Classroom"
+    }
+  ],
+  "id": "nit_delhi",
+  "title": "NIT Comprehensive (Engineering & Tech)",
+  "category": "Engineering & Technology",
+  "badge": "60 Sections \u2022 61 Rooms \u2022 328 Subjects"
+}
