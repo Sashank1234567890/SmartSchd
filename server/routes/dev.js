@@ -9,8 +9,8 @@ const Subject = require('../models/Subject');
 const Settings = require('../models/Settings');
 const AlgorithmRun = require('../models/AlgorithmRun');
 
-// Helper to load seed object into MongoDB
-async function loadSeedObject(rawData) {
+// Helper to load seed object into MongoDB with high-performance bulk insertion
+async function loadSeedObject(rawData, isClean = false) {
   const summary = {
     sectionsImported: 0,
     roomsImported: 0,
@@ -23,6 +23,104 @@ async function loadSeedObject(rawData) {
   const D = settingsDoc.workingDays.length;
   const P = settingsDoc.periods.length;
   const defaultMatrix = Array.from({ length: D }, () => Array(P).fill(true));
+
+  if (isClean) {
+    // 1. Bulk Sections
+    const sectionMap = new Map();
+    if (Array.isArray(rawData.sections) && rawData.sections.length > 0) {
+      const secDocs = rawData.sections.filter(s => s.name).map(s => ({
+        name: s.name.trim(),
+        department: s.department || 'General',
+        studentCount: parseInt(s.studentCount, 10) || 60
+      }));
+      const createdSecs = await Section.insertMany(secDocs);
+      createdSecs.forEach(s => {
+        sectionMap.set(s.name.toUpperCase(), s._id);
+        sectionMap.set(s._id.toString(), s._id);
+      });
+      summary.sectionsImported = createdSecs.length;
+    }
+
+    // 2. Bulk Rooms
+    if (Array.isArray(rawData.rooms) && rawData.rooms.length > 0) {
+      const validRoomTypes = [
+        'Classroom', 'Laboratory', 'ComputerLab', 'ElectronicsLab',
+        'ElectricalLab', 'MechanicalWorkshop', 'CivilLab', 'PhysicsLab',
+        'ChemistryLab', 'SportsGround'
+      ];
+      const roomDocs = rawData.rooms.filter(r => r.roomNumber).map(r => {
+        const rType = validRoomTypes.includes(r.type) ? r.type : (r.type === 'Lab' ? 'Laboratory' : 'Classroom');
+        return {
+          name: r.name || `Room ${r.roomNumber}`,
+          roomNumber: r.roomNumber.trim(),
+          type: rType,
+          capacity: parseInt(r.capacity, 10) || 75,
+          department: r.department || 'General',
+          availability: Array.isArray(r.availability) && r.availability.length === D ? r.availability : defaultMatrix
+        };
+      });
+      const createdRooms = await Room.insertMany(roomDocs);
+      summary.roomsImported = createdRooms.length;
+    }
+
+    // 3. Bulk Teachers
+    const teacherMap = new Map();
+    if (Array.isArray(rawData.teachers) && rawData.teachers.length > 0) {
+      const teacherDocs = rawData.teachers.filter(t => t.teacherCode).map(t => {
+        const tCode = t.teacherCode.trim().toUpperCase();
+        const teachableCodes = Array.isArray(t.teachableSubjectCodes)
+          ? t.teachableSubjectCodes.map(c => c.trim().toUpperCase())
+          : (t.teachableCodes ? t.teachableCodes.map(c => c.trim().toUpperCase()) : []);
+        return {
+          name: t.name || `Faculty ${tCode}`,
+          teacherCode: tCode,
+          teachableSubjectCodes: teachableCodes,
+          maxWeeklyPeriods: parseInt(t.maxWeeklyPeriods, 10) || 18,
+          availability: Array.isArray(t.availability) && t.availability.length === D ? t.availability : defaultMatrix,
+          preferredSlots: Array.isArray(t.preferredSlots) ? t.preferredSlots : []
+        };
+      });
+      const createdTeachers = await Teacher.insertMany(teacherDocs);
+      createdTeachers.forEach(t => {
+        teacherMap.set(t.teacherCode.toUpperCase(), t._id);
+        teacherMap.set(t._id.toString(), t._id);
+      });
+      summary.teachersImported = createdTeachers.length;
+    }
+
+    // 4. Bulk Subjects
+    if (Array.isArray(rawData.subjects) && rawData.subjects.length > 0) {
+      const subDocs = [];
+      for (const sub of rawData.subjects) {
+        if (!sub.code) continue;
+        const subCode = sub.code.trim().toUpperCase();
+        const secId = sectionMap.get(String(sub.sectionId || sub.sectionName || sub.section || '').toUpperCase());
+        const tId = teacherMap.get(String(sub.teacherId || sub.teacherCode || sub.teacher || '').toUpperCase());
+        if (!secId || !tId) continue;
+
+        const subType = sub.type === 'Lab' || sub.type === 'Practical' ? sub.type : 'Theory';
+        const duration = parseInt(sub.durationPeriods, 10) || (subType === 'Theory' ? 1 : 2);
+        const weekly = parseInt(sub.weeklySessions, 10) || 3;
+        const reqRoomType = sub.requiredRoomType || (subType === 'Theory' ? 'Classroom' : 'Laboratory');
+
+        subDocs.push({
+          name: sub.name || `Course ${subCode}`,
+          code: subCode,
+          type: subType,
+          sectionId: secId,
+          teacherId: tId,
+          weeklySessions: weekly,
+          durationPeriods: duration,
+          requiredRoomType: reqRoomType,
+          notes: sub.notes || ''
+        });
+      }
+      const createdSubs = await Subject.insertMany(subDocs);
+      summary.subjectsImported = createdSubs.length;
+    }
+
+    return summary;
+  }
 
   // 1. Sections
   const sectionMap = new Map();
@@ -270,15 +368,15 @@ router.post('/preset/:presetId', async (req, res, next) => {
     const fileContent = fs.readFileSync(presetPath, 'utf8');
     const rawData = JSON.parse(fileContent);
 
-    // Default clean previous college data so datasets don't cross-contaminate
-    if (req.query.clean !== 'false') {
+    const isClean = (req.query.clean !== 'false');
+    if (isClean) {
       await Subject.deleteMany({});
       await Teacher.deleteMany({});
       await Room.deleteMany({});
       await Section.deleteMany({});
     }
 
-    const summary = await loadSeedObject(rawData);
+    const summary = await loadSeedObject(rawData, isClean);
     summary.presetLoaded = cleanId;
     summary.title = rawData.title || cleanId;
 
