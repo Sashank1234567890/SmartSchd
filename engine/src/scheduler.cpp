@@ -138,10 +138,12 @@ int main() {
 
     std::unordered_map<std::string, int> secSize;
     std::unordered_map<std::string, std::string> secDept;
+    std::unordered_map<std::string, std::string> secName;
     for (const auto& s : j["sections"]) {
         std::string sId = s["_id"].get<std::string>();
         secSize[sId] = s["studentCount"].get<int>();
         secDept[sId] = s.value("department", s.value("name", ""));
+        secName[sId] = s.value("name", "");
     }
 
     auto getBranchKey = [](const std::string& deptOrName) -> std::string {
@@ -156,6 +158,19 @@ int main() {
         if (str.find("INFORMATION") != std::string::npos || str.find("IT") != std::string::npos) return "IT";
         if (str.find("COMPUTER") != std::string::npos || str.find("CSE") != std::string::npos || str.find("CS") != std::string::npos) return "CSE";
         return "GEN";
+    };
+
+    auto getYearKey = [](const std::string& nameOrNum) -> std::string {
+        if (nameOrNum.empty()) return "1ST";
+        std::string str = nameOrNum;
+        for (char &c : str) c = toupper(c);
+        if (str.find("PHD") != std::string::npos || str.find("DOCTORAL") != std::string::npos || str.find("RESEARCH") != std::string::npos || str.find("FPM") != std::string::npos) return "PHD";
+        if (str.find("PG") != std::string::npos || str.find("MTECH") != std::string::npos || str.find("MSC") != std::string::npos || str.find("MD") != std::string::npos || str.find("LLM") != std::string::npos || str.find("MARCH") != std::string::npos || str.find("MBA") != std::string::npos || str.find("SEMINAR") != std::string::npos) return "PG";
+        if (str.find("4TH") != std::string::npos || str.find("401") != std::string::npos || str.find("402") != std::string::npos || str.find("403") != std::string::npos || str.find("404") != std::string::npos) return "4TH";
+        if (str.find("3RD") != std::string::npos || str.find("301") != std::string::npos || str.find("302") != std::string::npos || str.find("303") != std::string::npos || str.find("304") != std::string::npos || str.find("PHASE3") != std::string::npos) return "3RD";
+        if (str.find("2ND") != std::string::npos || str.find("201") != std::string::npos || str.find("202") != std::string::npos || str.find("203") != std::string::npos || str.find("204") != std::string::npos || str.find("PHASE2") != std::string::npos) return "2ND";
+        if (str.find("1ST") != std::string::npos || str.find("101") != std::string::npos || str.find("102") != std::string::npos || str.find("103") != std::string::npos || str.find("104") != std::string::npos || str.find("PHASE1") != std::string::npos) return "1ST";
+        return "1ST";
     };
 
     struct RoomInfo { std::string id, type, department, roomNumber; int capacity; };
@@ -215,6 +230,7 @@ int main() {
         std::vector<RoomInfo> candRooms;
         int neededCap = (sess.roomType == "Classroom") ? sess.studentCount : (sess.studentCount + 1) / 2;
         std::string secBranch = getBranchKey(secDept[sess.sectionId]);
+        std::string secYear = getYearKey(secName[sess.sectionId]);
 
         for (const auto& r : allRooms) {
             if (r.type != sess.roomType || r.capacity < neededCap) continue;
@@ -223,6 +239,15 @@ int main() {
                 if (secBranch != "GEN" && rmBranch != "GEN" && secBranch != rmBranch) continue;
             }
             candRooms.push_back(r);
+        }
+
+        if (sess.roomType == "Classroom") {
+            std::vector<RoomInfo> yearRooms;
+            for (const auto& r : candRooms) {
+                std::string rmYear = getYearKey(r.roomNumber + " " + r.department);
+                if (rmYear == secYear) yearRooms.push_back(r);
+            }
+            if (!yearRooms.empty()) candRooms = yearRooms;
         }
 
         if (candRooms.empty()) {

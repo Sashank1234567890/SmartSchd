@@ -20,12 +20,12 @@ function getBranchKey(deptOrName) {
 function getYearKey(nameOrNum) {
   if (!nameOrNum) return '1ST';
   const str = String(nameOrNum).toUpperCase();
-  if (str.includes('1ST') || str.includes('101') || str.includes('102') || str.includes('103') || str.includes('104') || str.includes('PHASE1')) return '1ST';
-  if (str.includes('2ND') || str.includes('201') || str.includes('202') || str.includes('203') || str.includes('204') || str.includes('PHASE2')) return '2ND';
-  if (str.includes('3RD') || str.includes('301') || str.includes('302') || str.includes('303') || str.includes('304') || str.includes('PHASE3')) return '3RD';
+  if (str.includes('PHD') || str.includes('DOCTORAL') || str.includes('RESEARCH') || str.includes('FPM')) return 'PHD';
+  if (str.includes('PG') || str.includes('MTECH') || str.includes('MSC') || str.includes('MD') || str.includes('LLM') || str.includes('MARCH') || str.includes('MBA') || str.includes('SEMINAR')) return 'PG';
   if (str.includes('4TH') || str.includes('401') || str.includes('402') || str.includes('403') || str.includes('404')) return '4TH';
-  if (str.includes('MTECH') || str.includes('MSC') || str.includes('MD') || str.includes('LLM') || str.includes('MARCH') || str.includes('MBA') || str.includes('PG')) return 'PG';
-  if (str.includes('PHD') || str.includes('FPM') || str.includes('SEM')) return 'PHD';
+  if (str.includes('3RD') || str.includes('301') || str.includes('302') || str.includes('303') || str.includes('304') || str.includes('PHASE3')) return '3RD';
+  if (str.includes('2ND') || str.includes('201') || str.includes('202') || str.includes('203') || str.includes('204') || str.includes('PHASE2')) return '2ND';
+  if (str.includes('1ST') || str.includes('101') || str.includes('102') || str.includes('103') || str.includes('104') || str.includes('PHASE1')) return '1ST';
   return '1ST';
 }
 
@@ -285,29 +285,29 @@ function runJsScheduler(input, algorithm = 'combined') {
     const neededCap = (sess.roomType === 'Classroom') ? sess.studentCount : Math.ceil(sess.studentCount / 2);
     let candRooms = (roomsByType.get(sess.roomType) || []).filter(r => r.capacity >= neededCap);
 
-    // If it's a regular Classroom: enforce branch-locking (no cross-rooming)
+    // If it's a regular Classroom: strictly bind to that year's designated home lecture hall (no other hall)
     if (sess.roomType === 'Classroom') {
-      const branchClassrooms = candRooms.filter(r => {
-        // If room has explicit department, match it
-        if (r.department && r.department !== 'General' && secDept && secDept !== 'General') {
-          return r.department.toLowerCase() === secDept.toLowerCase() || r.branch === secBranch;
+      const yearHomeRooms = candRooms.filter(r => {
+        const branchMatch = (r.department && r.department !== 'General' && secDept && secDept !== 'General')
+          ? (r.department.toLowerCase() === secDept.toLowerCase() || r.branch === secBranch)
+          : (r.branch === secBranch);
+        return branchMatch && r.year === secYear;
+      });
+
+      if (yearHomeRooms.length > 0) {
+        // STRICTLY locked to that year's home room only! e.g. CS1 and CS2 only in 101, 2nd year only in 201
+        candRooms = yearHomeRooms;
+      } else {
+        const branchClassrooms = candRooms.filter(r => {
+          if (r.department && r.department !== 'General' && secDept && secDept !== 'General') {
+            return r.department.toLowerCase() === secDept.toLowerCase() || r.branch === secBranch;
+          }
+          return r.branch === secBranch;
+        });
+        if (branchClassrooms.length > 0) {
+          candRooms = branchClassrooms;
         }
-        return r.branch === secBranch;
-      });
-
-      // If branch-specific classrooms exist, restrict strictly to them (no cross-rooming)
-      if (branchClassrooms.length > 0) {
-        candRooms = branchClassrooms;
       }
-
-      // Interleaving priority: prioritize designated home room for this academic year
-      // So CS1 and CS2 both pick the same home classroom and interleave periods seamlessly!
-      candRooms.sort((a, b) => {
-        const aYearMatch = a.year === secYear ? 1 : 0;
-        const bYearMatch = b.year === secYear ? 1 : 0;
-        if (aYearMatch !== bYearMatch) return bYearMatch - aYearMatch;
-        return a.capacity - b.capacity;
-      });
     }
 
     if (candRooms.length === 0) {
@@ -343,6 +343,7 @@ function runJsScheduler(input, algorithm = 'combined') {
                 teacherId: sess.teacherId,
                 roomId: room.id,
                 day: d,
+                period: p,
                 startPeriod: p,
                 durationPeriods: sess.duration
               });

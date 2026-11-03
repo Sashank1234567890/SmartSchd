@@ -30,11 +30,11 @@ if (val.violations && val.violations.length > 0) {
 
 // Check interleaving of CS1 and CS2
 const cs1Assignments = sched.assignments.filter(a => {
-  const s = data.sections.find(sec => String(sec._id || sec.id) === String(a.sectionId));
+  const s = data.sections.find(sec => String(sec._id || sec.id || sec.name) === String(a.sectionId));
   return s && s.name === 'CSE-1st-CS1';
 });
 const cs2Assignments = sched.assignments.filter(a => {
-  const s = data.sections.find(sec => String(sec._id || sec.id) === String(a.sectionId));
+  const s = data.sections.find(sec => String(sec._id || sec.id || sec.name) === String(a.sectionId));
   return s && s.name === 'CSE-1st-CS2';
 });
 
@@ -43,11 +43,11 @@ console.log('CS1 assignments count:', cs1Assignments.length);
 console.log('CS2 assignments count:', cs2Assignments.length);
 
 const cs1Rooms = new Set(cs1Assignments.map(a => {
-  const r = data.rooms.find(rm => String(rm._id || rm.id) === String(a.roomId));
+  const r = data.rooms.find(rm => String(rm._id || rm.id || rm.roomNumber) === String(a.roomId));
   return r ? r.roomNumber : a.roomId;
 }));
 const cs2Rooms = new Set(cs2Assignments.map(a => {
-  const r = data.rooms.find(rm => String(rm._id || rm.id) === String(a.roomId));
+  const r = data.rooms.find(rm => String(rm._id || rm.id || rm.roomNumber) === String(a.roomId));
   return r ? r.roomNumber : a.roomId;
 }));
 
@@ -57,8 +57,8 @@ console.log('CS2 rooms used:', Array.from(cs2Rooms));
 // Cross-rooming check across whole schedule
 let crossRoomingViolations = 0;
 for (const a of sched.assignments) {
-  const sec = data.sections.find(s => String(s._id || s.id) === String(a.sectionId));
-  const rm = data.rooms.find(r => String(r._id || r.id) === String(a.roomId));
+  const sec = data.sections.find(s => String(s._id || s.id || s.name) === String(a.sectionId));
+  const rm = data.rooms.find(r => String(r._id || r.id || r.roomNumber) === String(a.roomId));
   if (sec && rm && rm.type === 'Classroom' && rm.department !== 'General') {
     if (sec.department !== rm.department) {
       crossRoomingViolations++;

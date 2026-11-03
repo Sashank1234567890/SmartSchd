@@ -11,6 +11,19 @@ function envelope(success, data = null, error = null) {
 }
 
 // List recent runs (last 50)
+router.get('/', async (req, res) => {
+  try {
+    const runs = await AlgorithmRun.find()
+      .sort({ createdAt: -1 })
+      .limit(50)
+      .lean();
+    return res.json(envelope(true, runs));
+  } catch (err) {
+    return res.status(500).json(envelope(false, null, { code: 'E_INTERNAL', message: err.message }));
+  }
+});
+
+// List recent runs (last 50) - alias /runs
 router.get('/runs', async (req, res) => {
   try {
     const runs = await AlgorithmRun.find()
