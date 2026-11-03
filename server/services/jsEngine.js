@@ -513,5 +513,7 @@ function runJsValidator(input) {
 
 module.exports = {
   runJsScheduler,
-  runJsValidator
+  runJsValidator,
+  getBranchKey,
+  getYearKey
 };

@@ -754,6 +754,20 @@
       "type": "SportsGround",
       "department": "General",
       "capacity": 300
+    },
+    {
+      "name": "Indoor Sports Complex",
+      "roomNumber": "SPORTS-3",
+      "type": "SportsGround",
+      "department": "General",
+      "capacity": 300
+    },
+    {
+      "name": "University Gymnasium & Arena",
+      "roomNumber": "SPORTS-4",
+      "type": "SportsGround",
+      "department": "General",
+      "capacity": 300
     }
   ],
   "teachers": [

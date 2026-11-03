@@ -9,9 +9,11 @@ const Teacher = require('../server/models/Teacher');
 const Subject = require('../server/models/Subject');
 const Settings = require('../server/models/Settings');
 
+const { connectDB } = require('../server/config/db');
+
 async function main() {
-  console.log('Connecting to MongoDB Atlas...');
-  await mongoose.connect(process.env.MONGODB_URI);
+  console.log('Connecting to MongoDB Atlas (smartsched)...');
+  await connectDB();
   console.log('MongoDB connected successfully.');
 
   const seedPath = path.resolve(__dirname, '../server/seeds/college.json');
@@ -43,6 +45,7 @@ async function main() {
     name: r.name || `Room ${r.roomNumber}`,
     roomNumber: r.roomNumber.trim(),
     type: r.type,
+    department: r.department || 'General',
     capacity: parseInt(r.capacity, 10) || 75,
     availability: defaultMatrix
   }));
