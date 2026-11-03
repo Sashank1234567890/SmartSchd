@@ -1,6 +1,9 @@
 {
-  "name": "college",
-  "description": "Full Comprehensive University Dataset (7 Branches x 4 BTech + 2 MTech + 2 PhD = 60 sections, min 5 subjects each, tight 34 rooms)",
+  "id": "preset_1_nit_delhi",
+  "title": "NIT Comprehensive (Engineering & Tech)",
+  "category": "Engineering & Technology",
+  "description": "Full university dataset: 7 branches (CSE, IT, AIDS, ECE, EE, ME, CE) with branch-locked LTs and sub-section interleaving (CS1/CS2). Minimum 5 subjects per section.",
+  "badge": "60 Sections \u2022 64 Rooms \u2022 328 Subjects",
   "sections": [
     {
       "name": "CSE-1st-CS1",
@@ -305,370 +308,452 @@
   ],
   "rooms": [
     {
-      "name": "Lecture Hall 101",
-      "roomNumber": "LH-101",
+      "name": "Computer Science Lecture Hall 101",
+      "roomNumber": "LH-CSE-101",
       "type": "Classroom",
+      "department": "Computer Science",
       "capacity": 75
     },
     {
-      "name": "Lecture Hall 102",
-      "roomNumber": "LH-102",
+      "name": "Computer Science Lecture Hall 201",
+      "roomNumber": "LH-CSE-201",
       "type": "Classroom",
+      "department": "Computer Science",
       "capacity": 75
     },
     {
-      "name": "Lecture Hall 103",
-      "roomNumber": "LH-103",
+      "name": "Computer Science Lecture Hall 301",
+      "roomNumber": "LH-CSE-301",
       "type": "Classroom",
+      "department": "Computer Science",
       "capacity": 75
     },
     {
-      "name": "Lecture Hall 104",
-      "roomNumber": "LH-104",
+      "name": "Computer Science Lecture Hall 401",
+      "roomNumber": "LH-CSE-401",
       "type": "Classroom",
+      "department": "Computer Science",
       "capacity": 75
     },
     {
-      "name": "Lecture Hall 105",
-      "roomNumber": "LH-105",
+      "name": "Computer Science PG Seminar Room",
+      "roomNumber": "PG-CSE-101",
       "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 106",
-      "roomNumber": "LH-106",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 201",
-      "roomNumber": "LH-201",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 202",
-      "roomNumber": "LH-202",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 203",
-      "roomNumber": "LH-203",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 204",
-      "roomNumber": "LH-204",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 205",
-      "roomNumber": "LH-205",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 206",
-      "roomNumber": "LH-206",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 301",
-      "roomNumber": "LH-301",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 302",
-      "roomNumber": "LH-302",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 303",
-      "roomNumber": "LH-303",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 304",
-      "roomNumber": "LH-304",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 305",
-      "roomNumber": "LH-305",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 306",
-      "roomNumber": "LH-306",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 401",
-      "roomNumber": "LH-401",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 402",
-      "roomNumber": "LH-402",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 403",
-      "roomNumber": "LH-403",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 404",
-      "roomNumber": "LH-404",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 405",
-      "roomNumber": "LH-405",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "Lecture Hall 406",
-      "roomNumber": "LH-406",
-      "type": "Classroom",
-      "capacity": 75
-    },
-    {
-      "name": "PG Seminar Room 1",
-      "roomNumber": "PG-101",
-      "type": "Classroom",
-      "capacity": 40
-    },
-    {
-      "name": "PG Seminar Room 2",
-      "roomNumber": "PG-102",
-      "type": "Classroom",
-      "capacity": 40
-    },
-    {
-      "name": "PG Seminar Room 3",
-      "roomNumber": "PG-103",
-      "type": "Classroom",
-      "capacity": 40
-    },
-    {
-      "name": "PG Seminar Room 4",
-      "roomNumber": "PG-104",
-      "type": "Classroom",
-      "capacity": 40
-    },
-    {
-      "name": "Research Seminar Hall 1",
-      "roomNumber": "SEM-101",
-      "type": "Classroom",
+      "department": "Computer Science",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 2",
-      "roomNumber": "SEM-102",
+      "name": "Computer Science PhD Research Hall",
+      "roomNumber": "SEM-CSE-PHD",
       "type": "Classroom",
+      "department": "Computer Science",
+      "capacity": 35
+    },
+    {
+      "name": "Information Technology Lecture Hall 101",
+      "roomNumber": "LH-IT-101",
+      "type": "Classroom",
+      "department": "Information Technology",
+      "capacity": 75
+    },
+    {
+      "name": "Information Technology Lecture Hall 201",
+      "roomNumber": "LH-IT-201",
+      "type": "Classroom",
+      "department": "Information Technology",
+      "capacity": 75
+    },
+    {
+      "name": "Information Technology Lecture Hall 301",
+      "roomNumber": "LH-IT-301",
+      "type": "Classroom",
+      "department": "Information Technology",
+      "capacity": 75
+    },
+    {
+      "name": "Information Technology Lecture Hall 401",
+      "roomNumber": "LH-IT-401",
+      "type": "Classroom",
+      "department": "Information Technology",
+      "capacity": 75
+    },
+    {
+      "name": "Information Technology PG Seminar Room",
+      "roomNumber": "PG-IT-101",
+      "type": "Classroom",
+      "department": "Information Technology",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 3",
-      "roomNumber": "SEM-103",
+      "name": "Information Technology PhD Research Hall",
+      "roomNumber": "SEM-IT-PHD",
       "type": "Classroom",
+      "department": "Information Technology",
+      "capacity": 35
+    },
+    {
+      "name": "AI & Data Science Lecture Hall 101",
+      "roomNumber": "LH-AIDS-101",
+      "type": "Classroom",
+      "department": "AI & Data Science",
+      "capacity": 75
+    },
+    {
+      "name": "AI & Data Science Lecture Hall 201",
+      "roomNumber": "LH-AIDS-201",
+      "type": "Classroom",
+      "department": "AI & Data Science",
+      "capacity": 75
+    },
+    {
+      "name": "AI & Data Science Lecture Hall 301",
+      "roomNumber": "LH-AIDS-301",
+      "type": "Classroom",
+      "department": "AI & Data Science",
+      "capacity": 75
+    },
+    {
+      "name": "AI & Data Science Lecture Hall 401",
+      "roomNumber": "LH-AIDS-401",
+      "type": "Classroom",
+      "department": "AI & Data Science",
+      "capacity": 75
+    },
+    {
+      "name": "AI & Data Science PG Seminar Room",
+      "roomNumber": "PG-AIDS-101",
+      "type": "Classroom",
+      "department": "AI & Data Science",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 4",
-      "roomNumber": "SEM-104",
+      "name": "AI & Data Science PhD Research Hall",
+      "roomNumber": "SEM-AIDS-PHD",
       "type": "Classroom",
+      "department": "AI & Data Science",
+      "capacity": 35
+    },
+    {
+      "name": "Electronics Lecture Hall 101",
+      "roomNumber": "LH-ECE-101",
+      "type": "Classroom",
+      "department": "Electronics",
+      "capacity": 75
+    },
+    {
+      "name": "Electronics Lecture Hall 201",
+      "roomNumber": "LH-ECE-201",
+      "type": "Classroom",
+      "department": "Electronics",
+      "capacity": 75
+    },
+    {
+      "name": "Electronics Lecture Hall 301",
+      "roomNumber": "LH-ECE-301",
+      "type": "Classroom",
+      "department": "Electronics",
+      "capacity": 75
+    },
+    {
+      "name": "Electronics Lecture Hall 401",
+      "roomNumber": "LH-ECE-401",
+      "type": "Classroom",
+      "department": "Electronics",
+      "capacity": 75
+    },
+    {
+      "name": "Electronics PG Seminar Room",
+      "roomNumber": "PG-ECE-101",
+      "type": "Classroom",
+      "department": "Electronics",
       "capacity": 45
+    },
+    {
+      "name": "Electronics PhD Research Hall",
+      "roomNumber": "SEM-ECE-PHD",
+      "type": "Classroom",
+      "department": "Electronics",
+      "capacity": 35
+    },
+    {
+      "name": "Electrical Lecture Hall 101",
+      "roomNumber": "LH-EE-101",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 75
+    },
+    {
+      "name": "Electrical Lecture Hall 201",
+      "roomNumber": "LH-EE-201",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 75
+    },
+    {
+      "name": "Electrical Lecture Hall 301",
+      "roomNumber": "LH-EE-301",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 75
+    },
+    {
+      "name": "Electrical Lecture Hall 401",
+      "roomNumber": "LH-EE-401",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 75
+    },
+    {
+      "name": "Electrical PG Seminar Room",
+      "roomNumber": "PG-EE-101",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 45
+    },
+    {
+      "name": "Electrical PhD Research Hall",
+      "roomNumber": "SEM-EE-PHD",
+      "type": "Classroom",
+      "department": "Electrical",
+      "capacity": 35
+    },
+    {
+      "name": "Mechanical Lecture Hall 101",
+      "roomNumber": "LH-ME-101",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 75
+    },
+    {
+      "name": "Mechanical Lecture Hall 201",
+      "roomNumber": "LH-ME-201",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 75
+    },
+    {
+      "name": "Mechanical Lecture Hall 301",
+      "roomNumber": "LH-ME-301",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 75
+    },
+    {
+      "name": "Mechanical Lecture Hall 401",
+      "roomNumber": "LH-ME-401",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 75
+    },
+    {
+      "name": "Mechanical PG Seminar Room",
+      "roomNumber": "PG-ME-101",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 45
+    },
+    {
+      "name": "Mechanical PhD Research Hall",
+      "roomNumber": "SEM-ME-PHD",
+      "type": "Classroom",
+      "department": "Mechanical",
+      "capacity": 35
+    },
+    {
+      "name": "Civil Lecture Hall 101",
+      "roomNumber": "LH-CE-101",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 75
+    },
+    {
+      "name": "Civil Lecture Hall 201",
+      "roomNumber": "LH-CE-201",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 75
+    },
+    {
+      "name": "Civil Lecture Hall 301",
+      "roomNumber": "LH-CE-301",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 75
+    },
+    {
+      "name": "Civil Lecture Hall 401",
+      "roomNumber": "LH-CE-401",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 75
+    },
+    {
+      "name": "Civil PG Seminar Room",
+      "roomNumber": "PG-CE-101",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 45
+    },
+    {
+      "name": "Civil PhD Research Hall",
+      "roomNumber": "SEM-CE-PHD",
+      "type": "Classroom",
+      "department": "Civil",
+      "capacity": 35
     },
     {
       "name": "Computer Science Lab 1",
       "roomNumber": "CSLAB-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Computer Science Lab 2",
       "roomNumber": "CSLAB-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Computer Science Lab 3",
       "roomNumber": "CSLAB-3",
       "type": "ComputerLab",
-      "capacity": 38
-    },
-    {
-      "name": "Computer Science Lab 4",
-      "roomNumber": "CSLAB-4",
-      "type": "ComputerLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "AI & Machine Learning Lab 1",
       "roomNumber": "AIDSLAB-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "AI & Machine Learning Lab 2",
       "roomNumber": "AIDSLAB-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Electronics Devices Lab",
       "roomNumber": "ECLAB-1",
       "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Communication Systems Lab",
       "roomNumber": "ECLAB-2",
       "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "VLSI & Microelectronics Lab",
       "roomNumber": "VLSILAB",
       "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Electrical Circuits Lab",
       "roomNumber": "EELAB-1",
       "type": "ElectricalLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Electrical Machines Lab",
       "roomNumber": "EELAB-2",
       "type": "ElectricalLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Power Systems & Drives Lab",
       "roomNumber": "POWLAB",
       "type": "ElectricalLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Mechanical Workshop 1",
       "roomNumber": "MEWK-1",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Mechanical Workshop 2",
       "roomNumber": "MEWK-2",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "CAD/CAM Modeling Lab",
       "roomNumber": "MEWK-3",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Thermal & Fluid Dynamics Lab",
       "roomNumber": "TFLAB",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Surveying & Geomatics Lab",
       "roomNumber": "CIVILLAB-1",
       "type": "CivilLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Geotechnical Engineering Lab",
       "roomNumber": "CIVILLAB-2",
       "type": "CivilLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Concrete Testing Lab",
       "roomNumber": "CONCLAB",
       "type": "CivilLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Engineering Physics Lab 1",
       "roomNumber": "PHYLAB-1",
       "type": "PhysicsLab",
-      "capacity": 38
-    },
-    {
-      "name": "Engineering Physics Lab 2",
-      "roomNumber": "PHYLAB-2",
-      "type": "PhysicsLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Engineering Chemistry Lab 1",
       "roomNumber": "CHMLAB-1",
       "type": "ChemistryLab",
-      "capacity": 38
-    },
-    {
-      "name": "Engineering Chemistry Lab 2",
-      "roomNumber": "CHMLAB-2",
-      "type": "ChemistryLab",
+      "department": "General",
       "capacity": 38
     },
     {
       "name": "Main Sports Stadium",
       "roomNumber": "SPORTS-1",
       "type": "SportsGround",
+      "department": "General",
       "capacity": 300
     },
     {
       "name": "East Athletic Ground",
       "roomNumber": "SPORTS-2",
       "type": "SportsGround",
+      "department": "General",
       "capacity": 300
-    },
-    {
-      "name": "West Sports Complex",
-      "roomNumber": "SPORTS-3",
-      "type": "SportsGround",
-      "capacity": 300
-    },
-    {
-      "name": "Indoor Badminton & Table Tennis Arena",
-      "roomNumber": "SPORTS-4",
-      "type": "SportsGround",
-      "capacity": 200
-    },
-    {
-      "name": "Gymnasium & Fitness Arena",
-      "roomNumber": "SPORTS-5",
-      "type": "SportsGround",
-      "capacity": 200
-    },
-    {
-      "name": "Outdoor Basketball Courts",
-      "roomNumber": "SPORTS-6",
-      "type": "SportsGround",
-      "capacity": 200
     }
   ],
   "teachers": [

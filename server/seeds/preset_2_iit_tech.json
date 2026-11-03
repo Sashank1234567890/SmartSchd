@@ -2,8 +2,8 @@
   "id": "preset_2_iit_tech",
   "title": "IIT Advanced Tech & Research",
   "category": "Engineering & Science",
-  "description": "Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with 52 sections and 55 research halls/labs.",
-  "badge": "52 Sections \u2022 55 Rooms \u2022 260 Subjects",
+  "description": "Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with branch-locked lecture theatres.",
+  "badge": "54 Sections \u2022 56 Rooms \u2022 270 Subjects",
   "sections": [
     {
       "name": "CSE-1st",
@@ -278,327 +278,395 @@
   ],
   "rooms": [
     {
-      "name": "Lecture Theatre LT-1",
-      "roomNumber": "LT-1",
+      "name": "Computer Science & HPC Lecture Hall 101",
+      "roomNumber": "LT-CSE-101",
       "type": "Classroom",
+      "department": "Computer Science & HPC",
       "capacity": 80
     },
     {
-      "name": "Lecture Theatre LT-2",
-      "roomNumber": "LT-2",
+      "name": "Computer Science & HPC Lecture Hall 201",
+      "roomNumber": "LT-CSE-201",
       "type": "Classroom",
+      "department": "Computer Science & HPC",
       "capacity": 80
     },
     {
-      "name": "Lecture Theatre LT-3",
-      "roomNumber": "LT-3",
+      "name": "Computer Science & HPC Lecture Hall 301",
+      "roomNumber": "LT-CSE-301",
       "type": "Classroom",
+      "department": "Computer Science & HPC",
       "capacity": 80
     },
     {
-      "name": "Lecture Theatre LT-4",
-      "roomNumber": "LT-4",
+      "name": "Computer Science & HPC Lecture Hall 401",
+      "roomNumber": "LT-CSE-401",
       "type": "Classroom",
+      "department": "Computer Science & HPC",
       "capacity": 80
     },
     {
-      "name": "Lecture Theatre LT-5",
-      "roomNumber": "LT-5",
+      "name": "Computer Science & HPC PG Seminar Room",
+      "roomNumber": "PG-CSE-101",
       "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-6",
-      "roomNumber": "LT-6",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-7",
-      "roomNumber": "LT-7",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-8",
-      "roomNumber": "LT-8",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-9",
-      "roomNumber": "LT-9",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-10",
-      "roomNumber": "LT-10",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-11",
-      "roomNumber": "LT-11",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-12",
-      "roomNumber": "LT-12",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-13",
-      "roomNumber": "LT-13",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-14",
-      "roomNumber": "LT-14",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-15",
-      "roomNumber": "LT-15",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-16",
-      "roomNumber": "LT-16",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-17",
-      "roomNumber": "LT-17",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-18",
-      "roomNumber": "LT-18",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-19",
-      "roomNumber": "LT-19",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-20",
-      "roomNumber": "LT-20",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-21",
-      "roomNumber": "LT-21",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-22",
-      "roomNumber": "LT-22",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-23",
-      "roomNumber": "LT-23",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-24",
-      "roomNumber": "LT-24",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-25",
-      "roomNumber": "LT-25",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Lecture Theatre LT-26",
-      "roomNumber": "LT-26",
-      "type": "Classroom",
-      "capacity": 80
-    },
-    {
-      "name": "Research Seminar Hall 1",
-      "roomNumber": "RSH-1",
-      "type": "Classroom",
+      "department": "Computer Science & HPC",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 2",
-      "roomNumber": "RSH-2",
+      "name": "Computer Science & HPC Research Hall",
+      "roomNumber": "SEM-CSE-PHD",
       "type": "Classroom",
+      "department": "Computer Science & HPC",
+      "capacity": 35
+    },
+    {
+      "name": "AI & Robotics Lecture Hall 101",
+      "roomNumber": "LT-AIR-101",
+      "type": "Classroom",
+      "department": "AI & Robotics",
+      "capacity": 80
+    },
+    {
+      "name": "AI & Robotics Lecture Hall 201",
+      "roomNumber": "LT-AIR-201",
+      "type": "Classroom",
+      "department": "AI & Robotics",
+      "capacity": 80
+    },
+    {
+      "name": "AI & Robotics Lecture Hall 301",
+      "roomNumber": "LT-AIR-301",
+      "type": "Classroom",
+      "department": "AI & Robotics",
+      "capacity": 80
+    },
+    {
+      "name": "AI & Robotics Lecture Hall 401",
+      "roomNumber": "LT-AIR-401",
+      "type": "Classroom",
+      "department": "AI & Robotics",
+      "capacity": 80
+    },
+    {
+      "name": "AI & Robotics PG Seminar Room",
+      "roomNumber": "PG-AIR-101",
+      "type": "Classroom",
+      "department": "AI & Robotics",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 3",
-      "roomNumber": "RSH-3",
+      "name": "AI & Robotics Research Hall",
+      "roomNumber": "SEM-AIR-PHD",
       "type": "Classroom",
+      "department": "AI & Robotics",
+      "capacity": 35
+    },
+    {
+      "name": "Microelectronics & VLSI Lecture Hall 101",
+      "roomNumber": "LT-VLSI-101",
+      "type": "Classroom",
+      "department": "Microelectronics & VLSI",
+      "capacity": 80
+    },
+    {
+      "name": "Microelectronics & VLSI Lecture Hall 201",
+      "roomNumber": "LT-VLSI-201",
+      "type": "Classroom",
+      "department": "Microelectronics & VLSI",
+      "capacity": 80
+    },
+    {
+      "name": "Microelectronics & VLSI Lecture Hall 301",
+      "roomNumber": "LT-VLSI-301",
+      "type": "Classroom",
+      "department": "Microelectronics & VLSI",
+      "capacity": 80
+    },
+    {
+      "name": "Microelectronics & VLSI Lecture Hall 401",
+      "roomNumber": "LT-VLSI-401",
+      "type": "Classroom",
+      "department": "Microelectronics & VLSI",
+      "capacity": 80
+    },
+    {
+      "name": "Microelectronics & VLSI PG Seminar Room",
+      "roomNumber": "PG-VLSI-101",
+      "type": "Classroom",
+      "department": "Microelectronics & VLSI",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 4",
-      "roomNumber": "RSH-4",
+      "name": "Microelectronics & VLSI Research Hall",
+      "roomNumber": "SEM-VLSI-PHD",
       "type": "Classroom",
+      "department": "Microelectronics & VLSI",
+      "capacity": 35
+    },
+    {
+      "name": "Aerospace & Avionics Lecture Hall 101",
+      "roomNumber": "LT-AERO-101",
+      "type": "Classroom",
+      "department": "Aerospace & Avionics",
+      "capacity": 80
+    },
+    {
+      "name": "Aerospace & Avionics Lecture Hall 201",
+      "roomNumber": "LT-AERO-201",
+      "type": "Classroom",
+      "department": "Aerospace & Avionics",
+      "capacity": 80
+    },
+    {
+      "name": "Aerospace & Avionics Lecture Hall 301",
+      "roomNumber": "LT-AERO-301",
+      "type": "Classroom",
+      "department": "Aerospace & Avionics",
+      "capacity": 80
+    },
+    {
+      "name": "Aerospace & Avionics Lecture Hall 401",
+      "roomNumber": "LT-AERO-401",
+      "type": "Classroom",
+      "department": "Aerospace & Avionics",
+      "capacity": 80
+    },
+    {
+      "name": "Aerospace & Avionics PG Seminar Room",
+      "roomNumber": "PG-AERO-101",
+      "type": "Classroom",
+      "department": "Aerospace & Avionics",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 5",
-      "roomNumber": "RSH-5",
+      "name": "Aerospace & Avionics Research Hall",
+      "roomNumber": "SEM-AERO-PHD",
       "type": "Classroom",
+      "department": "Aerospace & Avionics",
+      "capacity": 35
+    },
+    {
+      "name": "Materials Science & Nano Lecture Hall 101",
+      "roomNumber": "LT-MAT-101",
+      "type": "Classroom",
+      "department": "Materials Science & Nano",
+      "capacity": 80
+    },
+    {
+      "name": "Materials Science & Nano Lecture Hall 201",
+      "roomNumber": "LT-MAT-201",
+      "type": "Classroom",
+      "department": "Materials Science & Nano",
+      "capacity": 80
+    },
+    {
+      "name": "Materials Science & Nano Lecture Hall 301",
+      "roomNumber": "LT-MAT-301",
+      "type": "Classroom",
+      "department": "Materials Science & Nano",
+      "capacity": 80
+    },
+    {
+      "name": "Materials Science & Nano Lecture Hall 401",
+      "roomNumber": "LT-MAT-401",
+      "type": "Classroom",
+      "department": "Materials Science & Nano",
+      "capacity": 80
+    },
+    {
+      "name": "Materials Science & Nano PG Seminar Room",
+      "roomNumber": "PG-MAT-101",
+      "type": "Classroom",
+      "department": "Materials Science & Nano",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 6",
-      "roomNumber": "RSH-6",
+      "name": "Materials Science & Nano Research Hall",
+      "roomNumber": "SEM-MAT-PHD",
       "type": "Classroom",
+      "department": "Materials Science & Nano",
+      "capacity": 35
+    },
+    {
+      "name": "Quantum Systems & Physics Lecture Hall 101",
+      "roomNumber": "LT-QUANT-101",
+      "type": "Classroom",
+      "department": "Quantum Systems & Physics",
+      "capacity": 80
+    },
+    {
+      "name": "Quantum Systems & Physics Lecture Hall 201",
+      "roomNumber": "LT-QUANT-201",
+      "type": "Classroom",
+      "department": "Quantum Systems & Physics",
+      "capacity": 80
+    },
+    {
+      "name": "Quantum Systems & Physics Lecture Hall 301",
+      "roomNumber": "LT-QUANT-301",
+      "type": "Classroom",
+      "department": "Quantum Systems & Physics",
+      "capacity": 80
+    },
+    {
+      "name": "Quantum Systems & Physics Lecture Hall 401",
+      "roomNumber": "LT-QUANT-401",
+      "type": "Classroom",
+      "department": "Quantum Systems & Physics",
+      "capacity": 80
+    },
+    {
+      "name": "Quantum Systems & Physics PG Seminar Room",
+      "roomNumber": "PG-QUANT-101",
+      "type": "Classroom",
+      "department": "Quantum Systems & Physics",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 7",
-      "roomNumber": "RSH-7",
+      "name": "Quantum Systems & Physics Research Hall",
+      "roomNumber": "SEM-QUANT-PHD",
       "type": "Classroom",
+      "department": "Quantum Systems & Physics",
+      "capacity": 35
+    },
+    {
+      "name": "Chemical & Bio-Engineering Lecture Hall 101",
+      "roomNumber": "LT-CHEM-101",
+      "type": "Classroom",
+      "department": "Chemical & Bio-Engineering",
+      "capacity": 80
+    },
+    {
+      "name": "Chemical & Bio-Engineering Lecture Hall 201",
+      "roomNumber": "LT-CHEM-201",
+      "type": "Classroom",
+      "department": "Chemical & Bio-Engineering",
+      "capacity": 80
+    },
+    {
+      "name": "Chemical & Bio-Engineering Lecture Hall 301",
+      "roomNumber": "LT-CHEM-301",
+      "type": "Classroom",
+      "department": "Chemical & Bio-Engineering",
+      "capacity": 80
+    },
+    {
+      "name": "Chemical & Bio-Engineering Lecture Hall 401",
+      "roomNumber": "LT-CHEM-401",
+      "type": "Classroom",
+      "department": "Chemical & Bio-Engineering",
+      "capacity": 80
+    },
+    {
+      "name": "Chemical & Bio-Engineering PG Seminar Room",
+      "roomNumber": "PG-CHEM-101",
+      "type": "Classroom",
+      "department": "Chemical & Bio-Engineering",
       "capacity": 45
     },
     {
-      "name": "Research Seminar Hall 8",
-      "roomNumber": "RSH-8",
+      "name": "Chemical & Bio-Engineering Research Hall",
+      "roomNumber": "SEM-CHEM-PHD",
       "type": "Classroom",
-      "capacity": 45
+      "department": "Chemical & Bio-Engineering",
+      "capacity": 35
     },
     {
       "name": "HPC Supercomputing Lab 1",
       "roomNumber": "HPC-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "HPC Supercomputing Lab 2",
       "roomNumber": "HPC-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "HPC Supercomputing Lab 3",
       "roomNumber": "HPC-3",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "HPC Supercomputing Lab 4",
       "roomNumber": "HPC-4",
       "type": "ComputerLab",
-      "capacity": 40
-    },
-    {
-      "name": "HPC Supercomputing Lab 5",
-      "roomNumber": "HPC-5",
-      "type": "ComputerLab",
-      "capacity": 40
-    },
-    {
-      "name": "HPC Supercomputing Lab 6",
-      "roomNumber": "HPC-6",
-      "type": "ComputerLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Autonomous Robotics Lab 1",
       "roomNumber": "ROBO-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Autonomous Robotics Lab 2",
       "roomNumber": "ROBO-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Autonomous Robotics Lab 3",
       "roomNumber": "ROBO-3",
       "type": "Laboratory",
-      "capacity": 40
-    },
-    {
-      "name": "Autonomous Robotics Lab 4",
-      "roomNumber": "ROBO-4",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "VLSI Cleanroom Fab 1",
       "roomNumber": "FAB-1",
       "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "VLSI Cleanroom Fab 2",
       "roomNumber": "FAB-2",
       "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "VLSI Cleanroom Fab 3",
       "roomNumber": "FAB-3",
       "type": "ElectronicsLab",
-      "capacity": 40
-    },
-    {
-      "name": "VLSI Cleanroom Fab 4",
-      "roomNumber": "FAB-4",
-      "type": "ElectronicsLab",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Aerodynamics Wind Tunnel 1",
       "roomNumber": "WIND-1",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Aerodynamics Wind Tunnel 2",
       "roomNumber": "WIND-2",
       "type": "MechanicalWorkshop",
-      "capacity": 40
-    },
-    {
-      "name": "Aerodynamics Wind Tunnel 3",
-      "roomNumber": "WIND-3",
-      "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Quantum Optics & Materials Lab 1",
       "roomNumber": "QMAT-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 40
     },
     {
       "name": "Quantum Optics & Materials Lab 2",
       "roomNumber": "QMAT-2",
       "type": "Laboratory",
-      "capacity": 40
-    },
-    {
-      "name": "Quantum Optics & Materials Lab 3",
-      "roomNumber": "QMAT-3",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 40
     }
   ],

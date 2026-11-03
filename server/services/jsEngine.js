@@ -4,6 +4,31 @@
  * when native C++ binaries are not compiled for the host OS.
  */
 
+function getBranchKey(deptOrName) {
+  if (!deptOrName) return 'GEN';
+  const str = String(deptOrName).toUpperCase();
+  if (str.includes('ELECTRONIC') || str.includes('ECE') || /\bEC\b/.test(str)) return 'ECE';
+  if (str.includes('ELECTRICAL') || /\bEE\b/.test(str)) return 'EE';
+  if (str.includes('MECHANICAL') || /\bME\b/.test(str)) return 'ME';
+  if (str.includes('CIVIL') || /\bCE\b/.test(str)) return 'CE';
+  if (str.includes('DATA SCIENCE') || str.includes('AIDS') || /\bAI\b/.test(str)) return 'AIDS';
+  if (str.includes('INFORMATION') || /\bIT\b/.test(str)) return 'IT';
+  if (str.includes('COMPUTER') || str.includes('CSE') || /\bCS\b/.test(str) || str.includes('-CS')) return 'CSE';
+  return str.split(/[\s-]+/)[0];
+}
+
+function getYearKey(nameOrNum) {
+  if (!nameOrNum) return '1ST';
+  const str = String(nameOrNum).toUpperCase();
+  if (str.includes('1ST') || str.includes('101') || str.includes('102') || str.includes('103') || str.includes('104') || str.includes('PHASE1')) return '1ST';
+  if (str.includes('2ND') || str.includes('201') || str.includes('202') || str.includes('203') || str.includes('204') || str.includes('PHASE2')) return '2ND';
+  if (str.includes('3RD') || str.includes('301') || str.includes('302') || str.includes('303') || str.includes('304') || str.includes('PHASE3')) return '3RD';
+  if (str.includes('4TH') || str.includes('401') || str.includes('402') || str.includes('403') || str.includes('404')) return '4TH';
+  if (str.includes('MTECH') || str.includes('MSC') || str.includes('MD') || str.includes('LLM') || str.includes('MARCH') || str.includes('MBA') || str.includes('PG')) return 'PG';
+  if (str.includes('PHD') || str.includes('FPM') || str.includes('SEM')) return 'PHD';
+  return '1ST';
+}
+
 function runJsScheduler(input, algorithm = 'combined') {
   const startTime = Date.now();
   const settings = input.settings || {};
@@ -13,7 +38,17 @@ function runJsScheduler(input, algorithm = 'combined') {
   const subjects = input.subjects || [];
 
   const days = settings.workingDays || ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
-  const periods = settings.periods || [];
+  const defaultPeriods = [
+    { periodIndex: 0, name: 'P1', startTime: '09:30', endTime: '10:30', isBreak: false },
+    { periodIndex: 1, name: 'P2', startTime: '10:30', endTime: '11:30', isBreak: false },
+    { periodIndex: 2, name: 'P3', startTime: '11:30', endTime: '12:30', isBreak: false },
+    { periodIndex: 3, name: 'Lunch Break', startTime: '12:30', endTime: '13:30', isBreak: false },
+    { periodIndex: 4, name: 'P5', startTime: '13:30', endTime: '14:30', isBreak: false },
+    { periodIndex: 5, name: 'P6', startTime: '14:30', endTime: '15:30', isBreak: false },
+    { periodIndex: 6, name: 'P7', startTime: '15:30', endTime: '16:30', isBreak: false },
+    { periodIndex: 7, name: 'P8', startTime: '16:30', endTime: '17:30', isBreak: false }
+  ];
+  const periods = (settings.periods && settings.periods.length > 0) ? settings.periods : defaultPeriods;
   const D = days.length;
   const P = periods.length;
 
@@ -32,10 +67,27 @@ function runJsScheduler(input, algorithm = 'combined') {
 
   // Pre-index availability and occupancy grids
   // grid[d][p] = true/false
+  const secNameToId = new Map();
+  const teachCodeToId = new Map();
+  const roomNumToId = new Map();
+
+  for (const s of sections) {
+    const sId = String(s._id || s.id || s.name);
+    if (s.name) secNameToId.set(s.name, sId);
+  }
+  for (const t of teachers) {
+    const tId = String(t._id || t.id || t.teacherCode);
+    if (t.teacherCode) teachCodeToId.set(t.teacherCode, tId);
+  }
+  for (const r of rooms) {
+    const rId = String(r._id || r.id || r.roomNumber);
+    if (r.roomNumber) roomNumToId.set(r.roomNumber, rId);
+  }
+
   const buildGrid = (list, key, fillVal) => {
     const map = new Map();
     for (const item of list) {
-      const id = String(item._id || item.id || '');
+      const id = String(item._id || item.id || item.roomNumber || item.teacherCode || item.name || '');
       const g = Array.from({ length: D }, () => Array(P).fill(fillVal));
       if (item[key] && Array.isArray(item[key])) {
         for (let d = 0; d < D && d < item[key].length; ++d) {
@@ -45,6 +97,9 @@ function runJsScheduler(input, algorithm = 'combined') {
         }
       }
       map.set(id, g);
+      if (item.name) map.set(item.name, g);
+      if (item.roomNumber) map.set(item.roomNumber, g);
+      if (item.teacherCode) map.set(item.teacherCode, g);
     }
     return map;
   };
@@ -52,32 +107,79 @@ function runJsScheduler(input, algorithm = 'combined') {
   const teacherAvail = buildGrid(teachers, 'availability', true);
   const roomAvail    = buildGrid(rooms, 'availability', true);
 
-  const teacherBusy  = new Map(teachers.map(t => [String(t._id || t.id), Array.from({ length: D }, () => Array(P).fill(false))]));
-  const roomBusy     = new Map(rooms.map(r => [String(r._id || r.id), Array.from({ length: D }, () => Array(P).fill(false))]));
-  const sectionBusy  = new Map(sections.map(s => [String(s._id || s.id), Array.from({ length: D }, () => Array(P).fill(false))]));
+  const teacherBusy  = new Map();
+  for (const t of teachers) {
+    const tId = String(t._id || t.id || t.teacherCode);
+    const g = Array.from({ length: D }, () => Array(P).fill(false));
+    teacherBusy.set(tId, g);
+    if (t.teacherCode) teacherBusy.set(t.teacherCode, g);
+  }
+
+  const roomBusy     = new Map();
+  for (const r of rooms) {
+    const rId = String(r._id || r.id || r.roomNumber);
+    const g = Array.from({ length: D }, () => Array(P).fill(false));
+    roomBusy.set(rId, g);
+    if (r.roomNumber) roomBusy.set(r.roomNumber, g);
+  }
+
+  const sectionBusy  = new Map();
+  for (const s of sections) {
+    const sId = String(s._id || s.id || s.name);
+    const g = Array.from({ length: D }, () => Array(P).fill(false));
+    sectionBusy.set(sId, g);
+    if (s.name) sectionBusy.set(s.name, g);
+  }
 
   // Staggered Lunch Shift: Shift 1 (Period 3) vs Shift 2 (Period 4)
   const sectionLunchSlot = new Map();
   for (const s of sections) {
-    const id = String(s._id || s.id);
+    const id = String(s._id || s.id || s.name);
     const sName = (s.name || '').toUpperCase();
     const sDept = (s.department || '').toUpperCase();
-    if (sName.includes('CSE') || sName.includes('CS') || sName.includes('IT') || sName.includes('AIDS') ||
-        sDept.includes('COMPUTER') || sDept.includes('INFORMATION')) {
-      sectionLunchSlot.set(id, 3);
-    } else {
-      sectionLunchSlot.set(id, 4);
+    const lunchSlot = (sName.includes('CSE') || sName.includes('CS') || sName.includes('IT') || sName.includes('AIDS') ||
+        sDept.includes('COMPUTER') || sDept.includes('INFORMATION')) ? 3 : 4;
+    sectionLunchSlot.set(id, lunchSlot);
+    if (s.name) sectionLunchSlot.set(s.name, lunchSlot);
+  }
+
+  const secSize = new Map();
+  const secBranchMap = new Map();
+  const secYearMap = new Map();
+  const secDeptMap = new Map();
+  for (const s of sections) {
+    const sId = String(s._id || s.id || s.name);
+    const sDept = s.department || 'General';
+    secSize.set(sId, s.studentCount || 60);
+    secDeptMap.set(sId, sDept);
+    secBranchMap.set(sId, getBranchKey(sDept || s.name));
+    secYearMap.set(sId, getYearKey(s.name));
+    if (s.name) {
+      secSize.set(s.name, s.studentCount || 60);
+      secDeptMap.set(s.name, sDept);
+      secBranchMap.set(s.name, getBranchKey(sDept || s.name));
+      secYearMap.set(s.name, getYearKey(s.name));
     }
   }
 
-  const secSize = new Map(sections.map(s => [String(s._id || s.id), s.studentCount || 60]));
-
-  // Rooms by type lookup
+  // Rooms by type lookup with branch/year metadata
   const roomsByType = new Map();
   for (const r of rooms) {
-    const id = String(r._id || r.id);
+    const id = String(r._id || r.id || r.roomNumber);
     const rType = r.type || 'Classroom';
-    const rObj = { id, type: rType, capacity: r.capacity || 75 };
+    const rDept = r.department || 'General';
+    const rBranch = getBranchKey(rDept !== 'General' ? rDept : (r.name || r.roomNumber));
+    const rYear = getYearKey(r.name || r.roomNumber);
+    const rObj = {
+      id,
+      name: r.name || '',
+      roomNumber: r.roomNumber || '',
+      type: rType,
+      capacity: r.capacity || 75,
+      department: rDept,
+      branch: rBranch,
+      year: rYear
+    };
     if (!roomsByType.has(rType)) roomsByType.set(rType, []);
     roomsByType.get(rType).push(rObj);
   }
@@ -85,9 +187,9 @@ function runJsScheduler(input, algorithm = 'combined') {
   // Build sessions list
   const sessions = [];
   for (const subj of subjects) {
-    const subjectId = String(subj._id || subj.id);
-    const teacherId = String(subj.teacherId || '');
-    const sectionId = String(subj.sectionId || '');
+    const subjectId = String(subj._id || subj.id || subj.code || subj.name);
+    const teacherId = String(subj.teacherId || teachCodeToId.get(subj.teacherCode) || subj.teacherCode || '');
+    const sectionId = String(subj.sectionId || secNameToId.get(subj.sectionName) || subj.sectionName || '');
     const weekly    = subj.weeklySessions || subj.weeklyPeriods || 3;
     const dur       = subj.durationPeriods || subj.duration || 1;
     const subjType  = subj.type || 'Theory';
@@ -115,7 +217,13 @@ function runJsScheduler(input, algorithm = 'combined') {
     return a.sectionId.localeCompare(b.sectionId);
   });
 
-  const sectionDayPeriods = new Map(sections.map(s => [String(s._id || s.id), Array(D).fill(0)]));
+  const sectionDayPeriods = new Map();
+  for (const s of sections) {
+    const sId = String(s._id || s.id || s.name);
+    const arr = Array(D).fill(0);
+    sectionDayPeriods.set(sId, arr);
+    if (s.name) sectionDayPeriods.set(s.name, arr);
+  }
   const sectionSubDayUsed = new Map(); // "secId:subId" -> Set of days
 
   const canPlace = (s, roomId, d, p, strictDayCheck) => {
@@ -169,14 +277,44 @@ function runJsScheduler(input, algorithm = 'combined') {
   const unscheduled = [];
 
   for (const sess of sessions) {
+    const secId = sess.sectionId;
+    const secBranch = secBranchMap.get(secId);
+    const secYear = secYearMap.get(secId);
+    const secDept = secDeptMap.get(secId);
+
     const neededCap = (sess.roomType === 'Classroom') ? sess.studentCount : Math.ceil(sess.studentCount / 2);
-    const candRooms = (roomsByType.get(sess.roomType) || []).filter(r => r.capacity >= neededCap);
+    let candRooms = (roomsByType.get(sess.roomType) || []).filter(r => r.capacity >= neededCap);
+
+    // If it's a regular Classroom: enforce branch-locking (no cross-rooming)
+    if (sess.roomType === 'Classroom') {
+      const branchClassrooms = candRooms.filter(r => {
+        // If room has explicit department, match it
+        if (r.department && r.department !== 'General' && secDept && secDept !== 'General') {
+          return r.department.toLowerCase() === secDept.toLowerCase() || r.branch === secBranch;
+        }
+        return r.branch === secBranch;
+      });
+
+      // If branch-specific classrooms exist, restrict strictly to them (no cross-rooming)
+      if (branchClassrooms.length > 0) {
+        candRooms = branchClassrooms;
+      }
+
+      // Interleaving priority: prioritize designated home room for this academic year
+      // So CS1 and CS2 both pick the same home classroom and interleave periods seamlessly!
+      candRooms.sort((a, b) => {
+        const aYearMatch = a.year === secYear ? 1 : 0;
+        const bYearMatch = b.year === secYear ? 1 : 0;
+        if (aYearMatch !== bYearMatch) return bYearMatch - aYearMatch;
+        return a.capacity - b.capacity;
+      });
+    }
 
     if (candRooms.length === 0) {
       unscheduled.push({
         sessionId: sess.sessionId,
         reasonCode: 'NO_ROOM_OF_TYPE_OR_CAPACITY',
-        detail: `No room matches type=${sess.roomType} and cap>=${neededCap}`
+        detail: `No room matches type=${sess.roomType} and cap>=${neededCap} for branch=${secBranch}`
       });
       continue;
     }
@@ -253,7 +391,17 @@ function runJsValidator(input) {
   const subjects = input.subjects || [];
 
   const days = settings.workingDays || ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
-  const periods = settings.periods || [];
+  const defaultPeriods = [
+    { periodIndex: 0, name: 'P1', startTime: '09:30', endTime: '10:30', isBreak: false },
+    { periodIndex: 1, name: 'P2', startTime: '10:30', endTime: '11:30', isBreak: false },
+    { periodIndex: 2, name: 'P3', startTime: '11:30', endTime: '12:30', isBreak: false },
+    { periodIndex: 3, name: 'Lunch Break', startTime: '12:30', endTime: '13:30', isBreak: false },
+    { periodIndex: 4, name: 'P5', startTime: '13:30', endTime: '14:30', isBreak: false },
+    { periodIndex: 5, name: 'P6', startTime: '14:30', endTime: '15:30', isBreak: false },
+    { periodIndex: 6, name: 'P7', startTime: '15:30', endTime: '16:30', isBreak: false },
+    { periodIndex: 7, name: 'P8', startTime: '16:30', endTime: '17:30', isBreak: false }
+  ];
+  const periods = (settings.periods && settings.periods.length > 0) ? settings.periods : defaultPeriods;
   const D = days.length;
   const P = periods.length;
 
@@ -328,6 +476,19 @@ function runJsValidator(input) {
       const neededCap = (reqType === 'Classroom') ? (sec?.studentCount || 60) : Math.ceil((sec?.studentCount || 60) / 2);
       if (rm.capacity < neededCap) {
         violations.push({ constraintCode: 'H5', description: `Room capacity insufficient (${rm.capacity} < ${neededCap})`, assignmentIndex: idx });
+      }
+
+      // Strict Branch-wise fixed classroom check (no cross-rooming for theory classrooms)
+      if (reqType === 'Classroom' && rm.department && rm.department !== 'General' && sec?.department && sec.department !== 'General') {
+        const rmBranch = getBranchKey(rm.department || rm.name || rm.roomNumber);
+        const secBranch = getBranchKey(sec.department || sec.name);
+        if (rmBranch !== 'GEN' && secBranch !== 'GEN' && rmBranch !== secBranch) {
+          violations.push({
+            constraintCode: 'H5',
+            description: `Branch mismatch: ${sec.name} (${secBranch}) placed in foreign classroom ${rm.roomNumber || rm.name} (${rmBranch})`,
+            assignmentIndex: idx
+          });
+        }
       }
     }
   }

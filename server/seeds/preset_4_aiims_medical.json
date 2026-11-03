@@ -2,8 +2,8 @@
   "id": "preset_4_aiims_medical",
   "title": "AIIMS Medical & Healthcare Sciences",
   "category": "Medicine & Healthcare",
-  "description": "National Institute of Medical Sciences dataset: Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, and Community Health with 41 sections and 50 hospital theatres/simulation labs.",
-  "badge": "41 Sections \u2022 50 Rooms \u2022 205 Subjects",
+  "description": "National Institute of Medical Sciences: Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, with branch-locked clinical demonstration auditoriums.",
+  "badge": "40 Sections \u2022 25 Rooms \u2022 200 Subjects",
   "sections": [
     {
       "name": "MED-PRE-MBBS-Phase1",
@@ -208,297 +208,178 @@
   ],
   "rooms": [
     {
-      "name": "Medical Auditorium LT-1",
-      "roomNumber": "MEDLT-1",
+      "name": "Pre-Clinical Sciences (Anatomy/Physio) Lecture Auditorium 1",
+      "roomNumber": "MEDLT-MED-PRE-101",
       "type": "Classroom",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
       "capacity": 85
     },
     {
-      "name": "Medical Auditorium LT-2",
-      "roomNumber": "MEDLT-2",
+      "name": "Pre-Clinical Sciences (Anatomy/Physio) Clinical Seminar Room",
+      "roomNumber": "CSR-MED-PRE-101",
       "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-3",
-      "roomNumber": "MEDLT-3",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-4",
-      "roomNumber": "MEDLT-4",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-5",
-      "roomNumber": "MEDLT-5",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-6",
-      "roomNumber": "MEDLT-6",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-7",
-      "roomNumber": "MEDLT-7",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-8",
-      "roomNumber": "MEDLT-8",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-9",
-      "roomNumber": "MEDLT-9",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-10",
-      "roomNumber": "MEDLT-10",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-11",
-      "roomNumber": "MEDLT-11",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-12",
-      "roomNumber": "MEDLT-12",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-13",
-      "roomNumber": "MEDLT-13",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-14",
-      "roomNumber": "MEDLT-14",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-15",
-      "roomNumber": "MEDLT-15",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-16",
-      "roomNumber": "MEDLT-16",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-17",
-      "roomNumber": "MEDLT-17",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-18",
-      "roomNumber": "MEDLT-18",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-19",
-      "roomNumber": "MEDLT-19",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-20",
-      "roomNumber": "MEDLT-20",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-21",
-      "roomNumber": "MEDLT-21",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-22",
-      "roomNumber": "MEDLT-22",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-23",
-      "roomNumber": "MEDLT-23",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Medical Auditorium LT-24",
-      "roomNumber": "MEDLT-24",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Clinical Case Seminar Room 1",
-      "roomNumber": "CSR-1",
-      "type": "Classroom",
+      "department": "Pre-Clinical Sciences (Anatomy/Physio)",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 2",
-      "roomNumber": "CSR-2",
+      "name": "Para-Clinical (Pathology/Microbio) Lecture Auditorium 1",
+      "roomNumber": "MEDLT-MED-PARA-101",
       "type": "Classroom",
+      "department": "Para-Clinical (Pathology/Microbio)",
+      "capacity": 85
+    },
+    {
+      "name": "Para-Clinical (Pathology/Microbio) Clinical Seminar Room",
+      "roomNumber": "CSR-MED-PARA-101",
+      "type": "Classroom",
+      "department": "Para-Clinical (Pathology/Microbio)",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 3",
-      "roomNumber": "CSR-3",
+      "name": "Clinical Medicine & Therapeutics Lecture Auditorium 1",
+      "roomNumber": "MEDLT-MED-CLIN-101",
       "type": "Classroom",
+      "department": "Clinical Medicine & Therapeutics",
+      "capacity": 85
+    },
+    {
+      "name": "Clinical Medicine & Therapeutics Clinical Seminar Room",
+      "roomNumber": "CSR-MED-CLIN-101",
+      "type": "Classroom",
+      "department": "Clinical Medicine & Therapeutics",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 4",
-      "roomNumber": "CSR-4",
+      "name": "Surgical Disciplines & Ortho Lecture Auditorium 1",
+      "roomNumber": "MEDLT-MED-SURG-101",
       "type": "Classroom",
+      "department": "Surgical Disciplines & Ortho",
+      "capacity": 85
+    },
+    {
+      "name": "Surgical Disciplines & Ortho Clinical Seminar Room",
+      "roomNumber": "CSR-MED-SURG-101",
+      "type": "Classroom",
+      "department": "Surgical Disciplines & Ortho",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 5",
-      "roomNumber": "CSR-5",
+      "name": "Nursing & Critical Care Lecture Auditorium 1",
+      "roomNumber": "MEDLT-NURS-101",
       "type": "Classroom",
+      "department": "Nursing & Critical Care",
+      "capacity": 85
+    },
+    {
+      "name": "Nursing & Critical Care Clinical Seminar Room",
+      "roomNumber": "CSR-NURS-101",
+      "type": "Classroom",
+      "department": "Nursing & Critical Care",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 6",
-      "roomNumber": "CSR-6",
+      "name": "Medical Biotech & Genomics Lecture Auditorium 1",
+      "roomNumber": "MEDLT-BIOTECH-101",
       "type": "Classroom",
+      "department": "Medical Biotech & Genomics",
+      "capacity": 85
+    },
+    {
+      "name": "Medical Biotech & Genomics Clinical Seminar Room",
+      "roomNumber": "CSR-BIOTECH-101",
+      "type": "Classroom",
+      "department": "Medical Biotech & Genomics",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 7",
-      "roomNumber": "CSR-7",
+      "name": "Community & Public Health Lecture Auditorium 1",
+      "roomNumber": "MEDLT-SPM-101",
       "type": "Classroom",
+      "department": "Community & Public Health",
+      "capacity": 85
+    },
+    {
+      "name": "Community & Public Health Clinical Seminar Room",
+      "roomNumber": "CSR-SPM-101",
+      "type": "Classroom",
+      "department": "Community & Public Health",
       "capacity": 45
     },
     {
-      "name": "Clinical Case Seminar Room 8",
-      "roomNumber": "CSR-8",
-      "type": "Classroom",
-      "capacity": 45
-    },
-    {
-      "name": "Anatomy Dissection & Histology Hall 1",
+      "name": "Anatomy Dissection Hall 1",
       "roomNumber": "ANAT-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Anatomy Dissection & Histology Hall 2",
+      "name": "Anatomy Dissection Hall 2",
       "roomNumber": "ANAT-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Anatomy Dissection & Histology Hall 3",
+      "name": "Anatomy Dissection Hall 3",
       "roomNumber": "ANAT-3",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Anatomy Dissection & Histology Hall 4",
+      "name": "Anatomy Dissection Hall 4",
       "roomNumber": "ANAT-4",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Anatomy Dissection & Histology Hall 5",
-      "roomNumber": "ANAT-5",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Pathology & Hematology Diagnostic Lab 1",
+      "name": "Pathology & Diagnostic Lab 1",
       "roomNumber": "PATH-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Pathology & Hematology Diagnostic Lab 2",
+      "name": "Pathology & Diagnostic Lab 2",
       "roomNumber": "PATH-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Pathology & Hematology Diagnostic Lab 3",
+      "name": "Pathology & Diagnostic Lab 3",
       "roomNumber": "PATH-3",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Pathology & Hematology Diagnostic Lab 4",
-      "roomNumber": "PATH-4",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Pathology & Hematology Diagnostic Lab 5",
-      "roomNumber": "PATH-5",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Biochemistry & Molecular Genomics Lab 1",
+      "name": "Biochemistry Genomics Lab 1",
       "roomNumber": "MOLAB-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Biochemistry & Molecular Genomics Lab 2",
+      "name": "Biochemistry Genomics Lab 2",
       "roomNumber": "MOLAB-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Biochemistry & Molecular Genomics Lab 3",
-      "roomNumber": "MOLAB-3",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Biochemistry & Molecular Genomics Lab 4",
-      "roomNumber": "MOLAB-4",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Clinical Simulation & Skills Center 1",
+      "name": "Simulation & Skills Center 1",
       "roomNumber": "SKILL-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Clinical Simulation & Skills Center 2",
+      "name": "Simulation & Skills Center 2",
       "roomNumber": "SKILL-2",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Clinical Simulation & Skills Center 3",
-      "roomNumber": "SKILL-3",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     }
   ],

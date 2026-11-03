@@ -2,8 +2,8 @@
   "id": "preset_5_nlu_law",
   "title": "National Law University (Legal Studies)",
   "category": "Law & Public Policy",
-  "description": "Premier National Law University dataset: B.A. LL.B (5-year integrated), B.B.A. LL.B, Constitutional, Corporate, Criminal, Cyber & International Law with 31 sections and 45 courtroom theatres/moot halls.",
-  "badge": "31 Sections \u2022 45 Rooms \u2022 155 Subjects",
+  "description": "Premier National Law University dataset: B.A. LL.B (5-year), Constitutional, Corporate, Criminal, Cyber & International Law with branch-locked theatres and moot courtrooms.",
+  "badge": "32 Sections \u2022 23 Rooms \u2022 160 Subjects",
   "sections": [
     {
       "name": "CONST-BALLB-1st",
@@ -168,273 +168,164 @@
   ],
   "rooms": [
     {
-      "name": "Justice Lecture Hall LH-1",
-      "roomNumber": "LAWLT-1",
+      "name": "Constitutional & Administrative Law Lecture Hall 1",
+      "roomNumber": "LAWLT-CONST-101",
       "type": "Classroom",
+      "department": "Constitutional & Administrative Law",
       "capacity": 85
     },
     {
-      "name": "Justice Lecture Hall LH-2",
-      "roomNumber": "LAWLT-2",
+      "name": "Constitutional & Administrative Law Seminar Room",
+      "roomNumber": "LSR-CONST-101",
       "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-3",
-      "roomNumber": "LAWLT-3",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-4",
-      "roomNumber": "LAWLT-4",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-5",
-      "roomNumber": "LAWLT-5",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-6",
-      "roomNumber": "LAWLT-6",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-7",
-      "roomNumber": "LAWLT-7",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-8",
-      "roomNumber": "LAWLT-8",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-9",
-      "roomNumber": "LAWLT-9",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-10",
-      "roomNumber": "LAWLT-10",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-11",
-      "roomNumber": "LAWLT-11",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-12",
-      "roomNumber": "LAWLT-12",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-13",
-      "roomNumber": "LAWLT-13",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-14",
-      "roomNumber": "LAWLT-14",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-15",
-      "roomNumber": "LAWLT-15",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-16",
-      "roomNumber": "LAWLT-16",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-17",
-      "roomNumber": "LAWLT-17",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-18",
-      "roomNumber": "LAWLT-18",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-19",
-      "roomNumber": "LAWLT-19",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-20",
-      "roomNumber": "LAWLT-20",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-21",
-      "roomNumber": "LAWLT-21",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Justice Lecture Hall LH-22",
-      "roomNumber": "LAWLT-22",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Legal Seminar Room 1",
-      "roomNumber": "LSR-1",
-      "type": "Classroom",
+      "department": "Constitutional & Administrative Law",
       "capacity": 45
     },
     {
-      "name": "Legal Seminar Room 2",
-      "roomNumber": "LSR-2",
+      "name": "Corporate & Commercial Law Lecture Hall 1",
+      "roomNumber": "LAWLT-CORP-101",
       "type": "Classroom",
+      "department": "Corporate & Commercial Law",
+      "capacity": 85
+    },
+    {
+      "name": "Corporate & Commercial Law Seminar Room",
+      "roomNumber": "LSR-CORP-101",
+      "type": "Classroom",
+      "department": "Corporate & Commercial Law",
       "capacity": 45
     },
     {
-      "name": "Legal Seminar Room 3",
-      "roomNumber": "LSR-3",
+      "name": "Criminal Justice & Criminology Lecture Hall 1",
+      "roomNumber": "LAWLT-CRIM-101",
       "type": "Classroom",
+      "department": "Criminal Justice & Criminology",
+      "capacity": 85
+    },
+    {
+      "name": "Criminal Justice & Criminology Seminar Room",
+      "roomNumber": "LSR-CRIM-101",
+      "type": "Classroom",
+      "department": "Criminal Justice & Criminology",
       "capacity": 45
     },
     {
-      "name": "Legal Seminar Room 4",
-      "roomNumber": "LSR-4",
+      "name": "Intellectual Property & Cyber Law Lecture Hall 1",
+      "roomNumber": "LAWLT-IPR-101",
       "type": "Classroom",
+      "department": "Intellectual Property & Cyber Law",
+      "capacity": 85
+    },
+    {
+      "name": "Intellectual Property & Cyber Law Seminar Room",
+      "roomNumber": "LSR-IPR-101",
+      "type": "Classroom",
+      "department": "Intellectual Property & Cyber Law",
       "capacity": 45
     },
     {
-      "name": "Legal Seminar Room 5",
-      "roomNumber": "LSR-5",
+      "name": "International Law & Human Rights Lecture Hall 1",
+      "roomNumber": "LAWLT-INTL-101",
       "type": "Classroom",
+      "department": "International Law & Human Rights",
+      "capacity": 85
+    },
+    {
+      "name": "International Law & Human Rights Seminar Room",
+      "roomNumber": "LSR-INTL-101",
+      "type": "Classroom",
+      "department": "International Law & Human Rights",
       "capacity": 45
     },
     {
-      "name": "Legal Seminar Room 6",
-      "roomNumber": "LSR-6",
+      "name": "Dispute Resolution & Arbitration Lecture Hall 1",
+      "roomNumber": "LAWLT-ADR-101",
       "type": "Classroom",
-      "capacity": 45
+      "department": "Dispute Resolution & Arbitration",
+      "capacity": 85
     },
     {
-      "name": "Legal Seminar Room 7",
-      "roomNumber": "LSR-7",
+      "name": "Dispute Resolution & Arbitration Seminar Room",
+      "roomNumber": "LSR-ADR-101",
       "type": "Classroom",
-      "capacity": 45
-    },
-    {
-      "name": "Legal Seminar Room 8",
-      "roomNumber": "LSR-8",
-      "type": "Classroom",
+      "department": "Dispute Resolution & Arbitration",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-1",
       "roomNumber": "MOOT-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-2",
       "roomNumber": "MOOT-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-3",
       "roomNumber": "MOOT-3",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-4",
       "roomNumber": "MOOT-4",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-5",
       "roomNumber": "MOOT-5",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "High Court Moot Courtroom MC-6",
       "roomNumber": "MOOT-6",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "High Court Moot Courtroom MC-7",
-      "roomNumber": "MOOT-7",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "High Court Moot Courtroom MC-8",
-      "roomNumber": "MOOT-8",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Legal Aid & Mediation Clinic 1",
       "roomNumber": "CLINIC-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Legal Aid & Mediation Clinic 2",
       "roomNumber": "CLINIC-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Legal Aid & Mediation Clinic 3",
       "roomNumber": "CLINIC-3",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Legal Aid & Mediation Clinic 4",
-      "roomNumber": "CLINIC-4",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Cyber Forensic & Digital Evidence Lab 1",
+      "name": "Cyber Forensic Lab 1",
       "roomNumber": "CYBER-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Cyber Forensic & Digital Evidence Lab 2",
+      "name": "Cyber Forensic Lab 2",
       "roomNumber": "CYBER-2",
       "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Cyber Forensic & Digital Evidence Lab 3",
-      "roomNumber": "CYBER-3",
-      "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     }
   ],

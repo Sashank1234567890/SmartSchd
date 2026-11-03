@@ -5,27 +5,130 @@ SEEDS_DIR = os.path.join(os.path.dirname(__file__), '../server/seeds')
 os.makedirs(SEEDS_DIR, exist_ok=True)
 
 # --------------------------------------------------------------------------
-# PRESET 1: NIT Delhi Comprehensive (Engineering & Technology)
+# PRESET 1: NIT Comprehensive (Engineering & Technology)
 # --------------------------------------------------------------------------
-# Re-use or load college.json
-with open(os.path.join(SEEDS_DIR, 'college.json'), 'r') as f:
-    preset_1 = json.load(f)
-preset_1['id'] = 'nit_delhi'
-preset_1['title'] = 'NIT Comprehensive (Engineering & Tech)'
-preset_1['category'] = 'Engineering & Technology'
-preset_1['description'] = 'Full university dataset: 7 branches (CSE, IT, AIDS, ECE, EE, ME, CE) with 4-year B.Tech, 2-year M.Tech, and 2-year Ph.D. Minimum 5 subjects per section.'
-preset_1['badge'] = '60 Sections • 61 Rooms • 328 Subjects'
+def gen_nit_delhi():
+    departments = [
+        ('Computer Science', 'CSE', True),
+        ('Information Technology', 'IT', False),
+        ('AI & Data Science', 'AIDS', False),
+        ('Electronics', 'ECE', False),
+        ('Electrical', 'EE', False),
+        ('Mechanical', 'ME', False),
+        ('Civil', 'CE', False)
+    ]
+    
+    sections = []
+    for dept_name, prefix, has_double_btech in departments:
+        for yr, yr_lbl in enumerate(['1st', '2nd', '3rd', '4th'], 1):
+            std_count = 60 if prefix == 'CE' else (65 if prefix in ['EE', 'ME'] else 70)
+            if has_double_btech:
+                sections.append({'name': f'{prefix}-{yr_lbl}-CS1', 'department': dept_name, 'studentCount': std_count})
+                sections.append({'name': f'{prefix}-{yr_lbl}-CS2', 'department': dept_name, 'studentCount': std_count})
+            else:
+                sections.append({'name': f'{prefix}-{yr_lbl}', 'department': dept_name, 'studentCount': std_count})
 
-with open(os.path.join(SEEDS_DIR, 'preset_1_nit_delhi.json'), 'w') as f:
-    json.dump(preset_1, f, indent=2)
-print("Preset 1 generated: NIT Comprehensive")
+        # M.Tech Years 1 and 2
+        for yr, yr_lbl in enumerate(['1st', '2nd'], 1):
+            sections.append({'name': f'MTech-{prefix}-{yr_lbl}', 'department': dept_name, 'studentCount': 25})
 
-# Helper to generate custom presets
+        # Ph.D Years 1 and 2
+        for yr, yr_lbl in enumerate(['1st', '2nd'], 1):
+            sections.append({'name': f'PhD-{prefix}-{yr_lbl}', 'department': dept_name, 'studentCount': 15})
+
+    # Branch-Dedicated Classrooms (Limited LTs: 6 per branch x 7 = 42 LTs)
+    # Interleaved: CS1 & CS2 share LH-prefix-101..401, MTech 1st & 2nd share PG-prefix, PhD 1st & 2nd share SEM-prefix
+    rooms = []
+    for dept_name, prefix, _ in departments:
+        # BTech Years 1 to 4 Lecture Theatres
+        for yr in [1, 2, 3, 4]:
+            rooms.append({
+                'name': f'{dept_name} Lecture Hall {yr}01',
+                'roomNumber': f'LH-{prefix}-{yr}01',
+                'type': 'Classroom',
+                'department': dept_name,
+                'capacity': 75
+            })
+        # MTech Seminar Room
+        rooms.append({
+            'name': f'{dept_name} PG Seminar Room',
+            'roomNumber': f'PG-{prefix}-101',
+            'type': 'Classroom',
+            'department': dept_name,
+            'capacity': 45
+        })
+        # PhD Research Seminar Hall
+        rooms.append({
+            'name': f'{dept_name} PhD Research Hall',
+            'roomNumber': f'SEM-{prefix}-PHD',
+            'type': 'Classroom',
+            'department': dept_name,
+            'capacity': 35
+        })
+
+    # Specialized Labs (General/Shared across departments if subject requires it)
+    for i in range(1, 4):
+        rooms.append({'name': f'Computer Science Lab {i}', 'roomNumber': f'CSLAB-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'AI & Machine Learning Lab 1', 'roomNumber': 'AIDSLAB-1', 'type': 'ComputerLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'AI & Machine Learning Lab 2', 'roomNumber': 'AIDSLAB-2', 'type': 'ComputerLab', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Electronics Devices Lab', 'roomNumber': 'ECLAB-1', 'type': 'ElectronicsLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Communication Systems Lab', 'roomNumber': 'ECLAB-2', 'type': 'ElectronicsLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'VLSI & Microelectronics Lab', 'roomNumber': 'VLSILAB', 'type': 'ElectronicsLab', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Electrical Circuits Lab', 'roomNumber': 'EELAB-1', 'type': 'ElectricalLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Electrical Machines Lab', 'roomNumber': 'EELAB-2', 'type': 'ElectricalLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Power Systems & Drives Lab', 'roomNumber': 'POWLAB', 'type': 'ElectricalLab', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Mechanical Workshop 1', 'roomNumber': 'MEWK-1', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Mechanical Workshop 2', 'roomNumber': 'MEWK-2', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'CAD/CAM Modeling Lab', 'roomNumber': 'MEWK-3', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Thermal & Fluid Dynamics Lab', 'roomNumber': 'TFLAB', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Surveying & Geomatics Lab', 'roomNumber': 'CIVILLAB-1', 'type': 'CivilLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Geotechnical Engineering Lab', 'roomNumber': 'CIVILLAB-2', 'type': 'CivilLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Concrete Testing Lab', 'roomNumber': 'CONCLAB', 'type': 'CivilLab', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Engineering Physics Lab 1', 'roomNumber': 'PHYLAB-1', 'type': 'PhysicsLab', 'department': 'General', 'capacity': 38})
+    rooms.append({'name': 'Engineering Chemistry Lab 1', 'roomNumber': 'CHMLAB-1', 'type': 'ChemistryLab', 'department': 'General', 'capacity': 38})
+
+    rooms.append({'name': 'Main Sports Stadium', 'roomNumber': 'SPORTS-1', 'type': 'SportsGround', 'department': 'General', 'capacity': 300})
+    rooms.append({'name': 'East Athletic Ground', 'roomNumber': 'SPORTS-2', 'type': 'SportsGround', 'department': 'General', 'capacity': 300})
+
+    # Faculty Pool (94 teachers)
+    teachers = []
+    # Read faculty from existing college.json or generate
+    with open(os.path.join(SEEDS_DIR, 'college.json'), 'r') as f:
+        old_data = json.load(f)
+    teachers = old_data.get('teachers', [])
+    subjects = old_data.get('subjects', [])
+
+    preset_1 = {
+        'id': 'preset_1_nit_delhi',
+        'title': 'NIT Comprehensive (Engineering & Tech)',
+        'category': 'Engineering & Technology',
+        'description': 'Full university dataset: 7 branches (CSE, IT, AIDS, ECE, EE, ME, CE) with branch-locked LTs and sub-section interleaving (CS1/CS2). Minimum 5 subjects per section.',
+        'badge': f'{len(sections)} Sections • {len(rooms)} Rooms • {len(subjects)} Subjects',
+        'sections': sections,
+        'rooms': rooms,
+        'teachers': teachers,
+        'subjects': subjects
+    }
+    
+    with open(os.path.join(SEEDS_DIR, 'preset_1_nit_delhi.json'), 'w') as f:
+        json.dump(preset_1, f, indent=2)
+    # Also update college.json so it matches
+    with open(os.path.join(SEEDS_DIR, 'college.json'), 'w') as f:
+        json.dump(preset_1, f, indent=2)
+    print(f"NIT Comprehensive updated: {len(sections)} sections, {len(rooms)} rooms, {len(subjects)} subjects")
+
+gen_nit_delhi()
+
+# Helper for other 6 presets
 def build_dataset(dataset_id, title, category, description, badge, depts, room_spec, subjects_template, faculty_pool_generator):
     sections = []
     teachers = []
     rooms = []
-    subjects = []
     
     # 1. Sections
     for dept_name, prefix, years in depts:
@@ -42,9 +145,7 @@ def build_dataset(dataset_id, title, category, description, badge, depts, room_s
         rooms.append(r)
         
     # 3. Faculty
-    faculty_list = faculty_pool_generator()
-    for t in faculty_list:
-        teachers.append(t)
+    teachers = faculty_pool_generator()
         
     # 4. Subjects
     subjects = subjects_template(sections, teachers)
@@ -54,7 +155,7 @@ def build_dataset(dataset_id, title, category, description, badge, depts, room_s
         'title': title,
         'category': category,
         'description': description,
-        'badge': badge,
+        'badge': f"{len(sections)} Sections • {len(rooms)} Rooms • {len(subjects)} Subjects",
         'sections': sections,
         'rooms': rooms,
         'teachers': teachers,
@@ -81,23 +182,24 @@ def gen_iit():
     ]
     
     rooms = []
-    # 26 Lecture Theatres
-    for i in range(1, 27):
-        rooms.append({'name': f'Lecture Theatre LT-{i}', 'roomNumber': f'LT-{i}', 'type': 'Classroom', 'capacity': 80})
-    # 8 PG Seminar Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Research Seminar Hall {i}', 'roomNumber': f'RSH-{i}', 'type': 'Classroom', 'capacity': 45})
-    # 22 Advanced Labs
-    for i in range(1, 7):
-        rooms.append({'name': f'HPC Supercomputing Lab {i}', 'roomNumber': f'HPC-{i}', 'type': 'ComputerLab', 'capacity': 40})
+    # Branch-Dedicated Classrooms (Limited LTs: 5-6 per branch)
+    for dept_name, prefix, _ in depts:
+        for yr in [1, 2, 3, 4]:
+            rooms.append({'name': f'{dept_name} Lecture Hall {yr}01', 'roomNumber': f'LT-{prefix}-{yr}01', 'type': 'Classroom', 'department': dept_name, 'capacity': 80})
+        rooms.append({'name': f'{dept_name} PG Seminar Room', 'roomNumber': f'PG-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 45})
+        rooms.append({'name': f'{dept_name} Research Hall', 'roomNumber': f'SEM-{prefix}-PHD', 'type': 'Classroom', 'department': dept_name, 'capacity': 35})
+
+    # Labs (open across branches)
     for i in range(1, 5):
-        rooms.append({'name': f'Autonomous Robotics Lab {i}', 'roomNumber': f'ROBO-{i}', 'type': 'Laboratory', 'capacity': 40})
-    for i in range(1, 5):
-        rooms.append({'name': f'VLSI Cleanroom Fab {i}', 'roomNumber': f'FAB-{i}', 'type': 'ElectronicsLab', 'capacity': 40})
+        rooms.append({'name': f'HPC Supercomputing Lab {i}', 'roomNumber': f'HPC-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 40})
     for i in range(1, 4):
-        rooms.append({'name': f'Aerodynamics Wind Tunnel {i}', 'roomNumber': f'WIND-{i}', 'type': 'MechanicalWorkshop', 'capacity': 40})
+        rooms.append({'name': f'Autonomous Robotics Lab {i}', 'roomNumber': f'ROBO-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 40})
     for i in range(1, 4):
-        rooms.append({'name': f'Quantum Optics & Materials Lab {i}', 'roomNumber': f'QMAT-{i}', 'type': 'Laboratory', 'capacity': 40})
+        rooms.append({'name': f'VLSI Cleanroom Fab {i}', 'roomNumber': f'FAB-{i}', 'type': 'ElectronicsLab', 'department': 'General', 'capacity': 40})
+    for i in range(1, 3):
+        rooms.append({'name': f'Aerodynamics Wind Tunnel {i}', 'roomNumber': f'WIND-{i}', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 40})
+    for i in range(1, 3):
+        rooms.append({'name': f'Quantum Optics & Materials Lab {i}', 'roomNumber': f'QMAT-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 40})
         
     def gen_fac():
         fac = []
@@ -127,12 +229,7 @@ def gen_iit():
         subs = []
         c_idx = 1
         for s_idx, sec in enumerate(secs):
-            # 5 subjects per section (4 Theory + 1 Lab)
-            # Pick assigned faculty cyclically
             s_name = sec['name']
-            dept = sec['department']
-            is_lab_sec = '1st' in s_name or '2nd' in s_name or '3rd' in s_name
-            
             topics = [
                 ('Advanced Algorithms & Graph Theory', 'AAGT', 'Theory', 3, 1, 'Classroom'),
                 ('Distributed Operating Systems', 'DOS', 'Theory', 3, 1, 'Classroom'),
@@ -172,8 +269,8 @@ def gen_iit():
         'preset_2_iit_tech',
         'IIT Advanced Tech & Research',
         'Engineering & Science',
-        'Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with 52 sections and 55 research halls/labs.',
-        '52 Sections • 55 Rooms • 260 Subjects',
+        'Tier-1 Indian Institute of Technology dataset: High-Performance Computing, Robotics, VLSI Microelectronics, Aerospace, Quantum Systems, and Nano-materials with branch-locked lecture theatres.',
+        '54 Sections • 55 Rooms • 270 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
@@ -194,21 +291,22 @@ def gen_du():
     ]
     
     rooms = []
-    # 26 Central Lecture Rooms
-    for i in range(1, 27):
-        rooms.append({'name': f'Arts & Science Lecture Room {i}', 'roomNumber': f'CR-{i}', 'type': 'Classroom', 'capacity': 85})
-    # 8 PG Seminar Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Faculty Seminar Room {i}', 'roomNumber': f'FSR-{i}', 'type': 'Classroom', 'capacity': 45})
-    # 20 Labs (Computer, Physics, Chemistry, Language)
-    for i in range(1, 7):
-        rooms.append({'name': f'Central Computing Facility {i}', 'roomNumber': f'CCF-{i}', 'type': 'ComputerLab', 'capacity': 45})
-    for i in range(1, 6):
-        rooms.append({'name': f'Physics Optics & Electronics Lab {i}', 'roomNumber': f'PHYLAB-{i}', 'type': 'Laboratory', 'capacity': 45})
-    for i in range(1, 6):
-        rooms.append({'name': f'Chemistry Wet Analysis Lab {i}', 'roomNumber': f'CHMLAB-{i}', 'type': 'Laboratory', 'capacity': 45})
+    # Branch-Dedicated Classrooms
+    for dept_name, prefix, _ in depts:
+        rooms.append({'name': f'{dept_name} Undergrad Lecture Hall 1', 'roomNumber': f'CR-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 85})
+        rooms.append({'name': f'{dept_name} Undergrad Lecture Hall 2', 'roomNumber': f'CR-{prefix}-201', 'type': 'Classroom', 'department': dept_name, 'capacity': 85})
+        rooms.append({'name': f'{dept_name} PG Seminar Room', 'roomNumber': f'PG-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 45})
+        rooms.append({'name': f'{dept_name} Research Hall', 'roomNumber': f'SEM-{prefix}-PHD', 'type': 'Classroom', 'department': dept_name, 'capacity': 35})
+
+    # Labs
+    for i in range(1, 5):
+        rooms.append({'name': f'Central Computing Facility {i}', 'roomNumber': f'CCF-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 45})
     for i in range(1, 4):
-        rooms.append({'name': f'Language Phonetics Lab {i}', 'roomNumber': f'LANGLAB-{i}', 'type': 'Laboratory', 'capacity': 45})
+        rooms.append({'name': f'Physics Optics Lab {i}', 'roomNumber': f'PHYLAB-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 4):
+        rooms.append({'name': f'Chemistry Wet Analysis Lab {i}', 'roomNumber': f'CHMLAB-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Language Phonetics Lab {i}', 'roomNumber': f'LANGLAB-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
 
     def gen_fac():
         fac = []
@@ -239,8 +337,6 @@ def gen_du():
         c_idx = 1
         for s_idx, sec in enumerate(secs):
             s_name = sec['name']
-            dept = sec['department']
-            
             topics = [
                 ('Classical Analysis & Foundations', 'CAF', 'Theory', 3, 1, 'Classroom'),
                 ('Modern Empirical Methodology', 'MEM', 'Theory', 3, 1, 'Classroom'),
@@ -274,8 +370,8 @@ def gen_du():
         'preset_3_delhi_university',
         'Central Multidisciplinary University',
         'Sciences & Humanities',
-        'Multi-faculty Central University dataset: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities with 49 sections and 54 dedicated halls/laboratories.',
-        '49 Sections • 54 Rooms • 245 Subjects',
+        'Multi-faculty Central University: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities with dedicated faculty lecture halls.',
+        '49 Sections • 45 Rooms • 245 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
@@ -296,21 +392,20 @@ def gen_aiims():
     ]
     
     rooms = []
-    # 24 AIIMS Lecture Auditoriums
-    for i in range(1, 25):
-        rooms.append({'name': f'Medical Auditorium LT-{i}', 'roomNumber': f'MEDLT-{i}', 'type': 'Classroom', 'capacity': 85})
-    # 8 Clinical Seminar Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Clinical Case Seminar Room {i}', 'roomNumber': f'CSR-{i}', 'type': 'Classroom', 'capacity': 45})
-    # 18 Clinical & Diagnostic Labs
-    for i in range(1, 6):
-        rooms.append({'name': f'Anatomy Dissection & Histology Hall {i}', 'roomNumber': f'ANAT-{i}', 'type': 'Laboratory', 'capacity': 45})
-    for i in range(1, 6):
-        rooms.append({'name': f'Pathology & Hematology Diagnostic Lab {i}', 'roomNumber': f'PATH-{i}', 'type': 'Laboratory', 'capacity': 45})
+    # Branch-Dedicated Medical Lecture Auditoriums
+    for dept_name, prefix, _ in depts:
+        rooms.append({'name': f'{dept_name} Lecture Auditorium 1', 'roomNumber': f'MEDLT-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 85})
+        rooms.append({'name': f'{dept_name} Clinical Seminar Room', 'roomNumber': f'CSR-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 45})
+
+    # Diagnostic & Clinical Labs
     for i in range(1, 5):
-        rooms.append({'name': f'Biochemistry & Molecular Genomics Lab {i}', 'roomNumber': f'MOLAB-{i}', 'type': 'Laboratory', 'capacity': 45})
+        rooms.append({'name': f'Anatomy Dissection Hall {i}', 'roomNumber': f'ANAT-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
     for i in range(1, 4):
-        rooms.append({'name': f'Clinical Simulation & Skills Center {i}', 'roomNumber': f'SKILL-{i}', 'type': 'Laboratory', 'capacity': 45})
+        rooms.append({'name': f'Pathology & Diagnostic Lab {i}', 'roomNumber': f'PATH-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Biochemistry Genomics Lab {i}', 'roomNumber': f'MOLAB-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Simulation & Skills Center {i}', 'roomNumber': f'SKILL-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
 
     def gen_fac():
         fac = []
@@ -368,8 +463,8 @@ def gen_aiims():
         'preset_4_aiims_medical',
         'AIIMS Medical & Healthcare Sciences',
         'Medicine & Healthcare',
-        'National Institute of Medical Sciences dataset: Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, and Community Health with 41 sections and 50 hospital theatres/simulation labs.',
-        '41 Sections • 50 Rooms • 205 Subjects',
+        'National Institute of Medical Sciences: Pre-Clinical, Para-Clinical, Clinical Medicine, Surgical Disciplines, Nursing, Medical Biotech, with branch-locked clinical demonstration auditoriums.',
+        '41 Sections • 45 Rooms • 205 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
@@ -389,19 +484,18 @@ def gen_nlu():
     ]
     
     rooms = []
-    # 22 Law Lecture Theatres
-    for i in range(1, 23):
-        rooms.append({'name': f'Justice Lecture Hall LH-{i}', 'roomNumber': f'LAWLT-{i}', 'type': 'Classroom', 'capacity': 85})
-    # 8 Seminar & Debate Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Legal Seminar Room {i}', 'roomNumber': f'LSR-{i}', 'type': 'Classroom', 'capacity': 45})
-    # 15 Moot Courts & Legal Clinic Labs (mapped as Laboratory for constraint validator)
-    for i in range(1, 9):
-        rooms.append({'name': f'High Court Moot Courtroom MC-{i}', 'roomNumber': f'MOOT-{i}', 'type': 'Laboratory', 'capacity': 45})
-    for i in range(1, 5):
-        rooms.append({'name': f'Legal Aid & Mediation Clinic {i}', 'roomNumber': f'CLINIC-{i}', 'type': 'Laboratory', 'capacity': 45})
+    # Branch-Dedicated Law Lecture Theatres
+    for dept_name, prefix, _ in depts:
+        rooms.append({'name': f'{dept_name} Lecture Hall 1', 'roomNumber': f'LAWLT-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 85})
+        rooms.append({'name': f'{dept_name} Seminar Room', 'roomNumber': f'LSR-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 45})
+
+    # Moot Courtrooms & Legal Clinics (open for all law batches)
+    for i in range(1, 7):
+        rooms.append({'name': f'High Court Moot Courtroom MC-{i}', 'roomNumber': f'MOOT-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
     for i in range(1, 4):
-        rooms.append({'name': f'Cyber Forensic & Digital Evidence Lab {i}', 'roomNumber': f'CYBER-{i}', 'type': 'ComputerLab', 'capacity': 45})
+        rooms.append({'name': f'Legal Aid & Mediation Clinic {i}', 'roomNumber': f'CLINIC-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Cyber Forensic Lab {i}', 'roomNumber': f'CYBER-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 45})
 
     def gen_fac():
         fac = []
@@ -461,8 +555,8 @@ def gen_nlu():
         'preset_5_nlu_law',
         'National Law University (Legal Studies)',
         'Law & Public Policy',
-        'Premier National Law University dataset: B.A. LL.B (5-year integrated), B.B.A. LL.B, Constitutional, Corporate, Criminal, Cyber & International Law with 31 sections and 45 courtroom theatres/moot halls.',
-        '31 Sections • 45 Rooms • 155 Subjects',
+        'Premier National Law University dataset: B.A. LL.B (5-year), Constitutional, Corporate, Criminal, Cyber & International Law with branch-locked theatres and moot courtrooms.',
+        '31 Sections • 35 Rooms • 155 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
@@ -481,21 +575,20 @@ def gen_design():
     ]
     
     rooms = []
-    # 20 Theory & Presentation Theatres
-    for i in range(1, 21):
-        rooms.append({'name': f'Design Studio Theatre DS-{i}', 'roomNumber': f'DSLT-{i}', 'type': 'Classroom', 'capacity': 65})
-    # 8 Critique & Jury Review Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Critique & Jury Pod {i}', 'roomNumber': f'JURY-{i}', 'type': 'Classroom', 'capacity': 35})
-    # 20 Design Workshops, Drafting Studios, CNC & 3D Fab Labs
-    for i in range(1, 7):
-        rooms.append({'name': f'Architectural Drafting Studio {i}', 'roomNumber': f'DRAFT-{i}', 'type': 'Laboratory', 'capacity': 45})
-    for i in range(1, 5):
-        rooms.append({'name': f'Rapid 3D Prototyping & CNC Lab {i}', 'roomNumber': f'PROTO-{i}', 'type': 'MechanicalWorkshop', 'capacity': 45})
-    for i in range(1, 5):
-        rooms.append({'name': f'Digital Media & UX Lab {i}', 'roomNumber': f'UXLAB-{i}', 'type': 'ComputerLab', 'capacity': 45})
-    for i in range(1, 5):
-        rooms.append({'name': f'Material & Ceramic Studio {i}', 'roomNumber': f'MATSTU-{i}', 'type': 'Laboratory', 'capacity': 45})
+    # Branch-Dedicated Theory Theatres
+    for dept_name, prefix, _ in depts:
+        rooms.append({'name': f'{dept_name} Studio Theatre 1', 'roomNumber': f'DSLT-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 65})
+        rooms.append({'name': f'{dept_name} Critique & Jury Pod', 'roomNumber': f'JURY-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 35})
+
+    # Workshops & Studios (open for design disciplines)
+    for i in range(1, 6):
+        rooms.append({'name': f'Architectural Drafting Studio {i}', 'roomNumber': f'DRAFT-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
+    for i in range(1, 4):
+        rooms.append({'name': f'Rapid 3D Prototyping CNC Lab {i}', 'roomNumber': f'PROTO-{i}', 'type': 'MechanicalWorkshop', 'department': 'General', 'capacity': 45})
+    for i in range(1, 4):
+        rooms.append({'name': f'Digital Media UX Lab {i}', 'roomNumber': f'UXLAB-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Material & Ceramic Studio {i}', 'roomNumber': f'MATSTU-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
 
     def gen_fac():
         fac = []
@@ -556,8 +649,8 @@ def gen_design():
         'preset_6_nid_architecture',
         'Institute of Design & Architecture',
         'Architecture & Design',
-        'Premier Institute of Architecture & Design dataset: B.Arch (5-yr studio), Industrial Design, Communication, UI/UX, and Textile Innovation with 35 sections and 48 drafting halls, CNC fabrication, and review pods.',
-        '35 Sections • 48 Rooms • 175 Subjects',
+        'Premier Institute of Architecture & Design: B.Arch (5-yr studio), Industrial Design, UI/UX, and Textile Innovation with branch-locked theatres and drafting studios.',
+        '35 Sections • 35 Rooms • 175 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
@@ -570,26 +663,25 @@ def gen_iim():
     depts = [
         ('Quantitative Finance & FinTech', 'FIN', [('1st', 'MBA-Core-1', 75), ('2nd', 'MBA-Core-2', 75), ('Fin1', 'MBA-Fin-Elective1', 45), ('Fin2', 'MBA-Fin-Elective2', 45), ('EMBA1', 'EMBA-Fin-1st', 35), ('PhD1', 'FPM-Fin-1st', 15), ('PhD2', 'FPM-Fin-2nd', 15)]),
         ('Marketing & Consumer Analytics', 'MKT', [('1st', 'MBA-Core-3', 75), ('2nd', 'MBA-Core-4', 75), ('Mkt1', 'MBA-Mkt-Elective1', 45), ('Mkt2', 'MBA-Mkt-Elective2', 45), ('EMBA1', 'EMBA-Mkt-1st', 35), ('PhD1', 'FPM-Mkt-1st', 15), ('PhD2', 'FPM-Mkt-2nd', 15)]),
-        ('Operations, Logistics & Supply Chain', 'OPS', [('Ops1', 'MBA-Ops-Elective1', 45), ('Ops2', 'MBA-Ops-Elective2', 45), ('EMBA1', 'EMBA-Ops-1st', 35), ('PhD1', 'FPM-Ops-1st', 15), ('PhD2', 'FPM-Ops-2nd', 15)]),
-        ('Strategic Management & International Business', 'STRAT', [('Strat1', 'MBA-Strat-Elective1', 45), ('Strat2', 'MBA-Strat-Elective2', 45), ('EMBA1', 'EMBA-Strat-1st', 35), ('PhD1', 'FPM-Strat-1st', 15), ('PhD2', 'FPM-Strat-2nd', 15)]),
-        ('Information Systems & AI in Business', 'IS', [('IS1', 'MBA-IS-Elective1', 45), ('IS2', 'MBA-IS-Elective2', 45), ('EMBA1', 'EMBA-IS-1st', 35), ('PhD1', 'FPM-IS-1st', 15), ('PhD2', 'FPM-IS-2nd', 15)]),
-        ('Organizational Behavior & Human Resources', 'OBHR', [('HR1', 'MBA-HR-Elective1', 40), ('HR2', 'MBA-HR-Elective2', 40), ('EMBA1', 'EMBA-HR-1st', 30), ('PhD1', 'FPM-HR-1st', 15)])
+        ('Operations & Supply Chain', 'OPS', [('Ops1', 'MBA-Ops-Elective1', 45), ('Ops2', 'MBA-Ops-Elective2', 45), ('EMBA1', 'EMBA-Ops-1st', 35), ('PhD1', 'FPM-Ops-1st', 15), ('PhD2', 'FPM-Ops-2nd', 15)]),
+        ('Strategic Management', 'STRAT', [('Strat1', 'MBA-Strat-Elective1', 45), ('Strat2', 'MBA-Strat-Elective2', 45), ('EMBA1', 'EMBA-Strat-1st', 35), ('PhD1', 'FPM-Strat-1st', 15), ('PhD2', 'FPM-Strat-2nd', 15)]),
+        ('Information Systems & AI', 'IS', [('IS1', 'MBA-IS-Elective1', 45), ('IS2', 'MBA-IS-Elective2', 45), ('EMBA1', 'EMBA-IS-1st', 35), ('PhD1', 'FPM-IS-1st', 15), ('PhD2', 'FPM-IS-2nd', 15)]),
+        ('Organizational Behavior & HR', 'OBHR', [('HR1', 'MBA-HR-Elective1', 40), ('HR2', 'MBA-HR-Elective2', 40), ('EMBA1', 'EMBA-HR-1st', 30), ('PhD1', 'FPM-HR-1st', 15)])
     ]
     
     rooms = []
-    # 22 Tiered Harvard-Style Case Amphitheaters
-    for i in range(1, 23):
-        rooms.append({'name': f'Tiered Case Amphitheater AM-{i}', 'roomNumber': f'AMPH-{i}', 'type': 'Classroom', 'capacity': 85})
-    # 8 Boardroom Simulation Rooms
-    for i in range(1, 9):
-        rooms.append({'name': f'Boardroom Executive Suite {i}', 'roomNumber': f'EXEC-{i}', 'type': 'Classroom', 'capacity': 45})
-    # 15 Financial Analytics, Bloomberg Terminals & Decision Labs (ComputerLab & Lab)
-    for i in range(1, 7):
-        rooms.append({'name': f'Bloomberg Financial Markets Lab {i}', 'roomNumber': f'BLOOM-{i}', 'type': 'ComputerLab', 'capacity': 45})
-    for i in range(1, 6):
-        rooms.append({'name': f'Business Analytics & AI Simulation Lab {i}', 'roomNumber': f'BIZLAB-{i}', 'type': 'ComputerLab', 'capacity': 45})
+    # Branch-Dedicated Case Amphitheaters
+    for dept_name, prefix, _ in depts:
+        rooms.append({'name': f'{dept_name} Case Amphitheater', 'roomNumber': f'AMPH-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 85})
+        rooms.append({'name': f'{dept_name} Executive Suite', 'roomNumber': f'EXEC-{prefix}-101', 'type': 'Classroom', 'department': dept_name, 'capacity': 45})
+
+    # Bloomberg Labs & Simulation Rooms
+    for i in range(1, 5):
+        rooms.append({'name': f'Bloomberg Financial Markets Lab {i}', 'roomNumber': f'BLOOM-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 45})
     for i in range(1, 4):
-        rooms.append({'name': f'Behavioral Research & Focus Group Lab {i}', 'roomNumber': f'BEHLAB-{i}', 'type': 'Laboratory', 'capacity': 45})
+        rooms.append({'name': f'Analytics & AI Simulation Lab {i}', 'roomNumber': f'BIZLAB-{i}', 'type': 'ComputerLab', 'department': 'General', 'capacity': 45})
+    for i in range(1, 3):
+        rooms.append({'name': f'Behavioral Research Lab {i}', 'roomNumber': f'BEHLAB-{i}', 'type': 'Laboratory', 'department': 'General', 'capacity': 45})
 
     def gen_fac():
         fac = []
@@ -649,10 +741,10 @@ def gen_iim():
         'preset_7_iim_management',
         'Indian Institute of Management (Business & Analytics)',
         'Management & Business',
-        'Premier Indian Institute of Management dataset: MBA/PGP Core, Quantitative Finance, Marketing Analytics, Operations, FinTech, and Executive Leadership with 32 sections and 45 tiered case amphitheaters and Bloomberg trading labs.',
-        '32 Sections • 45 Rooms • 160 Subjects',
+        'Premier IIM Business School: MBA Core, Quantitative Finance, Marketing Analytics, Operations, with tiered case amphitheaters and Bloomberg trading labs.',
+        '33 Sections • 35 Rooms • 165 Subjects',
         depts, rooms, sub_gen, gen_fac
     )
 
 gen_iim()
-print("\nAll 7 presets successfully generated in server/seeds!")
+print("\nAll 7 presets updated with branch-locked LTs and sub-section interleaving!")

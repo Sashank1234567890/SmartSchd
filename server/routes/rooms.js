@@ -66,7 +66,7 @@ router.get('/:id', async (req, res, next) => {
 // POST /api/rooms
 router.post('/', async (req, res, next) => {
   try {
-    const { name, roomNumber, type, capacity, availability } = req.body;
+    const { name, roomNumber, type, capacity, availability, department } = req.body;
     const normalizedAvailability = await getNormalizedAvailability(availability);
 
     const room = await Room.create({
@@ -74,6 +74,7 @@ router.post('/', async (req, res, next) => {
       roomNumber,
       type,
       capacity,
+      department: department || 'General',
       availability: normalizedAvailability
     });
 
@@ -100,8 +101,9 @@ router.post('/', async (req, res, next) => {
 // PUT /api/rooms/:id
 router.put('/:id', async (req, res, next) => {
   try {
-    const { name, roomNumber, type, capacity, availability } = req.body;
+    const { name, roomNumber, type, capacity, availability, department } = req.body;
     const updateData = { name, roomNumber, type, capacity };
+    if (department !== undefined) updateData.department = department;
 
     if (availability) {
       updateData.availability = await getNormalizedAvailability(availability);

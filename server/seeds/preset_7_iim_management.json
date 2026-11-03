@@ -2,8 +2,8 @@
   "id": "preset_7_iim_management",
   "title": "Indian Institute of Management (Business & Analytics)",
   "category": "Management & Business",
-  "description": "Premier Indian Institute of Management dataset: MBA/PGP Core, Quantitative Finance, Marketing Analytics, Operations, FinTech, and Executive Leadership with 32 sections and 45 tiered case amphitheaters and Bloomberg trading labs.",
-  "badge": "32 Sections \u2022 45 Rooms \u2022 160 Subjects",
+  "description": "Premier IIM Business School: MBA Core, Quantitative Finance, Marketing Analytics, Operations, with tiered case amphitheaters and Bloomberg trading labs.",
+  "badge": "33 Sections \u2022 21 Rooms \u2022 165 Subjects",
   "sections": [
     {
       "name": "FIN-MBA-Core-1",
@@ -77,363 +77,246 @@
     },
     {
       "name": "OPS-MBA-Ops-Elective1",
-      "department": "Operations, Logistics & Supply Chain",
+      "department": "Operations & Supply Chain",
       "studentCount": 45
     },
     {
       "name": "OPS-MBA-Ops-Elective2",
-      "department": "Operations, Logistics & Supply Chain",
+      "department": "Operations & Supply Chain",
       "studentCount": 45
     },
     {
       "name": "OPS-EMBA-Ops-1st",
-      "department": "Operations, Logistics & Supply Chain",
+      "department": "Operations & Supply Chain",
       "studentCount": 35
     },
     {
       "name": "OPS-FPM-Ops-1st",
-      "department": "Operations, Logistics & Supply Chain",
+      "department": "Operations & Supply Chain",
       "studentCount": 15
     },
     {
       "name": "OPS-FPM-Ops-2nd",
-      "department": "Operations, Logistics & Supply Chain",
+      "department": "Operations & Supply Chain",
       "studentCount": 15
     },
     {
       "name": "STRAT-MBA-Strat-Elective1",
-      "department": "Strategic Management & International Business",
+      "department": "Strategic Management",
       "studentCount": 45
     },
     {
       "name": "STRAT-MBA-Strat-Elective2",
-      "department": "Strategic Management & International Business",
+      "department": "Strategic Management",
       "studentCount": 45
     },
     {
       "name": "STRAT-EMBA-Strat-1st",
-      "department": "Strategic Management & International Business",
+      "department": "Strategic Management",
       "studentCount": 35
     },
     {
       "name": "STRAT-FPM-Strat-1st",
-      "department": "Strategic Management & International Business",
+      "department": "Strategic Management",
       "studentCount": 15
     },
     {
       "name": "STRAT-FPM-Strat-2nd",
-      "department": "Strategic Management & International Business",
+      "department": "Strategic Management",
       "studentCount": 15
     },
     {
       "name": "IS-MBA-IS-Elective1",
-      "department": "Information Systems & AI in Business",
+      "department": "Information Systems & AI",
       "studentCount": 45
     },
     {
       "name": "IS-MBA-IS-Elective2",
-      "department": "Information Systems & AI in Business",
+      "department": "Information Systems & AI",
       "studentCount": 45
     },
     {
       "name": "IS-EMBA-IS-1st",
-      "department": "Information Systems & AI in Business",
+      "department": "Information Systems & AI",
       "studentCount": 35
     },
     {
       "name": "IS-FPM-IS-1st",
-      "department": "Information Systems & AI in Business",
+      "department": "Information Systems & AI",
       "studentCount": 15
     },
     {
       "name": "IS-FPM-IS-2nd",
-      "department": "Information Systems & AI in Business",
+      "department": "Information Systems & AI",
       "studentCount": 15
     },
     {
       "name": "OBHR-MBA-HR-Elective1",
-      "department": "Organizational Behavior & Human Resources",
+      "department": "Organizational Behavior & HR",
       "studentCount": 40
     },
     {
       "name": "OBHR-MBA-HR-Elective2",
-      "department": "Organizational Behavior & Human Resources",
+      "department": "Organizational Behavior & HR",
       "studentCount": 40
     },
     {
       "name": "OBHR-EMBA-HR-1st",
-      "department": "Organizational Behavior & Human Resources",
+      "department": "Organizational Behavior & HR",
       "studentCount": 30
     },
     {
       "name": "OBHR-FPM-HR-1st",
-      "department": "Organizational Behavior & Human Resources",
+      "department": "Organizational Behavior & HR",
       "studentCount": 15
     }
   ],
   "rooms": [
     {
-      "name": "Tiered Case Amphitheater AM-1",
-      "roomNumber": "AMPH-1",
+      "name": "Quantitative Finance & FinTech Case Amphitheater",
+      "roomNumber": "AMPH-FIN-101",
       "type": "Classroom",
+      "department": "Quantitative Finance & FinTech",
       "capacity": 85
     },
     {
-      "name": "Tiered Case Amphitheater AM-2",
-      "roomNumber": "AMPH-2",
+      "name": "Quantitative Finance & FinTech Executive Suite",
+      "roomNumber": "EXEC-FIN-101",
       "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-3",
-      "roomNumber": "AMPH-3",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-4",
-      "roomNumber": "AMPH-4",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-5",
-      "roomNumber": "AMPH-5",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-6",
-      "roomNumber": "AMPH-6",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-7",
-      "roomNumber": "AMPH-7",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-8",
-      "roomNumber": "AMPH-8",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-9",
-      "roomNumber": "AMPH-9",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-10",
-      "roomNumber": "AMPH-10",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-11",
-      "roomNumber": "AMPH-11",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-12",
-      "roomNumber": "AMPH-12",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-13",
-      "roomNumber": "AMPH-13",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-14",
-      "roomNumber": "AMPH-14",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-15",
-      "roomNumber": "AMPH-15",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-16",
-      "roomNumber": "AMPH-16",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-17",
-      "roomNumber": "AMPH-17",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-18",
-      "roomNumber": "AMPH-18",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-19",
-      "roomNumber": "AMPH-19",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-20",
-      "roomNumber": "AMPH-20",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-21",
-      "roomNumber": "AMPH-21",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Tiered Case Amphitheater AM-22",
-      "roomNumber": "AMPH-22",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Boardroom Executive Suite 1",
-      "roomNumber": "EXEC-1",
-      "type": "Classroom",
+      "department": "Quantitative Finance & FinTech",
       "capacity": 45
     },
     {
-      "name": "Boardroom Executive Suite 2",
-      "roomNumber": "EXEC-2",
+      "name": "Marketing & Consumer Analytics Case Amphitheater",
+      "roomNumber": "AMPH-MKT-101",
       "type": "Classroom",
+      "department": "Marketing & Consumer Analytics",
+      "capacity": 85
+    },
+    {
+      "name": "Marketing & Consumer Analytics Executive Suite",
+      "roomNumber": "EXEC-MKT-101",
+      "type": "Classroom",
+      "department": "Marketing & Consumer Analytics",
       "capacity": 45
     },
     {
-      "name": "Boardroom Executive Suite 3",
-      "roomNumber": "EXEC-3",
+      "name": "Operations & Supply Chain Case Amphitheater",
+      "roomNumber": "AMPH-OPS-101",
       "type": "Classroom",
+      "department": "Operations & Supply Chain",
+      "capacity": 85
+    },
+    {
+      "name": "Operations & Supply Chain Executive Suite",
+      "roomNumber": "EXEC-OPS-101",
+      "type": "Classroom",
+      "department": "Operations & Supply Chain",
       "capacity": 45
     },
     {
-      "name": "Boardroom Executive Suite 4",
-      "roomNumber": "EXEC-4",
+      "name": "Strategic Management Case Amphitheater",
+      "roomNumber": "AMPH-STRAT-101",
       "type": "Classroom",
+      "department": "Strategic Management",
+      "capacity": 85
+    },
+    {
+      "name": "Strategic Management Executive Suite",
+      "roomNumber": "EXEC-STRAT-101",
+      "type": "Classroom",
+      "department": "Strategic Management",
       "capacity": 45
     },
     {
-      "name": "Boardroom Executive Suite 5",
-      "roomNumber": "EXEC-5",
+      "name": "Information Systems & AI Case Amphitheater",
+      "roomNumber": "AMPH-IS-101",
       "type": "Classroom",
+      "department": "Information Systems & AI",
+      "capacity": 85
+    },
+    {
+      "name": "Information Systems & AI Executive Suite",
+      "roomNumber": "EXEC-IS-101",
+      "type": "Classroom",
+      "department": "Information Systems & AI",
       "capacity": 45
     },
     {
-      "name": "Boardroom Executive Suite 6",
-      "roomNumber": "EXEC-6",
+      "name": "Organizational Behavior & HR Case Amphitheater",
+      "roomNumber": "AMPH-OBHR-101",
       "type": "Classroom",
-      "capacity": 45
+      "department": "Organizational Behavior & HR",
+      "capacity": 85
     },
     {
-      "name": "Boardroom Executive Suite 7",
-      "roomNumber": "EXEC-7",
+      "name": "Organizational Behavior & HR Executive Suite",
+      "roomNumber": "EXEC-OBHR-101",
       "type": "Classroom",
-      "capacity": 45
-    },
-    {
-      "name": "Boardroom Executive Suite 8",
-      "roomNumber": "EXEC-8",
-      "type": "Classroom",
+      "department": "Organizational Behavior & HR",
       "capacity": 45
     },
     {
       "name": "Bloomberg Financial Markets Lab 1",
       "roomNumber": "BLOOM-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Bloomberg Financial Markets Lab 2",
       "roomNumber": "BLOOM-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Bloomberg Financial Markets Lab 3",
       "roomNumber": "BLOOM-3",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Bloomberg Financial Markets Lab 4",
       "roomNumber": "BLOOM-4",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Bloomberg Financial Markets Lab 5",
-      "roomNumber": "BLOOM-5",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Bloomberg Financial Markets Lab 6",
-      "roomNumber": "BLOOM-6",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Business Analytics & AI Simulation Lab 1",
+      "name": "Analytics & AI Simulation Lab 1",
       "roomNumber": "BIZLAB-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Business Analytics & AI Simulation Lab 2",
+      "name": "Analytics & AI Simulation Lab 2",
       "roomNumber": "BIZLAB-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Business Analytics & AI Simulation Lab 3",
+      "name": "Analytics & AI Simulation Lab 3",
       "roomNumber": "BIZLAB-3",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Business Analytics & AI Simulation Lab 4",
-      "roomNumber": "BIZLAB-4",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Business Analytics & AI Simulation Lab 5",
-      "roomNumber": "BIZLAB-5",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Behavioral Research & Focus Group Lab 1",
+      "name": "Behavioral Research Lab 1",
       "roomNumber": "BEHLAB-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Behavioral Research & Focus Group Lab 2",
+      "name": "Behavioral Research Lab 2",
       "roomNumber": "BEHLAB-2",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Behavioral Research & Focus Group Lab 3",
-      "roomNumber": "BEHLAB-3",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     }
   ],

@@ -137,13 +137,38 @@ int main() {
     };
 
     std::unordered_map<std::string, int> secSize;
-    for (const auto& s : j["sections"])
-        secSize[s["_id"].get<std::string>()] = s["studentCount"].get<int>();
+    std::unordered_map<std::string, std::string> secDept;
+    for (const auto& s : j["sections"]) {
+        std::string sId = s["_id"].get<std::string>();
+        secSize[sId] = s["studentCount"].get<int>();
+        secDept[sId] = s.value("department", s.value("name", ""));
+    }
 
-    struct RoomInfo { std::string id, type; int capacity; };
+    auto getBranchKey = [](const std::string& deptOrName) -> std::string {
+        if (deptOrName.empty()) return "GEN";
+        std::string str = deptOrName;
+        for (char &c : str) c = toupper(c);
+        if (str.find("ELECTRONIC") != std::string::npos || str.find("ECE") != std::string::npos) return "ECE";
+        if (str.find("ELECTRICAL") != std::string::npos || str.find("EE") != std::string::npos) return "EE";
+        if (str.find("MECHANICAL") != std::string::npos || str.find("ME") != std::string::npos) return "ME";
+        if (str.find("CIVIL") != std::string::npos || str.find("CE") != std::string::npos) return "CE";
+        if (str.find("DATA SCIENCE") != std::string::npos || str.find("AIDS") != std::string::npos || str.find("AI") != std::string::npos) return "AIDS";
+        if (str.find("INFORMATION") != std::string::npos || str.find("IT") != std::string::npos) return "IT";
+        if (str.find("COMPUTER") != std::string::npos || str.find("CSE") != std::string::npos || str.find("CS") != std::string::npos) return "CSE";
+        return "GEN";
+    };
+
+    struct RoomInfo { std::string id, type, department, roomNumber; int capacity; };
     std::vector<RoomInfo> allRooms;
-    for (const auto& r : j["rooms"])
-        allRooms.push_back({r["_id"].get<std::string>(), r["type"].get<std::string>(), r["capacity"].get<int>()});
+    for (const auto& r : j["rooms"]) {
+        allRooms.push_back({
+            r["_id"].get<std::string>(),
+            r["type"].get<std::string>(),
+            r.value("department", "General"),
+            r.value("roomNumber", ""),
+            r["capacity"].get<int>()
+        });
+    }
 
     struct Session {
         std::string sessionId, subjectId, sectionId, teacherId, roomType;
@@ -189,9 +214,16 @@ int main() {
     for (auto& sess : sessions) {
         std::vector<RoomInfo> candRooms;
         int neededCap = (sess.roomType == "Classroom") ? sess.studentCount : (sess.studentCount + 1) / 2;
-        for (const auto& r : allRooms)
-            if (r.type == sess.roomType && r.capacity >= neededCap)
-                candRooms.push_back(r);
+        std::string secBranch = getBranchKey(secDept[sess.sectionId]);
+
+        for (const auto& r : allRooms) {
+            if (r.type != sess.roomType || r.capacity < neededCap) continue;
+            if (sess.roomType == "Classroom") {
+                std::string rmBranch = getBranchKey(r.department != "General" ? r.department : r.roomNumber);
+                if (secBranch != "GEN" && rmBranch != "GEN" && secBranch != rmBranch) continue;
+            }
+            candRooms.push_back(r);
+        }
 
         if (candRooms.empty()) {
             json us;

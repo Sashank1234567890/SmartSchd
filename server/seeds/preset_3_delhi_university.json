@@ -2,8 +2,8 @@
   "id": "preset_3_delhi_university",
   "title": "Central Multidisciplinary University",
   "category": "Sciences & Humanities",
-  "description": "Multi-faculty Central University dataset: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities with 49 sections and 54 dedicated halls/laboratories.",
-  "badge": "49 Sections \u2022 54 Rooms \u2022 245 Subjects",
+  "description": "Multi-faculty Central University: Mathematical Sciences, Computer Applications, Physical Sciences, Chemical Sciences, Economics, Commerce, and Humanities with dedicated faculty lecture halls.",
+  "badge": "49 Sections \u2022 40 Rooms \u2022 245 Subjects",
   "sections": [
     {
       "name": "MATH-BSc-1st",
@@ -253,321 +253,283 @@
   ],
   "rooms": [
     {
-      "name": "Arts & Science Lecture Room 1",
-      "roomNumber": "CR-1",
+      "name": "Mathematical Sciences Undergrad Lecture Hall 1",
+      "roomNumber": "CR-MATH-101",
       "type": "Classroom",
+      "department": "Mathematical Sciences",
       "capacity": 85
     },
     {
-      "name": "Arts & Science Lecture Room 2",
-      "roomNumber": "CR-2",
+      "name": "Mathematical Sciences Undergrad Lecture Hall 2",
+      "roomNumber": "CR-MATH-201",
       "type": "Classroom",
+      "department": "Mathematical Sciences",
       "capacity": 85
     },
     {
-      "name": "Arts & Science Lecture Room 3",
-      "roomNumber": "CR-3",
+      "name": "Mathematical Sciences PG Seminar Room",
+      "roomNumber": "PG-MATH-101",
       "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 4",
-      "roomNumber": "CR-4",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 5",
-      "roomNumber": "CR-5",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 6",
-      "roomNumber": "CR-6",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 7",
-      "roomNumber": "CR-7",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 8",
-      "roomNumber": "CR-8",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 9",
-      "roomNumber": "CR-9",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 10",
-      "roomNumber": "CR-10",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 11",
-      "roomNumber": "CR-11",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 12",
-      "roomNumber": "CR-12",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 13",
-      "roomNumber": "CR-13",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 14",
-      "roomNumber": "CR-14",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 15",
-      "roomNumber": "CR-15",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 16",
-      "roomNumber": "CR-16",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 17",
-      "roomNumber": "CR-17",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 18",
-      "roomNumber": "CR-18",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 19",
-      "roomNumber": "CR-19",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 20",
-      "roomNumber": "CR-20",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 21",
-      "roomNumber": "CR-21",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 22",
-      "roomNumber": "CR-22",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 23",
-      "roomNumber": "CR-23",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 24",
-      "roomNumber": "CR-24",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 25",
-      "roomNumber": "CR-25",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Arts & Science Lecture Room 26",
-      "roomNumber": "CR-26",
-      "type": "Classroom",
-      "capacity": 85
-    },
-    {
-      "name": "Faculty Seminar Room 1",
-      "roomNumber": "FSR-1",
-      "type": "Classroom",
+      "department": "Mathematical Sciences",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 2",
-      "roomNumber": "FSR-2",
+      "name": "Mathematical Sciences Research Hall",
+      "roomNumber": "SEM-MATH-PHD",
       "type": "Classroom",
+      "department": "Mathematical Sciences",
+      "capacity": 35
+    },
+    {
+      "name": "Computer Applications & IT Undergrad Lecture Hall 1",
+      "roomNumber": "CR-CA-101",
+      "type": "Classroom",
+      "department": "Computer Applications & IT",
+      "capacity": 85
+    },
+    {
+      "name": "Computer Applications & IT Undergrad Lecture Hall 2",
+      "roomNumber": "CR-CA-201",
+      "type": "Classroom",
+      "department": "Computer Applications & IT",
+      "capacity": 85
+    },
+    {
+      "name": "Computer Applications & IT PG Seminar Room",
+      "roomNumber": "PG-CA-101",
+      "type": "Classroom",
+      "department": "Computer Applications & IT",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 3",
-      "roomNumber": "FSR-3",
+      "name": "Computer Applications & IT Research Hall",
+      "roomNumber": "SEM-CA-PHD",
       "type": "Classroom",
+      "department": "Computer Applications & IT",
+      "capacity": 35
+    },
+    {
+      "name": "Physical Sciences Undergrad Lecture Hall 1",
+      "roomNumber": "CR-PHYS-101",
+      "type": "Classroom",
+      "department": "Physical Sciences",
+      "capacity": 85
+    },
+    {
+      "name": "Physical Sciences Undergrad Lecture Hall 2",
+      "roomNumber": "CR-PHYS-201",
+      "type": "Classroom",
+      "department": "Physical Sciences",
+      "capacity": 85
+    },
+    {
+      "name": "Physical Sciences PG Seminar Room",
+      "roomNumber": "PG-PHYS-101",
+      "type": "Classroom",
+      "department": "Physical Sciences",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 4",
-      "roomNumber": "FSR-4",
+      "name": "Physical Sciences Research Hall",
+      "roomNumber": "SEM-PHYS-PHD",
       "type": "Classroom",
+      "department": "Physical Sciences",
+      "capacity": 35
+    },
+    {
+      "name": "Chemical Sciences Undergrad Lecture Hall 1",
+      "roomNumber": "CR-CHEM-101",
+      "type": "Classroom",
+      "department": "Chemical Sciences",
+      "capacity": 85
+    },
+    {
+      "name": "Chemical Sciences Undergrad Lecture Hall 2",
+      "roomNumber": "CR-CHEM-201",
+      "type": "Classroom",
+      "department": "Chemical Sciences",
+      "capacity": 85
+    },
+    {
+      "name": "Chemical Sciences PG Seminar Room",
+      "roomNumber": "PG-CHEM-101",
+      "type": "Classroom",
+      "department": "Chemical Sciences",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 5",
-      "roomNumber": "FSR-5",
+      "name": "Chemical Sciences Research Hall",
+      "roomNumber": "SEM-CHEM-PHD",
       "type": "Classroom",
+      "department": "Chemical Sciences",
+      "capacity": 35
+    },
+    {
+      "name": "Economics & Public Policy Undergrad Lecture Hall 1",
+      "roomNumber": "CR-ECON-101",
+      "type": "Classroom",
+      "department": "Economics & Public Policy",
+      "capacity": 85
+    },
+    {
+      "name": "Economics & Public Policy Undergrad Lecture Hall 2",
+      "roomNumber": "CR-ECON-201",
+      "type": "Classroom",
+      "department": "Economics & Public Policy",
+      "capacity": 85
+    },
+    {
+      "name": "Economics & Public Policy PG Seminar Room",
+      "roomNumber": "PG-ECON-101",
+      "type": "Classroom",
+      "department": "Economics & Public Policy",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 6",
-      "roomNumber": "FSR-6",
+      "name": "Economics & Public Policy Research Hall",
+      "roomNumber": "SEM-ECON-PHD",
       "type": "Classroom",
+      "department": "Economics & Public Policy",
+      "capacity": 35
+    },
+    {
+      "name": "Commerce & Financial Studies Undergrad Lecture Hall 1",
+      "roomNumber": "CR-COMM-101",
+      "type": "Classroom",
+      "department": "Commerce & Financial Studies",
+      "capacity": 85
+    },
+    {
+      "name": "Commerce & Financial Studies Undergrad Lecture Hall 2",
+      "roomNumber": "CR-COMM-201",
+      "type": "Classroom",
+      "department": "Commerce & Financial Studies",
+      "capacity": 85
+    },
+    {
+      "name": "Commerce & Financial Studies PG Seminar Room",
+      "roomNumber": "PG-COMM-101",
+      "type": "Classroom",
+      "department": "Commerce & Financial Studies",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 7",
-      "roomNumber": "FSR-7",
+      "name": "Commerce & Financial Studies Research Hall",
+      "roomNumber": "SEM-COMM-PHD",
       "type": "Classroom",
+      "department": "Commerce & Financial Studies",
+      "capacity": 35
+    },
+    {
+      "name": "Humanities & English Undergrad Lecture Hall 1",
+      "roomNumber": "CR-ENG-101",
+      "type": "Classroom",
+      "department": "Humanities & English",
+      "capacity": 85
+    },
+    {
+      "name": "Humanities & English Undergrad Lecture Hall 2",
+      "roomNumber": "CR-ENG-201",
+      "type": "Classroom",
+      "department": "Humanities & English",
+      "capacity": 85
+    },
+    {
+      "name": "Humanities & English PG Seminar Room",
+      "roomNumber": "PG-ENG-101",
+      "type": "Classroom",
+      "department": "Humanities & English",
       "capacity": 45
     },
     {
-      "name": "Faculty Seminar Room 8",
-      "roomNumber": "FSR-8",
+      "name": "Humanities & English Research Hall",
+      "roomNumber": "SEM-ENG-PHD",
       "type": "Classroom",
-      "capacity": 45
+      "department": "Humanities & English",
+      "capacity": 35
     },
     {
       "name": "Central Computing Facility 1",
       "roomNumber": "CCF-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Central Computing Facility 2",
       "roomNumber": "CCF-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Central Computing Facility 3",
       "roomNumber": "CCF-3",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Central Computing Facility 4",
       "roomNumber": "CCF-4",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Central Computing Facility 5",
-      "roomNumber": "CCF-5",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Central Computing Facility 6",
-      "roomNumber": "CCF-6",
-      "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Physics Optics & Electronics Lab 1",
+      "name": "Physics Optics Lab 1",
       "roomNumber": "PHYLAB-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Physics Optics & Electronics Lab 2",
+      "name": "Physics Optics Lab 2",
       "roomNumber": "PHYLAB-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Physics Optics & Electronics Lab 3",
+      "name": "Physics Optics Lab 3",
       "roomNumber": "PHYLAB-3",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Physics Optics & Electronics Lab 4",
-      "roomNumber": "PHYLAB-4",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Physics Optics & Electronics Lab 5",
-      "roomNumber": "PHYLAB-5",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Chemistry Wet Analysis Lab 1",
       "roomNumber": "CHMLAB-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Chemistry Wet Analysis Lab 2",
       "roomNumber": "CHMLAB-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Chemistry Wet Analysis Lab 3",
       "roomNumber": "CHMLAB-3",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Chemistry Wet Analysis Lab 4",
-      "roomNumber": "CHMLAB-4",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Chemistry Wet Analysis Lab 5",
-      "roomNumber": "CHMLAB-5",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Language Phonetics Lab 1",
       "roomNumber": "LANGLAB-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Language Phonetics Lab 2",
       "roomNumber": "LANGLAB-2",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Language Phonetics Lab 3",
-      "roomNumber": "LANGLAB-3",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     }
   ],

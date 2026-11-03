@@ -2,8 +2,8 @@
   "id": "preset_6_nid_architecture",
   "title": "Institute of Design & Architecture",
   "category": "Architecture & Design",
-  "description": "Premier Institute of Architecture & Design dataset: B.Arch (5-yr studio), Industrial Design, Communication, UI/UX, and Textile Innovation with 35 sections and 48 drafting halls, CNC fabrication, and review pods.",
-  "badge": "35 Sections \u2022 48 Rooms \u2022 175 Subjects",
+  "description": "Premier Institute of Architecture & Design: B.Arch (5-yr studio), Industrial Design, UI/UX, and Textile Innovation with branch-locked theatres and drafting studios.",
+  "badge": "35 Sections \u2022 23 Rooms \u2022 175 Subjects",
   "sections": [
     {
       "name": "ARCH-BArch-1st",
@@ -183,279 +183,164 @@
   ],
   "rooms": [
     {
-      "name": "Design Studio Theatre DS-1",
-      "roomNumber": "DSLT-1",
+      "name": "Architecture & Urban Design Studio Theatre 1",
+      "roomNumber": "DSLT-ARCH-101",
       "type": "Classroom",
+      "department": "Architecture & Urban Design",
       "capacity": 65
     },
     {
-      "name": "Design Studio Theatre DS-2",
-      "roomNumber": "DSLT-2",
+      "name": "Architecture & Urban Design Critique & Jury Pod",
+      "roomNumber": "JURY-ARCH-101",
       "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-3",
-      "roomNumber": "DSLT-3",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-4",
-      "roomNumber": "DSLT-4",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-5",
-      "roomNumber": "DSLT-5",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-6",
-      "roomNumber": "DSLT-6",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-7",
-      "roomNumber": "DSLT-7",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-8",
-      "roomNumber": "DSLT-8",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-9",
-      "roomNumber": "DSLT-9",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-10",
-      "roomNumber": "DSLT-10",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-11",
-      "roomNumber": "DSLT-11",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-12",
-      "roomNumber": "DSLT-12",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-13",
-      "roomNumber": "DSLT-13",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-14",
-      "roomNumber": "DSLT-14",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-15",
-      "roomNumber": "DSLT-15",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-16",
-      "roomNumber": "DSLT-16",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-17",
-      "roomNumber": "DSLT-17",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-18",
-      "roomNumber": "DSLT-18",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-19",
-      "roomNumber": "DSLT-19",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Design Studio Theatre DS-20",
-      "roomNumber": "DSLT-20",
-      "type": "Classroom",
-      "capacity": 65
-    },
-    {
-      "name": "Critique & Jury Pod 1",
-      "roomNumber": "JURY-1",
-      "type": "Classroom",
+      "department": "Architecture & Urban Design",
       "capacity": 35
     },
     {
-      "name": "Critique & Jury Pod 2",
-      "roomNumber": "JURY-2",
+      "name": "Industrial & Product Design Studio Theatre 1",
+      "roomNumber": "DSLT-PROD-101",
       "type": "Classroom",
+      "department": "Industrial & Product Design",
+      "capacity": 65
+    },
+    {
+      "name": "Industrial & Product Design Critique & Jury Pod",
+      "roomNumber": "JURY-PROD-101",
+      "type": "Classroom",
+      "department": "Industrial & Product Design",
       "capacity": 35
     },
     {
-      "name": "Critique & Jury Pod 3",
-      "roomNumber": "JURY-3",
+      "name": "Communication & Graphic Design Studio Theatre 1",
+      "roomNumber": "DSLT-COMM-101",
       "type": "Classroom",
+      "department": "Communication & Graphic Design",
+      "capacity": 65
+    },
+    {
+      "name": "Communication & Graphic Design Critique & Jury Pod",
+      "roomNumber": "JURY-COMM-101",
+      "type": "Classroom",
+      "department": "Communication & Graphic Design",
       "capacity": 35
     },
     {
-      "name": "Critique & Jury Pod 4",
-      "roomNumber": "JURY-4",
+      "name": "Interaction Design & UI/UX Studio Theatre 1",
+      "roomNumber": "DSLT-UX-101",
       "type": "Classroom",
+      "department": "Interaction Design & UI/UX",
+      "capacity": 65
+    },
+    {
+      "name": "Interaction Design & UI/UX Critique & Jury Pod",
+      "roomNumber": "JURY-UX-101",
+      "type": "Classroom",
+      "department": "Interaction Design & UI/UX",
       "capacity": 35
     },
     {
-      "name": "Critique & Jury Pod 5",
-      "roomNumber": "JURY-5",
+      "name": "Textile & Material Innovation Studio Theatre 1",
+      "roomNumber": "DSLT-TEXT-101",
       "type": "Classroom",
-      "capacity": 35
+      "department": "Textile & Material Innovation",
+      "capacity": 65
     },
     {
-      "name": "Critique & Jury Pod 6",
-      "roomNumber": "JURY-6",
+      "name": "Textile & Material Innovation Critique & Jury Pod",
+      "roomNumber": "JURY-TEXT-101",
       "type": "Classroom",
-      "capacity": 35
-    },
-    {
-      "name": "Critique & Jury Pod 7",
-      "roomNumber": "JURY-7",
-      "type": "Classroom",
-      "capacity": 35
-    },
-    {
-      "name": "Critique & Jury Pod 8",
-      "roomNumber": "JURY-8",
-      "type": "Classroom",
+      "department": "Textile & Material Innovation",
       "capacity": 35
     },
     {
       "name": "Architectural Drafting Studio 1",
       "roomNumber": "DRAFT-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Architectural Drafting Studio 2",
       "roomNumber": "DRAFT-2",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Architectural Drafting Studio 3",
       "roomNumber": "DRAFT-3",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Architectural Drafting Studio 4",
       "roomNumber": "DRAFT-4",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Architectural Drafting Studio 5",
       "roomNumber": "DRAFT-5",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Architectural Drafting Studio 6",
-      "roomNumber": "DRAFT-6",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Rapid 3D Prototyping & CNC Lab 1",
+      "name": "Rapid 3D Prototyping CNC Lab 1",
       "roomNumber": "PROTO-1",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Rapid 3D Prototyping & CNC Lab 2",
+      "name": "Rapid 3D Prototyping CNC Lab 2",
       "roomNumber": "PROTO-2",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Rapid 3D Prototyping & CNC Lab 3",
+      "name": "Rapid 3D Prototyping CNC Lab 3",
       "roomNumber": "PROTO-3",
       "type": "MechanicalWorkshop",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Rapid 3D Prototyping & CNC Lab 4",
-      "roomNumber": "PROTO-4",
-      "type": "MechanicalWorkshop",
-      "capacity": 45
-    },
-    {
-      "name": "Digital Media & UX Lab 1",
+      "name": "Digital Media UX Lab 1",
       "roomNumber": "UXLAB-1",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Digital Media & UX Lab 2",
+      "name": "Digital Media UX Lab 2",
       "roomNumber": "UXLAB-2",
       "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
-      "name": "Digital Media & UX Lab 3",
+      "name": "Digital Media UX Lab 3",
       "roomNumber": "UXLAB-3",
       "type": "ComputerLab",
-      "capacity": 45
-    },
-    {
-      "name": "Digital Media & UX Lab 4",
-      "roomNumber": "UXLAB-4",
-      "type": "ComputerLab",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Material & Ceramic Studio 1",
       "roomNumber": "MATSTU-1",
       "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     },
     {
       "name": "Material & Ceramic Studio 2",
       "roomNumber": "MATSTU-2",
       "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Material & Ceramic Studio 3",
-      "roomNumber": "MATSTU-3",
-      "type": "Laboratory",
-      "capacity": 45
-    },
-    {
-      "name": "Material & Ceramic Studio 4",
-      "roomNumber": "MATSTU-4",
-      "type": "Laboratory",
+      "department": "General",
       "capacity": 45
     }
   ],

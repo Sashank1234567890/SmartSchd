@@ -64,6 +64,7 @@ async function loadSeedObject(rawData) {
           roomNumber: rNum,
           type: rType,
           capacity: parseInt(r.capacity, 10) || 70,
+          department: r.department || 'General',
           availability: Array.isArray(r.availability) && r.availability.length === D
             ? r.availability
             : defaultMatrix

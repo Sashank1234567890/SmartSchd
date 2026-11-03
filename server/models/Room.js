@@ -33,6 +33,11 @@ const roomSchema = new mongoose.Schema({
     required: [true, 'Room capacity is required'],
     min: [1, 'Capacity must be at least 1']
   },
+  department: {
+    type: String,
+    trim: true,
+    default: 'General'
+  },
   // D x P boolean matrix (default initialized in service/controller if not provided)
   availability: {
     type: [[Boolean]],
