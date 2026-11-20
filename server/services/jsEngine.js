@@ -210,12 +210,48 @@ function runJsScheduler(input, algorithm = 'combined') {
     }
   }
 
-  // Sort sessions: Multi-period labs/sports first, then interleave
-  sessions.sort((a, b) => {
-    if (a.duration !== b.duration) return b.duration - a.duration;
-    if (a.sessIdx !== b.sessIdx) return a.sessIdx - b.sessIdx;
-    return a.sectionId.localeCompare(b.sectionId);
-  });
+  // Sort sessions based on algorithm strategy:
+  const algoLower = (algorithm || 'combined').toLowerCase();
+
+  if (algoLower === 'greedy') {
+    // Greedy: Pure chronological order by section and subject
+    sessions.sort((a, b) => {
+      const cmp = a.sectionId.localeCompare(b.sectionId);
+      if (cmp !== 0) return cmp;
+      if (a.duration !== b.duration) return b.duration - a.duration;
+      return a.sessIdx - b.sessIdx;
+    });
+  } else if (algoLower === 'graph-coloring') {
+    // DSATUR: Degree in conflict graph (sessions sharing same teacher or section)
+    const teacherFreq = new Map();
+    const sectionFreq = new Map();
+    for (const s of sessions) {
+      teacherFreq.set(s.teacherId, (teacherFreq.get(s.teacherId) || 0) + 1);
+      sectionFreq.set(s.sectionId, (sectionFreq.get(s.sectionId) || 0) + 1);
+    }
+    sessions.sort((a, b) => {
+      const degA = (teacherFreq.get(a.teacherId) || 0) + (sectionFreq.get(a.sectionId) || 0);
+      const degB = (teacherFreq.get(b.teacherId) || 0) + (sectionFreq.get(b.sectionId) || 0);
+      if (degB !== degA) return degB - degA; // Highest conflict degree first
+      if (a.duration !== b.duration) return b.duration - a.duration;
+      return a.sessIdx - b.sessIdx;
+    });
+  } else if (algoLower === 'backtracking') {
+    // MRV (Minimum Remaining Values): most constrained sessions scheduled first
+    sessions.sort((a, b) => {
+      const aConstraint = (a.roomType !== 'Classroom' ? 50 : 0) + (a.duration * 25) + (a.studentCount / 10);
+      const bConstraint = (b.roomType !== 'Classroom' ? 50 : 0) + (b.duration * 25) + (b.studentCount / 10);
+      if (bConstraint !== aConstraint) return bConstraint - aConstraint;
+      return a.sectionId.localeCompare(b.sectionId);
+    });
+  } else {
+    // Combined / Hybrid: Multi-period labs/sports first, then interleave
+    sessions.sort((a, b) => {
+      if (a.duration !== b.duration) return b.duration - a.duration;
+      if (a.sessIdx !== b.sessIdx) return a.sessIdx - b.sessIdx;
+      return a.sectionId.localeCompare(b.sectionId);
+    });
+  }
 
   const sectionDayPeriods = new Map();
   for (const s of sections) {
@@ -319,8 +355,49 @@ function runJsScheduler(input, algorithm = 'combined') {
       continue;
     }
 
-    const dailyLoads = sectionDayPeriods.get(sess.sectionId);
-    const dayOrder = Array.from({ length: D }, (_, i) => i).sort((a, b) => dailyLoads[a] - dailyLoads[b]);
+    let dayOrder;
+    let getPeriodOrder;
+
+    if (algoLower === 'greedy') {
+      // Greedy packs Mon -> Fri chronologically, morning periods first
+      dayOrder = Array.from({ length: D }, (_, i) => i);
+      getPeriodOrder = (maxP) => {
+        const arr = [];
+        for (let p = 0; p <= maxP - sess.duration; ++p) arr.push(p);
+        return arr;
+      };
+    } else if (algoLower === 'graph-coloring') {
+      // DSATUR distributes colors across distant days: Mon(0), Wed(2), Fri(4), Tue(1), Thu(3)
+      const distributedDays = [0, 2, 4, 1, 3].slice(0, D);
+      const dailyLoads = sectionDayPeriods.get(sess.sectionId);
+      dayOrder = distributedDays.sort((a, b) => dailyLoads[a] - dailyLoads[b]);
+      getPeriodOrder = (maxP) => {
+        // Interleaves morning and afternoon slots: [0, 4, 1, 5, 2, 6, 7]
+        const order = [0, 4, 1, 5, 2, 6, 7];
+        return order.filter(p => p <= maxP - sess.duration);
+      };
+    } else if (algoLower === 'backtracking') {
+      // Backtracking tries afternoon blocks and mid-week days first
+      const dailyLoads = sectionDayPeriods.get(sess.sectionId);
+      dayOrder = Array.from({ length: D }, (_, i) => i).sort((a, b) => {
+        const loadDiff = dailyLoads[a] - dailyLoads[b];
+        if (loadDiff !== 0) return loadDiff;
+        return Math.abs(a - 2) - Math.abs(b - 2);
+      });
+      getPeriodOrder = (maxP) => {
+        const order = [1, 2, 4, 5, 0, 6, 7];
+        return order.filter(p => p <= maxP - sess.duration);
+      };
+    } else {
+      // Combined / Hybrid: Least-loaded day first, standard load balance
+      const dailyLoads = sectionDayPeriods.get(sess.sectionId);
+      dayOrder = Array.from({ length: D }, (_, i) => i).sort((a, b) => dailyLoads[a] - dailyLoads[b]);
+      getPeriodOrder = (maxP) => {
+        const arr = [];
+        for (let p = 0; p <= maxP - sess.duration; ++p) arr.push(p);
+        return arr;
+      };
+    }
 
     let placed = false;
     // Pass 0: Strict day uniqueness & load balance
@@ -331,8 +408,10 @@ function runJsScheduler(input, algorithm = 'combined') {
       for (const d of dayOrder) {
         if (placed) break;
         const maxP = dayMaxPeriods[d];
+        const pOrder = getPeriodOrder(maxP);
 
-        for (let p = 0; p <= maxP - sess.duration && !placed; ++p) {
+        for (const p of pOrder) {
+          if (placed) break;
           for (const room of candRooms) {
             if (canPlace(sess, room.id, d, p, strictDayCheck)) {
               occupy(sess, room.id, d, p);
