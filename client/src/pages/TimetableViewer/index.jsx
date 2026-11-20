@@ -102,6 +102,7 @@ export default function TimetableViewer() {
       if (validRuns.length > 0) {
         const latest = validRuns[0];
         setSelectedRunId(latest._id);
+        if (latest.algorithm) setAlgorithm(latest.algorithm);
         setSchedule({
           schedule: { assignments: latest.assignments, unscheduled: latest.unscheduled || [] },
           validation: { validationStatus: latest.validationStatus }
@@ -116,12 +117,15 @@ export default function TimetableViewer() {
     setSelectedSlot(null);
     setSwapAlert(null);
     const run = savedRuns.find(r => r._id === runId);
-    if (run && run.assignments) {
-      setSchedule({
-        schedule: { assignments: run.assignments, unscheduled: run.unscheduled || [] },
-        validation: { validationStatus: run.validationStatus }
-      });
-      setOriginalAssignments(JSON.parse(JSON.stringify(run.assignments)));
+    if (run) {
+      if (run.algorithm) setAlgorithm(run.algorithm);
+      if (run.assignments) {
+        setSchedule({
+          schedule: { assignments: run.assignments, unscheduled: run.unscheduled || [] },
+          validation: { validationStatus: run.validationStatus }
+        });
+        setOriginalAssignments(JSON.parse(JSON.stringify(run.assignments)));
+      }
     }
   };
 
@@ -729,7 +733,14 @@ export default function TimetableViewer() {
             <span className="text-xs font-semibold text-slate-700">Algorithm:</span>
             <select
               value={algorithm}
-              onChange={e => setAlgorithm(e.target.value)}
+              onChange={e => {
+                const nextAlg = e.target.value;
+                setAlgorithm(nextAlg);
+                const matching = savedRuns.find(r => r.algorithm === nextAlg && (r.assignments?.length || 0) > 0);
+                if (matching) {
+                  handleLoadSavedRun(matching._id);
+                }
+              }}
               className="border border-slate-300 rounded-lg px-3 py-1.5 text-xs font-medium text-slate-800 bg-white"
             >
               {ALGS.map(a => <option key={a.value} value={a.value}>{a.label}</option>)}
