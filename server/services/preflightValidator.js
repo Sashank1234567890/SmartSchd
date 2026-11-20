@@ -12,19 +12,29 @@ const Settings = require('../models/Settings');
  * @param {string[]} [sectionIds] - Optional array of section IDs to validate. If omitted, validates all sections.
  * @returns {Promise<{ isValid: boolean, errors: Array<{code: string, message: string, details?: any}>, warnings: Array<{code: string, message: string, details?: any}> }>}
  */
-async function validatePreflight(sectionIds = null) {
+async function validatePreflight(sectionIds = null, preloadedData = null) {
   const errors = [];
   const warnings = [];
 
-  const settings = await Settings.getSingleton();
-  const numDays = settings.workingDays.length;
-  const nonBreakPeriods = settings.periods.filter(p => !p.isBreak);
+  const sectionQuery = sectionIds && sectionIds.length > 0 ? { _id: { $in: sectionIds } } : {};
+
+  // Fetch all necessary models in a single concurrent batch if not preloaded
+  const [settings, sections, allTeachers, allRooms, allSubjects] = await Promise.all([
+    preloadedData?.settings || Settings.getSingleton(),
+    preloadedData?.sections || Section.find(sectionQuery).lean(),
+    preloadedData?.teachers || Teacher.find().lean(),
+    preloadedData?.rooms || Room.find().lean(),
+    preloadedData?.subjects || Subject.find().lean()
+  ]);
+
+  const numDays = settings.workingDays ? settings.workingDays.length : 5;
+  const nonBreakPeriods = (settings.periods || []).filter(p => !p.isBreak);
   const totalWeeklyTeachingPeriods = numDays * nonBreakPeriods.length;
 
   // Find longest run of consecutive non-break periods in a single day
   let maxConsecutiveDaily = 0;
   let currentRun = 0;
-  for (const p of settings.periods) {
+  for (const p of (settings.periods || [])) {
     if (!p.isBreak) {
       currentRun++;
       if (currentRun > maxConsecutiveDaily) {
@@ -35,11 +45,7 @@ async function validatePreflight(sectionIds = null) {
     }
   }
 
-  // Load target sections
-  const sectionQuery = sectionIds && sectionIds.length > 0 ? { _id: { $in: sectionIds } } : {};
-  const sections = await Section.find(sectionQuery);
-
-  if (sections.length === 0) {
+  if (!sections || sections.length === 0) {
     errors.push({
       code: 'E_NO_SECTIONS',
       message: 'No sections selected or available for scheduling.'
@@ -47,10 +53,23 @@ async function validatePreflight(sectionIds = null) {
     return { isValid: false, errors, warnings };
   }
 
-  const allTeachers = await Teacher.find();
-  const teacherMap = new Map(allTeachers.map(t => [t._id.toString(), t]));
+  const teacherMap = new Map((allTeachers || []).map(t => [t._id.toString(), t]));
 
-  const allRooms = await Room.find();
+  // Index subjects in memory by sectionId and teacherId to avoid 75+ database roundtrips
+  const subjectsBySection = new Map();
+  const subjectsByTeacher = new Map();
+  for (const sub of (allSubjects || [])) {
+    if (sub.sectionId) {
+      const sKey = sub.sectionId.toString();
+      if (!subjectsBySection.has(sKey)) subjectsBySection.set(sKey, []);
+      subjectsBySection.get(sKey).push(sub);
+    }
+    if (sub.teacherId) {
+      const tKey = sub.teacherId.toString();
+      if (!subjectsByTeacher.has(tKey)) subjectsByTeacher.set(tKey, []);
+      subjectsByTeacher.get(tKey).push(sub);
+    }
+  }
 
   // Validate each section and its subjects
   for (const section of sections) {
@@ -62,7 +81,7 @@ async function validatePreflight(sectionIds = null) {
       });
     }
 
-    const subjects = await Subject.find({ sectionId: section._id });
+    const subjects = subjectsBySection.get(section._id.toString()) || [];
     if (subjects.length === 0) {
       warnings.push({
         code: 'W_NO_SUBJECTS',
@@ -119,7 +138,7 @@ async function validatePreflight(sectionIds = null) {
       const isLabOrSports = sub.type === 'Lab' || sub.type === 'Practical' || sub.durationPeriods === 2;
       const expectedRoomType = sub.requiredRoomType || (isLabOrSports ? 'Laboratory' : 'Classroom');
       const neededCapacity = isLabOrSports ? Math.ceil(section.studentCount / 2) : section.studentCount;
-      const suitableRooms = allRooms.filter(r => 
+      const suitableRooms = (allRooms || []).filter(r => 
         (r.type === expectedRoomType || (expectedRoomType === 'Laboratory' && r.type.includes('Lab'))) &&
         r.capacity >= neededCapacity
       );
@@ -142,9 +161,9 @@ async function validatePreflight(sectionIds = null) {
     }
   }
 
-  // Workload Warnings for Teachers
-  for (const teacher of allTeachers) {
-    const assignedSubjects = await Subject.find({ teacherId: teacher._id });
+  // Workload Warnings for Teachers (in-memory lookup, 0 db roundtrips)
+  for (const teacher of (allTeachers || [])) {
+    const assignedSubjects = subjectsByTeacher.get(teacher._id.toString()) || [];
     const totalAssignedPeriods = assignedSubjects.reduce((sum, s) => sum + (s.weeklySessions * s.durationPeriods), 0);
 
     if (totalAssignedPeriods > teacher.maxWeeklyPeriods) {

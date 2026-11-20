@@ -38,7 +38,7 @@ async function prepareData(rawIds) {
   const sectionIds = sections.map(s => s._id);
   const subjects = await Subject.find({ sectionId: { $in: sectionIds } }).lean();
 
-  const pre = await validatePreflight(sectionIds);
+  const pre = await validatePreflight(sectionIds, { settings, sections, teachers, rooms, subjects });
   if (!pre.isValid) {
     throw new Error(`Preflight validation failed: ${pre.errors.map(e => e.message).join('; ')}`);
   }

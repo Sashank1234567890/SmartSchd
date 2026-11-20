@@ -139,7 +139,7 @@ export default function TimetableViewer() {
       const res = await axios.post(`${API}/api/generate/${algorithm}`, {
         sectionIds,
         params: { timeLimitMs: 25000 }
-      });
+      }, { timeout: 60000 });
       setSchedule(res.data.data);
       setOriginalAssignments(JSON.parse(JSON.stringify(res.data.data.schedule?.assignments || [])));
 
