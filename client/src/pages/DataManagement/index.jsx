@@ -88,21 +88,21 @@ const PRESET_LIST = [
 
 const SAMPLE_IMPORT_JSON = JSON.stringify({
   sections: [
-    { name: "CS-A", department: "Computer Science", studentCount: 60 },
-    { name: "CS-B", department: "Computer Science", studentCount: 55 }
+    { name: "DEMO-CS-A", department: "Computer Science", studentCount: 60 },
+    { name: "DEMO-CS-B", department: "Computer Science", studentCount: 55 }
   ],
   rooms: [
-    { name: "Main Hall 1", roomNumber: "LH-101", type: "Classroom", capacity: 70 },
-    { name: "Hardware Lab", roomNumber: "LAB-1", type: "Laboratory", capacity: 60 }
+    { name: "Demo Lecture Hall 1", roomNumber: "DEMO-LH-101", type: "Classroom", capacity: 70 },
+    { name: "Demo Hardware Lab", roomNumber: "DEMO-LAB-1", type: "Laboratory", capacity: 60 }
   ],
   teachers: [
-    { name: "Dr. Ramesh Rao", teacherCode: "T01", teachableSubjectCodes: ["CS201", "CS202"], maxWeeklyPeriods: 18 },
-    { name: "Prof. Sunita Sharma", teacherCode: "T02", teachableSubjectCodes: ["CS203", "CS204"], maxWeeklyPeriods: 16 }
+    { name: "Dr. Ramesh Rao", teacherCode: "DEMO-T01", teachableSubjectCodes: ["CS201", "CS202"], maxWeeklyPeriods: 18 },
+    { name: "Prof. Sunita Sharma", teacherCode: "DEMO-T02", teachableSubjectCodes: ["CS203", "CS204"], maxWeeklyPeriods: 16 }
   ],
   subjects: [
-    { name: "Data Structures", code: "CS201", type: "Theory", sectionName: "CS-A", teacherCode: "T01", weeklySessions: 3, durationPeriods: 1 },
-    { name: "Data Structures Lab", code: "CS202", type: "Lab", sectionName: "CS-A", teacherCode: "T01", weeklySessions: 1, durationPeriods: 2 },
-    { name: "Discrete Math", code: "CS203", type: "Theory", sectionName: "CS-B", teacherCode: "T02", weeklySessions: 3, durationPeriods: 1 }
+    { name: "Data Structures", code: "CS201", type: "Theory", sectionName: "DEMO-CS-A", teacherCode: "DEMO-T01", weeklySessions: 3, durationPeriods: 1 },
+    { name: "Data Structures Lab", code: "CS202", type: "Lab", sectionName: "DEMO-CS-A", teacherCode: "DEMO-T01", weeklySessions: 1, durationPeriods: 2 },
+    { name: "Discrete Math", code: "CS203", type: "Theory", sectionName: "DEMO-CS-B", teacherCode: "DEMO-T02", weeklySessions: 3, durationPeriods: 1 }
   ]
 }, null, 2);
 
